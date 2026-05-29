@@ -1,15 +1,21 @@
 # -*- coding: utf-8 -*-
-"""任天堂台灣 Switch / Switch 2 遊戲監看 — MVP 爬蟲
+"""任天堂台灣 Switch / Switch 2 遊戲監看 — 爬蟲 v2（廣域版）
 
-流程：
-1. Playwright 並行渲染兩個目錄頁，萃取每卡片 NSUID + 名稱 + 封面 URL
-2. 缺名稱的 NSUID 用 aiohttp 從 store.nintendo.com.hk / ec.nintendo.com 補抓
-3. requests 打 Nintendo Price API（country=TW），拿即時原價、特價、特價區間
-4. 套用中英文系列字典補搜尋別名
-5. 輸出 web/games.json
+四階段，可獨立執行（避開 bash 45s 限制）：
+
+  scrape.py --phase=catalog   # Playwright 渲染兩個目錄頁
+  scrape.py --phase=scan      # Price API 範圍掃描，找出所有有效 TW NSUID
+  scrape.py --phase=names     # 對 cache 缺名稱的 NSUID 補抓 HK title + 封面
+  scrape.py --phase=build     # Price API 重新打一輪、合併、輸出 web/games.json
+  scrape.py                   # 四階段依序全跑（CI 用）
+
+持久化 cache：scraper/_cache/games_meta.json
+  - 已知 NSUID 的 platform / name / cover 快取
+  - 每小時只更新 prices，metadata 累積
 """
 from __future__ import annotations
 
+import argparse
 import asyncio
 import html as html_lib
 import json
@@ -27,6 +33,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 from bilingual_dict import enrich_aliases  # noqa: E402
 
 
+# ---------- CONFIG ----------
+
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 HEADERS = {"User-Agent": UA, "Accept-Language": "zh-TW,zh;q=0.9"}
 
@@ -36,18 +44,34 @@ CATALOG_URLS = {
 }
 PRICE_API = "https://api.ec.nintendo.com/v1/price"
 
+# NSUID 掃描範圍（依現有資料 67524–127209 估算，留邊界）
+SCAN_LO = 40000
+SCAN_HI = 145000
+BATCH_SIZE = 50          # Price API 上限
+SCAN_CONCURRENCY = 4     # 並行 Price API 請求數（Akamai 對高並行很敏感）
+SCAN_DELAY = 0.25        # 每個 request 之間的 sleep（per worker）
+SCAN_MAX_RETRY = 4
+HK_CONCURRENCY = 15      # 並行 HK store 抓取
+HK_TIMEOUT = 12
+
 ROOT = Path(__file__).resolve().parent.parent
+CACHE_DIR = ROOT / "scraper" / "_cache"
+META_PATH = CACHE_DIR / "games_meta.json"
+SCAN_PATH = CACHE_DIR / "scan_nsuids.json"
+CATALOG_PATH = CACHE_DIR / "catalog.json"
 OUT_PATH = ROOT / "web" / "games.json"
 
 _PLATFORM_SPLITTERS = ["Nintendo Switch 2", "Nintendo Switch", "盒裝版", "下載版"]
-_INVALID_NAMES = {"任天堂", "Nintendo Store", "404 Not Found", ""}
+_INVALID_NAMES = {"任天堂", "Nintendo Store", "404 Not Found", "", "Nintendo HK"}
 
+
+# ---------- 共用工具 ----------
 
 def clean_name(s: str) -> str:
     if not s:
         return ""
-    s = html_lib.unescape(html_lib.unescape(s))  # 站台 double-encoded
-    s = re.split(r"[｜|]", s)[0].strip()  # 砍「｜下載版軟體｜任天堂」
+    s = html_lib.unescape(html_lib.unescape(s))
+    s = re.split(r"[｜|]", s)[0].strip()
     return s
 
 
@@ -62,15 +86,26 @@ def parse_card_name(text: str) -> str:
     return text[:earliest].strip()
 
 
-# ---------- 目錄頁渲染 ----------
+def load_meta() -> dict:
+    if META_PATH.exists():
+        return json.loads(META_PATH.read_text(encoding="utf-8"))
+    return {}
 
-async def render_catalog(url: str, browser) -> list[dict]:
+
+def save_meta(meta: dict):
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    META_PATH.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+# ---------- Phase: catalog（目錄頁渲染）----------
+
+async def _render_catalog(url: str, browser) -> list[dict]:
     ctx = await browser.new_context(user_agent=UA, locale="zh-TW")
     page = await ctx.new_page()
     await page.goto(url, wait_until="networkidle", timeout=60000)
-    for y in [2000, 6000, 12000, 20000]:
+    for y in [2000, 6000, 12000, 20000, 30000]:
         await page.evaluate(f"window.scrollTo(0, {y})")
-        await page.wait_for_timeout(500)
+        await page.wait_for_timeout(600)
     cards = await page.evaluate(r"""
 () => {
   const out = [];
@@ -100,104 +135,19 @@ async def render_catalog(url: str, browser) -> list[dict]:
     return cards
 
 
-# ---------- 從 HK 補抓缺失的名稱 ----------
-
-async def _fetch_title_one(session, url, sem):
-    async with sem:
-        try:
-            async with session.get(url, timeout=aiohttp.ClientTimeout(total=15)) as r:
-                t = await r.text()
-                m = re.search(r'<meta\s+property="og:title"\s+content="([^"]+)"', t)
-                if m:
-                    return clean_name(m.group(1))
-                m = re.search(r"<title>([^<]+)", t)
-                if m:
-                    return clean_name(m.group(1))
-        except Exception:
-            pass
-        return ""
-
-
-async def _resolve_name(session, nsuid, sem):
-    for url in [
-        f"https://store.nintendo.com.hk/{nsuid}",
-        f"https://ec.nintendo.com/HK/zh/titles/{nsuid}",
-    ]:
-        name = await _fetch_title_one(session, url, sem)
-        if name and name not in _INVALID_NAMES:
-            return nsuid, name
-    return nsuid, ""
-
-
-async def fill_missing_names(cards: dict[str, dict]):
-    missing = [n for n, c in cards.items() if not c["name"]]
-    if not missing:
-        return
-    print(f"  補抓 {len(missing)} 個缺失名稱（從 HK）...")
-    sem = asyncio.Semaphore(10)
-    async with aiohttp.ClientSession(headers={"User-Agent": UA, "Accept-Language": "zh-TW"}) as s:
-        results = await asyncio.gather(*[_resolve_name(s, n, sem) for n in missing])
-    got = 0
-    for n, name in results:
-        if name:
-            cards[n]["name"] = name
-            got += 1
-    print(f"    補到 {got}/{len(missing)}")
-
-
-# ---------- Price API ----------
-
-def get_prices(nsuids: list[str]) -> dict[str, dict]:
-    out = {}
-    for i in range(0, len(nsuids), 50):
-        batch = nsuids[i:i + 50]
-        r = requests.get(
-            PRICE_API,
-            params={"country": "TW", "lang": "zh", "ids": ",".join(batch)},
-            headers=HEADERS,
-            timeout=30,
-        )
-        r.raise_for_status()
-        for p in r.json().get("prices", []):
-            out[str(p["title_id"])] = p
-        time.sleep(0.3)
-    return out
-
-
-def calc_discount_percent(regular, discount):
-    if not regular or not discount:
-        return 0
-    return round((1 - int(discount) / int(regular)) * 100)
-
-
-def parse_price(p: dict) -> dict:
-    rp = (p.get("regular_price") or {}).get("raw_value")
-    dp_obj = p.get("discount_price") or {}
-    dp = dp_obj.get("raw_value")
-    return {
-        "sales_status": p.get("sales_status"),
-        "regular_price": int(rp) if rp else None,
-        "discount_price": int(dp) if dp else None,
-        "discount_percent": calc_discount_percent(rp, dp),
-        "discount_start": dp_obj.get("start_datetime"),
-        "discount_end": dp_obj.get("end_datetime"),
-        "on_sale": bool(dp),
-    }
-
-
-# ---------- Main ----------
-
-async def main():
-    print(f"[{datetime.now().isoformat(timespec='seconds')}] === 開始爬蟲 ===")
-    all_cards: dict[str, dict] = {}
-
-    print("[1/4] 並行渲染兩個目錄頁...")
+async def phase_catalog():
+    """Playwright 渲染兩個目錄頁，更新 meta 的 platform/cover/name"""
+    print("[catalog] 並行渲染兩個目錄頁...")
     async with async_playwright() as p:
         browser = await p.chromium.launch()
-        results = await asyncio.gather(*[render_catalog(url, browser) for url in CATALOG_URLS.values()])
+        results = await asyncio.gather(*[_render_catalog(url, browser) for url in CATALOG_URLS.values()])
         await browser.close()
+
+    meta = load_meta()
+    catalog_summary = {}
     for (platform, _), cards in zip(CATALOG_URLS.items(), results):
         print(f"  {platform}: {len(cards)} cards")
+        catalog_summary[platform] = len(cards)
         for c in cards:
             n = c["nsuid"]
             name = clean_name((c.get("alt") or "").strip() or parse_card_name(c.get("text", "")))
@@ -207,58 +157,306 @@ async def main():
                 detail = "https://www.nintendo.com" + href
             elif href.startswith("http"):
                 detail = href
-            existing = all_cards.get(n)
-            if existing is None:
-                all_cards[n] = {"platform": platform, "cover": c["coverUrl"], "name": name, "detail_url": detail}
-            else:
-                if platform == "Switch 2" and existing["platform"] != "Switch 2":
-                    existing["platform"] = platform
-                if len(name) > len(existing["name"]):
-                    existing["name"] = name
-                if detail and not existing["detail_url"]:
-                    existing["detail_url"] = detail
-    print(f"  合計去重 NSUIDs: {len(all_cards)}")
 
-    print("[2/4] 補抓缺失名稱（從 HK）...")
-    await fill_missing_names(all_cards)
+            entry = meta.get(n, {})
+            entry["nsuid"] = n
+            # 平台：Switch 2 蓋過 Switch
+            if platform == "Switch 2" or not entry.get("platform"):
+                entry["platform"] = platform
+            # 名稱：取長者勝（catalog 名稱通常較完整）
+            if name and len(name) > len(entry.get("name", "")):
+                entry["name"] = name
+            # 封面：catalog 來的優先
+            if c.get("coverUrl"):
+                entry["cover_url"] = c["coverUrl"]
+                entry["cover_source"] = "catalog"
+            if detail:
+                entry["detail_url"] = detail
+            entry["from_catalog"] = True
+            meta[n] = entry
 
-    print("[3/4] 打 Price API...")
-    prices = get_prices(sorted(all_cards.keys()))
-    valid = sum(1 for p in prices.values() if p.get("sales_status") != "not_found")
-    print(f"  {valid}/{len(prices)} 有效")
+    save_meta(meta)
+    CATALOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    CATALOG_PATH.write_text(json.dumps(catalog_summary, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[catalog] meta 中 NSUID 總數: {len(meta)}")
 
-    print("[4/4] 合併與輸出...")
+
+# ---------- Phase: scan（Price API 範圍掃描）----------
+
+async def _scan_batch(session, ids: list[str], sem) -> list[dict]:
+    """單批 Price API 請求，含 403/429/503 backoff 與 per-worker delay。"""
+    async with sem:
+        params = {"country": "TW", "lang": "zh", "ids": ",".join(ids)}
+        for attempt in range(SCAN_MAX_RETRY):
+            try:
+                async with session.get(PRICE_API, params=params, timeout=aiohttp.ClientTimeout(total=20)) as r:
+                    if r.status == 200:
+                        data = await r.json()
+                        await asyncio.sleep(SCAN_DELAY)
+                        return data.get("prices", [])
+                    if r.status in (403, 429, 503):
+                        # Akamai 軟性封鎖：指數退避
+                        await asyncio.sleep(2 ** attempt + 1)
+                        continue
+                    await asyncio.sleep(SCAN_DELAY)
+                    return []
+            except Exception:
+                await asyncio.sleep(1.0 * (attempt + 1))
+        return []
+
+
+async def phase_scan(lo: int = SCAN_LO, hi: int = SCAN_HI):
+    """並行掃描 NSUID 範圍，找出所有有效 ID。輸出寫入 SCAN_PATH。"""
+    print(f"[scan] 範圍 {lo}–{hi}，批次 {BATCH_SIZE}，並行 {SCAN_CONCURRENCY}")
+    sem = asyncio.Semaphore(SCAN_CONCURRENCY)
+    tasks = []
+    batches = []
+    start = time.time()
+
+    async with aiohttp.ClientSession(headers=HEADERS) as session:
+        for base in range(lo, hi, BATCH_SIZE):
+            ids = [f"70010000{base + i:06d}" for i in range(BATCH_SIZE)]
+            batches.append(ids)
+            tasks.append(_scan_batch(session, ids, sem))
+
+        all_prices = {}
+        done = 0
+        for coro in asyncio.as_completed(tasks):
+            prices = await coro
+            done += 1
+            for p in prices:
+                if p.get("sales_status") and p["sales_status"] != "not_found":
+                    all_prices[str(p["title_id"])] = p
+            if done % 50 == 0:
+                print(f"  進度 {done}/{len(tasks)} 批，命中 {len(all_prices)}")
+
+    elapsed = time.time() - start
+    print(f"[scan] 完成。{len(tasks)} 批 / 命中 {len(all_prices)} 款 / {elapsed:.1f}s")
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    SCAN_PATH.write_text(json.dumps(all_prices, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # 把新發現的 NSUID 寫入 meta（保留既有資料）
+    meta = load_meta()
+    new_count = 0
+    for nsuid in all_prices.keys():
+        if nsuid not in meta:
+            meta[nsuid] = {"nsuid": nsuid, "platform": "Switch", "name": "", "cover_url": ""}
+            new_count += 1
+    save_meta(meta)
+    print(f"[scan] 新增 {new_count} 個未知 NSUID 進 meta")
+
+
+# ---------- Phase: names（補抓 HK 名稱 + 封面 + 平台）----------
+
+_HK_TITLE_RE = re.compile(r"<title>([^<]+)</title>")
+_HK_PROD_IMG_RE = re.compile(r'src=["\'](https?://store\.nintendo\.com\.hk/media/catalog/product/cache/[^"\']+\.(?:jpg|jpeg|png|webp))["\']')
+_HK_PLATFORM_RE = re.compile(r"(Switch ?2|Switch)")
+
+
+async def _fetch_hk_one(session, nsuid: str, sem) -> dict:
+    """從 HK store 抓 title + 第一張產品圖 + 平台"""
+    out = {"nsuid": nsuid, "name": "", "cover": "", "platform_hint": ""}
+    async with sem:
+        for url in [f"https://store.nintendo.com.hk/{nsuid}", f"https://ec.nintendo.com/HK/zh/titles/{nsuid}"]:
+            try:
+                async with session.get(url, timeout=aiohttp.ClientTimeout(total=HK_TIMEOUT)) as r:
+                    if r.status != 200:
+                        continue
+                    text = await r.text()
+                # title
+                m = _HK_TITLE_RE.search(text)
+                if m:
+                    name = clean_name(m.group(1))
+                    if name and name not in _INVALID_NAMES:
+                        out["name"] = name
+                # cover（只取 store.nintendo.com.hk 的第一張）
+                if "store.nintendo.com.hk" in url:
+                    m = _HK_PROD_IMG_RE.search(text)
+                    if m:
+                        out["cover"] = m.group(1)
+                    # platform — 從頁面文字判斷
+                    if re.search(r"Switch ?2", text):
+                        out["platform_hint"] = "Switch 2"
+                    elif "Switch" in text:
+                        out["platform_hint"] = "Switch"
+                if out["name"]:
+                    break
+            except Exception:
+                continue
+    return out
+
+
+async def phase_names(force_all: bool = False):
+    """對 meta 中缺名稱（或缺封面）的 NSUID 補抓"""
+    meta = load_meta()
+    if force_all:
+        targets = list(meta.keys())
+    else:
+        targets = [n for n, m in meta.items() if not m.get("name") or not m.get("cover_url")]
+    if not targets:
+        print("[names] 沒有需要補抓的 NSUID")
+        return
+    print(f"[names] 補抓 {len(targets)} 個 NSUID（並行 {HK_CONCURRENCY}）...")
+    sem = asyncio.Semaphore(HK_CONCURRENCY)
+    start = time.time()
+    async with aiohttp.ClientSession(headers=HEADERS) as session:
+        results = await asyncio.gather(*[_fetch_hk_one(session, n, sem) for n in targets])
+
+    got_name = got_cover = 0
+    for r in results:
+        n = r["nsuid"]
+        entry = meta[n]
+        if r["name"] and not entry.get("name"):
+            entry["name"] = r["name"]
+            got_name += 1
+        if r["cover"] and not entry.get("cover_url"):
+            entry["cover_url"] = r["cover"]
+            entry["cover_source"] = "hk_store"
+            got_cover += 1
+        # 平台暗示：HK 標示 Switch 2 才覆寫；不要把 Switch 蓋過 Switch 2
+        if r["platform_hint"] == "Switch 2" and entry.get("platform") != "Switch 2":
+            # 只在 catalog 沒抓到時才覆寫
+            if not entry.get("from_catalog"):
+                entry["platform"] = "Switch 2"
+        entry["hk_checked"] = True
+    save_meta(meta)
+    print(f"[names] 補到 name {got_name}、cover {got_cover}，耗時 {time.time()-start:.1f}s")
+
+
+# ---------- Phase: build（重打 Price API、合併、輸出 games.json）----------
+
+def _calc_discount_percent(regular, discount):
+    if not regular or not discount:
+        return 0
+    return round((1 - int(discount) / int(regular)) * 100)
+
+
+def _parse_price(p: dict) -> dict:
+    if not p:
+        return {
+            "sales_status": None, "regular_price": None, "discount_price": None,
+            "discount_percent": 0, "discount_start": None, "discount_end": None, "on_sale": False,
+        }
+    rp = (p.get("regular_price") or {}).get("raw_value")
+    dp_obj = p.get("discount_price") or {}
+    dp = dp_obj.get("raw_value")
+    return {
+        "sales_status": p.get("sales_status"),
+        "regular_price": int(rp) if rp else None,
+        "discount_price": int(dp) if dp else None,
+        "discount_percent": _calc_discount_percent(rp, dp),
+        "discount_start": dp_obj.get("start_datetime"),
+        "discount_end": dp_obj.get("end_datetime"),
+        "on_sale": bool(dp),
+    }
+
+
+async def _refresh_prices(nsuids: list[str]) -> dict:
+    """重打 Price API 取最新價格"""
+    sem = asyncio.Semaphore(SCAN_CONCURRENCY)
+    out = {}
+    async with aiohttp.ClientSession(headers=HEADERS) as session:
+        tasks = []
+        for i in range(0, len(nsuids), BATCH_SIZE):
+            batch = nsuids[i:i + BATCH_SIZE]
+            tasks.append(_scan_batch(session, batch, sem))
+        for coro in asyncio.as_completed(tasks):
+            prices = await coro
+            for p in prices:
+                out[str(p["title_id"])] = p
+    return out
+
+
+async def phase_build():
+    meta = load_meta()
+    if not meta:
+        print("[build] meta 是空的，請先跑 catalog/scan/names")
+        return
+    nsuids = sorted(meta.keys())
+    print(f"[build] 重打 Price API（{len(nsuids)} 個 NSUID）...")
+    start = time.time()
+    prices = await _refresh_prices(nsuids)
+    print(f"[build]   完成，{len(prices)} 筆有回，耗時 {time.time()-start:.1f}s")
+
     games = []
-    for n, info in all_cards.items():
-        pi = parse_price(prices.get(n, {}))
-        name = info["name"] or ""
-        if not name or pi["sales_status"] in (None, "not_found"):
+    for n in nsuids:
+        info = meta[n]
+        p = prices.get(n)
+        pi = _parse_price(p)
+        # 過濾無名稱、無價或 not_found
+        if not info.get("name") or pi["sales_status"] in (None, "not_found"):
             continue
+        name = info["name"]
         games.append({
             "nsuid": n,
-            "platform": info["platform"],
+            "platform": info.get("platform") or "Switch",
             "name": name,
             "name_zh": name,
             "aliases": enrich_aliases(name),
-            "cover_url": info["cover"],
-            "detail_url": info["detail_url"] or None,
+            "cover_url": info.get("cover_url") or "",
+            "detail_url": info.get("detail_url"),
             "store_url": f"https://store.nintendo.com.hk/{n}",
             **pi,
         })
     on_sale = [g for g in games if g["on_sale"]]
-    print(f"  輸出 {len(games)} 款（特價 {len(on_sale)} 款）")
+    print(f"[build] 輸出 {len(games)} 款（特價 {len(on_sale)}）")
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "source": "nintendo.com/tw + api.ec.nintendo.com (TW) + store.nintendo.com.hk",
+        "source": "nintendo.com/tw (catalog) + api.ec.nintendo.com (TW, NSUID range scan) + store.nintendo.com.hk (names + covers)",
         "total": len(games),
         "on_sale_count": len(on_sale),
         "games": sorted(games, key=lambda g: (-(g.get("discount_percent") or 0), g["name"])),
     }
     OUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\n[OK] 寫入 {OUT_PATH}")
+    print(f"[build] 寫入 {OUT_PATH}")
+
+
+# ---------- main ----------
+
+async def run_bootstrap(lo: int = SCAN_LO, hi: int = SCAN_HI):
+    """完整流程：catalog + 全範圍 scan + names + build。每日 1 次。"""
+    await phase_catalog()
+    await phase_scan(lo, hi)
+    await phase_names()
+    await phase_build()
+
+
+async def run_refresh():
+    """快速流程：catalog + names（只補新的）+ build。每小時跑。不做廣域 scan。"""
+    await phase_catalog()
+    await phase_names()
+    await phase_build()
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument(
+        "--phase",
+        choices=["catalog", "scan", "names", "build", "refresh", "bootstrap", "all"],
+        default="refresh",
+        help="refresh=每小時用（不掃描），bootstrap=完整掃描，all=同 bootstrap",
+    )
+    ap.add_argument("--scan-lo", type=int, default=SCAN_LO)
+    ap.add_argument("--scan-hi", type=int, default=SCAN_HI)
+    ap.add_argument("--names-force-all", action="store_true")
+    args = ap.parse_args()
+
+    print(f"[{datetime.now().isoformat(timespec='seconds')}] === scrape v2 / phase={args.phase} ===")
+    if args.phase == "catalog":
+        asyncio.run(phase_catalog())
+    elif args.phase == "scan":
+        asyncio.run(phase_scan(args.scan_lo, args.scan_hi))
+    elif args.phase == "names":
+        asyncio.run(phase_names(args.names_force_all))
+    elif args.phase == "build":
+        asyncio.run(phase_build())
+    elif args.phase == "refresh":
+        asyncio.run(run_refresh())
+    else:  # bootstrap / all
+        asyncio.run(run_bootstrap(args.scan_lo, args.scan_hi))
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
