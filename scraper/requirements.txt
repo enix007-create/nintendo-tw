@@ -1,0 +1,3 @@
+requests>=2.32
+aiohttp>=3.9
+playwright>=1.40

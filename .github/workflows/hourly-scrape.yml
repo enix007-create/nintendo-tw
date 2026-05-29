@@ -1,0 +1,85 @@
+name: Hourly scrape
+
+on:
+  schedule:
+    - cron: '5 * * * *'   # 每小時的第 5 分鐘（避開整點熱點）
+  workflow_dispatch:       # 允許手動觸發
+  push:
+    branches: [main]
+    paths:
+      - 'scraper/**'
+      - '.github/workflows/**'
+
+permissions:
+  contents: write           # 允許 commit games.json
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install Python deps
+        run: |
+          pip install -r scraper/requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Run scraper
+        id: scrape
+        run: |
+          python scraper/scrape.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add web/games.json
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "data: hourly refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: Notify on failure
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: '[nintendo-tw] 爬蟲失敗 ${{ github.run_id }}'
+          to: enix_007@yahoo.com.tw
+          from: ${{ secrets.MAIL_USERNAME }}
+          body: |
+            GitHub Actions 跑爬蟲失敗。
+            時間：${{ github.event.repository.updated_at }}
+            Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+  deploy:
+    needs: scrape
+    runs-on: ubuntu-latest
+    if: always()
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/
+      - id: deployment
+        uses: actions/deploy-pages@v4

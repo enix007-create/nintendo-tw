@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>任天堂台灣 Switch / Switch 2 遊戲監看網站 - 執行計畫</title>
+<style>
+  :root {
+    --bg: #fafafa;
+    --card: #fff;
+    --text: #1a1a1a;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --accent: #e60012; /* Nintendo red */
+    --accent-light: #fff0f0;
+    --warn: #f59e0b;
+    --warn-bg: #fffbeb;
+    --ok: #10b981;
+    --ok-bg: #ecfdf5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 32px 24px 80px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 8px;
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 12px;
+  }
+  .subtitle { color: var(--muted); margin: 0 0 32px; }
+  h2 {
+    font-size: 20px;
+    margin: 36px 0 12px;
+    padding-left: 12px;
+    border-left: 4px solid var(--accent);
+  }
+  h3 { font-size: 16px; margin: 20px 0 8px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 12px 0;
+  }
+  .callout {
+    background: var(--warn-bg);
+    border-left: 4px solid var(--warn);
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin: 16px 0;
+  }
+  .callout.ok {
+    background: var(--ok-bg);
+    border-left-color: var(--ok);
+  }
+  .callout strong { display: block; margin-bottom: 4px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 14px;
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 8px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: #f3f4f6; font-weight: 600; }
+  ul { padding-left: 20px; }
+  li { margin: 4px 0; }
+  code {
+    background: #f3f4f6;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-family: "Menlo", "Consolas", monospace;
+  }
+  .phase {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin: 16px 0;
+  }
+  .phase-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+  }
+  .phase-head h3 { margin: 0; }
+  .phase-time { color: var(--muted); font-size: 13px; }
+  .tag {
+    display: inline-block;
+    background: var(--accent-light);
+    color: var(--accent);
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin-right: 4px;
+  }
+</style>
+</head>
+<body>
+
+<h1>任天堂台灣遊戲監看網站</h1>
+<p class="subtitle">Switch / Switch 2 即時資訊與特價追蹤 — 執行計畫 v2（2026-05-29，決策已確認）</p>
+
+<h2>1. 需求摘要</h2>
+<div class="card">
+  <p>打造一個類似「遊戲箱子」的網頁，自動爬取任天堂台灣電商商品資料，提供搜尋、收藏、特價追蹤功能。</p>
+  <p><strong>已確認的設計決策</strong></p>
+  <ul>
+    <li>資料來源：<strong>任天堂台灣官網直接爬</strong>（<code>store.nintendo.tw</code> / <code>ec.nintendo.com/TW/zh</code>）</li>
+    <li>更新頻率：<strong>每小時</strong>（用排程自動跑爬蟲）</li>
+    <li>部署方式：<strong>GitHub Pages</strong>（repo：<code>enix007-create/nintendo-tw</code>）</li>
+    <li>收藏儲存：<strong>localStorage + 匯出/匯入 JSON 按鈕</strong></li>
+    <li>失敗通知：Email → <code>enix_007@yahoo.com.tw</code></li>
+    <li>UI 風格：<strong>參考遊戲箱子</strong>（卡片網格、封面為主視覺、特價徽章明顯）</li>
+  </ul>
+</div>
+
+<div class="callout ok">
+  <strong>✅ 所有架構決策已確認</strong>
+  計畫已依照確認結果定版，可進入階段一。
+</div>
+
+<h2>2. 系統架構</h2>
+<div class="card">
+<pre style="background:#f9fafb;padding:12px;border-radius:4px;font-size:13px;line-height:1.5;overflow:auto;">
+[GitHub Actions 排程 (每小時)]
+        │ 觸發
+        ▼
+[Python 爬蟲 scraper.py]
+   ├─ 抓 zh-TW 商品列表與詳情
+   ├─ 抓 en 對照中英文名稱
+   └─ 輸出 games.json (含價格、特價、封面 URL)
+        │ commit & push
+        ▼
+[GitHub Pages 靜態網站]
+   ├─ index.html (前端 UI)
+   ├─ app.js (搜尋、排序、收藏)
+   ├─ games.json (資料)
+   └─ Fuse.js (中英文模糊搜尋)
+        │ 使用者瀏覽
+        ▼
+[localStorage 收藏 + 匯出 JSON 按鈕]
+</pre>
+</div>
+
+<h2>3. 抓取欄位規格</h2>
+<table>
+  <tr><th>欄位</th><th>來源</th><th>備註</th></tr>
+  <tr><td>遊戲中文名稱</td><td>zh-TW 商品頁標題</td><td>—</td></tr>
+  <tr><td>遊戲英文名稱</td><td>en 對應商品頁標題</td><td>用商品 ID / SKU 對應</td></tr>
+  <tr><td>原價</td><td>商品頁定價欄位</td><td>NT$ 數值</td></tr>
+  <tr><td>現價 / 特價</td><td>商品頁特價欄位</td><td>無特價時 = 原價</td></tr>
+  <tr><td>特價百分比</td><td>計算</td><td><code>(1 - 現價/原價) × 100</code></td></tr>
+  <tr><td>特價區間</td><td>商品頁促銷標籤</td><td>需解析「限時優惠至 YYYY/MM/DD」</td></tr>
+  <tr><td>遊戲封面圖</td><td>商品頁主圖 URL</td><td>直接連任天堂 CDN，不下載</td></tr>
+  <tr><td>平台</td><td>分類 / Tag</td><td>區分 Switch / Switch 2</td></tr>
+  <tr><td>商品連結</td><td>頁面 URL</td><td>點卡片可跳轉</td></tr>
+</table>
+
+<h2>4. 階段任務與時程</h2>
+
+<div class="phase">
+  <div class="phase-head"><h3>階段一：偵察與爬蟲 PoC</h3><span class="phase-time">預估 0.5–1 天</span></div>
+  <ul>
+    <li>用瀏覽器 DevTools 檢視 <code>store.nintendo.tw</code> 是否有 JSON API、還是純 SSR HTML</li>
+    <li>找出 Switch / Switch 2 分類的列表頁 URL 與分頁規則</li>
+    <li>確認中英文版的對照方式（商品 ID、URL slug）</li>
+    <li>觀察反爬蟲機制（User-Agent、Cookie、速率限制）</li>
+    <li>產出：一份「資料來源筆記.md」+ 抓 10 個商品成功的 PoC 腳本</li>
+  </ul>
+</div>
+
+<div class="phase">
+  <div class="phase-head"><h3>階段二：完整爬蟲</h3><span class="phase-time">預估 1–2 天</span></div>
+  <ul>
+    <li>Python + <code>requests</code> + <code>BeautifulSoup</code>（若需 JS 渲染則用 <code>playwright</code>）</li>
+    <li>處理分頁、節流、重試、錯誤紀錄</li>
+    <li>輸出 <code>games.json</code>，含上表所有欄位</li>
+    <li>差異比對：與上次資料比對，紀錄新上架 / 新特價</li>
+    <li>單元測試：解析函式對固定 HTML 樣本能穩定輸出</li>
+  </ul>
+</div>
+
+<div class="phase">
+  <div class="phase-head"><h3>階段三：前端網頁</h3><span class="phase-time">預估 1–2 天</span></div>
+  <ul>
+    <li>單頁 HTML + Vanilla JS（不引入大型框架以利靜態部署）</li>
+    <li>卡片式商品清單：封面、中英文名稱、價格（原價刪除線）、特價百分比徽章、特價到期日</li>
+    <li>搜尋框：用 <code>Fuse.js</code> 同時對中文名與英文名做模糊搜尋</li>
+    <li>篩選列：只看特價 / 平台（Switch / Switch 2）/ 價格區間</li>
+    <li>排序：折扣 % 由高到低、價格、特價結束日</li>
+    <li>收藏功能：心形按鈕 → localStorage；右上「匯出 JSON / 匯入 JSON」按鈕</li>
+    <li>RWD 響應式設計</li>
+  </ul>
+</div>
+
+<div class="phase">
+  <div class="phase-head"><h3>階段四：部署與自動化</h3><span class="phase-time">預估 0.5 天</span></div>
+  <ul>
+    <li>建立 GitHub repo（public 或 private + GitHub Pages Pro）</li>
+    <li>GitHub Actions workflow：<code>cron: '0 * * * *'</code>（每小時），跑爬蟲 → commit <code>games.json</code> → 觸發 Pages 部署</li>
+    <li>失敗通知：Actions 失敗時寄信或發 Discord webhook</li>
+    <li>網址：<code>https://&lt;your-user&gt;.github.io/nintendo-tw/</code></li>
+  </ul>
+</div>
+
+<div class="phase">
+  <div class="phase-head"><h3>階段五：驗證與優化</h3><span class="phase-time">預估 0.5 天</span></div>
+  <ul>
+    <li>抽 10 個商品，人工核對網站 vs 任天堂官網售價、特價是否一致</li>
+    <li>檢查商品數量是否合理（Switch 數千款）</li>
+    <li>連續觀察 24 小時排程，確認穩定</li>
+    <li>效能：JSON 過大時改為分平台拆檔，或前端 lazy render</li>
+  </ul>
+</div>
+
+<h2>5. 技術選型</h2>
+<table>
+  <tr><th>項目</th><th>選用</th><th>原因</th></tr>
+  <tr><td>爬蟲語言</td><td>Python 3.11+</td><td>生態完整</td></tr>
+  <tr><td>HTTP / 解析</td><td>requests + BeautifulSoup</td><td>若需 JS 渲染再改 Playwright</td></tr>
+  <tr><td>前端</td><td>HTML + Vanilla JS</td><td>靜態部署最簡，無需 build</td></tr>
+  <tr><td>模糊搜尋</td><td>Fuse.js</td><td>支援中英文、權重設定</td></tr>
+  <tr><td>儲存格式</td><td>JSON</td><td>前端可直接 fetch</td></tr>
+  <tr><td>部署</td><td>GitHub Pages</td><td>免費、與 Actions 整合佳</td></tr>
+  <tr><td>排程</td><td>GitHub Actions cron</td><td>免費額度足以每小時跑</td></tr>
+  <tr><td>收藏儲存</td><td>localStorage + JSON 匯出</td><td>無需後端，可備份</td></tr>
+</table>
+
+<h2>6. 風險與對策</h2>
+<table>
+  <tr><th>風險</th><th>對策</th></tr>
+  <tr><td>任天堂改版破壞解析器</td><td>解析失敗時保留上次 JSON、發失敗通知；解析邏輯模組化便於修補</td></tr>
+  <tr><td>被反爬蟲擋下</td><td>合理 User-Agent、加延遲、每小時頻率不算激進；必要時降為每 3 小時</td></tr>
+  <tr><td>商品數過多導致 JSON 太大</td><td>拆成 <code>switch.json</code> / <code>switch2.json</code>；前端分批載入</td></tr>
+  <tr><td>GitHub Actions 配額用盡</td><td>免費 public repo 無上限；private repo 評估改用 Cloudflare Workers Cron</td></tr>
+  <tr><td>法律 / robots.txt</td><td>先查 <code>robots.txt</code>，僅作個人非商業用途，不轉售資料</td></tr>
+</table>
+
+<h2>7. 已確認決策一覽</h2>
+<table>
+  <tr><th>項目</th><th>結果</th></tr>
+  <tr><td>收藏儲存</td><td>瀏覽器 localStorage + 匯出/匯入 JSON 按鈕</td></tr>
+  <tr><td>GitHub 帳號</td><td><code>enix007-create</code></td></tr>
+  <tr><td>Repo 名稱</td><td><code>nintendo-tw</code>（預定）</td></tr>
+  <tr><td>網站網址</td><td><code>https://enix007-create.github.io/nintendo-tw/</code></td></tr>
+  <tr><td>失敗通知</td><td>Email → <code>enix_007@yahoo.com.tw</code>（用 GitHub Actions 的 SMTP 步驟）</td></tr>
+  <tr><td>UI 風格</td><td>參考遊戲箱子卡片網格</td></tr>
+</table>
+
+<h2>8. 預估總時程</h2>
+<p>全部完成約 <strong>3.5–6 個工作天</strong>。可立即進入<strong>階段一：偵察與爬蟲 PoC</strong>。</p>
+
+<h2>9. 下一步動作</h2>
+<div class="card">
+  <p>進入階段一，我會：</p>
+  <ol>
+    <li>用瀏覽器工具（Claude in Chrome）打開 <code>store.nintendo.tw</code>，檢查商品列表頁是 SSR 還是 API 取資料</li>
+    <li>找出 Switch / Switch 2 分類過濾參數、分頁規則、特價標籤的 HTML/JSON 結構</li>
+    <li>用 Python 抓 10 個商品實測，確認可穩定取出全部欄位</li>
+    <li>把偵察結果寫成 <code>專案資料/資料來源筆記.md</code> 供後續開發參考</li>
+  </ol>
+  <p>只要你說「開始」，就會立刻進入階段一。</p>
+</div>
+
+</body>
+</html>

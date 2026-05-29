@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>任天堂台灣資料來源偵察筆記</title>
+<style>
+  :root { --bg:#fafafa; --card:#fff; --text:#1a1a1a; --muted:#6b7280; --border:#e5e7eb; --accent:#e60012; --ok:#10b981; --ok-bg:#ecfdf5; --warn:#f59e0b; --warn-bg:#fffbeb; --code-bg:#f3f4f6; }
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,"Noto Sans TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.7;max-width:980px;margin:0 auto;padding:32px 24px 80px}
+  h1{font-size:28px;margin:0 0 8px;border-bottom:3px solid var(--accent);padding-bottom:12px}
+  .subtitle{color:var(--muted);margin:0 0 32px}
+  h2{font-size:20px;margin:32px 0 12px;padding-left:12px;border-left:4px solid var(--accent)}
+  h3{font-size:16px;margin:20px 0 8px}
+  code{background:var(--code-bg);padding:2px 6px;border-radius:3px;font-size:13px;font-family:"Menlo","Consolas",monospace}
+  pre{background:#0f172a;color:#e2e8f0;padding:14px 18px;border-radius:6px;font-size:13px;line-height:1.6;overflow:auto}
+  pre code{background:none;color:inherit;padding:0}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
+  th,td{border:1px solid var(--border);padding:8px 12px;text-align:left;vertical-align:top}
+  th{background:#f3f4f6;font-weight:600}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px 20px;margin:12px 0}
+  .ok{background:var(--ok-bg);border-left:4px solid var(--ok);padding:12px 16px;border-radius:4px;margin:12px 0}
+  .warn{background:var(--warn-bg);border-left:4px solid var(--warn);padding:12px 16px;border-radius:4px;margin:12px 0}
+  ul{padding-left:22px}
+  li{margin:4px 0}
+  .tag{display:inline-block;background:#fff0f0;color:var(--accent);font-size:12px;padding:2px 8px;border-radius:12px;margin-right:4px}
+</style>
+</head>
+<body>
+
+<h1>資料來源偵察筆記</h1>
+<p class="subtitle">任天堂台灣 Switch / Switch 2 — 階段一偵察結果（2026-05-29）</p>
+
+<h2>結論摘要</h2>
+<div class="ok">
+  <strong>✅ 可行</strong>。可在不破壞反爬蟲規範下，靠官方資料源組出完整即時清單：
+  <ul>
+    <li>用 <strong>Playwright</strong> 渲染兩個目錄頁拿 <strong>NSUID + 封面 URL</strong></li>
+    <li>用 <strong>Nintendo eShop Price API</strong> 批次查 TWD 原價、特價、特價區間（公開 endpoint）</li>
+    <li>用 <strong>遊戲詳情頁標題</strong> 拿中文名稱（含英文副標）</li>
+  </ul>
+</div>
+
+<h2>1. 站點地圖</h2>
+<table>
+  <tr><th>URL</th><th>用途</th><th>備註</th></tr>
+  <tr><td><code>store.nintendo.tw</code></td><td><span class="tag">無效</span></td><td>網域無回應，台灣沒有獨立電商網域</td></tr>
+  <tr><td><code>ec.nintendo.com/TW/zh/</code></td><td><span class="tag">無效</span></td><td>404，台灣沒有 web 版 eShop</td></tr>
+  <tr><td><code>www.nintendo.com/tw/software/switch</code></td><td>Switch 遊戲目錄</td><td>SSR + JS lazy load。Playwright 滾動後可拿到 63+ 個 NSUID</td></tr>
+  <tr><td><code>www.nintendo.com/tw/games/switch2/</code></td><td>Switch 2 遊戲目錄</td><td>純客戶端渲染。curl 拿不到，必須用 Playwright</td></tr>
+  <tr><td><code>www.nintendo.com/tw/games/switch2/{code}/</code></td><td>遊戲詳情頁</td><td>title 標籤含中文名；售價區塊（盒裝/下載 TWD）需 JS 渲染</td></tr>
+  <tr><td><code>api.ec.nintendo.com/v1/price</code></td><td><strong>核心 API</strong></td><td>公開、不需驗證、支援 <code>country=TW&amp;lang=zh</code>，一次最多 ~50 個 ID</td></tr>
+  <tr><td><code>store.nintendo.com.hk</code></td><td>香港電商</td><td>價格 HKD，與台灣不同，不採用</td></tr>
+</table>
+
+<h2>2. NSUID 萃取方式</h2>
+<p>NSUID（任天堂全球唯一商品 ID，14 位數字）藏在目錄頁的封面圖 URL 中：</p>
+<pre><code>https://images.ctfassets.net/o5v89n4kg6h4/<b>70010000095685</b>e0ee4e46894311f0909071ba1e81c7be/.../cover.jpg</code></pre>
+<p>正則：</p>
+<pre><code>images\.ctfassets\.net/[^/"\s]+/(\d{14})[a-f0-9]*/[^"\s)]+</code></pre>
+<p>NSUID 開頭規則（觀察值，非官方）：</p>
+<ul>
+  <li><code>70010000xxxxxx</code> — Switch 遊戲為主</li>
+  <li><code>70070000xxxxxx</code> — 部分 Switch 2 遊戲</li>
+  <li>但兩種前綴在 Switch / Switch 2 目錄頁都會出現，<strong>不可只靠前綴判斷平台</strong>，要以「該 NSUID 出現在哪個目錄頁」為準</li>
+</ul>
+
+<h2>3. Price API 規格</h2>
+<div class="card">
+  <strong>Endpoint</strong>
+  <pre><code>GET https://api.ec.nintendo.com/v1/price?country=TW&amp;lang=zh&amp;ids=NSUID1,NSUID2,...</code></pre>
+  <strong>實測回應（NSUID 70010000124849，有特價）</strong>
+  <pre><code>{
+  "personalized": false,
+  "country": "TW",
+  "prices": [{
+    "title_id": 70010000124849,
+    "sales_status": "preorder",
+    "is_download_ready": true,
+    "regular_price": { "amount": "TWD 110", "currency": "TWD", "raw_value": "110" },
+    "discount_price": {
+      "amount": "TWD 88",
+      "currency": "TWD",
+      "raw_value": "88",
+      "start_datetime": "2026-05-27T16:00:00Z",
+      "end_datetime":   "2026-06-28T15:59:59Z"
+    }
+  }]
+}</code></pre>
+</div>
+<p><code>sales_status</code> 觀察到的值：<code>onsale</code>（販售中）、<code>preorder</code>（預購）、<code>unreleased</code>（未發售）、<code>not_found</code>（NSUID 在 TW 區無資料）。</p>
+<p><strong>特價百分比</strong> = <code>(1 - discount_price.raw_value / regular_price.raw_value) × 100</code>，僅 <code>discount_price</code> 存在時計算。</p>
+
+<h2>4. PoC 實測結果</h2>
+<table>
+  <tr><th>項目</th><th>數值</th></tr>
+  <tr><td>Switch 目錄頁 NSUIDs（Playwright 滾動後）</td><td>63</td></tr>
+  <tr><td>Switch 2 目錄頁 NSUIDs</td><td>16</td></tr>
+  <tr><td>聯集（去重）</td><td>79</td></tr>
+  <tr><td>Price API 一次查 10 筆耗時</td><td>&lt; 1 秒</td></tr>
+  <tr><td>有效命中率</td><td>10/10（皆有 TWD 價格）</td></tr>
+  <tr><td>實際捕捉到特價</td><td>1/10（NSUID 124849，TWD 110→88，省 20%）</td></tr>
+</table>
+
+<h2>5. 已知問題</h2>
+<div class="warn">
+  <strong>⚠️ 待解決</strong>
+  <ol>
+    <li><strong>遊戲總數可能不足</strong>：目錄頁滾動到底也只拿到 79 個 NSUID，但 Switch 平台應該有上千款遊戲。需要找：
+      <ul>
+        <li>(a) 是否有分頁／全列表 API 端點（可能藏在 Contentful CDN）</li>
+        <li>(b) 「全部遊戲」的隱藏入口（可能在「遊戲尋找器」之類的頁面）</li>
+      </ul>
+    </li>
+    <li><strong>英文名稱來源未定</strong>：任天堂台灣站只有中文標題。可選方案：
+      <ul>
+        <li>(a) 從中文標題抽英文副標（部分遊戲含英文，例如「TOMODACHI LIFE 朋友收集 夢想生活」）</li>
+        <li>(b) 用同一個 NSUID 去 Nintendo HK 英文版抓 (<code>store.nintendo.com.hk/en/</code>)</li>
+        <li>(c) 接受只有中文，搜尋仍可中英混合 fuzzy（Fuse.js 對任何字串都能比對）</li>
+      </ul>
+    </li>
+    <li><strong>詳情頁價格 JS 渲染</strong>：盒裝/下載 TWD 在初始 HTML 中沒有。實作時用 Playwright 即可解決，或直接信任 Price API（建議後者）</li>
+    <li><strong>反爬蟲</strong>：目前未遇到。建議仍加合理延遲（每請求 0.3~1 秒）與正常 User-Agent</li>
+  </ol>
+</div>
+
+<h2>6. 建議架構（更新版）</h2>
+<pre><code>[GitHub Actions（每小時）]
+        │
+        ▼
+[scraper/render_catalog.py]   ←  Playwright，渲染兩個目錄頁
+        │ 輸出 NSUID + cover_url + platform
+        ▼
+[scraper/fetch_prices.py]     ←  批次打 Price API（country=TW）
+        │ 輸出 即時原價、特價、特價區間
+        ▼
+[scraper/fetch_names.py]      ←  個別抓詳情頁標題拿中文名（Playwright 或 requests 都行）
+        │
+        ▼
+[merged games.json]   →  GitHub 提交 → GitHub Pages 部署
+        │
+        ▼
+[index.html + Fuse.js]
+   ├─ 卡片網格 UI（仿遊戲箱子）
+   ├─ 中英文模糊搜尋
+   ├─ 收藏（localStorage）+ 匯出/匯入 JSON
+   └─ 失敗時 Email 通知 (enix_007@yahoo.com.tw)</code></pre>
+
+<h2>7. 下一步建議</h2>
+<div class="card">
+  <ol>
+    <li><strong>釐清遊戲總數問題</strong>：用 Playwright 試更多目錄頁／搜尋頁，或用 NSUID 區間掃描的方式擴充清單</li>
+    <li>確認方向後進入<strong>階段二：完整爬蟲</strong>，含錯誤處理、增量更新、單元測試</li>
+  </ol>
+</div>
+
+</body>
+</html>

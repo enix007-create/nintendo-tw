@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.DS_Store
+scraper/cards_cache.json
+scraper/scrape.log
+scraper/sample_games.json

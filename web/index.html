@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>任天堂台灣遊戲監看 — Switch / Switch 2</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<style>
+  :root {
+    --bg: #f5f5f7;
+    --card: #fff;
+    --text: #1a1a1a;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --accent: #e60012;       /* Nintendo red */
+    --accent-dark: #b3000e;
+    --switch2: #00b9d8;      /* Switch 2 cyan */
+    --sale-bg: #fff3e0;
+    --sale-tag: #ff6b00;
+    --shadow: 0 2px 8px rgba(0,0,0,.06);
+    --shadow-hover: 0 4px 16px rgba(0,0,0,.12);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+  }
+  header {
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    box-shadow: var(--shadow);
+  }
+  .header-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .logo {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--accent);
+    white-space: nowrap;
+  }
+  .logo small { color: var(--muted); font-weight: 400; font-size: 12px; margin-left: 6px; }
+  .search-box {
+    flex: 1;
+    min-width: 200px;
+    position: relative;
+  }
+  .search-box input {
+    width: 100%;
+    padding: 10px 14px 10px 38px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color .15s;
+  }
+  .search-box input:focus { border-color: var(--accent); }
+  .search-box svg {
+    position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+    width: 18px; height: 18px; color: var(--muted);
+  }
+  .clear-btn { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: none; border: 0; color: var(--muted); cursor: pointer; padding: 4px 8px; font-size: 18px; }
+  .clear-btn:hover { color: var(--text); }
+  .controls {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    display: flex;
+    gap: 8px 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .chip {
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+    transition: all .15s;
+    font-size: 13px;
+  }
+  .chip:hover { border-color: var(--accent); }
+  .chip.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  select.chip { appearance: none; padding-right: 28px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%236b7280' d='M5 6L0 0h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 10px center; }
+  .stats { margin-left: auto; font-size: 13px; }
+  .stats b { color: var(--text); }
+  .actions { display: flex; gap: 6px; }
+  .btn-link { background: none; border: 1px solid var(--border); padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 13px; color: var(--muted); }
+  .btn-link:hover { border-color: var(--accent); color: var(--accent); }
+
+  main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .empty {
+    text-align: center;
+    color: var(--muted);
+    padding: 60px 20px;
+    font-size: 16px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 16px;
+  }
+  .game-card {
+    background: var(--card);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform .15s, box-shadow .15s;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .game-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); }
+  .cover {
+    aspect-ratio: 1 / 1;
+    background: #ddd;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .badge {
+    position: absolute;
+    top: 8px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: .5px;
+  }
+  .badge.platform-switch { background: var(--accent); left: 8px; }
+  .badge.platform-switch2 { background: var(--switch2); left: 8px; }
+  .badge.sale { background: var(--sale-tag); right: 8px; }
+  .fav-btn {
+    position: absolute;
+    bottom: 8px; right: 8px;
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.92);
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center; justify-content: center;
+    transition: transform .1s, background .15s;
+  }
+  .fav-btn:hover { transform: scale(1.1); }
+  .fav-btn.active { background: #fff0f0; }
+  .fav-btn.active::after { content: "❤️"; }
+  .fav-btn:not(.active)::after { content: "🤍"; }
+  .info {
+    padding: 10px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+  }
+  .name {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--text);
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 38px;
+  }
+  .price-row {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    margin-top: auto;
+    flex-wrap: wrap;
+  }
+  .price-current {
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .price-original {
+    color: var(--muted);
+    text-decoration: line-through;
+    font-size: 12px;
+  }
+  .sale-date {
+    color: var(--sale-tag);
+    font-size: 11px;
+    background: var(--sale-bg);
+    padding: 2px 6px;
+    border-radius: 4px;
+    width: fit-content;
+  }
+  .status-tag {
+    font-size: 11px;
+    color: var(--muted);
+    background: #f3f4f6;
+    padding: 2px 6px;
+    border-radius: 3px;
+    width: fit-content;
+  }
+
+  /* Modal */
+  .modal-bg {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,.5);
+    display: none;
+    align-items: center; justify-content: center;
+    z-index: 100;
+    padding: 20px;
+  }
+  .modal-bg.open { display: flex; }
+  .modal {
+    background: #fff;
+    border-radius: 12px;
+    max-width: 520px;
+    width: 100%;
+    max-height: 90vh;
+    overflow: auto;
+    padding: 24px;
+  }
+  .modal h2 { margin: 0 0 16px; }
+  .modal p { color: var(--muted); font-size: 14px; }
+  .modal .btn-row { display: flex; gap: 8px; margin-top: 16px; }
+  .btn { padding: 8px 16px; border-radius: 6px; border: 1px solid var(--border); background: #fff; cursor: pointer; font-size: 14px; }
+  .btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .btn.primary:hover { background: var(--accent-dark); }
+  .modal textarea { width: 100%; height: 120px; font-family: monospace; font-size: 12px; padding: 8px; border: 1px solid var(--border); border-radius: 6px; resize: vertical; }
+
+  footer {
+    color: var(--muted);
+    font-size: 12px;
+    text-align: center;
+    padding: 32px 20px;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+
+  @media (max-width: 600px) {
+    .grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .controls { padding: 8px 16px; font-size: 13px; }
+    .stats { width: 100%; order: -1; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">任天堂台灣遊戲監看 <small>Switch / Switch 2</small></div>
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
+      <input type="search" id="search" placeholder="搜尋遊戲（中文或英文，如 瑪利歐 / Mario / Zelda）" autocomplete="off">
+      <button class="clear-btn" id="clear-search" style="display:none">×</button>
+    </div>
+  </div>
+  <div class="controls">
+    <span class="chip" data-platform="all">全部</span>
+    <span class="chip" data-platform="Switch">Switch</span>
+    <span class="chip" data-platform="Switch 2">Switch 2</span>
+    <span class="chip" data-only-sale="1">只看特價</span>
+    <span class="chip" data-only-fav="1">只看收藏</span>
+    <select class="chip" id="sort">
+      <option value="discount">依折扣高到低</option>
+      <option value="price_asc">價格低到高</option>
+      <option value="price_desc">價格高到低</option>
+      <option value="name">名稱</option>
+      <option value="sale_end">特價結束最近</option>
+    </select>
+    <div class="stats">共 <b id="visible-count">0</b> / <span id="total-count">0</span> 款，<b id="onsale-count">0</b> 特價中</div>
+    <div class="actions">
+      <button class="btn-link" id="export-fav">匯出收藏</button>
+      <button class="btn-link" id="import-fav">匯入收藏</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div id="grid" class="grid"></div>
+  <div class="empty" id="empty" style="display:none">沒有符合條件的遊戲</div>
+</main>
+
+<footer>
+  資料來源：<a href="https://www.nintendo.com/tw/" target="_blank" rel="noopener">nintendo.com/tw</a> +
+  <a href="https://api.ec.nintendo.com/v1/price?country=TW" target="_blank" rel="noopener">Nintendo eShop API</a>。
+  資料更新時間：<span id="updated-at">-</span>
+</footer>
+
+<div class="modal-bg" id="modal-bg">
+  <div class="modal" id="modal">
+    <h2 id="modal-title">收藏</h2>
+    <p id="modal-desc"></p>
+    <textarea id="modal-text"></textarea>
+    <div class="btn-row">
+      <button class="btn primary" id="modal-ok">確定</button>
+      <button class="btn" id="modal-cancel">取消</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script>
+(async function() {
+  const FAV_KEY = 'nintendo_tw_favs_v1';
+  let games = [];
+  let fuse = null;
+  let favorites = new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]'));
+  const state = {
+    query: '',
+    platform: 'all',
+    onlySale: false,
+    onlyFav: false,
+    sort: 'discount',
+  };
+
+  // 載資料
+  try {
+    const res = await fetch('games.json?t=' + Date.now());
+    const data = await res.json();
+    games = data.games;
+    document.getElementById('updated-at').textContent = new Date(data.generated_at).toLocaleString('zh-TW');
+    document.getElementById('total-count').textContent = data.total;
+    document.getElementById('onsale-count').textContent = data.on_sale_count;
+  } catch (e) {
+    document.getElementById('grid').innerHTML = '<div class="empty">資料載入失敗：' + e.message + '</div>';
+    return;
+  }
+
+  // Fuse.js 模糊搜尋（中英混搜）
+  fuse = new Fuse(games, {
+    keys: [
+      { name: 'name', weight: 2 },
+      { name: 'name_zh', weight: 2 },
+      { name: 'aliases', weight: 1.5 },
+      { name: 'nsuid', weight: 0.5 },
+    ],
+    threshold: 0.4,
+    ignoreLocation: true,
+    minMatchCharLength: 1,
+  });
+
+  function applyFilters() {
+    let list = state.query ? fuse.search(state.query).map(r => r.item) : games.slice();
+    if (state.platform !== 'all') list = list.filter(g => g.platform === state.platform);
+    if (state.onlySale) list = list.filter(g => g.on_sale);
+    if (state.onlyFav) list = list.filter(g => favorites.has(g.nsuid));
+
+    const sorters = {
+      discount: (a, b) => (b.discount_percent || 0) - (a.discount_percent || 0) || a.name.localeCompare(b.name, 'zh-TW'),
+      price_asc: (a, b) => (a.discount_price || a.regular_price || 99999) - (b.discount_price || b.regular_price || 99999),
+      price_desc: (a, b) => (b.discount_price || b.regular_price || 0) - (a.discount_price || a.regular_price || 0),
+      name: (a, b) => a.name.localeCompare(b.name, 'zh-TW'),
+      sale_end: (a, b) => {
+        if (!a.discount_end) return 1;
+        if (!b.discount_end) return -1;
+        return new Date(a.discount_end) - new Date(b.discount_end);
+      },
+    };
+    // 搜尋有結果時保持 fuse 的相關性排序
+    if (!state.query) list.sort(sorters[state.sort]);
+    return list;
+  }
+
+  function render() {
+    const list = applyFilters();
+    const grid = document.getElementById('grid');
+    document.getElementById('visible-count').textContent = list.length;
+    document.getElementById('empty').style.display = list.length ? 'none' : 'block';
+    grid.innerHTML = list.map(g => {
+      const platformClass = g.platform === 'Switch 2' ? 'platform-switch2' : 'platform-switch';
+      const isSale = g.on_sale;
+      const isFav = favorites.has(g.nsuid);
+      const saleDate = g.discount_end ? formatDate(g.discount_end) : '';
+      const statusLabel = g.sales_status === 'preorder' ? '預購' : (g.sales_status === 'unreleased' ? '未發售' : '');
+      const priceCurrent = g.discount_price || g.regular_price;
+      return `
+        <div class="game-card" data-nsuid="${g.nsuid}">
+          <div class="cover" style="background-image:url('${escapeHtml(g.cover_url)}')">
+            <span class="badge ${platformClass}">${g.platform}</span>
+            ${isSale ? `<span class="badge sale">-${g.discount_percent}%</span>` : ''}
+            <button class="fav-btn ${isFav ? 'active' : ''}" data-fav-toggle="${g.nsuid}" aria-label="收藏"></button>
+          </div>
+          <div class="info">
+            <h3 class="name">${escapeHtml(g.name)}</h3>
+            ${statusLabel ? `<span class="status-tag">${statusLabel}</span>` : ''}
+            <div class="price-row">
+              ${priceCurrent ? `<span class="price-current">NT$ ${priceCurrent.toLocaleString()}</span>` : ''}
+              ${isSale ? `<span class="price-original">NT$ ${g.regular_price.toLocaleString()}</span>` : ''}
+            </div>
+            ${isSale && saleDate ? `<span class="sale-date">特價至 ${saleDate}</span>` : ''}
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  function formatDate(iso) {
+    try {
+      const d = new Date(iso);
+      return `${d.getMonth() + 1}/${d.getDate()}`;
+    } catch { return ''; }
+  }
+
+  function escapeHtml(s) {
+    return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  }
+
+  function saveFavorites() {
+    localStorage.setItem(FAV_KEY, JSON.stringify([...favorites]));
+  }
+
+  // 事件
+  document.getElementById('search').addEventListener('input', e => {
+    state.query = e.target.value.trim();
+    document.getElementById('clear-search').style.display = state.query ? '' : 'none';
+    render();
+  });
+  document.getElementById('clear-search').addEventListener('click', () => {
+    document.getElementById('search').value = '';
+    state.query = '';
+    document.getElementById('clear-search').style.display = 'none';
+    render();
+  });
+
+  document.querySelectorAll('.chip[data-platform]').forEach(el => {
+    el.addEventListener('click', () => {
+      document.querySelectorAll('.chip[data-platform]').forEach(e => e.classList.remove('active'));
+      el.classList.add('active');
+      state.platform = el.dataset.platform;
+      render();
+    });
+  });
+  document.querySelector('.chip[data-platform="all"]').classList.add('active');
+
+  document.querySelector('.chip[data-only-sale]').addEventListener('click', e => {
+    state.onlySale = !state.onlySale;
+    e.target.classList.toggle('active');
+    render();
+  });
+  document.querySelector('.chip[data-only-fav]').addEventListener('click', e => {
+    state.onlyFav = !state.onlyFav;
+    e.target.classList.toggle('active');
+    render();
+  });
+  document.getElementById('sort').addEventListener('change', e => {
+    state.sort = e.target.value;
+    render();
+  });
+
+  // 卡片點擊 / 收藏按鈕
+  document.getElementById('grid').addEventListener('click', e => {
+    const favBtn = e.target.closest('[data-fav-toggle]');
+    if (favBtn) {
+      const id = favBtn.dataset.favToggle;
+      if (favorites.has(id)) favorites.delete(id); else favorites.add(id);
+      saveFavorites();
+      favBtn.classList.toggle('active');
+      // 如果開啟「只看收藏」需重新繪
+      if (state.onlyFav) render();
+      e.stopPropagation();
+      return;
+    }
+    const card = e.target.closest('.game-card');
+    if (card) {
+      const game = games.find(g => g.nsuid === card.dataset.nsuid);
+      if (game) {
+        const url = game.detail_url || game.store_url;
+        window.open(url, '_blank', 'noopener');
+      }
+    }
+  });
+
+  // 匯出 / 匯入收藏
+  const modalBg = document.getElementById('modal-bg');
+  const modalTitle = document.getElementById('modal-title');
+  const modalDesc = document.getElementById('modal-desc');
+  const modalText = document.getElementById('modal-text');
+  let modalMode = '';
+
+  function openModal(mode) {
+    modalMode = mode;
+    if (mode === 'export') {
+      modalTitle.textContent = '匯出收藏';
+      modalDesc.textContent = '複製下方 JSON 內容備份，下次匯入即可恢復收藏。';
+      modalText.value = JSON.stringify([...favorites], null, 2);
+      modalText.readOnly = true;
+    } else {
+      modalTitle.textContent = '匯入收藏';
+      modalDesc.textContent = '把先前匯出的 JSON 內容貼入下方，按確定後會合併到現有收藏。';
+      modalText.value = '';
+      modalText.readOnly = false;
+    }
+    modalBg.classList.add('open');
+  }
+  function closeModal() { modalBg.classList.remove('open'); }
+  document.getElementById('export-fav').addEventListener('click', () => openModal('export'));
+  document.getElementById('import-fav').addEventListener('click', () => openModal('import'));
+  document.getElementById('modal-cancel').addEventListener('click', closeModal);
+  modalBg.addEventListener('click', e => { if (e.target === modalBg) closeModal(); });
+  document.getElementById('modal-ok').addEventListener('click', () => {
+    if (modalMode === 'import') {
+      try {
+        const arr = JSON.parse(modalText.value);
+        if (!Array.isArray(arr)) throw new Error('JSON 必須是陣列');
+        arr.forEach(n => favorites.add(String(n)));
+        saveFavorites();
+        render();
+      } catch (e) {
+        alert('匯入失敗：' + e.message);
+        return;
+      }
+    }
+    closeModal();
+  });
+
+  render();
+})();
+</script>
+
+</body>
+</html>

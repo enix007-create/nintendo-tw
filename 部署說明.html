@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>部署與設定說明</title>
+<style>
+  :root { --bg:#fafafa; --card:#fff; --text:#1a1a1a; --muted:#6b7280; --border:#e5e7eb; --accent:#e60012; --ok:#10b981; --ok-bg:#ecfdf5; --warn:#f59e0b; --warn-bg:#fffbeb; --code-bg:#f3f4f6; }
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,"Noto Sans TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.7;max-width:900px;margin:0 auto;padding:32px 24px 80px}
+  h1{font-size:26px;margin:0 0 8px;border-bottom:3px solid var(--accent);padding-bottom:12px}
+  h2{font-size:18px;margin:28px 0 10px;padding-left:12px;border-left:4px solid var(--accent)}
+  h3{font-size:15px;margin:18px 0 6px}
+  code{background:var(--code-bg);padding:2px 6px;border-radius:3px;font-size:13px;font-family:Menlo,Consolas,monospace}
+  pre{background:#0f172a;color:#e2e8f0;padding:14px 16px;border-radius:6px;font-size:13px;line-height:1.55;overflow:auto}
+  pre code{background:none;color:inherit;padding:0}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
+  th,td{border:1px solid var(--border);padding:8px 12px;text-align:left;vertical-align:top}
+  th{background:#f3f4f6}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px 18px;margin:12px 0}
+  .step .num{display:inline-block;width:24px;height:24px;line-height:24px;text-align:center;border-radius:50%;background:var(--accent);color:#fff;font-weight:700;margin-right:8px;font-size:12px}
+  .ok{background:var(--ok-bg);border-left:4px solid var(--ok);padding:10px 14px;border-radius:4px;margin:10px 0}
+  .warn{background:var(--warn-bg);border-left:4px solid var(--warn);padding:10px 14px;border-radius:4px;margin:10px 0}
+  ul,ol{padding-left:22px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+
+<h1>部署與設定說明</h1>
+<p style="color:var(--muted)">任天堂台灣遊戲監看 — MVP 部署到 GitHub Pages</p>
+
+<h2>1. 專案結構</h2>
+<pre><code>nintendo-tw/
+├── .github/workflows/hourly-scrape.yml   GitHub Actions 排程
+├── scraper/
+│   ├── scrape.py                          主爬蟲
+│   ├── bilingual_dict.py                  中英文系列對照
+│   └── requirements.txt                   Python 套件
+├── web/
+│   ├── index.html                         前端網頁
+│   └── games.json                         即時資料
+├── .gitignore
+└── 部署說明.html（本檔）</code></pre>
+
+<h2>2. 部署步驟（按順序做完）</h2>
+
+<div class="step">
+  <span class="num">1</span><b>建立 GitHub repo</b>
+  <p>到 <a href="https://github.com/new" target="_blank">github.com/new</a>，用 <code>enix007-create</code> 帳號建立名為 <code>nintendo-tw</code> 的 <b>public</b> repo（public 才有免費 GitHub Pages 與 Actions 額度）。</p>
+</div>
+
+<div class="step">
+  <span class="num">2</span><b>把本機程式碼推上去</b>
+  <p>在 <code>C:\Users\user\Desktop\Claude-workspace\projects\nintendo-tw</code> 目錄開 Git Bash 或 PowerShell：</p>
+  <pre><code>git init
+git add .
+git commit -m "init: MVP"
+git branch -M main
+git remote add origin https://github.com/enix007-create/nintendo-tw.git
+git push -u origin main</code></pre>
+</div>
+
+<div class="step">
+  <span class="num">3</span><b>啟用 GitHub Pages</b>
+  <p>到 repo Settings → Pages →</p>
+  <ul>
+    <li><b>Source</b> 選 <code>GitHub Actions</code>（不是 Branch）</li>
+    <li>第一次部署成功後，會有網址 <code>https://enix007-create.github.io/nintendo-tw/</code></li>
+  </ul>
+</div>
+
+<div class="step">
+  <span class="num">4</span><b>設定 Email 通知 Secrets</b>
+  <p>到 repo Settings → Secrets and variables → Actions → New repository secret，加入兩個：</p>
+  <table>
+    <tr><th>Secret 名稱</th><th>內容</th></tr>
+    <tr><td><code>MAIL_USERNAME</code></td><td>你的 Gmail 地址（例如 <code>xxx@gmail.com</code>）</td></tr>
+    <tr><td><code>MAIL_PASSWORD</code></td><td>Gmail 應用程式密碼（不是登入密碼！見下方）</td></tr>
+  </table>
+  <div class="warn">
+    <b>Gmail 應用程式密碼怎麼取得</b>：到 <a href="https://myaccount.google.com/apppasswords" target="_blank">myaccount.google.com/apppasswords</a>，建立一組 16 碼密碼，貼到 <code>MAIL_PASSWORD</code>。需先開啟兩階段驗證。
+  </div>
+  <p>失敗時會寄信到你設定的 <code>enix_007@yahoo.com.tw</code>。如果不想用 Gmail 寄，可以把 workflow 中的「Notify on failure」這段拿掉。</p>
+</div>
+
+<div class="step">
+  <span class="num">5</span><b>觸發第一次跑</b>
+  <p>到 Actions 分頁 → 選 "Hourly scrape" → Run workflow（手動觸發一次）。第一次跑會花 2~4 分鐘（裝 Playwright + Chromium）。</p>
+  <p>之後每小時的第 5 分鐘會自動跑，更新 <code>web/games.json</code> 並重新部署 Pages。</p>
+</div>
+
+<h2>3. 本機開發與測試</h2>
+<h3>跑爬蟲</h3>
+<pre><code>cd nintendo-tw\scraper
+pip install -r requirements.txt
+python -m playwright install chromium
+python scrape.py</code></pre>
+<p>輸出會寫到 <code>..\web\games.json</code>。</p>
+
+<h3>預覽網頁</h3>
+<p>有兩種方式：</p>
+<ol>
+  <li><b>直接點開</b> <code>web\index.html</code>（多數瀏覽器允許讀同資料夾的 <code>games.json</code>）</li>
+  <li><b>啟動本機 server</b>：
+    <pre><code>cd nintendo-tw\web
+python -m http.server 8000</code></pre>
+    然後開 <a href="http://localhost:8000">http://localhost:8000</a>
+  </li>
+</ol>
+
+<h2>4. MVP 限制與下一步</h2>
+<div class="warn">
+  <b>目前已知限制</b>
+  <ul>
+    <li><b>遊戲總數約 70 款</b>：只抓任天堂台灣官網兩個目錄頁的 NSUID。實際應有上千款，下一階段需要找「全列表」資料源（可能要直接列舉 NSUID 範圍 + Price API 過濾）</li>
+    <li><b>英文搜尋仰賴系列字典</b>：<code>bilingual_dict.py</code> 內建 60+ 組系列名對照，可隨時擴充</li>
+    <li><b>盒裝售價未顯示</b>：目前只顯示 Price API 的下載版價（與 eShop 實際一致）</li>
+  </ul>
+</div>
+
+<h2>5. 維護重點</h2>
+<ul>
+  <li><b>新增中英對照</b>：編輯 <code>scraper/bilingual_dict.py</code>，依現有格式新增系列</li>
+  <li><b>調整 UI 風格</b>：編輯 <code>web/index.html</code> 內的 CSS 變數（<code>:root</code>）</li>
+  <li><b>暫停 Actions</b>：到 Actions → Hourly scrape → ⋯ → Disable workflow</li>
+  <li><b>查爬蟲記錄</b>：Actions 分頁可看每次 run 的完整 log</li>
+</ul>
+
+</body>
+</html>
