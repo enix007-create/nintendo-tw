@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-29T03:06:25+00:00",
-  "source": "nintendo.com/tw + api.ec.nintendo.com (country=TW) + store.nintendo.com.hk",
-  "total": 70,
+  "generated_at": "2026-05-29T03:42:04+00:00",
+  "source": "nintendo.com/tw + api.ec.nintendo.com (TW) + store.nintendo.com.hk",
+  "total": 78,
   "on_sale_count": 14,
   "games": [
     {
@@ -915,6 +915,29 @@
       "on_sale": false
     },
     {
+      "nsuid": "70010000099368",
+      "platform": "Switch 2",
+      "name": "寶可夢傳說 Z-A Nintendo Switch 2 Edition",
+      "name_zh": "寶可夢傳說 Z-A Nintendo Switch 2 Edition",
+      "aliases": [
+        "Pokemon",
+        "Pokémon",
+        "ポケモン",
+        "寶可夢",
+        "神奇寶貝"
+      ],
+      "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000099368dd76ea23894311f09dd9f3742ad39172/73a63667b446a694881a3790aee7b989/b87f1125dd9191ab688419a64ad0197d3477046b7effc04f86f0c7e4c3efd829.jpg",
+      "detail_url": null,
+      "store_url": "https://store.nintendo.com.hk/70010000099368",
+      "sales_status": "onsale",
+      "regular_price": 1659,
+      "discount_price": null,
+      "discount_percent": 0,
+      "discount_start": null,
+      "discount_end": null,
+      "on_sale": false
+    },
+    {
       "nsuid": "70010000105162",
       "platform": "Switch",
       "name": "嵐：外傳 (Arashi Gaiden)",
@@ -1009,6 +1032,28 @@
       "on_sale": false
     },
     {
+      "nsuid": "70010000096832",
+      "platform": "Switch 2",
+      "name": "星之卡比 探索發現 Nintendo Switch 2 Edition + 星耀世界",
+      "name_zh": "星之卡比 探索發現 Nintendo Switch 2 Edition + 星耀世界",
+      "aliases": [
+        "Kirby",
+        "カービィ",
+        "卡比",
+        "星之卡比"
+      ],
+      "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000096832d72686a4894311f0869359deb9463e8d/2551cb0042409ddfbaaea3a47e684230/59f1d4251f5a2ea9df627df8536ebf74636c58d2f83cdb297e261367ee478997.jpg",
+      "detail_url": null,
+      "store_url": "https://store.nintendo.com.hk/70010000096832",
+      "sales_status": "onsale",
+      "regular_price": 1759,
+      "discount_price": null,
+      "discount_percent": 0,
+      "discount_start": null,
+      "discount_end": null,
+      "on_sale": false
+    },
+    {
       "nsuid": "70010000105872",
       "platform": "Switch 2",
       "name": "瑪利歐網球 狂熱",
@@ -1048,6 +1093,27 @@
       "store_url": "https://store.nintendo.com.hk/70010000096808",
       "sales_status": "onsale",
       "regular_price": 2080,
+      "discount_price": null,
+      "discount_percent": 0,
+      "discount_start": null,
+      "discount_end": null,
+      "on_sale": false
+    },
+    {
+      "nsuid": "70010000116672",
+      "platform": "Switch 2",
+      "name": "異度神劍X 終極版 Nintendo Switch 2 Edition",
+      "name_zh": "異度神劍X 終極版 Nintendo Switch 2 Edition",
+      "aliases": [
+        "Xenoblade",
+        "ゼノブレイド",
+        "異度神劍"
+      ],
+      "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001166723a8451e40dcf11f19d27e3a303d5ebc4/f6c4d015b52c2681c94c5c23af224376/e5fa2027567f1c0c5de935d6aa905fa6590c84d031029ba2f29bb0124b361036.jpg",
+      "detail_url": null,
+      "store_url": "https://store.nintendo.com.hk/70010000116672",
+      "sales_status": "onsale",
+      "regular_price": 1644,
       "discount_price": null,
       "discount_percent": 0,
       "discount_start": null,
@@ -1099,6 +1165,98 @@
       "store_url": "https://store.nintendo.com.hk/70010000119381",
       "sales_status": "unreleased",
       "regular_price": 1490,
+      "discount_price": null,
+      "discount_percent": 0,
+      "discount_start": null,
+      "discount_end": null,
+      "on_sale": false
+    },
+    {
+      "nsuid": "70010000102756",
+      "platform": "Switch 2",
+      "name": "薩爾達傳說 曠野之息 Nintendo Switch 2 Edition",
+      "name_zh": "薩爾達傳說 曠野之息 Nintendo Switch 2 Edition",
+      "aliases": [
+        "The Legend of Zelda",
+        "Zelda",
+        "ゼルダ",
+        "塞爾達",
+        "薩爾達"
+      ],
+      "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000010275628ef9d20894d11f093c96d4533f6858b/0590a9db49e9bdd23239c32b8dd73bfe/3c336cf3721b57aaca9a11333884b3d525e20dc50f3244b97f286c49f0be7b81.jpg",
+      "detail_url": null,
+      "store_url": "https://store.nintendo.com.hk/70010000102756",
+      "sales_status": "onsale",
+      "regular_price": 1809,
+      "discount_price": null,
+      "discount_percent": 0,
+      "discount_start": null,
+      "discount_end": null,
+      "on_sale": false
+    },
+    {
+      "nsuid": "70010000096824",
+      "platform": "Switch 2",
+      "name": "薩爾達傳說 王國之淚 Nintendo Switch 2 Edition",
+      "name_zh": "薩爾達傳說 王國之淚 Nintendo Switch 2 Edition",
+      "aliases": [
+        "The Legend of Zelda",
+        "Zelda",
+        "ゼルダ",
+        "塞爾達",
+        "薩爾達"
+      ],
+      "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000096824361a3c94894011f081407704673dbb71/66b47bad26a2066e919db2d76f626d44/1a9e9a7699ae23853629569ddeaf6b04576ac46dcac8afae76a78b21332841e1.jpg",
+      "detail_url": null,
+      "store_url": "https://store.nintendo.com.hk/70010000096824",
+      "sales_status": "onsale",
+      "regular_price": 1809,
+      "discount_price": null,
+      "discount_percent": 0,
+      "discount_start": null,
+      "discount_end": null,
+      "on_sale": false
+    },
+    {
+      "nsuid": "70010000115570",
+      "platform": "Switch 2",
+      "name": "超級瑪利歐兄弟 驚奇 Nintendo Switch 2 Edition + 同遊鈴鈴公園",
+      "name_zh": "超級瑪利歐兄弟 驚奇 Nintendo Switch 2 Edition + 同遊鈴鈴公園",
+      "aliases": [
+        "Mario",
+        "マリオ",
+        "瑪利歐",
+        "瑪莉歐",
+        "馬力歐"
+      ],
+      "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000115570491f7e6bf7ce11f0a614ad4bdaebf3c5/457f275679e0f8ceddad22db8bf4e8ec/87db33ce7d06a71500e60d3832623ad2eac003278b0e1a754abbda567101426f.jpg",
+      "detail_url": null,
+      "store_url": "https://store.nintendo.com.hk/70010000115570",
+      "sales_status": "onsale",
+      "regular_price": 1759,
+      "discount_price": null,
+      "discount_percent": 0,
+      "discount_start": null,
+      "discount_end": null,
+      "on_sale": false
+    },
+    {
+      "nsuid": "70010000096828",
+      "platform": "Switch 2",
+      "name": "超級瑪利歐派對 空前盛會 Nintendo Switch 2 Edition + 空前盛會TV",
+      "name_zh": "超級瑪利歐派對 空前盛會 Nintendo Switch 2 Edition + 空前盛會TV",
+      "aliases": [
+        "Mario",
+        "マリオ",
+        "瑪利歐",
+        "瑪莉歐",
+        "馬力歐"
+      ],
+      "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000096828d847c7f7894311f0b0e9fdf6f074b2a1/540272706b9e4c8675929ceb7536e03c/ffd161d63ca3f0f0bb917d54a1d97be91434b11829564000dc35fcf76b9bec62.jpg",
+      "detail_url": null,
+      "store_url": "https://store.nintendo.com.hk/70010000096828",
+      "sales_status": "onsale",
+      "regular_price": 1869,
       "discount_price": null,
       "discount_percent": 0,
       "discount_start": null,
@@ -1185,6 +1343,30 @@
       "store_url": "https://store.nintendo.com.hk/70010000112447",
       "sales_status": "unreleased",
       "regular_price": 677,
+      "discount_price": null,
+      "discount_percent": 0,
+      "discount_start": null,
+      "discount_end": null,
+      "on_sale": false
+    },
+    {
+      "nsuid": "70010000110443",
+      "platform": "Switch 2",
+      "name": "集合啦！動物森友會 Nintendo Switch 2 Edition",
+      "name_zh": "集合啦！動物森友會 Nintendo Switch 2 Edition",
+      "aliases": [
+        "Animal Crossing",
+        "あつ森",
+        "動森",
+        "動物之森",
+        "動物森友會",
+        "集合啦！動物森友會"
+      ],
+      "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001104432e3db812b5cc11f09430ade78a2b778e/100e7ea3cbbcb7878912d5bb82c6c431/433bd20a4fd8d4c6223c4f66c34618435366174e6ab09b6598bb240e33d1eb32.jpg",
+      "detail_url": null,
+      "store_url": "https://store.nintendo.com.hk/70010000110443",
+      "sales_status": "onsale",
+      "regular_price": 1444,
       "discount_price": null,
       "discount_percent": 0,
       "discount_start": null,
