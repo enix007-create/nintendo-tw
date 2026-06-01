@@ -264,52 +264,67 @@ _HK_PROD_IMG_RE = re.compile(r'src=["\'](https?://store\.nintendo\.com\.hk/media
 _HK_PLATFORM_RE = re.compile(r"(Switch ?2|Switch)")
 
 
+_hk_status_log = {"counts": {}, "samples": []}
+
+
 async def _fetch_hk_one(session, nsuid: str, sem) -> dict:
-    """從 HK store 抓 title + 第一張產品圖 + 平台"""
+    """從 HK store 抓 title + 第一張產品圖 + 平台。會記錄 HTTP 狀態碼分佈以便診斷。"""
     out = {"nsuid": nsuid, "name": "", "cover": "", "platform_hint": ""}
     async with sem:
         for url in [f"https://store.nintendo.com.hk/{nsuid}", f"https://ec.nintendo.com/HK/zh/titles/{nsuid}"]:
             try:
                 async with session.get(url, timeout=aiohttp.ClientTimeout(total=HK_TIMEOUT)) as r:
+                    key = f"{r.status}"
+                    _hk_status_log["counts"][key] = _hk_status_log["counts"].get(key, 0) + 1
                     if r.status != 200:
+                        if len(_hk_status_log["samples"]) < 3 and r.status != 200:
+                            _hk_status_log["samples"].append(f"{nsuid} {url[:40]} -> {r.status}")
                         continue
                     text = await r.text()
-                # title
                 m = _HK_TITLE_RE.search(text)
                 if m:
                     name = clean_name(m.group(1))
                     if name and name not in _INVALID_NAMES:
                         out["name"] = name
-                # cover（只取 store.nintendo.com.hk 的第一張）
                 if "store.nintendo.com.hk" in url:
                     m = _HK_PROD_IMG_RE.search(text)
                     if m:
                         out["cover"] = m.group(1)
-                    # platform — 從頁面文字判斷
                     if re.search(r"Switch ?2", text):
                         out["platform_hint"] = "Switch 2"
                     elif "Switch" in text:
                         out["platform_hint"] = "Switch"
                 if out["name"]:
                     break
-            except Exception:
+            except Exception as e:
+                key = f"err:{type(e).__name__}"
+                _hk_status_log["counts"][key] = _hk_status_log["counts"].get(key, 0) + 1
                 continue
+            await asyncio.sleep(0.2)  # per-worker pacing
     return out
 
 
-async def phase_names(force_all: bool = False):
-    """對 meta 中缺名稱（或缺封面）的 NSUID 補抓"""
+async def phase_names(force_all: bool = False, limit: int = 0):
+    """對 meta 中缺名稱（或缺封面）的 NSUID 補抓。limit > 0 時只處理前 N 個。"""
     meta = load_meta()
     if force_all:
         targets = list(meta.keys())
     else:
         targets = [n for n, m in meta.items() if not m.get("name") or not m.get("cover_url")]
+    # 之前已 check 過但沒結果的放後面，優先處理沒查過的
+    targets.sort(key=lambda n: meta[n].get("hk_checked", False))
+    if limit and limit > 0:
+        targets = targets[:limit]
     if not targets:
         print("[names] 沒有需要補抓的 NSUID")
         return
-    print(f"[names] 補抓 {len(targets)} 個 NSUID（並行 {HK_CONCURRENCY}）...")
-    sem = asyncio.Semaphore(HK_CONCURRENCY)
+    # 降並行 + UA 補強，避免 Akamai 立刻封
+    conc = min(HK_CONCURRENCY, 6)
+    print(f"[names] 補抓 {len(targets)} 個 NSUID（並行 {conc}）...")
+    sem = asyncio.Semaphore(conc)
     start = time.time()
+    _hk_status_log["counts"].clear()
+    _hk_status_log["samples"].clear()
     async with aiohttp.ClientSession(headers=HEADERS) as session:
         results = await asyncio.gather(*[_fetch_hk_one(session, n, sem) for n in targets])
 
@@ -324,14 +339,15 @@ async def phase_names(force_all: bool = False):
             entry["cover_url"] = r["cover"]
             entry["cover_source"] = "hk_store"
             got_cover += 1
-        # 平台暗示：HK 標示 Switch 2 才覆寫；不要把 Switch 蓋過 Switch 2
         if r["platform_hint"] == "Switch 2" and entry.get("platform") != "Switch 2":
-            # 只在 catalog 沒抓到時才覆寫
             if not entry.get("from_catalog"):
                 entry["platform"] = "Switch 2"
         entry["hk_checked"] = True
     save_meta(meta)
     print(f"[names] 補到 name {got_name}、cover {got_cover}，耗時 {time.time()-start:.1f}s")
+    print(f"[names] HTTP 狀態分佈: {dict(sorted(_hk_status_log['counts'].items(), key=lambda x: -x[1]))}")
+    if _hk_status_log["samples"]:
+        print(f"[names] 非 200 樣本: {_hk_status_log['samples']}")
 
 
 # ---------- Phase: build（重打 Price API、合併、輸出 games.json）----------
@@ -384,10 +400,28 @@ async def phase_build():
         print("[build] meta 是空的，請先跑 catalog/scan/names")
         return
     nsuids = sorted(meta.keys())
+
+    # 讀 scan cache（fallback 用）
+    scan_cache = {}
+    if SCAN_PATH.exists():
+        try:
+            scan_cache = json.loads(SCAN_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
     print(f"[build] 重打 Price API（{len(nsuids)} 個 NSUID）...")
     start = time.time()
     prices = await _refresh_prices(nsuids)
-    print(f"[build]   完成，{len(prices)} 筆有回，耗時 {time.time()-start:.1f}s")
+    print(f"[build]   refresh {len(prices)} 筆有回，耗時 {time.time()-start:.1f}s")
+
+    # Refresh 失敗的 NSUID 用 scan cache 補：保證即使 Akamai 擋住 build 也有產出
+    fallback_used = 0
+    for n in nsuids:
+        if n not in prices and n in scan_cache:
+            prices[n] = scan_cache[n]
+            fallback_used += 1
+    if fallback_used:
+        print(f"[build]   scan cache 補價格: {fallback_used} 筆")
 
     games = []
     for n in nsuids:
@@ -426,18 +460,23 @@ async def phase_build():
 
 # ---------- main ----------
 
-async def run_bootstrap(lo: int = SCAN_LO, hi: int = SCAN_HI):
-    """完整流程：catalog + 全範圍 scan + names + build。每日 1 次。"""
+async def run_bootstrap(lo: int = SCAN_LO, hi: int = SCAN_HI, names_limit: int = 500):
+    """完整流程：catalog + 全範圍 scan + names(限量) + build。
+    names 每次只補 500（避免 Akamai 暴怒），其他靠 hourly refresh 慢慢累積。"""
     await phase_catalog()
     await phase_scan(lo, hi)
-    await phase_names()
+    # scan 後 sleep 一下讓 Akamai 退火
+    print("[bootstrap] scan 完，sleep 30s 退火...")
+    await asyncio.sleep(30)
+    await phase_names(limit=names_limit)
     await phase_build()
 
 
-async def run_refresh():
-    """快速流程：catalog + names（只補新的）+ build。每小時跑。不做廣域 scan。"""
+async def run_refresh(names_limit: int = 300):
+    """快速流程：catalog + names(限量) + build。每小時跑。
+    names_limit 控制每次最多補幾個，避免 Akamai 觸發。"""
     await phase_catalog()
-    await phase_names()
+    await phase_names(limit=names_limit)
     await phase_build()
 
 
@@ -452,6 +491,7 @@ def main():
     ap.add_argument("--scan-lo", type=int, default=SCAN_LO)
     ap.add_argument("--scan-hi", type=int, default=SCAN_HI)
     ap.add_argument("--names-force-all", action="store_true")
+    ap.add_argument("--names-limit", type=int, default=0, help="names phase 單次處理上限（0=不限）")
     args = ap.parse_args()
 
     print(f"[{datetime.now().isoformat(timespec='seconds')}] === scrape v2 / phase={args.phase} ===")
@@ -460,13 +500,13 @@ def main():
     elif args.phase == "scan":
         asyncio.run(phase_scan(args.scan_lo, args.scan_hi))
     elif args.phase == "names":
-        asyncio.run(phase_names(args.names_force_all))
+        asyncio.run(phase_names(args.names_force_all, args.names_limit))
     elif args.phase == "build":
         asyncio.run(phase_build())
     elif args.phase == "refresh":
-        asyncio.run(run_refresh())
+        asyncio.run(run_refresh(args.names_limit or 300))
     else:  # bootstrap / all
-        asyncio.run(run_bootstrap(args.scan_lo, args.scan_hi))
+        asyncio.run(run_bootstrap(args.scan_lo, args.scan_hi, args.names_limit or 500))
 
 
 if __name__ == "__main__":
