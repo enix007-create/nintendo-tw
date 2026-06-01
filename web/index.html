@@ -138,6 +138,29 @@
     background-position: center;
     position: relative;
   }
+  .cover.no-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 12px 12px;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+  }
+  .cover.no-image.platform-switch2 {
+    background: linear-gradient(135deg, var(--switch2) 0%, #0089a3 100%);
+  }
+  .cover-placeholder-text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.3;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,.25);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+  }
   .badge {
     position: absolute;
     top: 8px;
@@ -393,9 +416,13 @@
       const saleDate = g.discount_end ? formatDate(g.discount_end) : '';
       const statusLabel = g.sales_status === 'preorder' ? '預購' : (g.sales_status === 'unreleased' ? '未發售' : '');
       const priceCurrent = g.discount_price || g.regular_price;
+      const hasCover = !!g.cover_url;
+      const coverHtml = hasCover
+        ? `<div class="cover" style="background-image:url('${escapeHtml(g.cover_url)}')">`
+        : `<div class="cover no-image ${platformClass}"><span class="cover-placeholder-text">${escapeHtml(g.name)}</span>`;
       return `
         <div class="game-card" data-nsuid="${g.nsuid}">
-          <div class="cover" style="background-image:url('${escapeHtml(g.cover_url)}')">
+          ${coverHtml}
             <span class="badge ${platformClass}">${g.platform}</span>
             ${isSale ? `<span class="badge sale">-${g.discount_percent}%</span>` : ''}
             <button class="fav-btn ${isFav ? 'active' : ''}" data-fav-toggle="${g.nsuid}" aria-label="收藏"></button>

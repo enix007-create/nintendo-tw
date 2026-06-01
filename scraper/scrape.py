@@ -53,6 +53,8 @@ SCAN_DELAY = 0.25        # 每個 request 之間的 sleep（per worker）
 SCAN_MAX_RETRY = 2       # 403/429 退避次數（多了反而把時間吃光）
 HK_CONCURRENCY = 15      # 並行 HK store 抓取
 HK_TIMEOUT = 12
+HK_RETRY_202 = 2         # HK store 回 202（async 生成中）時的重試次數
+HK_RETRY_SLEEP = 1.5     # 202 retry 前 sleep 秒數
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE_DIR = ROOT / "scraper" / "_cache"
@@ -272,15 +274,28 @@ async def _fetch_hk_one(session, nsuid: str, sem) -> dict:
     out = {"nsuid": nsuid, "name": "", "cover": "", "platform_hint": ""}
     async with sem:
         for url in [f"https://store.nintendo.com.hk/{nsuid}", f"https://ec.nintendo.com/HK/zh/titles/{nsuid}"]:
+            text = None
             try:
-                async with session.get(url, timeout=aiohttp.ClientTimeout(total=HK_TIMEOUT)) as r:
-                    key = f"{r.status}"
-                    _hk_status_log["counts"][key] = _hk_status_log["counts"].get(key, 0) + 1
-                    if r.status != 200:
-                        if len(_hk_status_log["samples"]) < 3 and r.status != 200:
+                # 對 202（async 生成中）做 retry
+                for attempt in range(1 + HK_RETRY_202):
+                    async with session.get(url, timeout=aiohttp.ClientTimeout(total=HK_TIMEOUT)) as r:
+                        key = f"{r.status}"
+                        _hk_status_log["counts"][key] = _hk_status_log["counts"].get(key, 0) + 1
+                        if r.status == 200:
+                            text = await r.text()
+                            if attempt > 0:
+                                _hk_status_log["counts"]["202_retry_hit"] = _hk_status_log["counts"].get("202_retry_hit", 0) + 1
+                            break
+                        if r.status == 202 and attempt < HK_RETRY_202:
+                            await asyncio.sleep(HK_RETRY_SLEEP)
+                            continue
+                        if len(_hk_status_log["samples"]) < 3:
                             _hk_status_log["samples"].append(f"{nsuid} {url[:40]} -> {r.status}")
-                        continue
-                    text = await r.text()
+                        if r.status == 202:
+                            _hk_status_log["counts"]["202_giveup"] = _hk_status_log["counts"].get("202_giveup", 0) + 1
+                        break
+                if text is None:
+                    continue
                 m = _HK_TITLE_RE.search(text)
                 if m:
                     name = clean_name(m.group(1))
