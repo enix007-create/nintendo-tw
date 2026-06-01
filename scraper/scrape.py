@@ -269,7 +269,7 @@ async def phase_scan(lo: int = SCAN_LO, hi: int = SCAN_HI):
 # \"imageHero\":{\"url\":\"...\"},\"hardwareCategory\":\"...\"
 # 因為是字串嵌字串，所有引號被 backslash-escape，所以 regex 也要對應。
 _TW_NSUID_RE = re.compile(r'\\"nsuid\\":\\"(7001[0-9]{10})\\"')
-_TW_TITLE_RE = re.compile(r'\\"title\\":\\"((?:[^"\\]|\\.)*?)\\"')
+_TW_TITLE_PREFIX = '\\"title\\":\\"'
 _TW_HERO_RE = re.compile(r'\\"imageHero\\":\{\\"url\\":\\"((?:[^"\\]|\\.)*?)\\"')
 _TW_HW_RE = re.compile(r'\\"hardwareCategory\\":\\"([^"\\]*)\\"')
 
@@ -284,6 +284,52 @@ def _tw_decode_escaped(s: str) -> str:
     except Exception:
         return s
 
+def _tw_scan_inner_string(outer_text: str, start: int):
+    """從 outer RSC text 的 start 位置（剛通過開頭 \\"）開始逐 byte 解析直到 inner JSON 結束 \\"。
+    回傳 (inner_json_encoded_str, end_pos) 或 (None, -1)。
+
+    outer 編碼把每個 inner \\ 變 \\\\，每個 inner " 變 \\"；所以 outer 的 \\X 解碼成 inner char X。
+    在 inner JSON 內部，再追蹤 \\ 是否啟動 escape sequence，遇到「未在 escape 中的 inner "」表結束。
+    """
+    i = start
+    n = len(outer_text)
+    inner_buf = []
+    in_inner_escape = False
+    while i < n:
+        if outer_text[i] == '\\':
+            if i + 1 >= n:
+                return None, -1
+            ch = outer_text[i + 1]
+            i += 2
+        else:
+            ch = outer_text[i]
+            i += 1
+        if in_inner_escape:
+            inner_buf.append(ch)
+            in_inner_escape = False
+            if ch == 'u':
+                hc = 0
+                while hc < 4 and i < n:
+                    if outer_text[i] == '\\':
+                        if i + 1 >= n:
+                            return None, -1
+                        inner_buf.append(outer_text[i + 1])
+                        i += 2
+                    else:
+                        inner_buf.append(outer_text[i])
+                        i += 1
+                    hc += 1
+        else:
+            if ch == '"':
+                return ''.join(inner_buf), i
+            if ch == '\\':
+                in_inner_escape = True
+                inner_buf.append(ch)
+            else:
+                inner_buf.append(ch)
+    return None, -1
+
+
 
 def _parse_tw_search(html: str) -> list[dict]:
     """從一頁 search HTML 解析所有商品。"""
@@ -294,13 +340,19 @@ def _parse_tw_search(html: str) -> list[dict]:
         nsuid = nm.group(1)
         if nsuid in seen:
             continue
-        # 同筆 record 內：title 在 nsuid 前 ~500 chars 內、imageHero/hardwareCategory 在後 ~2000 chars 內
-        back_start = max(0, nm.start() - 600)
-        back_window = html[back_start:nm.start()]
-        title_matches = list(_TW_TITLE_RE.finditer(back_window))
-        if not title_matches:
+        # 從 nsuid 往回找最近的 \"title\":\"，再用 scanner 切到 inner JSON 結束 \"
+        back_start = max(0, nm.start() - 800)
+        title_idx = html.rfind(_TW_TITLE_PREFIX, back_start, nm.start())
+        if title_idx == -1:
             continue
-        title = _tw_decode_escaped(title_matches[-1].group(1)).strip()
+        content_start = title_idx + len(_TW_TITLE_PREFIX)
+        inner_encoded, _end = _tw_scan_inner_string(html, content_start)
+        if not inner_encoded:
+            continue
+        try:
+            title = json.loads(f'"{inner_encoded}"').strip()
+        except Exception:
+            continue
         if not title or title in _INVALID_NAMES:
             continue
         fwd = html[nm.end():min(length, nm.end() + 2500)]
@@ -325,7 +377,7 @@ def _build_tw_keywords() -> list[str]:
             kws.add(e)
     extra = [
         # 一般詞、出版商、類型
-        "Switch", "Nintendo", "RPG", "Arcade", "Action",
+        "Switch", "Nintendo", "RPG", "Arcade", "Action", "Adventure",
         "Sega", "Capcom", "Konami", "Square Enix", "Atlus", "SNK",
         "Ubisoft", "Bandai", "Namco", "Disney",
         "Lego", "Hello Kitty",
@@ -344,7 +396,36 @@ def _build_tw_keywords() -> list[str]:
         "賽車", "競速", "格鬥", "射擊", "潛行", "音樂", "節奏",
         "桌遊", "派對", "農場", "釣魚", "解謎", "拼圖",
         "迪士尼", "皮克斯", "三麗鷗", "光之美少女",
-        "公主", "騎士", "魔王", "勇士",
+        "公主", "騎士", "魔王", "勇士", "英雄", "天使",
+        # publisher 補充
+        "Marvelous", "NIS America", "Aksys", "XSEED", "Spike Chunsoft",
+        "Devolver", "Annapurna", "Falcom", "Inti Creates",
+        "Koei Tecmo", "From Software", "Take-Two", "Marvel", "Sanrio",
+        "Warner", "THQ", "505 Games", "Tinybuild", "Team17",
+        # 動漫補充
+        "JOJO", "Saint Seiya", "聖鬥士", "City Hunter", "Slam Dunk",
+        "灌籃高手", "鋼之鍊金術師", "Fullmetal", "銀魂", "Gintama",
+        "北斗神拳", "烏龍派出所", "Cardcaptor", "庫洛魔法使",
+        "犬夜叉", "Inuyasha", "鋼彈", "Gundam", "EVA", "Evangelion",
+        # 中文 title 常見 2-gram
+        "之夢", "之旅", "物語", "神話", "史詩", "騎士團", "戰士", "大師",
+        "之心", "紀元", "紀錄", "之歌", "之刃", "之星",
+        "城堡", "迷宮", "塔防", "末日", "生存", "建造",
+        "消除", "放置", "養成", "回合", "卡牌", "麻將",
+        "棒球", "足球", "籃球", "高爾夫", "網球",
+        # 英文 genre / theme
+        "Roguelike", "Roguelite", "Metroidvania", "Soulslike",
+        "Visual Novel", "Simulator", "Racing", "Puzzle",
+        "Sports", "Football", "Baseball", "Soccer", "Golf", "Tennis",
+        "Fishing", "Cooking", "Farm", "Builder", "Tycoon",
+        "Knight", "Princess", "Wizard", "Sword", "Magic",
+        "Galaxy", "Star", "Space", "Robot", "Mech",
+        "Tower", "Defense", "Survival", "Horror", "Mystery",
+        "Witch", "Ninja", "Samurai", "Pirate",
+        # 數字 / 版本詞
+        "II", "III", "IV", "VI", "VII", "VIII", "IX", "X",
+        "Remake", "Remaster", "HD", "DX", "Definitive", "Ultimate",
+        "Switch 2 Edition",
     ]
     for k in extra:
         kws.add(k)
@@ -377,8 +458,15 @@ async def phase_tw_search():
     async with aiohttp.ClientSession(headers=HEADERS) as session:
         all_results = await asyncio.gather(*[_fetch_tw_search_one(session, kw, sem) for kw in keywords])
 
-    new_n = upd_name = upd_cover = upd_plat = 0
+    new_n = upd_name = upd_cover = upd_plat = fixed = 0
     seen = set()
+
+    def _is_junk_name(s):
+        if not s:
+            return True
+        s2 = s.strip()
+        return len(s2) <= 2 or all(c in '\\"\'/. ' for c in s2)
+
     for entries in all_results:
         for e in entries:
             n = e["nsuid"]
@@ -386,7 +474,10 @@ async def phase_tw_search():
                 continue
             seen.add(n)
             entry = meta.get(n, {"nsuid": n})
-            if e["name"] and not entry.get("name"):
+            existing_name = entry.get("name")
+            if e["name"] and (not existing_name or _is_junk_name(existing_name)):
+                if existing_name and _is_junk_name(existing_name):
+                    fixed += 1
                 entry["name"] = e["name"]
                 entry["name_source"] = "tw_search"
                 upd_name += 1
@@ -402,7 +493,7 @@ async def phase_tw_search():
             meta[n] = entry
     save_meta(meta)
     print(
-        f"[tw_search] 見 {len(seen)} 個 NSUID（新 {new_n}）；補 name {upd_name}、cover {upd_cover}、platform {upd_plat}，"
+        f"[tw_search] 見 {len(seen)} 個 NSUID（新 {new_n}）；補 name {upd_name}（修髒名稱 {fixed}）、cover {upd_cover}、platform {upd_plat}，"
         f"耗時 {time.time()-start:.1f}s"
     )
 
