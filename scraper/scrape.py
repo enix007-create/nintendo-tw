@@ -53,8 +53,11 @@ SCAN_DELAY = 0.25        # 每個 request 之間的 sleep（per worker）
 SCAN_MAX_RETRY = 2       # 403/429 退避次數（多了反而把時間吃光）
 HK_CONCURRENCY = 15      # 並行 HK store 抓取
 HK_TIMEOUT = 12
-HK_RETRY_202 = 2         # HK store 回 202（async 生成中）時的重試次數
-HK_RETRY_SLEEP = 1.5     # 202 retry 前 sleep 秒數
+# 注意：HK 跟 TW NSUID 不共用（已驗證 FF XII：TW=70010000103647, HK=70010000016505）
+# 所以拿 TW NSUID 打 HK store 經常 404；retry 沒幫助（已驗證 0% 命中），不再 retry
+TW_SEARCH_CONCURRENCY = 4
+TW_SEARCH_TIMEOUT = 15
+TW_SEARCH_DELAY = 0.3
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE_DIR = ROOT / "scraper" / "_cache"
@@ -259,6 +262,151 @@ async def phase_scan(lo: int = SCAN_LO, hi: int = SCAN_HI):
     print(f"[scan] 新增 {new_count} 個未知 NSUID 進 meta")
 
 
+# ---------- Phase: tw_search（TW 官方搜尋端點 fan-out，補 name/cover/platform）----------
+
+# nintendo.com/tw/search/software?k=<keyword> 回傳的 HTML 內含 RSC stream，
+# 每筆商品大致是：...,\"title\":\"...\",\"nsuid\":\"...\",..,\"softCode\":\"...\",
+# \"imageHero\":{\"url\":\"...\"},\"hardwareCategory\":\"...\"
+# 因為是字串嵌字串，所有引號被 backslash-escape，所以 regex 也要對應。
+_TW_NSUID_RE = re.compile(r'\\"nsuid\\":\\"(7001[0-9]{10})\\"')
+_TW_TITLE_RE = re.compile(r'\\"title\\":\\"((?:[^"\\]|\\.)*?)\\"')
+_TW_HERO_RE = re.compile(r'\\"imageHero\\":\{\\"url\\":\\"((?:[^"\\]|\\.)*?)\\"')
+_TW_HW_RE = re.compile(r'\\"hardwareCategory\\":\\"([^"\\]*)\\"')
+
+
+def _tw_decode_escaped(s: str) -> str:
+    """RSC 字串的 escape 轉回正常字。失敗就回原值。"""
+    if not s:
+        return ""
+    try:
+        # 字串裡的 \" \\ \uXXXX 等，用 json.loads 解碼最穩
+        return json.loads(f'"{s}"')
+    except Exception:
+        return s
+
+
+def _parse_tw_search(html: str) -> list[dict]:
+    """從一頁 search HTML 解析所有商品。"""
+    out = []
+    seen = set()
+    length = len(html)
+    for nm in _TW_NSUID_RE.finditer(html):
+        nsuid = nm.group(1)
+        if nsuid in seen:
+            continue
+        # 同筆 record 內：title 在 nsuid 前 ~500 chars 內、imageHero/hardwareCategory 在後 ~2000 chars 內
+        back_start = max(0, nm.start() - 600)
+        back_window = html[back_start:nm.start()]
+        title_matches = list(_TW_TITLE_RE.finditer(back_window))
+        if not title_matches:
+            continue
+        title = _tw_decode_escaped(title_matches[-1].group(1)).strip()
+        if not title or title in _INVALID_NAMES:
+            continue
+        fwd = html[nm.end():min(length, nm.end() + 2500)]
+        hero_m = _TW_HERO_RE.search(fwd)
+        hw_m = _TW_HW_RE.search(fwd)
+        cover = _tw_decode_escaped(hero_m.group(1)).strip() if hero_m else ""
+        hw = hw_m.group(1) if hw_m else ""
+        platform = "Switch 2" if "Switch 2" in hw else ("Switch" if "Switch" in hw else "")
+        out.append({"nsuid": nsuid, "name": title, "cover": cover, "platform": platform})
+        seen.add(nsuid)
+    return out
+
+
+def _build_tw_keywords() -> list[str]:
+    """從 bilingual_dict + 額外字典組合 keyword 清單"""
+    from bilingual_dict import SERIES  # 延遲匯入避免循環
+    kws = set()
+    for keys, extras in SERIES:
+        for k in keys:
+            kws.add(k)
+        for e in extras:
+            kws.add(e)
+    extra = [
+        # 一般詞、出版商、類型
+        "Switch", "Nintendo", "RPG", "Arcade", "Action",
+        "Sega", "Capcom", "Konami", "Square Enix", "Atlus", "SNK",
+        "Ubisoft", "Bandai", "Namco", "Disney",
+        "Lego", "Hello Kitty",
+        # 系列詞分拆，提升搜尋命中
+        "Final", "Fantasy", "Dragon", "Quest", "Hunter", "Monster",
+        "Resident", "Street", "Tekken", "Mortal", "Castle",
+        "Ace Attorney", "Phoenix", "Atelier", "Danganronpa",
+        "Story of Seasons", "Harvest Moon", "Rune Factory",
+        "Dark Souls", "Elden Ring", "Devil May Cry", "Bayonetta",
+        "Trials", "Forza", "Horizon",
+        "Sakura", "Yakuza", "Kingdom", "Persona", "Megami",
+        "Doraemon", "Naruto", "Bleach", "Demon Slayer",
+        "Attack on Titan", "Hero", "Jujutsu",
+        # 中文常見遊戲標題詞
+        "三國", "戰國", "信長", "傳說", "傳奇", "冒險", "勇者", "幻想",
+        "賽車", "競速", "格鬥", "射擊", "潛行", "音樂", "節奏",
+        "桌遊", "派對", "農場", "釣魚", "解謎", "拼圖",
+        "迪士尼", "皮克斯", "三麗鷗", "光之美少女",
+        "公主", "騎士", "魔王", "勇士",
+    ]
+    for k in extra:
+        kws.add(k)
+    return sorted(kws)
+
+
+async def _fetch_tw_search_one(session, kw: str, sem) -> list[dict]:
+    """搜尋一個 keyword，回傳 product 清單"""
+    import urllib.parse as _up
+    async with sem:
+        url = f"https://www.nintendo.com/tw/search/software?k={_up.quote(kw)}"
+        try:
+            async with session.get(url, timeout=aiohttp.ClientTimeout(total=TW_SEARCH_TIMEOUT)) as r:
+                if r.status != 200:
+                    return []
+                text = await r.text()
+            await asyncio.sleep(TW_SEARCH_DELAY)
+            return _parse_tw_search(text)
+        except Exception:
+            return []
+
+
+async def phase_tw_search():
+    """用 keyword 字典 fan-out 打 TW 搜尋端點，補 name/cover/platform。"""
+    meta = load_meta()
+    keywords = _build_tw_keywords()
+    print(f"[tw_search] 跑 {len(keywords)} 個 keyword，並行 {TW_SEARCH_CONCURRENCY}...")
+    start = time.time()
+    sem = asyncio.Semaphore(TW_SEARCH_CONCURRENCY)
+    async with aiohttp.ClientSession(headers=HEADERS) as session:
+        all_results = await asyncio.gather(*[_fetch_tw_search_one(session, kw, sem) for kw in keywords])
+
+    new_n = upd_name = upd_cover = upd_plat = 0
+    seen = set()
+    for entries in all_results:
+        for e in entries:
+            n = e["nsuid"]
+            if n in seen:
+                continue
+            seen.add(n)
+            entry = meta.get(n, {"nsuid": n})
+            if e["name"] and not entry.get("name"):
+                entry["name"] = e["name"]
+                entry["name_source"] = "tw_search"
+                upd_name += 1
+            if e["cover"] and not entry.get("cover_url"):
+                entry["cover_url"] = e["cover"]
+                entry["cover_source"] = "tw_search"
+                upd_cover += 1
+            if e["platform"] and not entry.get("platform"):
+                entry["platform"] = e["platform"]
+                upd_plat += 1
+            if n not in meta:
+                new_n += 1
+            meta[n] = entry
+    save_meta(meta)
+    print(
+        f"[tw_search] 見 {len(seen)} 個 NSUID（新 {new_n}）；補 name {upd_name}、cover {upd_cover}、platform {upd_plat}，"
+        f"耗時 {time.time()-start:.1f}s"
+    )
+
+
 # ---------- Phase: names（補抓 HK 名稱 + 封面 + 平台）----------
 
 _HK_TITLE_RE = re.compile(r"<title>([^<]+)</title>")
@@ -270,32 +418,21 @@ _hk_status_log = {"counts": {}, "samples": []}
 
 
 async def _fetch_hk_one(session, nsuid: str, sem) -> dict:
-    """從 HK store 抓 title + 第一張產品圖 + 平台。會記錄 HTTP 狀態碼分佈以便診斷。"""
+    """HK store fallback：拿 title + 第一張產品圖 + 平台。
+    HK 跟 TW NSUID 不共用，此來源只能撈到「兩地剛好共用 NSUID 的款」。
+    202/404 不再 retry — 已驗證 retry 命中率 0%。"""
     out = {"nsuid": nsuid, "name": "", "cover": "", "platform_hint": ""}
     async with sem:
         for url in [f"https://store.nintendo.com.hk/{nsuid}", f"https://ec.nintendo.com/HK/zh/titles/{nsuid}"]:
-            text = None
             try:
-                # 對 202（async 生成中）做 retry
-                for attempt in range(1 + HK_RETRY_202):
-                    async with session.get(url, timeout=aiohttp.ClientTimeout(total=HK_TIMEOUT)) as r:
-                        key = f"{r.status}"
-                        _hk_status_log["counts"][key] = _hk_status_log["counts"].get(key, 0) + 1
-                        if r.status == 200:
-                            text = await r.text()
-                            if attempt > 0:
-                                _hk_status_log["counts"]["202_retry_hit"] = _hk_status_log["counts"].get("202_retry_hit", 0) + 1
-                            break
-                        if r.status == 202 and attempt < HK_RETRY_202:
-                            await asyncio.sleep(HK_RETRY_SLEEP)
-                            continue
+                async with session.get(url, timeout=aiohttp.ClientTimeout(total=HK_TIMEOUT)) as r:
+                    key = f"{r.status}"
+                    _hk_status_log["counts"][key] = _hk_status_log["counts"].get(key, 0) + 1
+                    if r.status != 200:
                         if len(_hk_status_log["samples"]) < 3:
                             _hk_status_log["samples"].append(f"{nsuid} {url[:40]} -> {r.status}")
-                        if r.status == 202:
-                            _hk_status_log["counts"]["202_giveup"] = _hk_status_log["counts"].get("202_giveup", 0) + 1
-                        break
-                if text is None:
-                    continue
+                        continue
+                    text = await r.text()
                 m = _HK_TITLE_RE.search(text)
                 if m:
                     name = clean_name(m.group(1))
@@ -320,7 +457,8 @@ async def _fetch_hk_one(session, nsuid: str, sem) -> dict:
 
 
 async def phase_names(force_all: bool = False, limit: int = 0):
-    """對 meta 中缺名稱（或缺封面）的 NSUID 補抓。limit > 0 時只處理前 N 個。"""
+    """對 meta 中缺名稱（或缺封面）的 NSUID 補抓。limit > 0 時只處理前 N 個。
+    順序上請先跑 phase_tw_search（權威來源）；此處只當最後一道 HK fallback。"""
     meta = load_meta()
     if force_all:
         targets = list(meta.keys())
@@ -464,7 +602,7 @@ async def phase_build():
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "source": "nintendo.com/tw (catalog) + api.ec.nintendo.com (TW, NSUID range scan) + store.nintendo.com.hk (names + covers)",
+        "source": "nintendo.com/tw (catalog + search) + api.ec.nintendo.com (TW, NSUID range scan) + store.nintendo.com.hk (HK fallback)",
         "total": len(games),
         "on_sale_count": len(on_sale),
         "games": sorted(games, key=lambda g: (-(g.get("discount_percent") or 0), g["name"])),
@@ -476,21 +614,21 @@ async def phase_build():
 # ---------- main ----------
 
 async def run_bootstrap(lo: int = SCAN_LO, hi: int = SCAN_HI, names_limit: int = 500):
-    """完整流程：catalog + 全範圍 scan + names(限量) + build。
-    names 每次只補 500（避免 Akamai 暴怒），其他靠 hourly refresh 慢慢累積。"""
+    """完整流程：catalog + 全範圍 scan + tw_search + names(限量) + build。"""
     await phase_catalog()
     await phase_scan(lo, hi)
     # scan 後 sleep 一下讓 Akamai 退火
     print("[bootstrap] scan 完，sleep 30s 退火...")
     await asyncio.sleep(30)
+    await phase_tw_search()
     await phase_names(limit=names_limit)
     await phase_build()
 
 
 async def run_refresh(names_limit: int = 300):
-    """快速流程：catalog + names(限量) + build。每小時跑。
-    names_limit 控制每次最多補幾個，避免 Akamai 觸發。"""
+    """快速流程：catalog + tw_search + names(限量) + build。每小時跑。"""
     await phase_catalog()
+    await phase_tw_search()
     await phase_names(limit=names_limit)
     await phase_build()
 
@@ -499,7 +637,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument(
         "--phase",
-        choices=["catalog", "scan", "names", "build", "refresh", "bootstrap", "all"],
+        choices=["catalog", "scan", "tw_search", "names", "build", "refresh", "bootstrap", "all"],
         default="refresh",
         help="refresh=每小時用（不掃描），bootstrap=完整掃描，all=同 bootstrap",
     )
@@ -514,6 +652,8 @@ def main():
         asyncio.run(phase_catalog())
     elif args.phase == "scan":
         asyncio.run(phase_scan(args.scan_lo, args.scan_hi))
+    elif args.phase == "tw_search":
+        asyncio.run(phase_tw_search())
     elif args.phase == "names":
         asyncio.run(phase_names(args.names_force_all, args.names_limit))
     elif args.phase == "build":
