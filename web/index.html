@@ -511,7 +511,8 @@
     if (card) {
       const game = games.find(g => g.nsuid === card.dataset.nsuid);
       if (game) {
-        const url = game.detail_url || game.store_url;
+        // 優先序：TW 官方頁 → HK eshop 詳情 → TW 搜尋頁（永遠有效）
+        const url = game.detail_url || game.store_url || game.search_url;
         window.open(url, '_blank', 'noopener');
       }
     }

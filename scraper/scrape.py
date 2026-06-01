@@ -272,6 +272,7 @@ _TW_NSUID_RE = re.compile(r'\\"nsuid\\":\\"(7001[0-9]{10})\\"')
 _TW_TITLE_PREFIX = '\\"title\\":\\"'
 _TW_HERO_RE = re.compile(r'\\"imageHero\\":\{\\"url\\":\\"((?:[^"\\]|\\.)*?)\\"')
 _TW_HW_RE = re.compile(r'\\"hardwareCategory\\":\\"([^"\\]*)\\"')
+_TW_PAGELINK_RE = re.compile(r'\\"pageLinkCustom\\":\\"((?:[^"\\]|\\.)*?)\\"')
 
 
 def _tw_decode_escaped(s: str) -> str:
@@ -358,10 +359,19 @@ def _parse_tw_search(html: str) -> list[dict]:
         fwd = html[nm.end():min(length, nm.end() + 2500)]
         hero_m = _TW_HERO_RE.search(fwd)
         hw_m = _TW_HW_RE.search(fwd)
+        plc_m = _TW_PAGELINK_RE.search(fwd)
         cover = _tw_decode_escaped(hero_m.group(1)).strip() if hero_m else ""
         hw = hw_m.group(1) if hw_m else ""
         platform = "Switch 2" if "Switch 2" in hw else ("Switch" if "Switch" in hw else "")
-        out.append({"nsuid": nsuid, "name": title, "cover": cover, "platform": platform})
+        # pageLinkCustom 多半是 "/tw/games/switch2/<softCode>/" 或空 / "URLを指定する"
+        page_link = _tw_decode_escaped(plc_m.group(1)).strip() if plc_m else ""
+        tw_page_url = ""
+        if page_link.startswith("/"):
+            tw_page_url = "https://www.nintendo.com" + page_link
+        out.append({
+            "nsuid": nsuid, "name": title, "cover": cover,
+            "platform": platform, "tw_page_url": tw_page_url,
+        })
         seen.add(nsuid)
     return out
 
@@ -488,6 +498,9 @@ async def phase_tw_search():
             if e["platform"] and not entry.get("platform"):
                 entry["platform"] = e["platform"]
                 upd_plat += 1
+            # TW 官方頁 URL（多為 Switch 2 + 有 pageLinkCustom 的條目）
+            if e.get("tw_page_url") and not entry.get("tw_page_url"):
+                entry["tw_page_url"] = e["tw_page_url"]
             if n not in meta:
                 new_n += 1
             meta[n] = entry
@@ -676,6 +689,10 @@ async def phase_build():
         if not info.get("name") or pi["sales_status"] in (None, "not_found"):
             continue
         name = info["name"]
+        # detail_url 優先序：catalog detail（最權威）→ tw_search 帶來的 TW 官方頁 → 留空
+        # store_url 改用 ec.nintendo.com/HK/zh/titles/{NSUID}（covers 多很多 NSUID）
+        # search_url 保底：總是有效的 TW 搜尋頁
+        import urllib.parse as _up
         games.append({
             "nsuid": n,
             "platform": info.get("platform") or "Switch",
@@ -683,8 +700,9 @@ async def phase_build():
             "name_zh": name,
             "aliases": enrich_aliases(name),
             "cover_url": info.get("cover_url") or "",
-            "detail_url": info.get("detail_url"),
-            "store_url": f"https://store.nintendo.com.hk/{n}",
+            "detail_url": info.get("detail_url") or info.get("tw_page_url"),
+            "store_url": f"https://ec.nintendo.com/HK/zh/titles/{n}",
+            "search_url": f"https://www.nintendo.com/tw/search/software?k={_up.quote(name)}",
             **pi,
         })
     on_sale = [g for g in games if g["on_sale"]]
