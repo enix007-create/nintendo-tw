@@ -44,13 +44,13 @@ CATALOG_URLS = {
 }
 PRICE_API = "https://api.ec.nintendo.com/v1/price"
 
-# NSUID 掃描範圍（依現有資料 67524–127209 估算，留邊界）
-SCAN_LO = 40000
-SCAN_HI = 145000
+# NSUID 掃描範圍（依現有資料 67524–127209 估算，邊界縮一點避免 Akamai 退避燒時間）
+SCAN_LO = 50000
+SCAN_HI = 135000
 BATCH_SIZE = 50          # Price API 上限
 SCAN_CONCURRENCY = 4     # 並行 Price API 請求數（Akamai 對高並行很敏感）
 SCAN_DELAY = 0.25        # 每個 request 之間的 sleep（per worker）
-SCAN_MAX_RETRY = 4
+SCAN_MAX_RETRY = 2       # 403/429 退避次數（多了反而把時間吃光）
 HK_CONCURRENCY = 15      # 並行 HK store 抓取
 HK_TIMEOUT = 12
 
@@ -206,21 +206,29 @@ async def _scan_batch(session, ids: list[str], sem) -> list[dict]:
 
 
 async def phase_scan(lo: int = SCAN_LO, hi: int = SCAN_HI):
-    """並行掃描 NSUID 範圍，找出所有有效 ID。輸出寫入 SCAN_PATH。"""
+    """並行掃描 NSUID 範圍，找出所有有效 ID。邊掃邊存 cache，避免中斷掉資料。"""
     print(f"[scan] 範圍 {lo}–{hi}，批次 {BATCH_SIZE}，並行 {SCAN_CONCURRENCY}")
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    # 載入既有 scan cache（中斷續跑用）
+    all_prices: dict = {}
+    if SCAN_PATH.exists():
+        try:
+            all_prices = json.loads(SCAN_PATH.read_text(encoding="utf-8"))
+            print(f"  載入既有 scan cache：{len(all_prices)} 個 NSUID")
+        except Exception:
+            pass
+
     sem = asyncio.Semaphore(SCAN_CONCURRENCY)
-    tasks = []
-    batches = []
     start = time.time()
 
     async with aiohttp.ClientSession(headers=HEADERS) as session:
+        tasks = []
         for base in range(lo, hi, BATCH_SIZE):
             ids = [f"70010000{base + i:06d}" for i in range(BATCH_SIZE)]
-            batches.append(ids)
             tasks.append(_scan_batch(session, ids, sem))
 
-        all_prices = {}
         done = 0
+        last_flush = 0
         for coro in asyncio.as_completed(tasks):
             prices = await coro
             done += 1
@@ -228,11 +236,14 @@ async def phase_scan(lo: int = SCAN_LO, hi: int = SCAN_HI):
                 if p.get("sales_status") and p["sales_status"] != "not_found":
                     all_prices[str(p["title_id"])] = p
             if done % 50 == 0:
-                print(f"  進度 {done}/{len(tasks)} 批，命中 {len(all_prices)}")
+                print(f"  進度 {done}/{len(tasks)} 批，命中 {len(all_prices)}", flush=True)
+            # 每 100 批 flush 一次
+            if done - last_flush >= 100:
+                SCAN_PATH.write_text(json.dumps(all_prices, ensure_ascii=False), encoding="utf-8")
+                last_flush = done
 
     elapsed = time.time() - start
     print(f"[scan] 完成。{len(tasks)} 批 / 命中 {len(all_prices)} 款 / {elapsed:.1f}s")
-    CACHE_DIR.mkdir(parents=True, exist_ok=True)
     SCAN_PATH.write_text(json.dumps(all_prices, ensure_ascii=False, indent=2), encoding="utf-8")
 
     # 把新發現的 NSUID 寫入 meta（保留既有資料）
