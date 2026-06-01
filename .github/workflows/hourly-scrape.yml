@@ -48,20 +48,35 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add web/games.json scraper/_cache/ 2>/dev/null || true
-          if git diff --cached --quiet; then
-            echo "no changes"
-            exit 0
-          fi
-          git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
-          # push race retry：與外部 commit 衝突時 pull --rebase 後重推
+
+          # 策略：對產出檔（games.json / _cache）來說，CI 跑出來的就是最新的。
+          # 為了避免和外部 commit 衝突，每次都用 fetch + reset --soft 把工作區重貼到 origin/main，
+          # 再把本次產出 add+commit，確保 push 一定 fast-forward。
           for attempt in 1 2 3 4; do
+            # 保存當前產出（暫存到 /tmp，避免 reset 動到）
+            mkdir -p /tmp/scrape-out/web /tmp/scrape-out/scraper
+            cp -f web/games.json /tmp/scrape-out/web/games.json 2>/dev/null || true
+            cp -rf scraper/_cache /tmp/scrape-out/scraper/ 2>/dev/null || true
+
+            git fetch origin main
+            git reset --hard origin/main
+
+            # 把產出貼回
+            mkdir -p web scraper
+            cp -f /tmp/scrape-out/web/games.json web/games.json 2>/dev/null || true
+            cp -rf /tmp/scrape-out/scraper/_cache scraper/ 2>/dev/null || true
+
+            git add web/games.json scraper/_cache/ 2>/dev/null || true
+            if git diff --cached --quiet; then
+              echo "沒有實質變動"
+              exit 0
+            fi
+            git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
             if git push; then
               echo "push 成功 (attempt $attempt)"
               exit 0
             fi
-            echo "push 失敗，pull --rebase 後重試 ($attempt/4)"
-            git pull --rebase origin main || git rebase --abort
+            echo "push 失敗，重新 sync 後再試 ($attempt/4)"
             sleep $((attempt * 3))
           done
           echo "push 4 次都失敗"; exit 1
