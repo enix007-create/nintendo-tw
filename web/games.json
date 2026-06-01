@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-01T06:15:05+00:00",
+  "generated_at": "2026-06-01T07:25:59+00:00",
   "source": "nintendo.com/tw (catalog) + api.ec.nintendo.com (TW, NSUID range scan) + store.nintendo.com.hk (names + covers)",
-  "total": 151,
+  "total": 155,
   "on_sale_count": 26,
   "games": [
     {
@@ -899,6 +899,23 @@
       "store_url": "https://store.nintendo.com.hk/70010000115747",
       "sales_status": "unreleased",
       "regular_price": 899,
+      "discount_price": null,
+      "discount_percent": 0,
+      "discount_start": null,
+      "discount_end": null,
+      "on_sale": false
+    },
+    {
+      "nsuid": "70010000126455",
+      "platform": "Switch",
+      "name": "Fish In",
+      "name_zh": "Fish In",
+      "aliases": [],
+      "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126455fe978fe5548711f1a29cb98b84cbad75/3d71cadb2cd530595514b9e9d75df957/376ef95c131e72981a66af160ef5ca6e3fd51dc842fd3980cb37ca15a8dbf961.jpg",
+      "detail_url": null,
+      "store_url": "https://store.nintendo.com.hk/70010000126455",
+      "sales_status": "unreleased",
+      "regular_price": 188,
       "discount_price": null,
       "discount_percent": 0,
       "discount_start": null,
@@ -1986,6 +2003,27 @@
       "on_sale": false
     },
     {
+      "nsuid": "70010000104852",
+      "platform": "Switch",
+      "name": "密特羅德 究極4 穿越未知 Nintendo Switch 2 Edition",
+      "name_zh": "密特羅德 究極4 穿越未知 Nintendo Switch 2 Edition",
+      "aliases": [
+        "Metroid",
+        "メトロイド",
+        "密特羅德"
+      ],
+      "cover_url": "",
+      "detail_url": null,
+      "store_url": "https://store.nintendo.com.hk/70010000104852",
+      "sales_status": "onsale",
+      "regular_price": 1809,
+      "discount_price": null,
+      "discount_percent": 0,
+      "discount_start": null,
+      "discount_end": null,
+      "on_sale": false
+    },
+    {
       "nsuid": "70010000099368",
       "platform": "Switch 2",
       "name": "寶可夢傳說 Z-A Nintendo Switch 2 Edition",
@@ -2515,6 +2553,29 @@
       "on_sale": false
     },
     {
+      "nsuid": "70070000030643",
+      "platform": "Switch",
+      "name": "超級瑪利歐銀河 ＋ 超級瑪利歐銀河 ２",
+      "name_zh": "超級瑪利歐銀河 ＋ 超級瑪利歐銀河 ２",
+      "aliases": [
+        "Mario",
+        "マリオ",
+        "瑪利歐",
+        "瑪莉歐",
+        "馬力歐"
+      ],
+      "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70070000030643679fd122951a11f09621473225027115/5512b28f8c3777500e9544a25383a42b/e90d82826b3e3006cf55d534be5e96e0a53999e1d7f761ba90de40ec0055772a.jpg",
+      "detail_url": "https://www.nintendo.com/tw/switch/bpdpa/index.html",
+      "store_url": "https://store.nintendo.com.hk/70070000030643",
+      "sales_status": "onsale",
+      "regular_price": 1399,
+      "discount_price": null,
+      "discount_percent": 0,
+      "discount_start": null,
+      "discount_end": null,
+      "on_sale": false
+    },
+    {
       "nsuid": "70010000104195",
       "platform": "Switch",
       "name": "超級瑪利歐銀河 ２",
@@ -2548,6 +2609,30 @@
       "store_url": "https://store.nintendo.com.hk/70010000112447",
       "sales_status": "unreleased",
       "regular_price": 677,
+      "discount_price": null,
+      "discount_percent": 0,
+      "discount_start": null,
+      "discount_end": null,
+      "on_sale": false
+    },
+    {
+      "nsuid": "70010000110443",
+      "platform": "Switch 2",
+      "name": "集合啦！動物森友會 Nintendo Switch 2 Edition",
+      "name_zh": "集合啦！動物森友會 Nintendo Switch 2 Edition",
+      "aliases": [
+        "Animal Crossing",
+        "あつ森",
+        "動森",
+        "動物之森",
+        "動物森友會",
+        "集合啦！動物森友會"
+      ],
+      "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001104432e3db812b5cc11f09430ade78a2b778e/100e7ea3cbbcb7878912d5bb82c6c431/433bd20a4fd8d4c6223c4f66c34618435366174e6ab09b6598bb240e33d1eb32.jpg",
+      "detail_url": null,
+      "store_url": "https://store.nintendo.com.hk/70010000110443",
+      "sales_status": "onsale",
+      "regular_price": 1444,
       "discount_price": null,
       "discount_percent": 0,
       "discount_start": null,
