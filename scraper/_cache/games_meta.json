@@ -22686,5 +22686,61 @@
     "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000003459902626ae0895411f09b1a1b52a6cabd87/2976cd76f9a2f40eb9e0c461c5746edb/e28a46d3faa420419f4012520319dba9ad2a9eb18559278ec491da370c76b613.jpg",
     "cover_source": "tw_search",
     "platform": "Switch"
+  },
+  "70010000125678": {
+    "nsuid": "70010000125678",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126196": {
+    "nsuid": "70010000126196",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127776": {
+    "nsuid": "70010000127776",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000117973": {
+    "nsuid": "70010000117973",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123107": {
+    "nsuid": "70010000123107",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000099709": {
+    "nsuid": "70010000099709",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000114809": {
+    "nsuid": "70010000114809",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000120612": {
+    "nsuid": "70010000120612",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
