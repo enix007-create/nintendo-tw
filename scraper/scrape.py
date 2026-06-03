@@ -624,13 +624,33 @@ def _parse_price(p: dict) -> dict:
     rp = (p.get("regular_price") or {}).get("raw_value")
     dp_obj = p.get("discount_price") or {}
     dp = dp_obj.get("raw_value")
+    end = dp_obj.get("end_datetime")
+    # 防呆：scan cache fallback 可能帶進已過期的舊特價，主動過濾
+    expired = False
+    if dp and end:
+        try:
+            end_dt = datetime.fromisoformat(end.replace("Z", "+00:00"))
+            if end_dt < datetime.now(timezone.utc):
+                expired = True
+        except ValueError:
+            pass
+    if expired:
+        return {
+            "sales_status": p.get("sales_status"),
+            "regular_price": int(rp) if rp else None,
+            "discount_price": None,
+            "discount_percent": 0,
+            "discount_start": None,
+            "discount_end": None,
+            "on_sale": False,
+        }
     return {
         "sales_status": p.get("sales_status"),
         "regular_price": int(rp) if rp else None,
         "discount_price": int(dp) if dp else None,
         "discount_percent": _calc_discount_percent(rp, dp),
         "discount_start": dp_obj.get("start_datetime"),
-        "discount_end": dp_obj.get("end_datetime"),
+        "discount_end": end,
         "on_sale": bool(dp),
     }
 
