@@ -9500,8 +9500,10 @@
     "nsuid": "70010000122765",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000122765829537c65f8811f1b23ce5ea3f8b26f3/67d7415a51cc8069ec33f9e89e3464a0/4ec43d4c4bb439e2e4fbe0e562d9519549073eaf7d89eeb0b034ecdd792f60c8.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000122791": {
     "nsuid": "70010000122791",
@@ -13535,7 +13537,8 @@
     "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000008582525ffaae15f8811f19847e5780547255a/8297b0c61eb90181b597a4c2208937c4/35acf16790e458feb61a49c63dda13b74b31d7c0210dbe8893f62a050fa64283.jpg",
     "hk_checked": true,
     "name_source": "tw_search",
-    "cover_source": "tw_search"
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000085842": {
     "nsuid": "70010000085842",
@@ -19725,7 +19728,8 @@
     "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012166636a2110e5f8811f19220e5ea3f8b26f3/447cc0d4f626cceacbab212395382b3d/7f7bf697b2f408779fafc8db286c0abba192f6e5c38461bb32c24ddc3fc75a66.jpg",
     "hk_checked": true,
     "name_source": "tw_search",
-    "cover_source": "tw_search"
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000121672": {
     "nsuid": "70010000121672",
@@ -20247,15 +20251,19 @@
     "nsuid": "70010000125501",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012550139a350e95f8811f19a80b9837adcd84c/449c9a7c5ca5738537fe820c9c050553/f3dfbc5d64579b9cf1bcf49900e0d7eb2f4bec28d168dc9c94fa121cd682e48a.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000125630": {
     "nsuid": "70010000125630",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012563056087c4a5f8811f1a5f99b85a0fd3f2d/1d19740578fb87b20c9d01fe58abb0f6/59842eddbd9d90e0e718125a83e98c9af1bd248244cf556360c450865e641e9d.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000126224": {
     "nsuid": "70010000126224",
@@ -20306,8 +20314,10 @@
     "nsuid": "70010000126345",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012634557f8ea375f8811f1b3a3a3c861ca0297/ffd266fcb738873423125e636ee2539e/4eb64f2789023b0fc9ee057cb2f77f1a1b2c04509c6dff8a2a91167586d7372a.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000089332": {
     "nsuid": "70010000089332",
@@ -20364,15 +20374,19 @@
     "nsuid": "70010000126617",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001266172ae68e265f8811f1bc0fb9837adcd84c/8e8f02ef5ef969f125d9adb31df3a7af/b72ad1c4be148ff8ac9432468e608d2031d34f3e9e831d3a182c2c1432475875.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000126659": {
     "nsuid": "70010000126659",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001266595863bd655f8811f1a691db963b9c4ce9/23f83e9a2a45846b74160711a401a286/941d8b6f6ce7470ab1a94d8237a6368245678b56d7893ac5c354d9069b11f548.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000126713": {
     "nsuid": "70010000126713",
@@ -20386,8 +20400,10 @@
     "nsuid": "70010000126910",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001269108060c62b5f8811f1a56f2b5a81ae5d23/d706450ca00565424324295669db0794/f015b2961dbf117dd7d83d6a7e5acd7cc6748613dc4e4a9fcd080cc47a596569.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127281": {
     "nsuid": "70010000127281",
@@ -20396,7 +20412,8 @@
     "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012728197c896bd5f8811f18219b9837adcd84c/6ff8d3c5bcce7427c2d7ba2e99f9b9d2/9504be6a74c2157ee73a2c99db3ddfa90413c922e48ff17248f3b19cde48fee4.jpg",
     "hk_checked": true,
     "name_source": "tw_search",
-    "cover_source": "tw_search"
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000110307": {
     "nsuid": "70010000110307",
@@ -21297,8 +21314,10 @@
     "nsuid": "70010000123593",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000123593888846f15f8811f195ec9d86a80f28cf/9d792b1c630f71520cba5f8c935f1b3e/1392a6a6b6ac5d86aae57b87404a1df8351e76fe98b6a741e2f76db9431fc759.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000124734": {
     "nsuid": "70010000124734",
@@ -21341,8 +21360,10 @@
     "nsuid": "70010000107057",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000010705734c52a295f8811f19230e5780547255a/5c88cdb131d101ee80937e9a1f4d868b/2bab1f9c2b975b42e641f2854efa2c5fb57b61a40aecc6cbcb969380df4dbc3e.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000024291": {
     "nsuid": "70010000024291",
