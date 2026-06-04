@@ -191,6 +191,33 @@
   .fav-btn.active { background: #fff0f0; }
   .fav-btn.active::after { content: "❤️"; }
   .fav-btn:not(.active)::after { content: "🤍"; }
+  .owned-btn {
+    position: absolute;
+    bottom: 8px; right: 48px;
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.92);
+    border: 0;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center; justify-content: center;
+    transition: transform .1s, background .15s;
+  }
+  .owned-btn:hover { transform: scale(1.1); }
+  .owned-btn.active { background: #e8f5e9; }
+  .owned-btn.active::after { content: "✅"; }
+  .owned-btn:not(.active)::after { content: "🛒"; opacity: .55; }
+  .game-card.owned { opacity: .55; }
+  .game-card.owned:hover { opacity: 1; }
+  .owned-tag {
+    font-size: 11px;
+    color: #2e7d32;
+    background: #e8f5e9;
+    padding: 2px 6px;
+    border-radius: 3px;
+    width: fit-content;
+  }
   .info {
     padding: 10px 12px 12px;
     display: flex;
@@ -303,6 +330,8 @@
     <span class="chip" data-platform="Switch 2">Switch 2</span>
     <span class="chip" data-only-sale="1">只看特價</span>
     <span class="chip" data-only-fav="1">只看收藏</span>
+    <span class="chip" data-only-owned="1">只看已購買</span>
+    <span class="chip" data-exclude-owned="1">排除已購買</span>
     <select class="chip" id="sort">
       <option value="discount">依折扣高到低</option>
       <option value="price_asc">價格低到高</option>
@@ -314,6 +343,8 @@
     <div class="actions">
       <button class="btn-link" id="export-fav">匯出收藏</button>
       <button class="btn-link" id="import-fav">匯入收藏</button>
+      <button class="btn-link" id="export-owned">匯出已購買</button>
+      <button class="btn-link" id="import-owned">匯入已購買</button>
     </div>
   </div>
 </header>
@@ -345,14 +376,18 @@
 <script>
 (async function() {
   const FAV_KEY = 'nintendo_tw_favs_v1';
+  const OWNED_KEY = 'nintendo_tw_owned_v1';
   let games = [];
   let fuse = null;
   let favorites = new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]'));
+  let owned = new Set(JSON.parse(localStorage.getItem(OWNED_KEY) || '[]'));
   const state = {
     query: '',
     platform: 'all',
     onlySale: false,
     onlyFav: false,
+    onlyOwned: false,
+    excludeOwned: false,
     sort: 'discount',
   };
 
@@ -387,6 +422,8 @@
     if (state.platform !== 'all') list = list.filter(g => g.platform === state.platform);
     if (state.onlySale) list = list.filter(g => g.on_sale);
     if (state.onlyFav) list = list.filter(g => favorites.has(g.nsuid));
+    if (state.onlyOwned) list = list.filter(g => owned.has(g.nsuid));
+    if (state.excludeOwned) list = list.filter(g => !owned.has(g.nsuid));
 
     const sorters = {
       discount: (a, b) => (b.discount_percent || 0) - (a.discount_percent || 0) || a.name.localeCompare(b.name, 'zh-TW'),
@@ -413,6 +450,7 @@
       const platformClass = g.platform === 'Switch 2' ? 'platform-switch2' : 'platform-switch';
       const isSale = g.on_sale;
       const isFav = favorites.has(g.nsuid);
+      const isOwned = owned.has(g.nsuid);
       const saleDate = g.discount_end ? formatDate(g.discount_end) : '';
       const statusLabel = g.sales_status === 'preorder' ? '預購' : (g.sales_status === 'unreleased' ? '未發售' : '');
       const priceCurrent = g.discount_price || g.regular_price;
@@ -421,14 +459,16 @@
         ? `<div class="cover" style="background-image:url('${escapeHtml(g.cover_url)}')">`
         : `<div class="cover no-image ${platformClass}"><span class="cover-placeholder-text">${escapeHtml(g.name)}</span>`;
       return `
-        <div class="game-card" data-nsuid="${g.nsuid}">
+        <div class="game-card ${isOwned ? 'owned' : ''}" data-nsuid="${g.nsuid}">
           ${coverHtml}
             <span class="badge ${platformClass}">${g.platform}</span>
             ${isSale ? `<span class="badge sale">-${g.discount_percent}%</span>` : ''}
-            <button class="fav-btn ${isFav ? 'active' : ''}" data-fav-toggle="${g.nsuid}" aria-label="收藏"></button>
+            <button class="owned-btn ${isOwned ? 'active' : ''}" data-owned-toggle="${g.nsuid}" aria-label="已購買" title="標記為已購買"></button>
+            <button class="fav-btn ${isFav ? 'active' : ''}" data-fav-toggle="${g.nsuid}" aria-label="收藏" title="加入收藏"></button>
           </div>
           <div class="info">
             <h3 class="name">${escapeHtml(g.name)}</h3>
+            ${isOwned ? `<span class="owned-tag">已購買</span>` : ''}
             ${statusLabel ? `<span class="status-tag">${statusLabel}</span>` : ''}
             <div class="price-row">
               ${priceCurrent ? `<span class="price-current">NT$ ${priceCurrent.toLocaleString()}</span>` : ''}
@@ -454,6 +494,9 @@
 
   function saveFavorites() {
     localStorage.setItem(FAV_KEY, JSON.stringify([...favorites]));
+  }
+  function saveOwned() {
+    localStorage.setItem(OWNED_KEY, JSON.stringify([...owned]));
   }
 
   // 事件
@@ -489,13 +532,42 @@
     e.target.classList.toggle('active');
     render();
   });
+  document.querySelector('.chip[data-only-owned]').addEventListener('click', e => {
+    state.onlyOwned = !state.onlyOwned;
+    e.target.classList.toggle('active');
+    // 互斥：不能同時「只看已購買」與「排除已購買」
+    if (state.onlyOwned && state.excludeOwned) {
+      state.excludeOwned = false;
+      document.querySelector('.chip[data-exclude-owned]').classList.remove('active');
+    }
+    render();
+  });
+  document.querySelector('.chip[data-exclude-owned]').addEventListener('click', e => {
+    state.excludeOwned = !state.excludeOwned;
+    e.target.classList.toggle('active');
+    if (state.excludeOwned && state.onlyOwned) {
+      state.onlyOwned = false;
+      document.querySelector('.chip[data-only-owned]').classList.remove('active');
+    }
+    render();
+  });
   document.getElementById('sort').addEventListener('change', e => {
     state.sort = e.target.value;
     render();
   });
 
-  // 卡片點擊 / 收藏按鈕
+  // 卡片點擊 / 收藏按鈕 / 已購買按鈕
   document.getElementById('grid').addEventListener('click', e => {
+    const ownedBtn = e.target.closest('[data-owned-toggle]');
+    if (ownedBtn) {
+      const id = ownedBtn.dataset.ownedToggle;
+      if (owned.has(id)) owned.delete(id); else owned.add(id);
+      saveOwned();
+      // 卡片狀態影響顯示（淡化、已購買 tag、filter），整張重繪較簡單
+      render();
+      e.stopPropagation();
+      return;
+    }
     const favBtn = e.target.closest('[data-fav-toggle]');
     if (favBtn) {
       const id = favBtn.dataset.favToggle;
@@ -525,33 +597,44 @@
   const modalText = document.getElementById('modal-text');
   let modalMode = '';
 
+  // modalMode：'export-fav' | 'import-fav' | 'export-owned' | 'import-owned'
   function openModal(mode) {
     modalMode = mode;
-    if (mode === 'export') {
-      modalTitle.textContent = '匯出收藏';
-      modalDesc.textContent = '複製下方 JSON 內容備份，下次匯入即可恢復收藏。';
-      modalText.value = JSON.stringify([...favorites], null, 2);
+    const isOwned = mode.endsWith('-owned');
+    const label = isOwned ? '已購買' : '收藏';
+    const set = isOwned ? owned : favorites;
+    if (mode.startsWith('export')) {
+      modalTitle.textContent = '匯出' + label;
+      modalDesc.textContent = `複製下方 JSON 內容備份，下次匯入即可恢復${label}。`;
+      modalText.value = JSON.stringify([...set], null, 2);
       modalText.readOnly = true;
     } else {
-      modalTitle.textContent = '匯入收藏';
-      modalDesc.textContent = '把先前匯出的 JSON 內容貼入下方，按確定後會合併到現有收藏。';
+      modalTitle.textContent = '匯入' + label;
+      modalDesc.textContent = `把先前匯出的 JSON 內容貼入下方，按確定後會合併到現有${label}。`;
       modalText.value = '';
       modalText.readOnly = false;
     }
     modalBg.classList.add('open');
   }
   function closeModal() { modalBg.classList.remove('open'); }
-  document.getElementById('export-fav').addEventListener('click', () => openModal('export'));
-  document.getElementById('import-fav').addEventListener('click', () => openModal('import'));
+  document.getElementById('export-fav').addEventListener('click', () => openModal('export-fav'));
+  document.getElementById('import-fav').addEventListener('click', () => openModal('import-fav'));
+  document.getElementById('export-owned').addEventListener('click', () => openModal('export-owned'));
+  document.getElementById('import-owned').addEventListener('click', () => openModal('import-owned'));
   document.getElementById('modal-cancel').addEventListener('click', closeModal);
   modalBg.addEventListener('click', e => { if (e.target === modalBg) closeModal(); });
   document.getElementById('modal-ok').addEventListener('click', () => {
-    if (modalMode === 'import') {
+    if (modalMode.startsWith('import')) {
       try {
         const arr = JSON.parse(modalText.value);
         if (!Array.isArray(arr)) throw new Error('JSON 必須是陣列');
-        arr.forEach(n => favorites.add(String(n)));
-        saveFavorites();
+        if (modalMode === 'import-owned') {
+          arr.forEach(n => owned.add(String(n)));
+          saveOwned();
+        } else {
+          arr.forEach(n => favorites.add(String(n)));
+          saveFavorites();
+        }
         render();
       } catch (e) {
         alert('匯入失敗：' + e.message);
