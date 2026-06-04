@@ -3095,8 +3095,10 @@
     "nsuid": "70010000113435",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001134356fbe8f8e5f8811f1b94155de11bdb629/8d4d81e73c2675a0b4d75b043887a152/3e675781ac1f97630e88cc1531cffc81f362b7827bf2a0e1f2ddc908e190630e.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000068435": {
     "nsuid": "70010000068435",
@@ -6724,8 +6726,10 @@
     "nsuid": "70010000125761",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012576160af1f315f8811f1a5eaef5fff312ad1/0f3c32f8255e60f182cb04bd8431136a/3c0e865668c66f0ab980f043dc1814a977f5b05594cba09c0b235be1631514f4.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000109901": {
     "nsuid": "70010000109901",
@@ -7374,9 +7378,11 @@
   "70010000126178": {
     "nsuid": "70010000126178",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "戰鬥衝擊(Battle Strike)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126178acea5bb15f8811f1928be5ea3f8b26f3/7cc032f81ee31c7949a83471875e9685/d7432320302581e65309cbcaf7d776e4c5e6d7dc8ca05cacd593d89ce0e44be8.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search"
   },
   "70010000089149": {
     "nsuid": "70010000089149",
@@ -8244,9 +8250,11 @@
   "70010000127477": {
     "nsuid": "70010000127477",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "RollerCoaster Tycoon Classic Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127477568ec6805f8811f19c0cb9c28b8bdde8/1acb648babf7f8372d6096fc591d03a1/3cb6c088f041c983d8c9fa942c5eb2bd6cc522e0820739fd57331ee9ba62c7a2.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search"
   },
   "70010000090413": {
     "nsuid": "70010000090413",
@@ -8480,8 +8488,10 @@
     "nsuid": "70010000119742",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011974252ee13ad5f8811f1affcdb963b9c4ce9/28d381889432fe7fa1de4ccc11962c0f/8a1b2d9b8c74d94494fd5f3fe20bcddc433ca24ee1969dc20320c81fde108c80.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000119749": {
     "nsuid": "70010000119749",
@@ -11465,9 +11475,12 @@
   "70010000124162": {
     "nsuid": "70010000124162",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "P.I.S.檔案",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001241627afda4fe5f8811f195e7b9c28b8bdde8/4dac4dda91b637b69d5d3afb639d8cc3/70e984c140cf31df53b6dd96fa9e1a0ee0ffc7bc01624c304c5ebd5889745bc4.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search"
   },
   "70010000124232": {
     "nsuid": "70010000124232",
@@ -11916,9 +11929,11 @@
   "70010000124538": {
     "nsuid": "70010000124538",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Anime Codex: Final Pose",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001245388e2350445f8811f1a2519d86a80f28cf/b15cbc509365fe2e8f8cdc7db83838e4/f9b62f0070c67f2d81e8eca29c79ff12a3d821e6fd166f28b8de3427116a00b4.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search"
   },
   "70010000060826": {
     "nsuid": "70010000060826",
@@ -12245,9 +12260,12 @@
   "70010000124697": {
     "nsuid": "70010000124697",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Offroad Craft Runner 4x4 Simulator",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000124697491c1b885f8811f1b9ff55de11bdb629/ca55b031f529875c783d61e4656883a9/1d3f99f85ee60f0e1dd2590b9ecc9c7f1e1af721768d35ea52f9766b7ca0f253.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search"
   },
   "70010000103500": {
     "nsuid": "70010000103500",
@@ -13513,9 +13531,11 @@
   "70010000085825": {
     "nsuid": "70010000085825",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Table Flip Simulator",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000008582525ffaae15f8811f19847e5780547255a/8297b0c61eb90181b597a4c2208937c4/35acf16790e458feb61a49c63dda13b74b31d7c0210dbe8893f62a050fa64283.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search"
   },
   "70010000085842": {
     "nsuid": "70010000085842",
@@ -15608,9 +15628,11 @@
   "70010000107551": {
     "nsuid": "70010000107551",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives 2 CAMELTRY",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001075513df52bc45f8811f183f9e5780547255a/a53b16967f6ac38d1515096308e1c86b/3f918586404d346f408ef7f864a38c3f678773ed44864fa6800f3bda48d23a7d.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search"
   },
   "70010000107555": {
     "nsuid": "70010000107555",
@@ -15622,9 +15644,11 @@
   "70010000107564": {
     "nsuid": "70010000107564",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives CAMELTRY",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001075640c3180a15f8811f19db7e5ea3f8b26f3/a058fcdd1e23b5f71dd172209fc37918/8d57544ca6acc888d5b6e4245668972745b5475e566a14527ca37eb7110b4e21.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search"
   },
   "70010000099602": {
     "nsuid": "70010000099602",
@@ -19114,9 +19138,11 @@
   "70010000120921": {
     "nsuid": "70010000120921",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "The Fallen Kingdom",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000120921888732d05f8811f1b586b9c28b8bdde8/a37290e6c031bcc1723dd2a87c891f3e/78c2d965fc6252eea08edeff6468092cebfd8c08f96ea13ad676b40be158bf0e.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search"
   },
   "70010000051905": {
     "nsuid": "70010000051905",
@@ -19138,8 +19164,10 @@
     "nsuid": "70010000120980",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012098086db0fe45f8811f1ad57ef5fff312ad1/90005e06f33e48261edcc166f38a1b6d/151dd8e7a80dbdf87174df232d37fafdb2c4e8cd7cf86a2c1d70ccf2cba0a8be.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000120996": {
     "nsuid": "70010000120996",
@@ -19478,9 +19506,12 @@
   "70010000121348": {
     "nsuid": "70010000121348",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Truck Simulator Driver 2026",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001213486a7fedb25f8811f187b2db963b9c4ce9/5e2c0024e208897fd137220fb3a6b404/e7be2ecf8cbff10f32afd77a53277e5c1d59cc524e873d2449ed0f80cdeec1e6.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search"
   },
   "70010000052337": {
     "nsuid": "70010000052337",
@@ -19680,16 +19711,21 @@
   "70010000121660": {
     "nsuid": "70010000121660",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "東京黑道偶像：拯救叛逆少女的心 (Tokyo Yakuza Idols: Save the Heart of a Rebel Girl)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012166019fbf21a5f8811f19446e5ea3f8b26f3/03fbe519402adbc004dc1a7cc5b9b4c4/aea76f104e174bbd50830f1a2943f0e10b927d1d531786dd67ab4081c926d1e4.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search"
   },
   "70010000121666": {
     "nsuid": "70010000121666",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "東京黑道偶像：拯救叛逆少年的心 (Tokyo Yakuza Idols: Save the Heart of a Rebel Boy)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012166636a2110e5f8811f19220e5ea3f8b26f3/447cc0d4f626cceacbab212395382b3d/7f7bf697b2f408779fafc8db286c0abba192f6e5c38461bb32c24ddc3fc75a66.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search"
   },
   "70010000121672": {
     "nsuid": "70010000121672",
@@ -20356,9 +20392,11 @@
   "70010000127281": {
     "nsuid": "70010000127281",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "朱迪的冒險 DX (Judy's Adventure DX)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012728197c896bd5f8811f18219b9837adcd84c/6ff8d3c5bcce7427c2d7ba2e99f9b9d2/9504be6a74c2157ee73a2c99db3ddfa90413c922e48ff17248f3b19cde48fee4.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search"
   },
   "70010000110307": {
     "nsuid": "70010000110307",
@@ -21108,8 +21146,10 @@
     "nsuid": "70010000110887",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001108874364d2d05f8811f18251e5780547255a/14e4a1a4aba181bbb5597f3a5faf5f2d/ec1ee62f53237ab943bae751eefd086e8dea67e4df49a74f6425ec28b3369617.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000110893": {
     "nsuid": "70010000110893",
@@ -21248,8 +21288,10 @@
     "nsuid": "70010000111984",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011198428f201115f8811f19bdcef5fff312ad1/6e3fee19e498e74546f6af3439d5a921/d06b1060adbcb71b220a2141d6f3b62dd65dfede99a24d13b3c5cbdc0fca7dfd.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000123593": {
     "nsuid": "70010000123593",
@@ -21262,15 +21304,20 @@
     "nsuid": "70010000124734",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001247347a1600f25f8811f1a69d2b5a81ae5d23/fa8229faa5cc9a9738fe64ddbb1ebc7d/26e2ff7b10b3fdc6ff63b3b38fb0e3f435540a5ba5acc9bd8377c5e26055027d.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000099152": {
     "nsuid": "70010000099152",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Dark Scrolls",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000009915227b218ac5f8811f18e229d86a80f28cf/2d981d50c6e9585133ef5561e6060045/1801c1b18dbdbd6304ec10cb98225abfc083544bb57cb544b30d4af610c98883.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search"
   },
   "70010000062690": {
     "nsuid": "70010000062690",
@@ -21284,9 +21331,11 @@
   "70010000116334": {
     "nsuid": "70010000116334",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "德米歐 x 龍與地下城：戰痕 (Demeo x Dungeons u0026 Dragons: Battlemarked)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001163344d7d65275f8811f1a4959d86a80f28cf/934fd5ea90e6fa114c0f04ab9a2d8590/d9c99d8b8af4e5bb846d9d8b01a4d0fb7b531eec2c467ca31a23e33738e69920.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search"
   },
   "70010000107057": {
     "nsuid": "70010000107057",
@@ -22711,23 +22760,29 @@
   "70010000117973": {
     "nsuid": "70010000117973",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Call of Warfront",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001179732bd1fc205f8811f1a3eea3c861ca0297/30b456105c548a2d6632d6d5736d842f/72c3c531a77a8353324494df0e9daefed798096e4f4b836a822dbc76af931730.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search"
   },
   "70010000123107": {
     "nsuid": "70010000123107",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "小小夢魘2 (Little Nightmares II)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001231075e4616d35f8811f182e49d86a80f28cf/d1296da5246265c5f65a943625f5d9f2/f01ac33f78852331a7cc0c41561119b225bb8ac9e359179e912fb636bd07b05e.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search"
   },
   "70010000099709": {
     "nsuid": "70010000099709",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "LEGO® 蝙蝠俠™：黑暗騎士傳奇 / LEGO® Batman™: Legacy of the Dark Knight",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100000997090b062e645f8811f18fa5b9837adcd84c/eb8a8d448b47b16cb194dba9b549a8e4/889f2cf934145fc3a1e1d125fa9d9a2d7575b7d9aab10857245af08675ce6ee7.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search"
   },
   "70010000114809": {
     "nsuid": "70010000114809",
@@ -22739,8 +22794,10 @@
   "70010000120612": {
     "nsuid": "70010000120612",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "小小夢魘2 強化版 (Little Nightmares II Enhanced Edition)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001206120eee6f775f8811f1b68f2b5a81ae5d23/07a52141a9bbf23ac6c7f2bda114e7f2/4fe506ced8a4a3eaf86d11c32e74a348a9eb8d2330bd554588fb19ef54bce8af.jpeg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search"
   }
 }
