@@ -803,17 +803,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-gs.phase == "tw_search":
-        asyncio.run(phase_tw_search())
-    elif args.phase == "names":
-        asyncio.run(phase_names(args.names_force_all, args.names_limit))
-    elif args.phase == "build":
-        asyncio.run(phase_build())
-    elif args.phase == "refresh":
-        asyncio.run(run_refresh(args.names_limit or 300))
-    else:  # bootstrap / all
-        asyncio.run(run_bootstrap(args.scan_lo, args.scan_hi, args.names_limit or 500))
-
-
-if __name__ == "__main__":
-    main()
