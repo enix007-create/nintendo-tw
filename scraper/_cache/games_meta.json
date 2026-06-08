@@ -8823,9 +8823,12 @@
   "70010000127664": {
     "nsuid": "70010000127664",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Isekai Villain - Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127664ac24232c5ad111f18c7b4751d81aa125/d7365f8f90a019e4a3c72f46e697d28e/e8dd809e15f5e5dbe48b95af1fdf239f36efe4f0f5ec9e876322cb9e72646c91.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-06-05"
   },
   "70010000111800": {
     "nsuid": "70010000111800",
@@ -12072,9 +12075,13 @@
   "70010000060571": {
     "nsuid": "70010000060571",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "D-topia",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100000605713ed1117c611a11f1add89f3ce21ffb66/b639c009d2c49655618cbbf9ea850838/0d7f79fe7648e28ce5d99b97587fb6a43001dc8f6724ddb8ede2afed2c5a5d62.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-07-14"
   },
   "70010000060576": {
     "nsuid": "70010000060576",
@@ -23841,9 +23848,12 @@
   "70010000114809": {
     "nsuid": "70010000114809",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "D-topia",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011480985a1e186611a11f1b99f9f3ce21ffb66/5deb7e5c28fb55709f102804449e7d6d/0d7f79fe7648e28ce5d99b97587fb6a43001dc8f6724ddb8ede2afed2c5a5d62.jpg",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-14"
   },
   "70010000120612": {
     "nsuid": "70010000120612",
@@ -23854,5 +23864,14 @@
     "name_source": "tw_search",
     "cover_source": "tw_search",
     "release_date": "2026-06-04"
+  },
+  "70010000128122": {
+    "nsuid": "70010000128122",
+    "name": "Spyro™: A Realm Beyond",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128122ac2fbdf962ac11f19efbb7fb122e6865/784f238519fd39c61e50aed4276fc97e/b7078e1c0e21daf3f2699c3e7709ede7b17bb3eaba872a2226d4e4944fb8377c.jpg",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2027-12-31"
   }
 }
