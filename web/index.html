@@ -270,6 +270,11 @@
     border-radius: 3px;
     width: fit-content;
   }
+  .release-date {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
 
   /* Modal */
   .modal-bg {
@@ -338,6 +343,8 @@
       <option value="price_desc">價格高到低</option>
       <option value="name">名稱</option>
       <option value="sale_end">特價結束最近</option>
+      <option value="release_new">發布日新到舊</option>
+      <option value="release_old">發布日舊到新</option>
     </select>
     <div class="stats">共 <b id="visible-count">0</b> / <span id="total-count">0</span> 款，<b id="onsale-count">0</b> 特價中</div>
     <div class="actions">
@@ -435,6 +442,16 @@
         if (!b.discount_end) return -1;
         return new Date(a.discount_end) - new Date(b.discount_end);
       },
+      release_new: (a, b) => {
+        if (!a.release_date) return 1;
+        if (!b.release_date) return -1;
+        return b.release_date.localeCompare(a.release_date);
+      },
+      release_old: (a, b) => {
+        if (!a.release_date) return 1;
+        if (!b.release_date) return -1;
+        return a.release_date.localeCompare(b.release_date);
+      },
     };
     // 搜尋有結果時保持 fuse 的相關性排序
     if (!state.query) list.sort(sorters[state.sort]);
@@ -475,6 +492,7 @@
               ${isSale ? `<span class="price-original">NT$ ${g.regular_price.toLocaleString()}</span>` : ''}
             </div>
             ${isSale && saleDate ? `<span class="sale-date">特價至 ${saleDate}</span>` : ''}
+            ${g.release_date ? `<span class="release-date">${formatReleaseDate(g.release_date)}</span>` : ''}
           </div>
         </div>
       `;
@@ -485,6 +503,14 @@
     try {
       const d = new Date(iso);
       return `${d.getMonth() + 1}/${d.getDate()}`;
+    } catch { return ''; }
+  }
+
+  function formatReleaseDate(dateStr) {
+    // dateStr 格式 YYYY-MM-DD
+    try {
+      const [y, m, d] = dateStr.split('-');
+      return `發布：${y}/${parseInt(m)}/${parseInt(d)}`;
     } catch { return ''; }
   }
 

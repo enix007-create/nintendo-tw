@@ -273,6 +273,7 @@ _TW_TITLE_PREFIX = '\\"title\\":\\"'
 _TW_HERO_RE = re.compile(r'\\"imageHero\\":\{\\"url\\":\\"((?:[^"\\]|\\.)*?)\\"')
 _TW_HW_RE = re.compile(r'\\"hardwareCategory\\":\\"([^"\\]*)\\"')
 _TW_PAGELINK_RE = re.compile(r'\\"pageLinkCustom\\":\\"((?:[^"\\]|\\.)*?)\\"')
+_TW_RELEASE_RE = re.compile(r'\\"releaseDate\\":\\"([^"\\]*)\\"')
 
 
 def _tw_decode_escaped(s: str) -> str:
@@ -360,6 +361,7 @@ def _parse_tw_search(html: str) -> list[dict]:
         hero_m = _TW_HERO_RE.search(fwd)
         hw_m = _TW_HW_RE.search(fwd)
         plc_m = _TW_PAGELINK_RE.search(fwd)
+        rd_m = _TW_RELEASE_RE.search(fwd)
         cover = _tw_decode_escaped(hero_m.group(1)).strip() if hero_m else ""
         hw = hw_m.group(1) if hw_m else ""
         platform = "Switch 2" if "Switch 2" in hw else ("Switch" if "Switch" in hw else "")
@@ -368,9 +370,11 @@ def _parse_tw_search(html: str) -> list[dict]:
         tw_page_url = ""
         if page_link.startswith("/"):
             tw_page_url = "https://www.nintendo.com" + page_link
+        release_date = rd_m.group(1)[:10] if rd_m else ""  # 只取 YYYY-MM-DD
         out.append({
             "nsuid": nsuid, "name": title, "cover": cover,
             "platform": platform, "tw_page_url": tw_page_url,
+            "release_date": release_date,
         })
         seen.add(nsuid)
     return out
@@ -501,6 +505,9 @@ async def phase_tw_search():
             # TW 官方頁 URL（多為 Switch 2 + 有 pageLinkCustom 的條目）
             if e.get("tw_page_url") and not entry.get("tw_page_url"):
                 entry["tw_page_url"] = e["tw_page_url"]
+            # 發布日：有值才寫入（不覆蓋已有的）
+            if e.get("release_date") and not entry.get("release_date"):
+                entry["release_date"] = e["release_date"]
             if n not in meta:
                 new_n += 1
             meta[n] = entry
@@ -723,6 +730,7 @@ async def phase_build():
             "detail_url": info.get("detail_url") or info.get("tw_page_url"),
             "store_url": f"https://ec.nintendo.com/HK/zh/titles/{n}",
             "search_url": f"https://www.nintendo.com/tw/search/software?k={_up.quote(name)}",
+            "release_date": info.get("release_date") or "",
             **pi,
         })
     on_sale = [g for g in games if g["on_sale"]]
@@ -782,6 +790,20 @@ def main():
     elif args.phase == "scan":
         asyncio.run(phase_scan(args.scan_lo, args.scan_hi))
     elif args.phase == "tw_search":
+        asyncio.run(phase_tw_search())
+    elif args.phase == "names":
+        asyncio.run(phase_names(args.names_force_all, args.names_limit))
+    elif args.phase == "build":
+        asyncio.run(phase_build())
+    elif args.phase == "refresh":
+        asyncio.run(run_refresh(args.names_limit or 300))
+    else:  # bootstrap / all
+        asyncio.run(run_bootstrap(args.scan_lo, args.scan_hi, args.names_limit or 500))
+
+
+if __name__ == "__main__":
+    main()
+gs.phase == "tw_search":
         asyncio.run(phase_tw_search())
     elif args.phase == "names":
         asyncio.run(phase_names(args.names_force_all, args.names_limit))
