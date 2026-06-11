@@ -23873,5 +23873,50 @@
     "cover_source": "tw_search",
     "platform": "Switch 2",
     "release_date": "2027-12-31"
+  },
+  "70010000126932": {
+    "nsuid": "70010000126932",
+    "name": "Fire Emblem: Fortune's Weave",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126932e24715c5643f11f18936f98db3d233a8/3fdb984ac33c258a1fab0654957ad6ac/2fb23233700ed73c893be966d3ba1c31bd769562b98a083264c429eb7d8a61b5.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-09-17"
+  },
+  "70010000122705": {
+    "nsuid": "70010000122705",
+    "name": "異度神劍3 Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000122705386c3008644011f1a32f17fa7e24c922/019583d2e75adf56d8c2084a4e9c5d3e/04c8c5b2395330c95298a5050d3ab0f5359c124dd510f64f2013ce8a740032d2.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-12-03"
+  },
+  "70010000125148": {
+    "nsuid": "70010000125148",
+    "name": "Nintendo Switch Sports Resort",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000125148b25582bb643f11f1a18b2f2e0b05589b/b51b3be8e7a533dae86dedd390207c2b/5b2be63d1a38b320aaf4ca8a2cb48ea59cc192d3f05404dc17d2a8d00d0ff7cb.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-10-22"
+  },
+  "70010000122690": {
+    "nsuid": "70010000122690",
+    "name": "異度神劍2 Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000122690a2aa348e643f11f18a8dbb69a2fface5/168cd8aed622aba0ec3030ab7044f40f/20348cedee87e5bf6736be7ed0f3f82815568223f38d598167418dcec6ad0479.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-07-30"
+  },
+  "70010000122674": {
+    "nsuid": "70010000122674",
+    "name": "異度神劍 終極版 Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001226749c782c87643f11f1b772690151b465ef/c73868c7612953da62232478f646d38c/080b623055c22ae4bee1d6ac597cd0c50f52234a783067db15b4d38d01f5aab2.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-06-10"
   }
 }
