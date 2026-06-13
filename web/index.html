@@ -518,11 +518,13 @@
 
       if (error) throw error;
       if (data) {
-        favorites = new Set(data.favs || []);
-        owned     = new Set(data.owned || []);
-        // 同步回 localStorage
+        // 合併：本機 + 雲端取聯集，不覆蓋本機資料
+        (data.favs  || []).forEach(id => favorites.add(id));
+        (data.owned || []).forEach(id => owned.add(id));
         localStorage.setItem(FAV_KEY,   JSON.stringify([...favorites]));
         localStorage.setItem(OWNED_KEY, JSON.stringify([...owned]));
+        // 若本機有雲端沒有的項目，回寫雲端
+        await syncToCloud();
       }
     } catch (e) {
       console.warn('載入雲端資料失敗:', e.message);
