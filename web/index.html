@@ -73,6 +73,35 @@
   }
   .clear-btn { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: none; border: 0; color: var(--muted); cursor: pointer; padding: 4px 8px; font-size: 18px; }
   .clear-btn:hover { color: var(--text); }
+
+  /* Auth area */
+  .auth-area {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+  }
+  .auth-email {
+    font-size: 12px;
+    color: var(--muted);
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .sync-dot {
+    display: inline-block;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: #10b981;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+  .sync-dot.syncing {
+    background: #f59e0b;
+    animation: pulse 1s infinite;
+  }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+
   .controls {
     max-width: 1280px;
     margin: 0 auto;
@@ -276,7 +305,7 @@
     margin-top: 2px;
   }
 
-  /* Modal */
+  /* Modal（共用）*/
   .modal-bg {
     position: fixed; inset: 0;
     background: rgba(0,0,0,.5);
@@ -295,13 +324,44 @@
     overflow: auto;
     padding: 24px;
   }
-  .modal h2 { margin: 0 0 16px; }
-  .modal p { color: var(--muted); font-size: 14px; }
+  .modal h2 { margin: 0 0 16px; font-size: 18px; }
+  .modal p { color: var(--muted); font-size: 14px; margin: 0 0 14px; }
   .modal .btn-row { display: flex; gap: 8px; margin-top: 16px; }
   .btn { padding: 8px 16px; border-radius: 6px; border: 1px solid var(--border); background: #fff; cursor: pointer; font-size: 14px; }
   .btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
   .btn.primary:hover { background: var(--accent-dark); }
+  .btn:disabled { opacity: .5; cursor: not-allowed; }
   .modal textarea { width: 100%; height: 120px; font-family: monospace; font-size: 12px; padding: 8px; border: 1px solid var(--border); border-radius: 6px; resize: vertical; }
+  .modal input[type="email"] {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color .15s;
+    margin-bottom: 4px;
+  }
+  .modal input[type="email"]:focus { border-color: var(--accent); }
+
+  /* Login modal specific */
+  .login-sent {
+    background: #ecfdf5;
+    border: 1px solid #6ee7b7;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 14px;
+    color: #065f46;
+    margin-top: 12px;
+    display: none;
+  }
+  .login-sent.show { display: block; }
+  .login-error {
+    color: var(--accent);
+    font-size: 13px;
+    margin-top: 6px;
+    min-height: 18px;
+  }
 
   footer {
     color: var(--muted);
@@ -315,6 +375,7 @@
     .grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
     .controls { padding: 8px 16px; font-size: 13px; }
     .stats { width: 100%; order: -1; }
+    .auth-email { max-width: 100px; }
   }
 </style>
 </head>
@@ -327,6 +388,17 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
       <input type="search" id="search" placeholder="搜尋遊戲（中文或英文，如 瑪利歐 / Mario / Zelda）" autocomplete="off">
       <button class="clear-btn" id="clear-search" style="display:none">×</button>
+    </div>
+    <!-- 登入區域 -->
+    <div class="auth-area" id="auth-area">
+      <div id="auth-loggedout">
+        <button class="btn-link" id="login-btn">登入</button>
+      </div>
+      <div id="auth-loggedin" style="display:none">
+        <span class="sync-dot" id="sync-dot" title="雲端同步中"></span>
+        <span class="auth-email" id="auth-email-display"></span>
+        <button class="btn-link" id="logout-btn">登出</button>
+      </div>
     </div>
   </div>
   <div class="controls">
@@ -367,6 +439,7 @@
   資料更新時間：<span id="updated-at">-</span>
 </footer>
 
+<!-- 匯出 / 匯入 Modal -->
 <div class="modal-bg" id="modal-bg">
   <div class="modal" id="modal">
     <h2 id="modal-title">收藏</h2>
@@ -379,15 +452,46 @@
   </div>
 </div>
 
+<!-- 登入 Modal -->
+<div class="modal-bg" id="login-modal-bg">
+  <div class="modal">
+    <h2>登入</h2>
+    <p>輸入你的 Email，系統會寄送一次性登入連結。不需要密碼。</p>
+    <input type="email" id="login-email-input" placeholder="your@email.com" autocomplete="email">
+    <div class="login-error" id="login-error"></div>
+    <div class="btn-row">
+      <button class="btn primary" id="login-send-btn">寄送登入連結</button>
+      <button class="btn" id="login-cancel-btn">取消</button>
+    </div>
+    <div class="login-sent" id="login-sent-msg">
+      ✅ 已寄出！請檢查你的信箱，點擊連結即可登入。連結有效期為 1 小時。
+    </div>
+  </div>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<!-- Supabase SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <script>
 (async function() {
-  const FAV_KEY = 'nintendo_tw_favs_v1';
+
+  // ============================================================
+  // ★ 填入你的 Supabase 專案設定（從 Project Settings > API 取得）
+  // ============================================================
+  const SUPABASE_URL  = 'https://hhnzpesvusbhkwivzywu.supabase.co';
+  const SUPABASE_ANON = 'sb_publishable_e6WmkF1637h3W2qvFbzccw_JJlwAo2G';
+  // ============================================================
+
+  const FAV_KEY   = 'nintendo_tw_favs_v1';
   const OWNED_KEY = 'nintendo_tw_owned_v1';
-  let games = [];
-  let fuse = null;
-  let favorites = new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]'));
-  let owned = new Set(JSON.parse(localStorage.getItem(OWNED_KEY) || '[]'));
+
+  let games    = [];
+  let fuse     = null;
+  let favorites = new Set(JSON.parse(localStorage.getItem(FAV_KEY)   || '[]'));
+  let owned     = new Set(JSON.parse(localStorage.getItem(OWNED_KEY) || '[]'));
+  let currentUser = null;
+  let sb = null;
+
   const state = {
     query: '',
     platform: 'all',
@@ -398,7 +502,156 @@
     sort: 'discount',
   };
 
-  // 載資料
+  // ── Supabase 初始化 ──────────────────────────────────────────
+  function isSupabaseConfigured() {
+    return SUPABASE_URL && !SUPABASE_URL.includes('YOUR_PROJECT_ID');
+  }
+
+  if (isSupabaseConfigured()) {
+    sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON);
+
+    // 監聽登入狀態變化（包含 magic link 回跳後的自動登入）
+    sb.auth.onAuthStateChange(async (event, session) => {
+      currentUser = session?.user ?? null;
+      updateAuthUI();
+      if (currentUser) {
+        await loadCloudData();
+        render();
+      }
+    });
+  } else {
+    // 未設定 Supabase：隱藏登入按鈕
+    document.getElementById('auth-area').style.display = 'none';
+  }
+
+  // ── 雲端資料 ────────────────────────────────────────────────
+  async function loadCloudData() {
+    if (!sb || !currentUser) return;
+    setSyncing(true);
+    try {
+      const { data, error } = await sb
+        .from('user_data')
+        .select('favs, owned')
+        .eq('user_id', currentUser.id)
+        .maybeSingle();
+
+      if (error) throw error;
+      if (data) {
+        favorites = new Set(data.favs || []);
+        owned     = new Set(data.owned || []);
+        // 同步回 localStorage
+        localStorage.setItem(FAV_KEY,   JSON.stringify([...favorites]));
+        localStorage.setItem(OWNED_KEY, JSON.stringify([...owned]));
+      }
+    } catch (e) {
+      console.warn('載入雲端資料失敗:', e.message);
+    } finally {
+      setSyncing(false);
+    }
+  }
+
+  async function syncToCloud() {
+    if (!sb || !currentUser) return;
+    setSyncing(true);
+    try {
+      const { error } = await sb.from('user_data').upsert({
+        user_id:    currentUser.id,
+        favs:       [...favorites],
+        owned:      [...owned],
+        updated_at: new Date().toISOString(),
+      }, { onConflict: 'user_id' });
+      if (error) throw error;
+    } catch (e) {
+      console.warn('雲端同步失敗:', e.message);
+    } finally {
+      setSyncing(false);
+    }
+  }
+
+  function setSyncing(on) {
+    const dot = document.getElementById('sync-dot');
+    if (dot) dot.classList.toggle('syncing', on);
+  }
+
+  // ── 登入 UI ─────────────────────────────────────────────────
+  function updateAuthUI() {
+    const loggedOut = document.getElementById('auth-loggedout');
+    const loggedIn  = document.getElementById('auth-loggedin');
+    const emailEl   = document.getElementById('auth-email-display');
+    if (currentUser) {
+      loggedOut.style.display = 'none';
+      loggedIn.style.display  = 'flex';
+      loggedIn.style.alignItems = 'center';
+      loggedIn.style.gap = '8px';
+      emailEl.textContent = currentUser.email;
+    } else {
+      loggedOut.style.display = 'block';
+      loggedIn.style.display  = 'none';
+    }
+  }
+
+  // 登入 Modal 開關
+  const loginModalBg = document.getElementById('login-modal-bg');
+  document.getElementById('login-btn').addEventListener('click', () => {
+    document.getElementById('login-email-input').value = '';
+    document.getElementById('login-error').textContent = '';
+    document.getElementById('login-sent-msg').classList.remove('show');
+    document.getElementById('login-send-btn').disabled = false;
+    loginModalBg.classList.add('open');
+    setTimeout(() => document.getElementById('login-email-input').focus(), 100);
+  });
+  document.getElementById('login-cancel-btn').addEventListener('click', () => loginModalBg.classList.remove('open'));
+  loginModalBg.addEventListener('click', e => { if (e.target === loginModalBg) loginModalBg.classList.remove('open'); });
+
+  // 寄送 Magic Link
+  document.getElementById('login-send-btn').addEventListener('click', async () => {
+    const email = document.getElementById('login-email-input').value.trim();
+    const errEl = document.getElementById('login-error');
+    if (!email || !email.includes('@')) {
+      errEl.textContent = '請輸入有效的 Email 地址';
+      return;
+    }
+    errEl.textContent = '';
+    const btn = document.getElementById('login-send-btn');
+    btn.disabled = true;
+    btn.textContent = '寄送中…';
+
+    const { error } = await sb.auth.signInWithOtp({
+      email,
+      options: {
+        // 登入後導回目前頁面（GitHub Pages 網址）
+        emailRedirectTo: location.href.split('#')[0],
+      },
+    });
+
+    if (error) {
+      errEl.textContent = '寄送失敗：' + error.message;
+      btn.disabled = false;
+      btn.textContent = '寄送登入連結';
+    } else {
+      document.getElementById('login-sent-msg').classList.add('show');
+      btn.textContent = '已寄出';
+    }
+  });
+
+  // Enter 鍵也可送出
+  document.getElementById('login-email-input').addEventListener('keydown', e => {
+    if (e.key === 'Enter') document.getElementById('login-send-btn').click();
+  });
+
+  // 登出
+  document.getElementById('logout-btn').addEventListener('click', async () => {
+    if (!sb) return;
+    await sb.auth.signOut();
+    currentUser = null;
+    // 登出後改回讀 localStorage（已在 onAuthStateChange 觸發 updateAuthUI）
+    favorites = new Set(JSON.parse(localStorage.getItem(FAV_KEY)   || '[]'));
+    owned     = new Set(JSON.parse(localStorage.getItem(OWNED_KEY) || '[]'));
+    updateAuthUI();
+    render();
+  });
+
+  // ── 遊戲資料載入 ─────────────────────────────────────────────
   try {
     const res = await fetch('games.json?t=' + Date.now());
     const data = await res.json();
@@ -414,30 +667,31 @@
   // Fuse.js 模糊搜尋（中英混搜）
   fuse = new Fuse(games, {
     keys: [
-      { name: 'name', weight: 2 },
-      { name: 'name_zh', weight: 2 },
+      { name: 'name',    weight: 2   },
+      { name: 'name_zh', weight: 2   },
       { name: 'aliases', weight: 1.5 },
-      { name: 'nsuid', weight: 0.5 },
+      { name: 'nsuid',   weight: 0.5 },
     ],
     threshold: 0.4,
     ignoreLocation: true,
     minMatchCharLength: 1,
   });
 
+  // ── 過濾 / 排序 / 渲染 ──────────────────────────────────────
   function applyFilters() {
     let list = state.query ? fuse.search(state.query).map(r => r.item) : games.slice();
     if (state.platform !== 'all') list = list.filter(g => g.platform === state.platform);
-    if (state.onlySale) list = list.filter(g => g.on_sale);
-    if (state.onlyFav) list = list.filter(g => favorites.has(g.nsuid));
-    if (state.onlyOwned) list = list.filter(g => owned.has(g.nsuid));
-    if (state.excludeOwned) list = list.filter(g => !owned.has(g.nsuid));
+    if (state.onlySale)        list = list.filter(g => g.on_sale);
+    if (state.onlyFav)         list = list.filter(g => favorites.has(g.nsuid));
+    if (state.onlyOwned)       list = list.filter(g => owned.has(g.nsuid));
+    if (state.excludeOwned)    list = list.filter(g => !owned.has(g.nsuid));
 
     const sorters = {
-      discount: (a, b) => (b.discount_percent || 0) - (a.discount_percent || 0) || a.name.localeCompare(b.name, 'zh-TW'),
-      price_asc: (a, b) => (a.discount_price || a.regular_price || 99999) - (b.discount_price || b.regular_price || 99999),
-      price_desc: (a, b) => (b.discount_price || b.regular_price || 0) - (a.discount_price || a.regular_price || 0),
-      name: (a, b) => a.name.localeCompare(b.name, 'zh-TW'),
-      sale_end: (a, b) => {
+      discount:    (a, b) => (b.discount_percent || 0) - (a.discount_percent || 0) || a.name.localeCompare(b.name, 'zh-TW'),
+      price_asc:   (a, b) => (a.discount_price || a.regular_price || 99999) - (b.discount_price || b.regular_price || 99999),
+      price_desc:  (a, b) => (b.discount_price || b.regular_price || 0) - (a.discount_price || a.regular_price || 0),
+      name:        (a, b) => a.name.localeCompare(b.name, 'zh-TW'),
+      sale_end:    (a, b) => {
         if (!a.discount_end) return 1;
         if (!b.discount_end) return -1;
         return new Date(a.discount_end) - new Date(b.discount_end);
@@ -453,7 +707,6 @@
         return a.release_date.localeCompare(b.release_date);
       },
     };
-    // 搜尋有結果時保持 fuse 的相關性排序
     if (!state.query) list.sort(sorters[state.sort]);
     return list;
   }
@@ -465,8 +718,8 @@
     document.getElementById('empty').style.display = list.length ? 'none' : 'block';
     grid.innerHTML = list.map(g => {
       const platformClass = g.platform === 'Switch 2' ? 'platform-switch2' : 'platform-switch';
-      const isSale = g.on_sale;
-      const isFav = favorites.has(g.nsuid);
+      const isSale  = g.on_sale;
+      const isFav   = favorites.has(g.nsuid);
       const isOwned = owned.has(g.nsuid);
       const saleDate = g.discount_end ? formatDate(g.discount_end) : '';
       const statusLabel = g.sales_status === 'preorder' ? '預購' : (g.sales_status === 'unreleased' ? '未發售' : '');
@@ -507,7 +760,6 @@
   }
 
   function formatReleaseDate(dateStr) {
-    // dateStr 格式 YYYY-MM-DD
     try {
       const [y, m, d] = dateStr.split('-');
       return `發布：${y}/${parseInt(m)}/${parseInt(d)}`;
@@ -515,17 +767,20 @@
   }
 
   function escapeHtml(s) {
-    return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   }
 
+  // ── 儲存（本機 + 雲端）──────────────────────────────────────
   function saveFavorites() {
     localStorage.setItem(FAV_KEY, JSON.stringify([...favorites]));
+    syncToCloud();
   }
   function saveOwned() {
     localStorage.setItem(OWNED_KEY, JSON.stringify([...owned]));
+    syncToCloud();
   }
 
-  // 事件
+  // ── 事件監聽 ────────────────────────────────────────────────
   document.getElementById('search').addEventListener('input', e => {
     state.query = e.target.value.trim();
     document.getElementById('clear-search').style.display = state.query ? '' : 'none';
@@ -561,7 +816,6 @@
   document.querySelector('.chip[data-only-owned]').addEventListener('click', e => {
     state.onlyOwned = !state.onlyOwned;
     e.target.classList.toggle('active');
-    // 互斥：不能同時「只看已購買」與「排除已購買」
     if (state.onlyOwned && state.excludeOwned) {
       state.excludeOwned = false;
       document.querySelector('.chip[data-exclude-owned]').classList.remove('active');
@@ -582,14 +836,13 @@
     render();
   });
 
-  // 卡片點擊 / 收藏按鈕 / 已購買按鈕
+  // 卡片點擊 / 收藏 / 已購買
   document.getElementById('grid').addEventListener('click', e => {
     const ownedBtn = e.target.closest('[data-owned-toggle]');
     if (ownedBtn) {
       const id = ownedBtn.dataset.ownedToggle;
       if (owned.has(id)) owned.delete(id); else owned.add(id);
       saveOwned();
-      // 卡片狀態影響顯示（淡化、已購買 tag、filter），整張重繪較簡單
       render();
       e.stopPropagation();
       return;
@@ -600,7 +853,6 @@
       if (favorites.has(id)) favorites.delete(id); else favorites.add(id);
       saveFavorites();
       favBtn.classList.toggle('active');
-      // 如果開啟「只看收藏」需重新繪
       if (state.onlyFav) render();
       e.stopPropagation();
       return;
@@ -609,42 +861,40 @@
     if (card) {
       const game = games.find(g => g.nsuid === card.dataset.nsuid);
       if (game) {
-        // 優先序：TW 官方頁 → HK eshop 詳情 → TW 搜尋頁（永遠有效）
         const url = game.detail_url || game.store_url || game.search_url;
         window.open(url, '_blank', 'noopener');
       }
     }
   });
 
-  // 匯出 / 匯入收藏
-  const modalBg = document.getElementById('modal-bg');
+  // ── 匯出 / 匯入 Modal ────────────────────────────────────────
+  const modalBg    = document.getElementById('modal-bg');
   const modalTitle = document.getElementById('modal-title');
-  const modalDesc = document.getElementById('modal-desc');
-  const modalText = document.getElementById('modal-text');
+  const modalDesc  = document.getElementById('modal-desc');
+  const modalText  = document.getElementById('modal-text');
   let modalMode = '';
 
-  // modalMode：'export-fav' | 'import-fav' | 'export-owned' | 'import-owned'
   function openModal(mode) {
     modalMode = mode;
     const isOwned = mode.endsWith('-owned');
-    const label = isOwned ? '已購買' : '收藏';
-    const set = isOwned ? owned : favorites;
+    const label   = isOwned ? '已購買' : '收藏';
+    const set     = isOwned ? owned : favorites;
     if (mode.startsWith('export')) {
       modalTitle.textContent = '匯出' + label;
-      modalDesc.textContent = `複製下方 JSON 內容備份，下次匯入即可恢復${label}。`;
-      modalText.value = JSON.stringify([...set], null, 2);
+      modalDesc.textContent  = `複製下方 JSON 內容備份，下次匯入即可恢復${label}。`;
+      modalText.value    = JSON.stringify([...set], null, 2);
       modalText.readOnly = true;
     } else {
       modalTitle.textContent = '匯入' + label;
-      modalDesc.textContent = `把先前匯出的 JSON 內容貼入下方，按確定後會合併到現有${label}。`;
-      modalText.value = '';
+      modalDesc.textContent  = `把先前匯出的 JSON 內容貼入下方，按確定後會合併到現有${label}。`;
+      modalText.value    = '';
       modalText.readOnly = false;
     }
     modalBg.classList.add('open');
   }
   function closeModal() { modalBg.classList.remove('open'); }
-  document.getElementById('export-fav').addEventListener('click', () => openModal('export-fav'));
-  document.getElementById('import-fav').addEventListener('click', () => openModal('import-fav'));
+  document.getElementById('export-fav').addEventListener('click',   () => openModal('export-fav'));
+  document.getElementById('import-fav').addEventListener('click',   () => openModal('import-fav'));
   document.getElementById('export-owned').addEventListener('click', () => openModal('export-owned'));
   document.getElementById('import-owned').addEventListener('click', () => openModal('import-owned'));
   document.getElementById('modal-cancel').addEventListener('click', closeModal);
