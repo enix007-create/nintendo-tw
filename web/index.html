@@ -551,18 +551,26 @@
   }
 
   async function syncToCloud() {
-    if (!sb || !currentUser) return;
+    if (!sb || !currentUser) {
+      console.log('[ntw] syncToCloud 跳過 — sb:', !!sb, ' currentUser:', !!currentUser);
+      return;
+    }
     setSyncing(true);
+    console.log('[ntw] syncToCloud 開始 uid:', currentUser.id, 'favs:', [...favorites].length);
     try {
-      const { error } = await sb.from('user_data').upsert({
+      const { data, error } = await sb.from('user_data').upsert({
         user_id:    currentUser.id,
         favs:       [...favorites],
         owned:      [...owned],
         updated_at: new Date().toISOString(),
       }, { onConflict: 'user_id' });
-      if (error) throw error;
+      if (error) {
+        console.error('[ntw] syncToCloud 失敗:', error);
+      } else {
+        console.log('[ntw] syncToCloud 成功:', data);
+      }
     } catch (e) {
-      console.warn('雲端同步失敗:', e.message);
+      console.error('[ntw] syncToCloud exception:', e);
     } finally {
       setSyncing(false);
     }
