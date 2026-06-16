@@ -24235,9 +24235,279 @@
     "nsuid": "70010000128032",
     "name": "Resort Beauties : HENTAI寫真拼圖",
     "name_source": "tw_search",
-    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128032e49caa4e650811f181369b9b2103c5be/9ce29214dba6dcca21e60c56075464e0/425f81b9cf5142eb3fc36691350bb9602da65ccc568ea3499ef90fa81e38e9fd.jpg?w=320&fm=webp",
-    "cover_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128032e49caa4e650811f181369b9b2103c5be/9ce29214dba6dcca21e60c56075464e0/425f81b9cf5142eb3fc36691350bb9602da65ccc568ea3499ef90fa81e38e9fd.jpg",
+    "cover_source": "catalog",
     "platform": "Switch",
-    "release_date": "2026-06-18"
+    "release_date": "2026-06-18",
+    "from_catalog": true
+  },
+  "70010000117944": {
+    "nsuid": "70010000117944",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000117944c6bf8a06650811f19632a796865b567b/203f8e279121220145a886a82114a9a2/faf706e3d1b618d12e0780795ff90a78978282d5d46f15701edd53036a0630e6.jpeg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "囈語小鎮",
+    "hk_checked": true
+  },
+  "70010000126922": {
+    "nsuid": "70010000126922",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001269222960dc5c650911f1803c115758ffb51f/1d66bbdeb8e1ed7ad762012a95c1c346/e8f21dc77efe193cfff6712a68e52ad1ce6150ecae704f69d4956f69b5041c48.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "真假 THE WORLD",
+    "hk_checked": true
+  },
+  "70010000127449": {
+    "nsuid": "70010000127449",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001274493e21d353650911f1a1e7115758ffb51f/9bb705447a4caa799c369784c7ef7127/dae239eee71042ef4963d98a79f179532408396e592aa6f8bba1b165d1f0f548.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "片語護照 日本旅遊日語測驗",
+    "hk_checked": true
+  },
+  "70010000121909": {
+    "nsuid": "70010000121909",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000121909e8a80966650811f1bc48f7edd2fab54d/85407f3c3a27fd7ed32860cf36d03d5c/1223ab947701b3d563fd731bca44d78a95e2e7d68ad9182218fbeff57954a091.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "停車場拉力賽道 (Parking Garage Rally Circuit)",
+    "hk_checked": true
+  },
+  "70010000121267": {
+    "nsuid": "70010000121267",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000121267e2f9bfa2650811f1a69773d5c345ca64/0acf57e808633f4b9f7316b950dc5a45/254a501ea5cd4daf3456c35cf21b182e5bafda57de56098cb41f308da654f401.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Oni Station",
+    "hk_checked": true
+  },
+  "70010000113392": {
+    "nsuid": "70010000113392",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000113392cf7c46c0650811f183b72f813069b850/210aba5d1d5302629a2ca76c76bafe1f/6e40a6878c5b01845e0b6f6918f22af62dec3d526c4870917ef038b14efac035.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Super Scram Kitty",
+    "hk_checked": true
+  },
+  "70010000124911": {
+    "nsuid": "70010000124911",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012491107e232a2650911f1a6c573d5c345ca64/2581ad292ff7633ad88275c8cb6dd857/ddb97cc4dd174cfc2350a63c5e960e299bcbd6a6495dd9bd1599907e53baab9b.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Medieval Castle Siege Defense vs Invaders",
+    "name_source": "tw_search",
+    "release_date": "2026-06-25"
+  },
+  "70010000123377": {
+    "nsuid": "70010000123377",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012337756aed965694411f18e89fd6962668b86/ffd3c01ec4b74dd0f4d79cc2fb61d2a3/d96ee2fcff6b5bc9eb4209852fccc11b7ac540645ab4171ff8649646f10bcbb9.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "月光嶺物語 ～Moonlight Peaks～",
+    "name_source": "tw_search",
+    "release_date": "2026-07-09"
+  },
+  "70010000111221": {
+    "nsuid": "70010000111221",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011122181e0e396650811f1bad3019b2fca5b8a/09a1c84d725172ba4ebf302e92b6137b/969e7febd3a6486a09ee1884cfb939643acf7a19640bf0d64db2e4fd5d06278f.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "70年代風格機器人動畫《蓋比X》 (70s-style Robot Anime Geppy-X)",
+    "name_source": "tw_search",
+    "release_date": "2026-07-16"
+  },
+  "70010000124782": {
+    "nsuid": "70010000124782",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000124782a5e13c32643f11f188ef213556de1cbb/4e06c15deac350d7ffaa18d05c6dcba1/9b479b78b5fbac6b1df6718ac83241135e8107284db87589b31477eecc82d66c.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "東方紅魔鄉：新典　～ the Embodiment of Scarlet Devil.",
+    "hk_checked": true
+  },
+  "70010000094263": {
+    "nsuid": "70010000094263",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100000942633a5dbe0d643f11f1b1d9f98db3d233a8/26a7faceb0dc33b9032a7aa3da456180/726706ad9cbe74f472ba3a99cb148503558c057273c4238a6cb06a76f82ffd2f.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+    "name_source": "tw_search",
+    "release_date": "2026-10-08"
+  },
+  "70010000110877": {
+    "nsuid": "70010000110877",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000110877b9c272ea643f11f18e0017fa7e24c922/f104e25bb4e53fb7799fdf5fc289f0e7/02bbceb6226179f76015215ddfb014738b2869c67b0c8a64cba06d6e104e2080.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "永恆傳奇 Remastered",
+    "name_source": "tw_search",
+    "release_date": "2026-10-15"
+  },
+  "70010000110968": {
+    "nsuid": "70010000110968",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001109689db2bc1c643f11f1aa67213556de1cbb/d2cabaf9d6ab4586db081b284c1e9436/8023fa239c6d59532d081f363c85d0907da59326b8bb78eb430d0657cfa021b8.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "ONE PIECE 海洋盛宴",
+    "name_source": "tw_search",
+    "release_date": "2026-10-22"
+  },
+  "70010000117098": {
+    "nsuid": "70010000117098",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011709896913abd643f11f18576bb69a2fface5/8b7eee49a695b6d1efeb0680157a25a4/f32f745bc141f4b1f238254f9710c4269b26e315307b3263e558b20ef2c331ac.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "FINAL FANTASY RESONANCE",
+    "name_source": "tw_search",
+    "release_date": "2026-10-22"
+  },
+  "70010000092412": {
+    "nsuid": "70010000092412",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000092412513dacb4643f11f18636114d6160c470/26d146a691ec0dd537d9330c33738e3a/5c12d6e37dd2643466757768681d7f649adfee1ad6f5153d6c790659c265732d.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "勇者鬥惡龍怪物仙境4 枯木國的碧安卡與芙蘿拉",
+    "name_source": "tw_search",
+    "release_date": "2026-12-03"
+  },
+  "70010000110986": {
+    "nsuid": "70010000110986",
+    "name": "ONE PIECE 海洋盛宴",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011098678f3654a643f11f197a3f5ccd17d9511/92ff5b3600c1e20335475edf18c546af/8023fa239c6d59532d081f363c85d0907da59326b8bb78eb430d0657cfa021b8.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-10-22"
+  },
+  "70010000110881": {
+    "nsuid": "70010000110881",
+    "name": "永恆傳奇 Remastered",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001108818ab44d0c643f11f1926ea98f2ad99180/2fbe31f58c26a0e2b3125ef27cb88905/02bbceb6226179f76015215ddfb014738b2869c67b0c8a64cba06d6e104e2080.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-10-15"
+  },
+  "70010000118033": {
+    "nsuid": "70010000118033",
+    "name": "Dragon's Dogma 2: Dark Arisen",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001180339456be2f643f11f199fb17fa7e24c922/b0595832ae3e76c1ae5ebf1454420594/f23e83bd47a84d0d02afeb2b1a578dc45254de18b2f5b631478d9dbf82aab814.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-10-09"
+  },
+  "70010000112823": {
+    "nsuid": "70010000112823",
+    "name": "鬼武者 Way of the Sword",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011282390ff2254643f11f1b3d9213556de1cbb/54e529c163bd6e8b1103ff820df60624/ccd6309cf2c73ce948f5c342b7352fea9df3fe7ef41e489df2bca1226b502bb5.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-09-25"
+  },
+  "70010000113878": {
+    "nsuid": "70010000113878",
+    "name": "Devil May Cry 5 Devil Hunter Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000113878acd96463643f11f194e9354e85dcc944/9e5ba26bf1e03c1a806f086ec3d48748/77085af7307f826d96206e77052aa1927271397c04281965f7e4f6f2916a6063.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-06-23"
+  },
+  "70010000117105": {
+    "nsuid": "70010000117105",
+    "name": "FINAL FANTASY RESONANCE",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000117105dbd01a4f643f11f1909fa98f2ad99180/be0699ee963c97e253e2891178959973/f32f745bc141f4b1f238254f9710c4269b26e315307b3263e558b20ef2c331ac.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-10-22"
+  },
+  "70010000117239": {
+    "nsuid": "70010000117239",
+    "name": "KINGDOM HEARTS HD 2.8 Final Chapter Prologue",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001172398a3445f2643f11f1935af5ccd17d9511/bec5872e2460552a115afc5f5078eecf/44e28fe7e02e1a9d1ec6b55dfcdcbc6e0c3254a0009e866ae8024d8600849c89.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-10-08"
+  },
+  "70010000117245": {
+    "nsuid": "70010000117245",
+    "name": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000117245c5a3fff0643f11f186debb69a2fface5/586d66e63712078f0b8c30ca6195569f/726706ad9cbe74f472ba3a99cb148503558c057273c4238a6cb06a76f82ffd2f.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-10-08"
+  },
+  "70010000117242": {
+    "nsuid": "70010000117242",
+    "name": "KINGDOM HEARTS III + Re Mind (DLC)",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000117242961fb46b643f11f1b7c7a98f2ad99180/8427139cc86a2b1b27169df61028614a/228dc3199fa4395419e9b308ecbcfbc0a6cfabeebc82a9d4e25a9d7bbc51c977.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-10-08"
+  },
+  "70010000122668": {
+    "nsuid": "70010000122668",
+    "name": "優米雅的鍊金工房 ～追憶之鍊金術士與幻創之地～ Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000122668bb12b6d5643f11f1bcfd114d6160c470/c6486bc18df915212688106aefbdfabf/6a00d61048894d1a8ceb9f1979d4ad1c13fdc230488526055136026c3afbf2d0.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-06-09"
+  },
+  "70010000111170": {
+    "nsuid": "70010000111170",
+    "name": "勇者鬥惡龍怪物仙境4 枯木國的碧安卡與芙蘿拉",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011117056edbadc643f11f1bdc22f2e0b05589b/e9f7e2c5a2a476246d705c0e0b07563c/5c12d6e37dd2643466757768681d7f649adfee1ad6f5153d6c790659c265732d.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-12-03"
+  },
+  "70010000105918": {
+    "nsuid": "70010000105918",
+    "name": "暗喻幻想：ReFantazio（Metaphor: ReFantazio）",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000010591851e6fa9e643f11f182354bc813990933/ec2510b4942ce8575115aaff8725cb3e/d9e59fe9e23ed22fa1f918f2574428bad09cc4a7bc723f8d37a79fd8358ee0f7.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-11-12"
+  },
+  "70010000111545": {
+    "nsuid": "70010000111545",
+    "name": "《雷射超人：傳奇重述》 - Rayman Legends Retold",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000111545906de121643f11f1b97cf5ccd17d9511/70b81d25973dd4e7a64e8ce644de60b7/9cff40327843a2e15aa4dddb8aed79d8f37d90ba7c0505c70b420c5ab34bcd3d.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-10-01"
+  },
+  "70010000127768": {
+    "nsuid": "70010000127768",
+    "name": "月光嶺物語 ～Moonlight Peaks～ Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001277688e783c82694411f1abaafd6962668b86/3c9ee84dd626c5f7c443ddec14fd242b/299a06367b96824174d9fbbdaa95cdba3d3ce1e447293d04e4678c098fb49b9a.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-07-09"
   }
 }
