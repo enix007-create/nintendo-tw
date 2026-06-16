@@ -23918,5 +23918,326 @@
     "cover_source": "tw_search",
     "platform": "Switch 2",
     "release_date": "2026-06-10"
+  },
+  "70010000123232": {
+    "nsuid": "70010000123232",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000123232dc7420f3650811f1bb1573d5c345ca64/35bce654a117c43857fa21c2759ac09a/a3925c1884d119d83fe4d643128149629c408e876f92ecaf0b57182169220fa7.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "The Coma 3: Bloodlines",
+    "hk_checked": true
+  },
+  "70010000119692": {
+    "nsuid": "70010000119692",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000119692dc4785b7650811f1bd4d2f813069b850/be59b65aa28350a2336ade9fa1f0edf8/72353ec86cd700a60a94f7e613fd5b5bf3b566f9f56950b60d034c3b88cc418f.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "D.M.L.C.！歡鬧炸戀生死鬥",
+    "hk_checked": true
+  },
+  "70010000125072": {
+    "nsuid": "70010000125072",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001250720138de5b650911f1ab82e596a02a5819/5ede2301fc92fe0c259aaeb218d3e204/17bfbce1f431bea6dcba5a14ef911194f1086cb96b3261d5d5ba4b0c8cd6d959.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "帥哥觀察 臉孔記憶挑戰",
+    "hk_checked": true
+  },
+  "70010000127029": {
+    "nsuid": "70010000127029",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127029204842af650911f187c5115758ffb51f/4eb69861bf0b995497f5c0f09ae23bee/1bfd3ce56ddf6562f748a0d165df574e6f0ea2e414a4a762588768638f9d7c0a.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Bacterium",
+    "hk_checked": true
+  },
+  "70010000120730": {
+    "nsuid": "70010000120730",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000120730b2dd152e650811f18cfaf7edd2fab54d/33e5bf07a44d2000f0c58074551dcda5/69c7bf62ee760c0ca3bc64edd193af11a392feae8bfca7a6ae3771b99a0d9b31.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Fairy Tale Fighters",
+    "hk_checked": true
+  },
+  "70010000116723": {
+    "nsuid": "70010000116723",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000116723cd667743650811f193baa796865b567b/cdd8e20fac3c63724f9a0ffaf5d5d6dd/1eb8a3d55223b8c983fbd7430c89f3c96645532798a5a7df29c024a14852e21e.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Space Dragons",
+    "name_source": "tw_search",
+    "release_date": "2026-06-18"
+  },
+  "70010000121060": {
+    "nsuid": "70010000121060",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000121060e7ec3fb1650811f1a4df19cc5c0cce96/0f916c52b7e6234a8a1e486ad484f6b3/3fe7f7d7c32f7345742109c4d53711bda6ab999e9df365e6889ee50659eabbdb.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Auto Shop Simulator",
+    "name_source": "tw_search",
+    "release_date": "2026-06-18"
+  },
+  "70010000077086": {
+    "nsuid": "70010000077086",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000007708629d4324f650811f1b9a8a796865b567b/feac8bd0155c890972a8ba2ccea7b018/72c8053c768a2ceaa34b742b1168036fb455585a5fe10d0bb6729263e84590e1.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Super Farming Boy",
+    "hk_checked": true
+  },
+  "70010000114421": {
+    "nsuid": "70010000114421",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011442198b34d95650811f1806cf7edd2fab54d/2428af0d2312b068a3f41f0707fa91fb/9d3aa8ece6525a54246e8e3d266bff7a214eb418888f8c90d1a760e206280b9b.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Wanderstop",
+    "name_source": "tw_search",
+    "release_date": "2026-06-23"
+  },
+  "70010000119933": {
+    "nsuid": "70010000119933",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000119933d0d60f82650811f1989a9b9b2103c5be/4438ccbff3d6fa709d73857b550e901c/72cbe0e11e2217879821c040b8013d73e8f6bbd23ac0a04fca8bd4866476ca43.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Clock Rogue",
+    "hk_checked": true
+  },
+  "70010000112968": {
+    "nsuid": "70010000112968",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000112968db275649650811f18202e596a02a5819/96fab492b8645005e84b5dc051ea3ed7/a2ae3832a0d0a32d020cf9dc2d95da025846e691d2f73d9f71e8492bbed84e5b.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "逃脫遊戲 R00M 03",
+    "hk_checked": true
+  },
+  "70010000124399": {
+    "nsuid": "70010000124399",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000124399eaeab945650811f195b89b9b2103c5be/d698ccaae349e056c287b7d344531a78/c840af9fa7277f227d630a076f9f72340d7f14d152d30a5901d97df74445a847.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "NAMCO LEGENDARY Mountains",
+    "name_source": "tw_search",
+    "release_date": "2026-06-25"
+  },
+  "70010000127157": {
+    "nsuid": "70010000127157",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127157f8420858650811f1be1d1165daa4178f/46fd077222469f3e3d5d44cfe3e63fdb/2d8945a42366022b0850035d2c60f3321485f2011e4b48fd3c339db5af5c07a9.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "禁忌島嶼：誘惑女孩們 (Love Island: Forbidden Girls Temptation)",
+    "hk_checked": true
+  },
+  "70010000127163": {
+    "nsuid": "70010000127163",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001271632c822944650911f180f319cc5c0cce96/31d59233cece7d1793bfa156d483c93e/64b39d325c6935ddac936b201121585429577eaed50d520c9116702335a69385.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "禁忌島嶼：誘惑美男們 (Love Island: Forbidden Boys Temptation)",
+    "hk_checked": true
+  },
+  "70010000124788": {
+    "nsuid": "70010000124788",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000124788fab1392d650811f18528019b2fca5b8a/41f1ad8d1401b1f10e0b56e49c1d606d/d5492378dc99aaafabce2aec29677ba5fdc2462add831f55c0c457d0b2e33e7a.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Let's Aim! Crane Game",
+    "hk_checked": true
+  },
+  "70010000125507": {
+    "nsuid": "70010000125507",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000125507fc7e76d8650811f19acaf7edd2fab54d/71698ea6bcde3fb7ef998cd459da2127/83db08a0a59dd0e4838871a371182c3b14243e9ed11d4f1fba2afb0b6de1998b.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Sands and Relics",
+    "hk_checked": true
+  },
+  "70010000121386": {
+    "nsuid": "70010000121386",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000121386d859fa29650811f1844f19cc5c0cce96/f4db8aec5ce937d057bc35056fa56f00/18b718ef562ec66cf861d4e77bd263818dde51820696048a1607da9aba80e21b.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "貓貓郵局 (Catto's Post Office)",
+    "hk_checked": true
+  },
+  "70010000083074": {
+    "nsuid": "70010000083074",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100000830743e2892ec650811f1a758e596a02a5819/162e793e8611cc7e198f1b5181cd7b0b/8c5b927964cca550c4f88a7b8653f8f0bf36a51db6dc249f812e259b4080488d.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "魔鼠剋星",
+    "hk_checked": true
+  },
+  "70010000124312": {
+    "nsuid": "70010000124312",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012431200ce0a19650911f19c9f73d5c345ca64/a8847439605423be9ae9350edb15af9f/e1bdac13a4306413ae6ae043b03e35006d9017a9cc9dc0d0bc81bfdecc92797b.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Parking Simulator: Retro Car Driving",
+    "name_source": "tw_search",
+    "release_date": "2026-07-02"
+  },
+  "70010000127540": {
+    "nsuid": "70010000127540",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012754002015871650911f1b4892f813069b850/bdc7d4bb78d6975a8f753bec1f889265/614558675c57745877735dc8beebea466f11c90ce621dbffbf57c566488f5324.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "蛋蛋娘 Lofi Witch Hatch",
+    "name_source": "tw_search",
+    "release_date": "2026-07-02"
+  },
+  "70010000120623": {
+    "nsuid": "70010000120623",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000120623de13b4ca650811f18e8e019b2fca5b8a/e5e0ee2ea1ec15866758ccfa1f72006b/d6ed5926f652d93f914d11af29a40920771d453f8a6e4fec34d945700c91bdb3.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Rage District - Humanity Armageddon",
+    "hk_checked": true
+  },
+  "70010000125471": {
+    "nsuid": "70010000125471",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000125471e613961d650811f193e02f813069b850/b87117e0c3d9aa226278c2d6b9d6aabe/ca8180b647d0d4af33edd14244e1abcd2ddf939095a9bfe5cecf8f1c89d8cc99.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Go-Go Town!",
+    "hk_checked": true
+  },
+  "70010000120268": {
+    "nsuid": "70010000120268",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000120268e394bd61650811f188cd115758ffb51f/75582d1920f31d07edb3d397ddc9fa1b/6c5630534f5705a2f3f9e633e5881ea5c6a727487e926e50d4944f78599fda5e.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Streetdog BMX",
+    "hk_checked": true
+  },
+  "70010000114427": {
+    "nsuid": "70010000114427",
+    "name": "Wanderstop",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000114427b968a394650811f18557019b2fca5b8a/f0f00e344b40888ea36ce273521d10a6/9d3aa8ece6525a54246e8e3d266bff7a214eb418888f8c90d1a760e206280b9b.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-06-23"
+  },
+  "70010000122329": {
+    "nsuid": "70010000122329",
+    "name": "Arcade Archives 2 RACK'EM UP",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000122329dda74549650811f1b54ef7edd2fab54d/0b28ff76cf8469ce6180ecd40ab17b8e/5e1cc1767ec6e8ef621130a2a79eb7a6c001c3d8845496d509dd598abd31c632.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-06-11"
+  },
+  "70010000122323": {
+    "nsuid": "70010000122323",
+    "name": "Arcade Archives RACK'EM UP",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000122323d5dbf855650811f18a86115758ffb51f/396eb07388b6b3151b19f42db69155a2/323ce3b07bbb8747f6a00fcff2577cf2038292775689b7c65061f3c91d0a65ce.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-06-11"
+  },
+  "70010000097555": {
+    "nsuid": "70010000097555",
+    "name": "艾爾登法環 褪色者版 (ELDEN RING Tarnished Edition)",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100000975555ba859e2650811f18c762f813069b850/69dcc895f6b09f41d90f72baf0619b22/ccf64f7f15fac582b44bada9c37361fbd21013b3451b794b40a2f89ad1dabc86.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-08-28"
+  },
+  "70010000125388": {
+    "nsuid": "70010000125388",
+    "name": "Legolast Tiny Builder",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000125388f49a3ef2650811f1bdf6f7edd2fab54d/96f110f680d380bd7fecdd67361c8111/8c6cda814720e6caf90e4bd9fc7967b60314117b05557d46c2f33dad217c5385.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-06-11"
+  },
+  "70010000113868": {
+    "nsuid": "70010000113868",
+    "name": "FINAL FANTASY X/X-2 HD Remaster",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011386869cbc45d63d311f1a3508510d4e4c435/e2a7ff5bdced7465bb6ed294ef2b6a5c/1d64f4ba11f085404d1b255a1686683fa65a26117bee7b0d4d60d31985d25f2c.jpeg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-07-23"
+  },
+  "70010000127980": {
+    "nsuid": "70010000127980",
+    "name": "NAMCO LEGENDARY Mountains",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001279806cf12e12650911f192e3a796865b567b/f32f6da93afe82685280d7190c404f9a/c840af9fa7277f227d630a076f9f72340d7f14d152d30a5901d97df74445a847.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-06-25"
+  },
+  "70010000114965": {
+    "nsuid": "70010000114965",
+    "name": "Onigiri Shop Simulator",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000114965b1fe6766650811f18cd319cc5c0cce96/de1defd02c6b6294b48fcc5dbc7af937/b0f09c3686cebdc5918720e3dbdde8be80a29fdf98f9eef9c59381d9553de696.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-06-11"
+  },
+  "70010000121136": {
+    "nsuid": "70010000121136",
+    "name": "Garden Designer Simulator",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000121136d536d8fe650811f19054019b2fca5b8a/3abebc7cda2cb8f9c9ac2653c4cdc128/1d3b05bec71e0266e0b984021201ba0a08e50bebad66960918238b0202884e05.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-06-11"
+  },
+  "70010000128079": {
+    "nsuid": "70010000128079",
+    "name": "Go-Go Town! – Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128079319c476f650911f1baafa796865b567b/401c143e8d6e94eb596ca1a16af0279c/6f049023ace03909d42fbba9684616c5f1ed56aea1d8dcdeb1e46fcc1e88ec3d.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-07-16"
+  },
+  "70010000127417": {
+    "nsuid": "70010000127417",
+    "name": "Truxton Extreme",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127417fc39200f65d111f183b30d40e80e3e1b/dbeed3235cd48f57574b99724bc446ba/147ff993217382806d14ab71dd726a998b2a9b2fc3f62bfa3c92ea4850c90edc.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-07-30"
+  },
+  "70010000128032": {
+    "nsuid": "70010000128032",
+    "name": "Resort Beauties : HENTAI寫真拼圖",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128032e49caa4e650811f181369b9b2103c5be/9ce29214dba6dcca21e60c56075464e0/425f81b9cf5142eb3fc36691350bb9602da65ccc568ea3499ef90fa81e38e9fd.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-06-18"
   }
 }
