@@ -1,8 +1,8 @@
-name: Hourly scrape
+name: Daily scrape
 
 on:
   schedule:
-    - cron: '5 * * * *'   # 每小時的第 5 分鐘（避開整點熱點）
+    - cron: '5 3 * * *'   # 每天 03:05 UTC（= 台灣 11:05）
   workflow_dispatch:       # 允許手動觸發
   push:
     branches: [main]
@@ -34,15 +34,8 @@ jobs:
       - name: Run scraper
         id: scrape
         run: |
-          # 每日 03:05 UTC（=台灣 11:05）跑 bootstrap 全範圍掃描；其餘小時只 refresh
-          HOUR=$(date -u +%H)
-          if [ "$HOUR" = "03" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "Running BOOTSTRAP (full scan)"
-            python scraper/scrape.py --phase=bootstrap
-          else
-            echo "Running REFRESH"
-            python scraper/scrape.py --phase=refresh
-          fi
+          echo "Running BOOTSTRAP (full scan)"
+          python scraper/scrape.py --phase=bootstrap
 
       - name: Commit updated data
         if: always()
