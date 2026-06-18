@@ -24514,29 +24514,40 @@
     "nsuid": "70010000118067",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000118067ac58df806a8811f19eafb373df5eec45/0dcbd56a909d4cda3b60831851ad1320/8561617ed55042476e34f06b9f41678502526f9a484b5b16e5ea577999c86a35.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000118663": {
     "nsuid": "70010000118663",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000118663f01a1e9b6a8811f1b4c66f484b249b05/58da91bc5a901766a535ca0e0316f97f/330f4ad7da25b6f0e2629d9f433b2ebe66f01bd6f5e637df7d37b09ae7c0dde7.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000118791": {
     "nsuid": "70010000118791",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Do You Really Know About Soccer?",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011879185d3fc166a8811f1ba4c6f484b249b05/512915368fbf7c052410d1bee3a6db23/0b15a8608289ca994533197bcd48c956174ff4b8846ec0c6254548cbfb55854b.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-07-02"
   },
   "70010000119505": {
     "nsuid": "70010000119505",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Hentai House: Mystery Rooms",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000119505ccea7f026a8811f19fb9e7ee8e6b691b/a51f25869920a79e3376c259d3d9cb52/a94b9469a4b12b311be79470541d731cecd6e49658118dfa1a1500ea4927d0d7.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-06-18"
   },
   "70010000119537": {
     "nsuid": "70010000119537",
@@ -24549,15 +24560,20 @@
     "nsuid": "70010000119697",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000119697f1dd356c6a8811f1a226971a32092511/5d4b90d701d2e57f74ff3aabe6c8676a/cb0b903c06cc815a9d883986673b4c40adaf4abbe0efda1d9f10b858b0b9f991.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000096966": {
     "nsuid": "70010000096966",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Dialoop -Roguelite Puzzle-",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000009696652c5d1046a8811f1b09745b7afd8c1da/5a89aceaabbf0d2be5857915166a0f3f/9837927c1166e5f1a73139953a3af78525b1000573d07f58b00f492f8fb8f95c.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-06-18"
   },
   "70010000097765": {
     "nsuid": "70010000097765",
@@ -24570,15 +24586,19 @@
     "nsuid": "70010000109785",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000010978579707c956a8811f1b1623d5a958473d2/75f040751a03dfeda0e0599bf2d08af0/6e396abb99facbd5dd13c9c453ba1de5d85f0d61f77658dc4fbd4417cc0eda97.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000110114": {
     "nsuid": "70010000110114",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011011479db257c6a8811f1ad81c134b3d87bf4/607180fce98ff7d18d0e156825a954d0/2985bd5f50ee63631c44b34c473746e46f36738d6145ed139d961b394d18f132.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000101442": {
     "nsuid": "70010000101442",
@@ -24598,8 +24618,10 @@
     "nsuid": "70010000122777",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001227779b76d1476a8811f18d653d5a958473d2/c7c2d625f634d617c6a8f4339a09a519/d92e53b5b3508cf1e435b2963907b6afabf2993464eaace2262f3d3e337db8d2.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000122878": {
     "nsuid": "70010000122878",
@@ -24612,8 +24634,10 @@
     "nsuid": "70010000122981",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000122981b0f3cc7d6a8811f1bd84953493ec0ae3/970c792e13873348aeaafe5e65888e4b/a19b5184df3364b36ec4d209ceced6c633b0519bdef7ea5d33ed2b6a1947db4e.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000115234": {
     "nsuid": "70010000115234",
@@ -24653,9 +24677,13 @@
   "70010000124094": {
     "nsuid": "70010000124094",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Tow Truck Police Simulator",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000124094647bc75c6a8811f1a67fc134b3d87bf4/c6b78e1e9ce4d3a0a6790290f8049456/64f367a25212cbefbbcf09265a4bf29ff5a48edd0c068eb982a5fac6acba79b3.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-06-25"
   },
   "70010000116155": {
     "nsuid": "70010000116155",
@@ -24689,15 +24717,19 @@
     "nsuid": "70010000128479",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001284797dad68a26a8811f1b6e43bbf780d0210/51ee6bd33c94c73168d09a0eb29b8cf7/ca6eb2df32c141a72d06b651882a247d9030d47cb7ba8145d2ed7cd288d079a9.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000128648": {
     "nsuid": "70010000128648",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128648a05789226a8811f1b7a7e7ee8e6b691b/51860566752f495a03a619143c5eb144/593bf035ed4c7bee78fcc8e247331b4348602042007c121e34221fd5c3ec98ed.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000128742": {
     "nsuid": "70010000128742",
@@ -24710,64 +24742,84 @@
     "nsuid": "70010000128754",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001287549057caa76a8811f1a7eb6f484b249b05/3cea77e7a180c396449bcd3a47941eb2/b7a4f134a22e9a1d2ccea95b4d46465cc538e49e759f76bc4dcdc255ff8797a0.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000128872": {
     "nsuid": "70010000128872",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128872d840cd506a8811f1a493e7ee8e6b691b/48b496e57170de320c5e4c15b18559c1/f937d8d1a013f643b2d667fea179718434c92f6d5d5fd5e6570944a86a94d539.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000128956": {
     "nsuid": "70010000128956",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128956fc5e55a26a8811f1a2b86f484b249b05/a424bfcf6ff94fd517e95510de5377da/6287a807a3de15694f98210a7753cd79b69b52c89a8de40a417e9bca16272651.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000128964": {
     "nsuid": "70010000128964",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128964c943e7406a8811f1950e953493ec0ae3/8338564081180b48e3cd184d9acd8107/d50d9609e71410d5a5b36f2c7cc1d39d68d49db4d891b1b0056a68ab72b79697.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000129208": {
     "nsuid": "70010000129208",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001292088030a77f6a8811f1aac06f484b249b05/1cfb1a0f174f484a1859a581c2215088/591db08b02482cbca9d0c8d1d28d5cc817052fd5a2f13782cfb0845bf506ae8d.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000129442": {
     "nsuid": "70010000129442",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129442907596126a8811f19ea3c134b3d87bf4/04f9b4bb51d745cd7acc4c4988ddd939/1b00b336a6cbf52c80601d784ac4b4fa2a30d228d594d3ef33776d1fe28d947f.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000120034": {
     "nsuid": "70010000120034",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012003491aecfe16a8811f1b0e23d5a958473d2/7836c1467e13c714d6cb361bcfe6f826/1a429f6ef3f36401b3ec2380ce28923f2585e167c23a7b0cb947eb899243c18c.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000120193": {
     "nsuid": "70010000120193",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives SPACE CYCLONE",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000120193cd7340f36a8811f18b0c3d5a958473d2/f044c6b548f79ab3b366c8012d107562/175eb8c55314b63a1693938febb64df57accc66f392b08e092643154ef6f2612.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-06-18"
   },
   "70010000120199": {
     "nsuid": "70010000120199",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives 2 SPACE CYCLONE",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000120199b11c73d06a8811f183797dcf1c84e0dc/40b283136c9891a1e50a6996a2857744/41131bd1e69d3d052e835d688ffea3af0476202791dc0256b03d34483abe3c4c.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-06-18"
   },
   "70010000120232": {
     "nsuid": "70010000120232",
@@ -24780,15 +24832,19 @@
     "nsuid": "70010000120857",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012085789760ade6a8811f1ba5dc134b3d87bf4/faf1cf6abd7855e1d68a6d88165fb7b3/33bb474014a1fc6f18444cc0a8e10cf7b8d9c50c4959702deafc362e33cd0a9a.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000121131": {
     "nsuid": "70010000121131",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000121131720d3b616a8811f1861b6f484b249b05/c129024afc2e0e450256769b94d6779a/35a2412d3d7ffb853752f06f77fa9123a4a1f793e753b82aa96c647e484434ce.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000121234": {
     "nsuid": "70010000121234",
@@ -24801,8 +24857,10 @@
     "nsuid": "70010000121499",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000121499b189bf906a8811f1987b875a2e9263d9/ad6c737c9ee0e3e868055b02455ee463/887f1ba8a4008fe8f90562996fe74f22adf6be0826a22277768c1d12696b9e5f.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000121534": {
     "nsuid": "70010000121534",
@@ -24815,8 +24873,10 @@
     "nsuid": "70010000122068",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000122068ec358cb36a8811f1b63e953493ec0ae3/b106c997e862302de81c86dfb018883c/e1b082c4bb4721c1e51d5ae28f1c2874225417a3ef848ce6df08deb23fbbc873.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000122355": {
     "nsuid": "70010000122355",
@@ -24835,16 +24895,24 @@
   "70010000090756": {
     "nsuid": "70010000090756",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "彩虹島CS (Rainbow Islands CS)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000090756401395556a8811f18076875a2e9263d9/738ef3978c4a59c8d692bbb0196c7b8b/3cb24a49042e55ea08f43a5d090b71739a18579720a3d813da7ff2de47d19cba.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-10-08"
   },
   "70010000113638": {
     "nsuid": "70010000113638",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "隊長小翼2 世界群星",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001136388509d5956a8811f18c65875a2e9263d9/e2634d5c9eca23c99e0a84acde2c686f/57a07c277785db7760a0a70aa22a047a801bdaf6f4acf603955ef01569f1b84a.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-08-27"
   },
   "70010000125229": {
     "nsuid": "70010000125229",
@@ -24856,9 +24924,12 @@
   "70010000125358": {
     "nsuid": "70010000125358",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "塗色大師 : 像素夢想家 迷你圖案 (Pixel Cross Stitch Color by Number: Miniatures)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000125358f36ee00f6a8811f192593d5a958473d2/103a5f9ff2e84082727a7b313ee3a709/266aec4866e3512bfd00a666f2510a440f282a1ebb1000ee258585a7dec7d121.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-06-18"
   },
   "70010000125436": {
     "nsuid": "70010000125436",
@@ -24920,22 +24991,30 @@
     "nsuid": "70010000126155",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012615594b6ad326a8811f18705e7ee8e6b691b/6ca51e4bd62d08cc9438ec285b277186/012516effcb0ec01270547871fb168ea516b0fc24e671f2b29f4282574a6f1ce.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000126190": {
     "nsuid": "70010000126190",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Hentai Puzzle Simulator 3",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126190d8fd3dcf6a8811f196d1875a2e9263d9/750b269a08f145d5adb5ac3406d78a15/cbabe907812f1d56b7f590b3752635e96e4f74f1e7a97d7c70a31c5bcba3031e.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-06-18"
   },
   "70010000126359": {
     "nsuid": "70010000126359",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Big Adventure: Trip To Europe 11 Collector's Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012635989bec5196a8811f1b61b7dcf1c84e0dc/01d38b2e040b278e61f03a6db4159d2c/429ca6ce09de3875640b829f78238920567b475028fd356af2efe066b85cc6d8.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-06-18"
   },
   "70010000126399": {
     "nsuid": "70010000126399",
@@ -24948,8 +25027,10 @@
     "nsuid": "70010000126611",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126611c80c59386a8811f1b1956f484b249b05/bea98b2c8baf810eec993fc96d819b69/426c62e2b15663266c09c08ca135f74ccc0cb333973101e050cef917c1963634.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000126677": {
     "nsuid": "70010000126677",
@@ -24976,8 +25057,10 @@
     "nsuid": "70010000126936",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126936bcd192e96a8811f1ace06f484b249b05/90a085d13b27bd4b262f4494be11f888/cb40c2fdddb3c907d2c63fb6cb395f14bcb18837b354d1bfc05f21f0ab7897c4.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127113": {
     "nsuid": "70010000127113",
@@ -24997,15 +25080,19 @@
     "nsuid": "70010000127139",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001271399d4409366a8811f1a5d93bbf780d0210/515bf12972aa95acf288c142866bbdea/3804143d29b2458b6c0c5db96cc1b788b2c9f0ef7f4a0e4c2151695a2a3c4da9.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127151": {
     "nsuid": "70010000127151",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127151dd9741606a8811f199f13d5a958473d2/5f16b0edc5d63764fc756ade8d54afa9/7ce8383fe69b64dd6c1b9daf1a7b647fae19f864b75439f7915bc3c00b214b20.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127267": {
     "nsuid": "70010000127267",
@@ -25025,22 +25112,28 @@
     "nsuid": "70010000127574",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127574a700d9a16a8811f18a943bbf780d0210/fb20f88aef0e5854c4d90059fd6d1384/8d1943871b2f3f5d78bd853d8a44979e19f39d26f358825133de8e4d3ed18107.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000106498": {
     "nsuid": "70010000106498",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001064986c99b80e6a8811f1bafdc134b3d87bf4/2cf4bb038895f981d62e173c9c312c6d/4d75aee0f803a137fdd97e2f8980ff4d93d46f6037f07b7be94010c88992ddcd.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127693": {
     "nsuid": "70010000127693",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012769302652b396a8911f18948b373df5eec45/b3c0dbeaba4255ff122f69b179c9b5aa/cb1f5359b0414ac2dc3efa15799db3df26c961d81b9747fe7d57635173550624.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127708": {
     "nsuid": "70010000127708",
@@ -25065,6 +25158,57 @@
   },
   "70010000127780": {
     "nsuid": "70010000127780",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000103708": {
+    "nsuid": "70010000103708",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001037086db440cb6a8811f1bc6fe7ee8e6b691b/0f0572c121ef7a2705d9d8c9d3f37cff/f5a693327f904238766875b62899e15d42540173e0aba0155f3c290da0127bfc.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "KAMI 2",
+    "hk_checked": true
+  },
+  "70010000124268": {
+    "nsuid": "70010000124268",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124719": {
+    "nsuid": "70010000124719",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124720": {
+    "nsuid": "70010000124720",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127891": {
+    "nsuid": "70010000127891",
+    "platform": "Switch",
+    "name": "Weekend Solitaire Voyage",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130412": {
+    "nsuid": "70010000130412",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130416": {
+    "nsuid": "70010000130416",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
