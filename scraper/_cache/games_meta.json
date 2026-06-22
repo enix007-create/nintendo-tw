@@ -24642,9 +24642,12 @@
   "70010000115234": {
     "nsuid": "70010000115234",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "SHINOBI 反攻的斬擊",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000115234c300c5b46b7c11f182d4090bcbfaa19b/ffb00ebbfc31ed3bd1e736c5d6dd0e0b/0ea741395336a02ca672af4eed1541efaf0533590b26cde5f2cecf972038c440.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-24"
   },
   "70010000115239": {
     "nsuid": "70010000115239",
@@ -25182,16 +25185,23 @@
   "70010000124719": {
     "nsuid": "70010000124719",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "BLUE REFLECTION Quartet: 少女們的奇蹟",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000124719f449c3426dac11f1bc76cd3c09dbaf1d/69e7dff8cd9fa7461343cf1092a84125/6ec8d54f678aadb4905ee6ab192520e92e8a8ad0d8ae000fdf7d76789ee6133c.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000124720": {
     "nsuid": "70010000124720",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "BLUE REFLECTION Quartet: 少女們的奇蹟",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001247200d02475b6dad11f182db299d0abb8aa7/ad74e5d63f7b614c68604f647b3af53b/6ec8d54f678aadb4905ee6ab192520e92e8a8ad0d8ae000fdf7d76789ee6133c.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000127891": {
     "nsuid": "70010000127891",
@@ -25209,6 +25219,153 @@
   },
   "70010000130416": {
     "nsuid": "70010000130416",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000118314": {
+    "nsuid": "70010000118314",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000118641": {
+    "nsuid": "70010000118641",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000119569": {
+    "nsuid": "70010000119569",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000109556": {
+    "nsuid": "70010000109556",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000110221": {
+    "nsuid": "70010000110221",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122757": {
+    "nsuid": "70010000122757",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123659": {
+    "nsuid": "70010000123659",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123699": {
+    "nsuid": "70010000123699",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124617": {
+    "nsuid": "70010000124617",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000116303": {
+    "nsuid": "70010000116303",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127828": {
+    "nsuid": "70010000127828",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127858": {
+    "nsuid": "70010000127858",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128454": {
+    "nsuid": "70010000128454",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000108241": {
+    "nsuid": "70010000108241",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129510": {
+    "nsuid": "70010000129510",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000121250": {
+    "nsuid": "70010000121250",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000121801": {
+    "nsuid": "70010000121801",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122053": {
+    "nsuid": "70010000122053",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125751": {
+    "nsuid": "70010000125751",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126535": {
+    "nsuid": "70010000126535",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000106001": {
+    "nsuid": "70010000106001",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
