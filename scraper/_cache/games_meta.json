@@ -25220,9 +25220,12 @@
   "70010000130416": {
     "nsuid": "70010000130416",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Resident Evil Veronica",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001304160b9657e36e9911f18d4edb6ebf41a9d6/8425329a171fd262b1b2180151669de0/91e7cbe2589797f53020e3304c3b86e53c4c671ed34881f1b949d4eedb1185be.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-06-23"
   },
   "70010000118314": {
     "nsuid": "70010000118314",
@@ -25366,6 +25369,174 @@
   },
   "70010000106001": {
     "nsuid": "70010000106001",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000117316": {
+    "nsuid": "70010000117316",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125293": {
+    "nsuid": "70010000125293",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125299": {
+    "nsuid": "70010000125299",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125321": {
+    "nsuid": "70010000125321",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126145": {
+    "nsuid": "70010000126145",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126230": {
+    "nsuid": "70010000126230",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000118704": {
+    "nsuid": "70010000118704",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126916": {
+    "nsuid": "70010000126916",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126950": {
+    "nsuid": "70010000126950",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000119605": {
+    "nsuid": "70010000119605",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127710": {
+    "nsuid": "70010000127710",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130930": {
+    "nsuid": "70010000130930",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123318": {
+    "nsuid": "70010000123318",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123876": {
+    "nsuid": "70010000123876",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124100": {
+    "nsuid": "70010000124100",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127941": {
+    "nsuid": "70010000127941",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128263": {
+    "nsuid": "70010000128263",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128353": {
+    "nsuid": "70010000128353",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128509": {
+    "nsuid": "70010000128509",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128857": {
+    "nsuid": "70010000128857",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129420": {
+    "nsuid": "70010000129420",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129438": {
+    "nsuid": "70010000129438",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129568": {
+    "nsuid": "70010000129568",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122494": {
+    "nsuid": "70010000122494",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
