@@ -25541,5 +25541,33 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000111319": {
+    "nsuid": "70010000111319",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000116978": {
+    "nsuid": "70010000116978",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129233": {
+    "nsuid": "70010000129233",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000070062": {
+    "nsuid": "70010000070062",
+    "platform": "Switch",
+    "name": "星界戰士 (Astral Ascent)",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
