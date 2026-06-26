@@ -24875,9 +24875,13 @@
   "70010000121534": {
     "nsuid": "70010000121534",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "莉莉幻想曲",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001215340ef1a23d70d211f180d0f3edcd652078/d5220148b65a8d34379a57593ae3817f/d1b53afb528c9e287293f706007afbbb5bf2bd8c283481694432ac94bfa1dd9d.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000122068": {
     "nsuid": "70010000122068",
@@ -25486,8 +25490,10 @@
     "nsuid": "70010000126916",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126916bc638c1e700811f18d1dc573b5ca8368/cd0f3f8e03e2f9a3a61e475eb7cc3d65/95fd5baae03fb54243d08366c10aadf5091d2083d1d5f4e3aaea8e9f2d1e4075.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000126950": {
     "nsuid": "70010000126950",
@@ -25618,9 +25624,12 @@
   "70010000129568": {
     "nsuid": "70010000129568",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "瘋狂！迪爾與芒克的大冒險(WACKY! DEER u0026 MUNK ADVENTURE)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129568244012e3700911f1a77829a94d173c84/66c9d86b18756062dc714b3c3ab54d92/b3c5da292ead0e145b6538a9c7e900fe8e5449fdba89b066e04abc078b471ae1.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-06-25"
   },
   "70010000122494": {
     "nsuid": "70010000122494",
@@ -25738,6 +25747,146 @@
   },
   "70010000122425": {
     "nsuid": "70010000122425",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000116729": {
+    "nsuid": "70010000116729",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127947": {
+    "nsuid": "70010000127947",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125527": {
+    "nsuid": "70010000125527",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126027": {
+    "nsuid": "70010000126027",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126209": {
+    "nsuid": "70010000126209",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126605": {
+    "nsuid": "70010000126605",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126853": {
+    "nsuid": "70010000126853",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126983": {
+    "nsuid": "70010000126983",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127429": {
+    "nsuid": "70010000127429",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127434": {
+    "nsuid": "70010000127434",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127438": {
+    "nsuid": "70010000127438",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127442": {
+    "nsuid": "70010000127442",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127534": {
+    "nsuid": "70010000127534",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130524": {
+    "nsuid": "70010000130524",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000109972": {
+    "nsuid": "70010000109972",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000089100": {
+    "nsuid": "70010000089100",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123576": {
+    "nsuid": "70010000123576",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124183": {
+    "nsuid": "70010000124183",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125094": {
+    "nsuid": "70010000125094",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125113": {
+    "nsuid": "70010000125113",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
