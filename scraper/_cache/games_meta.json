@@ -26045,5 +26045,26 @@
     "name": "The Art of Deer & Boy",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000123832": {
+    "nsuid": "70010000123832",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123836": {
+    "nsuid": "70010000123836",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000119899": {
+    "nsuid": "70010000119899",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
