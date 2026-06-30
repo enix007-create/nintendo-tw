@@ -26066,5 +26066,19 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000121624": {
+    "nsuid": "70010000121624",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000065819": {
+    "nsuid": "70010000065819",
+    "platform": "Switch",
+    "name": "GigaBash 《巨擊大亂鬥》",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
