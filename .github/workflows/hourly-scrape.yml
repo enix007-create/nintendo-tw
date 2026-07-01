@@ -2,7 +2,7 @@ name: Daily scrape
 
 on:
   schedule:
-    - cron: '5 3 * * *'   # 每天 03:05 UTC（= 台灣 11:05）
+    - cron: '0 16 * * *'   # 每天 16:00 UTC = 台灣時間 00:00（隔天）；抓當天剛上線的新特價
   workflow_dispatch:       # 允許手動觸發
   push:
     branches: [main]
