@@ -448,7 +448,8 @@
     "from_catalog": true,
     "name": "節奏天國 奇蹟之星",
     "hk_checked": true,
-    "release_date": "2026-07-02"
+    "release_date": "2026-07-02",
+    "tw_page_url": "https://www.nintendo.com/tw/switch/bflta/index.html"
   },
   "70010000122164": {
     "nsuid": "70010000122164",
@@ -8963,7 +8964,8 @@
     "hk_checked": true,
     "name_source": "tw_search",
     "cover_source": "tw_search",
-    "release_date": "2026-05-21"
+    "release_date": "2026-05-21",
+    "tw_page_url": "https://www.nintendo.com/tw/games/switch2/aakga/"
   },
   "70010000119867": {
     "nsuid": "70010000119867",
@@ -26482,6 +26484,104 @@
   },
   "70010000124507": {
     "nsuid": "70010000124507",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130249": {
+    "nsuid": "70010000130249",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000114460": {
+    "nsuid": "70010000114460",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130732": {
+    "nsuid": "70010000130732",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128383": {
+    "nsuid": "70010000128383",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000107563": {
+    "nsuid": "70010000107563",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000107570": {
+    "nsuid": "70010000107570",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000100096": {
+    "nsuid": "70010000100096",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129981": {
+    "nsuid": "70010000129981",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126479": {
+    "nsuid": "70010000126479",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000102795": {
+    "nsuid": "70010000102795",
+    "platform": "Switch",
+    "name": "GRID™ Legends: Deluxe Edition",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127244": {
+    "nsuid": "70010000127244",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127339": {
+    "nsuid": "70010000127339",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127345": {
+    "nsuid": "70010000127345",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000118326": {
+    "nsuid": "70010000118326",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
