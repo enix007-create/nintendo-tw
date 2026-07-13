@@ -24853,7 +24853,7 @@
     "nsuid": "70010000121131",
     "platform": "Switch",
     "name": "",
-    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000121131720d3b616a8811f1861b6f484b249b05/c129024afc2e0e450256769b94d6779a/35a2412d3d7ffb853752f06f77fa9123a4a1f793e753b82aa96c647e484434ce.jpg",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000121131720d3b616a8811f1861b6f484b249b05/55a33636ea7ad7fa40b2f1c31332431a/35a2412d3d7ffb853752f06f77fa9123a4a1f793e753b82aa96c647e484434ce.jpg",
     "hk_checked": true,
     "cover_source": "catalog",
     "from_catalog": true
@@ -26904,6 +26904,48 @@
   },
   "70010000127288": {
     "nsuid": "70010000127288",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000107337": {
+    "nsuid": "70010000107337",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130622": {
+    "nsuid": "70010000130622",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122277": {
+    "nsuid": "70010000122277",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122456": {
+    "nsuid": "70010000122456",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122702": {
+    "nsuid": "70010000122702",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124632": {
+    "nsuid": "70010000124632",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
