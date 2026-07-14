@@ -26950,5 +26950,68 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000078736": {
+    "nsuid": "70010000078736",
+    "platform": "Switch",
+    "name": "Our Field Trip Adventure",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000100071": {
+    "nsuid": "70010000100071",
+    "platform": "Switch",
+    "name": "停車堵塞",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128761": {
+    "nsuid": "70010000128761",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128784": {
+    "nsuid": "70010000128784",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128930": {
+    "nsuid": "70010000128930",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128936": {
+    "nsuid": "70010000128936",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129007": {
+    "nsuid": "70010000129007",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000113599": {
+    "nsuid": "70010000113599",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129909": {
+    "nsuid": "70010000129909",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
