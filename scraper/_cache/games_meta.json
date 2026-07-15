@@ -3492,9 +3492,12 @@
   "70010000105637": {
     "nsuid": "70010000105637",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "EA SPORTS™ Madden NFL 27",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001056377f69fd57459911f197a6454a9e0a08ba/579014d7d0fde958742fafdcdbe99ca6/69755d684a02ac32c5557c92050aecaeaa895f4b1cd5d22f5c944d59150c1478.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-13"
   },
   "70010000105642": {
     "nsuid": "70010000105642",
@@ -27009,6 +27012,34 @@
   },
   "70010000129909": {
     "nsuid": "70010000129909",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000094777": {
+    "nsuid": "70010000094777",
+    "platform": "Switch",
+    "name": "Hypotheses on the Symmetry between Vision and Hands",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000074354": {
+    "nsuid": "70010000074354",
+    "platform": "Switch",
+    "name": "ACE COMBAT™7: SKIES UNKNOWN 豪華版",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000074495": {
+    "nsuid": "70010000074495",
+    "platform": "Switch",
+    "name": "Hello Kitty Island Adventure",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129220": {
+    "nsuid": "70010000129220",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
