@@ -20247,9 +20247,12 @@
   "70010000057568": {
     "nsuid": "70010000057568",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "太鼓之達人 咚咚雷音祭 太鼓 Music Pass90天使用券組合包",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000057568c036b9807ffb11f1af34a748083a42fb/006e2885e6667a25728b0380d32f8ed5/8bb8051fc2778710430bce48c74e5779372fc11060510819dd38da8e5bfe8361.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2025-12-04"
   },
   "70010000121303": {
     "nsuid": "70010000121303",
@@ -26535,16 +26538,22 @@
   "70010000108546": {
     "nsuid": "70010000108546",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "歧路旅人 OCTOPATH TRAVELER",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000108546afa2e00f7ef611f1aeca97a580bd1008/69ddd26993fe2de67000c36a924ced42/33f76887983f0e4a2a8c2b5a424fe17f950e903b3f62a408329bd2ac4b76df58.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-01"
   },
   "70010000108551": {
     "nsuid": "70010000108551",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "歧路旅人II OCTOPATH TRAVELER II",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000108551cd8a75037ef611f1b13b83eefb3b8b7a/109a37eec02034f9324ebfac40d400a4/42dfaa729ddea74784da69945a8e9b8c83c60459a39ec9edb81bed183cd9eb99.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-01"
   },
   "70010000104636": {
     "nsuid": "70010000104636",
@@ -26586,23 +26595,30 @@
   "70010000130249": {
     "nsuid": "70010000130249",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Hidden Girls: Secret Puzzle",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001302499cd09c9a808911f1ae4805c5b43bf52f/b2faed2c33b60d8b361d9da2e099bd17/eee74a890a94c4d1a0f8f97fd9b8496f796a1c21ea2c60b586167098b7691154.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-16"
   },
   "70010000114460": {
     "nsuid": "70010000114460",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001144600fe4fd48808911f1bede9dfbede2d29a/18de55700db177f33868217dc047af6e/35a533b370c9cdbf1e451bca5cbb9b4bec1e7367e8ea894a2aa08387ef97fd0e.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000130732": {
     "nsuid": "70010000130732",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000130732647db1c8808911f188754d6298963144/bdb44cbe241e73eccbb7f6ad74c5bc5b/3b68203107624360142a2f8b6da4340928155d790f6beeba912998c649bab114.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000128383": {
     "nsuid": "70010000128383",
@@ -26614,37 +26630,52 @@
   "70010000107563": {
     "nsuid": "70010000107563",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives SYVALION",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001075631f953095808911f1b7325317a2ef489d/362eb0c5b40538d6cb843d3f8e9e39da/8fd106a79f035a2dda225501ce08b78355417d55b56878aa13b20e3d4c7a823a.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-16"
   },
   "70010000107570": {
     "nsuid": "70010000107570",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives 2 SYVALION",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000010757022f201c8808911f1b14657781c040998/743bee5c86343127eeb0c3ff99ad9537/fd3bf390f33cfafa4cb20fda5fcc6d9c0756abb67b07fec1367ef44dff259df7.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-16"
   },
   "70010000100096": {
     "nsuid": "70010000100096",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "女武神傳奇 (VALKYRIE SAGA)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000100096eaec250e808811f182cf4d6298963144/00fe2fef453b558f3744114233a1e1ba/58dee298de89609c4b6a4894aa07f8026f7833fea6c1ad27e79e4e743a0a840f.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000129981": {
     "nsuid": "70010000129981",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "透過解謎來學習！世界名畫",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001299814880200b808911f1ab0a4d6298963144/b5e460dda7261d021b281e2f8dd2ec2a/9cac390cdfe155fd17a458bbcfb2d051a4cd67863f742d9afd2f09d24e13977a.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-07-23"
   },
   "70010000126479": {
     "nsuid": "70010000126479",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001264790d6ce622808911f188f7dd0a6e012c83/97deaad15e66c636a1cf5384ced6efe3/62032c056d821a04ffca7a13f840ea71f093c8278c609586f014804fea6a1286.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000102795": {
     "nsuid": "70010000102795",
@@ -26663,9 +26694,12 @@
   "70010000127339": {
     "nsuid": "70010000127339",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Puzzle Girls: Inner Flame",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001273393c4f6c76808911f1b8ee31598796c1b3/fdf752d227b2c9cc31833db116703e90/e5b6e20933f4a76b58f8780885a4620770abc724f54ad3445a60d7d4156d968d.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-16"
   },
   "70010000127345": {
     "nsuid": "70010000127345",
@@ -26678,43 +26712,59 @@
     "nsuid": "70010000118326",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011832607ce0587808911f1b03a9dfbede2d29a/c28f86ca2f0d0fc474c6fddb68ed2390/0a5ae05ab80764502de4dabc0825828641556f82c5713ea13f68893795662f60.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000105940": {
     "nsuid": "70010000105940",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "方塊腦力拼圖",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000010594002d03d10808911f183f6dd0a6e012c83/4ce331de20c85b1c61bfc83274065113/23fed51eb4e0525e473ce8eda1cac29d0946bbe8f5d6d7077149bf6cfd79fda2.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-07-23"
   },
   "70010000126339": {
     "nsuid": "70010000126339",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126339165f3102808911f184544d010b176d23/47aaa54fdcdd88bd0f877e14b792799c/9b55a17386fb14a9b654adedaa72deda9e8cecc1d9838dd2be60537e254f9344.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000126744": {
     "nsuid": "70010000126744",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001267446ddf08ed808911f18cb625bf158c96be/0723578735bd165126bc3513f468d45a/4670a5877b08884a7ff4f253ece7935445035f9149764b9fa4557d4244a473f3.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127456": {
     "nsuid": "70010000127456",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127456578b187f808911f199db57781c040998/993d217132c578feb26cc79b233b4631/6f4c29d1377c275ec08b08e13bfd22de485456b11375e925d1823353a4263574.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000129845": {
     "nsuid": "70010000129845",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Universal Flight Simulator 3 PvP",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001298453ab6b3da808911f1b64c5317a2ef489d/ec65a3aa888aeef2c0928b86c000895f/03f553e12b8e5b1f3cd3ce5b9675da91b5912deb8b81c9dfed1222bf558d1067.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-07-23"
   },
   "70010000113968": {
     "nsuid": "70010000113968",
@@ -26734,8 +26784,10 @@
     "nsuid": "70010000130518",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001305185124cf81808911f18cb205c5b43bf52f/156fa300d78f86b4a51c01f88e7f25c4/c1ef2dec213156ed315bc1f6cfe87ddc078fb249b474ea830257e7434da82770.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000130593": {
     "nsuid": "70010000130593",
@@ -26782,9 +26834,12 @@
   "70010000132460": {
     "nsuid": "70010000132460",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "《迪士尼無限飛車》— Disney Speedstorm Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000132460853478ff808911f18e406989719f9583/826d03b493cb521bc956e979d49fc8f0/594d92bdac3557c569b19a79b91639afb197d9e56780fa4e58ccc0c657abda6c.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-16"
   },
   "70010000095444": {
     "nsuid": "70010000095444",
@@ -26804,15 +26859,20 @@
     "nsuid": "70010000114696",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000114696326b12e8808911f1961257781c040998/b593ec2278efdb4f0a0278b19b54b296/c2bf91d94a7aef51c7579d71fde67bfebb81914db4f0b8badea7cecfa4d39014.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000119880": {
     "nsuid": "70010000119880",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Console Archives Hercules no eikou II Taitan no metsubou",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011988034c80727808911f1ab54dd0a6e012c83/27efd2dd864a9db4773bb5cbab6dedfe/c3a30ff1ce6ec6094a3d951af449cccf6694e94524445f29318207334998aaf7.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-16"
   },
   "70010000082804": {
     "nsuid": "70010000082804",
@@ -26825,8 +26885,10 @@
     "nsuid": "70010000128044",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001280445d83f783808911f1b60205c5b43bf52f/d62a050f1d7948791706ec31c75a51d4/b4a79203a4d0b5b4273610954aa5e3fa95a16455060dcc8f42f46f8109494bc2.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000083754": {
     "nsuid": "70010000083754",
@@ -26846,29 +26908,38 @@
     "nsuid": "70010000113186",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001131860a08ba43808911f1ac1c05c5b43bf52f/4a4c3744ec33e3d47254fe1cbb7d78e6/6905e3bf51b38a48e57c4c656523e00606608f520b4b5c3a5b55169adc90ae19.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000129333": {
     "nsuid": "70010000129333",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "幽靈打擊(Ghost Strike)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012933325cb9eca808911f1bd904d010b176d23/2df8a5a646a0742df4b4f8a4bcdcc3e4/617c1f45353ff194f1292b81b8ee761bdb7917e3d2f1380b49491ad3e235a565.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-16"
   },
   "70010000129389": {
     "nsuid": "70010000129389",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001293896c20cdb6808911f1b4a1dd0a6e012c83/f9b833e94ba961ab20580187ad2a0e96/f3365238e474c7a1f087b7e7ef779ed9a1cbebb4d19b1d48be12f55642f7f1c5.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000121904": {
     "nsuid": "70010000121904",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012190432fb9afd808911f1ac814d010b176d23/a1ac8ba33bcff234b2a1ac4e13d0ec6d/0686c840786201996e70ec15a9c74be299bcbb334d426c4e8c6a7dffa2f7afde.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000124960": {
     "nsuid": "70010000124960",
@@ -26895,8 +26966,10 @@
     "nsuid": "70010000125745",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000125745688502ab808911f1906c25bf158c96be/69c73b4eee6dcc34d1ec080bc58bd23f/ff75087beb17ed5e48e2e86076e73aad65663258bd1e61bcaf89197fe814ed95.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127098": {
     "nsuid": "70010000127098",
@@ -26908,9 +26981,12 @@
   "70010000127288": {
     "nsuid": "70010000127288",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Anime: Fantasy Uni 3",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012728834d90ce0808911f1b8e05317a2ef489d/6c16561b870ec481c6ea830b38aab47a/bceeee7d9c594f24a2120720d4f7ab58d70af87ca2df51c4176866348cf6b7de.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-16"
   },
   "70010000107337": {
     "nsuid": "70010000107337",
@@ -26950,9 +27026,12 @@
   "70010000124632": {
     "nsuid": "70010000124632",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "STAR OCEAN THE SECOND STORY R",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001246324e4c2e4480b411f19280f5f3687099a5/8966eeb99c546d93656c020cf8cd20f9/d5b9f6a79f708284a50ffcb43481e2579127692efb8d965bd9daa83c16eca51d.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-16"
   },
   "70010000078736": {
     "nsuid": "70010000078736",
@@ -26999,9 +27078,12 @@
   "70010000129007": {
     "nsuid": "70010000129007",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "蒼翼：混沌效應X (BlazBlue Entropy Effect X) – Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001290075d0f5566808911f1aadd57781c040998/29a1e67d8602ff1275df943724378c41/c157bb6699628a50e7f42dd3d09df3d7d031a82f42f646399f671bd858ee7f01.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-13"
   },
   "70010000113599": {
     "nsuid": "70010000113599",
@@ -27040,6 +27122,223 @@
   },
   "70010000129220": {
     "nsuid": "70010000129220",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122249": {
+    "nsuid": "70010000122249",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000109857": {
+    "nsuid": "70010000109857",
+    "platform": "Switch",
+    "name": "Hello Kitty Island Adventure Nintendo Switch 2 Edition",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123296": {
+    "nsuid": "70010000123296",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123504": {
+    "nsuid": "70010000123504",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123522": {
+    "nsuid": "70010000123522",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000116854": {
+    "nsuid": "70010000116854",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128432": {
+    "nsuid": "70010000128432",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129034": {
+    "nsuid": "70010000129034",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129095": {
+    "nsuid": "70010000129095",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129266": {
+    "nsuid": "70010000129266",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129698": {
+    "nsuid": "70010000129698",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129967": {
+    "nsuid": "70010000129967",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130115": {
+    "nsuid": "70010000130115",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000119993": {
+    "nsuid": "70010000119993",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000120106": {
+    "nsuid": "70010000120106",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000120557": {
+    "nsuid": "70010000120557",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000120736": {
+    "nsuid": "70010000120736",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000092000": {
+    "nsuid": "70010000092000",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125936": {
+    "nsuid": "70010000125936",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126259": {
+    "nsuid": "70010000126259",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126310": {
+    "nsuid": "70010000126310",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127053": {
+    "nsuid": "70010000127053",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127061": {
+    "nsuid": "70010000127061",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127211": {
+    "nsuid": "70010000127211",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130470": {
+    "nsuid": "70010000130470",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130687": {
+    "nsuid": "70010000130687",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130933": {
+    "nsuid": "70010000130933",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131221": {
+    "nsuid": "70010000131221",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000118148": {
+    "nsuid": "70010000118148",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000118153": {
+    "nsuid": "70010000118153",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131767": {
+    "nsuid": "70010000131767",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
