@@ -602,7 +602,7 @@
   "70010000122827": {
     "nsuid": "70010000122827",
     "platform": "Switch 2",
-    "name": "斯普拉遁 塗擊隊",
+    "name": "Splatoon Raiders (斯普拉遁 塗擊隊)",
     "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012282708d642893dbe11f1a89851d357ba780b/2617b2700ce3aef44abbac160786fa76/ac10d398536e75dbd5ab9961c04d8fdaeaa35b531a173adfedf684ec18a8460d.jpg",
     "cover_source": "catalog",
     "from_catalog": true,
@@ -13308,9 +13308,12 @@
   "70010000103857": {
     "nsuid": "70010000103857",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "血咒之城：暗夜儀式 (Bloodstained: Ritual of the Night)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000103857c4230f2a894711f0beec45e7c7796b23/b9f53d23691099ff4e1d6923ddd6be79/f72161fbe4fe452c6ec3a10f81fd7fba661a2b6da7011e5b2cfc358505772402.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2025-09-09"
   },
   "70010000103858": {
     "nsuid": "70010000103858",
@@ -25680,8 +25683,10 @@
     "nsuid": "70010000070062",
     "platform": "Switch",
     "name": "星界戰士 (Astral Ascent)",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000070062a421fee96ed311f1b5bb1df3a117d43b/07ba689a0a642de3c4ae9f486f10c439/f2063010e03e27202ab0082b6119762d94ab8db1887af9353c98480f60132753.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-07-17"
   },
   "70010000125906": {
     "nsuid": "70010000125906",
@@ -26177,8 +26182,10 @@
     "nsuid": "70010000065819",
     "platform": "Switch",
     "name": "GigaBash 《巨擊大亂鬥》",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000006581972b3e116744b11f1b4094f6c2a0e2bb7/225eccceadcf30fee6d69c31d7e5a386/daf9341e7d5827456c85ebe0be2442c1783e58c6f213c7a4b8ddbdedb6a33098.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-07-17"
   },
   "70010000127564": {
     "nsuid": "70010000127564",
@@ -26704,9 +26711,13 @@
   "70010000127345": {
     "nsuid": "70010000127345",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Puzzle Girls: Seductive Nights",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001273456457d2c4808911f189c7dd0a6e012c83/8f581f35b0cce7cf0e5b14335d8e3fb3/f5b252f8af70e93645b5fc3b9a5e72bedfc6c2fae57fac0de1c25ea4b0462b93.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-07-23"
   },
   "70010000118326": {
     "nsuid": "70010000118326",
@@ -26769,16 +26780,22 @@
   "70010000113968": {
     "nsuid": "70010000113968",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Heave Ho 2",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001139687f625f0c815211f1a0ba6ba31ed76557/c6c37954ce86c6c2ae8c3e79c3590a23/0af33b33dc76d4ca21beec4a06dbf76a3e6337849d506457809a02eb39659374.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-17"
   },
   "70010000113974": {
     "nsuid": "70010000113974",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Heave Ho 2",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001139744086a897815211f1a4720b031330cee2/1e87e8b52a6586d951a347b4875e1075/0af33b33dc76d4ca21beec4a06dbf76a3e6337849d506457809a02eb39659374.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-17"
   },
   "70010000130518": {
     "nsuid": "70010000130518",
@@ -26845,8 +26862,10 @@
     "nsuid": "70010000095444",
     "platform": "Switch",
     "name": "機動戰士 GUNDAM SEED 激鬥命運 復刻版 （MOBILE SUIT GUNDAM SEED BATTLE DESTINY REMASTERED）",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000095444e77209ca7c3711f19dc931940700e01d/eec064a5ae35f8d0a61fb3a05b7b9a17/4a25c962d3fc736d66a4cfbaa68e3fda08e5fb23dee9867f69d2e58a507f3b2c.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-07-17"
   },
   "70010000079102": {
     "nsuid": "70010000079102",
@@ -27020,8 +27039,10 @@
     "nsuid": "70010000122702",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001227022e2e2754815211f1a04f45a467f68fc3/b556a39aa080c59338cf5aa0bdc0c18b/16b1ec578d5f7a0a6c996d60fe2da4a2de79e4ca36d94c4f0e889f144969ec88.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000124632": {
     "nsuid": "70010000124632",
@@ -27037,8 +27058,10 @@
     "nsuid": "70010000078736",
     "platform": "Switch",
     "name": "Our Field Trip Adventure",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000078736d21575e87f4b11f1883867d28c82c857/c6abf80bbb7fb9b426c2f70811f23bea/8a3fbbf36a29c0454b59853ad6dd3570fe798dbeeccae07c0347fcdc16909959.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-07-17"
   },
   "70010000100071": {
     "nsuid": "70010000100071",
@@ -27050,30 +27073,42 @@
   "70010000128761": {
     "nsuid": "70010000128761",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "超級機器人大戰V",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128761a234a0a3815211f1b23b9fddf6668481/ea292c876a2e9611ae6fa0cfbb8da3fc/db0cf40f24b03281f8718caaf8f4955c5d37ad14660857ee6ce0a56d88806cd8.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-17"
   },
   "70010000128784": {
     "nsuid": "70010000128784",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "SD GUNDAM G 世代 火線縱橫",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128784c1d2a317815211f1966a9fddf6668481/f6d094de702b1869997233fe819c6e8a/7e7d632c2342bbcfce04a9553b01da3cb9fa2cf6364d6bef7285b774c27f127f.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-17"
   },
   "70010000128930": {
     "nsuid": "70010000128930",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "超級機器人大戰Ｔ",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128930ce0f8dde815211f18da7731e671eb215/27e788da10be3597cbdec3c716118909/4e20966c61e9df3177067ceca996fba60878bf392a9eb76425b6222bff32b23c.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-17"
   },
   "70010000128936": {
     "nsuid": "70010000128936",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "超級機器人大戰Ｘ",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128936a2d21f5c815211f1b245d77ed02e85ec/62c5eff083789cb63971e1322a783908/e4cb71b3f5c43af23ed1020a30c406a43e335207015303a61aa8837f6864f371.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-17"
   },
   "70010000129007": {
     "nsuid": "70010000129007",
@@ -27088,9 +27123,13 @@
   "70010000113599": {
     "nsuid": "70010000113599",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "火山的女兒 (VOLCANO PRINCESS)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001135996ed8b5b280cd11f18bf7ab7e97069b67/36e14cbc784f2e7024c40686d933ce22/4e8101233b8c507cc7607e7f96de1a7fb86c18991c9670a0026f67c5c9c916dd.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000129909": {
     "nsuid": "70010000129909",
@@ -27110,15 +27149,19 @@
     "nsuid": "70010000074354",
     "platform": "Switch",
     "name": "ACE COMBAT™7: SKIES UNKNOWN 豪華版",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000074354d409c52e7f4b11f193bd07f14f951254/c6619f10e15c352221ec82c34205e1c7/c7ebd7b9a4cb39b1c602ff165a17e65a18635fe35b58dd56a896b79428687f10.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-07-17"
   },
   "70010000074495": {
     "nsuid": "70010000074495",
     "platform": "Switch",
     "name": "Hello Kitty Island Adventure",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000074495684287dd7f4311f18452bf6f2dab3f51/26ff0f492b8eefdebb5f1f748056a9da/9bc84933536e86209d90a2ce46ddcd5d5a8782156b9d636febd1057f49eae629.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-07-17"
   },
   "70010000129220": {
     "nsuid": "70010000129220",
@@ -27138,8 +27181,10 @@
     "nsuid": "70010000109857",
     "platform": "Switch",
     "name": "Hello Kitty Island Adventure Nintendo Switch 2 Edition",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000010985721ed36d6815211f1a5190123af09c671/071df01226956c1cb5d55fa44d997914/b0ca2045b2a2f46b7c7ec8251c164daa6102201dacdae8b91ac2120074f7d810.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-07-17"
   },
   "70010000123296": {
     "nsuid": "70010000123296",
@@ -27343,5 +27388,191 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000125636": {
+    "nsuid": "70010000125636",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126218": {
+    "nsuid": "70010000126218",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126393": {
+    "nsuid": "70010000126393",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126860": {
+    "nsuid": "70010000126860",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000117409": {
+    "nsuid": "70010000117409",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130198": {
+    "nsuid": "70010000130198",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130746": {
+    "nsuid": "70010000130746",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130939": {
+    "nsuid": "70010000130939",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131124": {
+    "nsuid": "70010000131124",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131171": {
+    "nsuid": "70010000131171",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131364": {
+    "nsuid": "70010000131364",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131526": {
+    "nsuid": "70010000131526",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131581": {
+    "nsuid": "70010000131581",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132490": {
+    "nsuid": "70010000132490",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122797": {
+    "nsuid": "70010000122797",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122803": {
+    "nsuid": "70010000122803",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122902": {
+    "nsuid": "70010000122902",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123117": {
+    "nsuid": "70010000123117",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123427": {
+    "nsuid": "70010000123427",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123447": {
+    "nsuid": "70010000123447",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123653": {
+    "nsuid": "70010000123653",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123996": {
+    "nsuid": "70010000123996",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124587": {
+    "nsuid": "70010000124587",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124591": {
+    "nsuid": "70010000124591",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000040487": {
+    "nsuid": "70010000040487",
+    "name": "Alba: A Wildlife Adventure",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000040487f6947a097f3a11f1805a2b8353270422/6cb739f294e62250c6b02c0bb8369968/ea29e3dc1cb1e27bfbf17eddc622f667c155dc4bedbaf31e9204a017d1b6d272.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-07-17"
+  },
+  "70010000037859": {
+    "nsuid": "70010000037859",
+    "name": "SD GUNDAM G世代 創世 for Nintendo Switch",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000037859f364351d7f3a11f19fcebb33080d2f21/45f620052c426c47f0dec9bbe3344a27/6fd88e5a24501da94c5232bd29df34e1c06766ca98dd7b3f02a4dc98014580a5.jpg?w=320&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-07-17"
   }
 }
