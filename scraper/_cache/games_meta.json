@@ -597,7 +597,8 @@
     "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012317002e59ee349a211f19c3c6f453170fd9f/0ef91569b7f1020a20e763716aeb918a/0e1ce3e25ee3b190df9fc2b9284bd9847672a4cc9bf548103545dc4edfc197a4.jpg",
     "cover_source": "catalog",
     "from_catalog": true,
-    "release_date": "2026-06-25"
+    "release_date": "2026-06-25",
+    "tw_page_url": "https://www.nintendo.com/tw/games/switch2/abgwa/index.html"
   },
   "70010000122827": {
     "nsuid": "70010000122827",
@@ -27619,6 +27620,27 @@
   },
   "70010000111918": {
     "nsuid": "70010000111918",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000116956": {
+    "nsuid": "70010000116956",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124893": {
+    "nsuid": "70010000124893",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000104439": {
+    "nsuid": "70010000104439",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
