@@ -27239,9 +27239,12 @@
   "70010000129266": {
     "nsuid": "70010000129266",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Wo Long: Fallen Dynasty Complete Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129266dc0e4350847611f1a390b125225bec31/6a54615c431e100e38cdc6e3801bbd95/31bcae2075173fb9e6017103e0bf4f0a568551564e81c3a3f2d30b26f544637e.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-03"
   },
   "70010000129698": {
     "nsuid": "70010000129698",
