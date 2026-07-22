@@ -27648,5 +27648,40 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000110120": {
+    "nsuid": "70010000110120",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000110126": {
+    "nsuid": "70010000110126",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131833": {
+    "nsuid": "70010000131833",
+    "platform": "Switch",
+    "name": "Bone Marrow 2",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124325": {
+    "nsuid": "70010000124325",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132484": {
+    "nsuid": "70010000132484",
+    "platform": "Switch",
+    "name": "Radiation Caterpillar",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
