@@ -27167,16 +27167,23 @@
   "70010000129220": {
     "nsuid": "70010000129220",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "冒險村物語2 – Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129220d7a1a049860911f19a3a05f14df7b16a/036963d9516ee740b8887bd84753b9aa/cf1c297465742286df4ad4fa9c845f7b3e381c1d0f9367bf0cedd87dcc440892.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-23"
   },
   "70010000122249": {
     "nsuid": "70010000122249",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Drive Horizon Story",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001222499d4d88fe860911f1978cdf8f381d5a2b/809e2fb2e8742d157142e3688c742881/f0152eb2f8775e51c7a132f4f6d789c927cad2c7954db0ef746efb242bd18061.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000109857": {
     "nsuid": "70010000109857",
@@ -27190,16 +27197,21 @@
   "70010000123296": {
     "nsuid": "70010000123296",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Football 26 League Superstar",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000123296586274c7860911f199671be63085861b/845b3960cd95412b230ff36524c6399b/0f9e0f8d2b7b37f7187693bb5bc44f4cd6514cbc16810deebcec182088688835.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-23"
   },
   "70010000123504": {
     "nsuid": "70010000123504",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001235046f15b0fc860911f1bf170187d0bd4a39/1195f063369efb3c36c555f3db64706b/f264ce7f4ea281daf29cf9845cb69963e21acd9a9b6808c96ce74b8ac82b28a0.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000123522": {
     "nsuid": "70010000123522",
@@ -27233,8 +27245,10 @@
     "nsuid": "70010000129095",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129095af7b9472860911f19936df8f381d5a2b/5fffbb96fb112890f2d85ac6d067e4f8/47273b0536bdc7c8c5c86dbe4cb719ff137ed3d97ce95f1f3848e365fe11a131.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000129266": {
     "nsuid": "70010000129266",
@@ -27264,15 +27278,19 @@
     "nsuid": "70010000130115",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001301158803b49f860911f1af2d0187d0bd4a39/3dfec8c4108a40e25aff87133512d51f/88e5e0ca42289aa7d8663f0498b66c0f2704f947088783814ba18f95b0406b26.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000119993": {
     "nsuid": "70010000119993",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001199939d935c35860911f1ae6a4de6573e10d6/bf30207f7b4a544d80f237f55d0c0116/8bfa47a6dff146505c99df9124c8d68b2a4faf2b097caa06665aaa6f355501b5.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000120106": {
     "nsuid": "70010000120106",
@@ -27285,29 +27303,39 @@
     "nsuid": "70010000120557",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000120557a2d6f9bd860911f18837a74d3556bd67/12e9237f3e25860cdb2abe6edc83aa64/cc842a48515d5979e005c1cfe98f127056b50e107f29933608c7b5477a85b9ba.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000120736": {
     "nsuid": "70010000120736",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012073687f4a0a4860911f19e42eff85be7df0c/027f126716f67120fccda6cb2fe8ca83/f8a3c194c9473319e274ea9c2e9e49d3f5d218580665129d19d702bbece24f8b.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000092000": {
     "nsuid": "70010000092000",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000009200021c61d1c860911f1a1973dadf65fb0d3/d6369aa40e84426166a11cdeb3b81cb0/beeedb37ef3ce991f2cac99fb7465f6c8dee5c26221019c42f1f2c3d30f922fc.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000125936": {
     "nsuid": "70010000125936",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Truck Parking Simulator 2026",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000125936d73d79f8860911f18066cf0f3bead9f4/7b449ba80defe299d43362bf686908dd/a25d06aa69d2f0d9597c0d40eec6741624cea9d13f7072163bf9099cf5e34b72.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000126259": {
     "nsuid": "70010000126259",
@@ -27326,16 +27354,24 @@
   "70010000127053": {
     "nsuid": "70010000127053",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "泳池派對女孩：水花美少女 (Pool Party Girls: Splash Babes)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127053e273889f860911f18958cf0f3bead9f4/0061d7d2b012bdacd6f62d36fe3e398a/be7b8b8a003296331832656c690ce1337fbde043873d6908e700f19a7a35604b.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-08-06"
   },
   "70010000127061": {
     "nsuid": "70010000127061",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "泳池派對男孩：水花男神 (Pool Party Boys: Splash Guys)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012706178525594860911f19dd31be63085861b/c3d5e7b4f3189d608c6b1ed9fd1e8bc4/5ae651738c3640addbb7d0ec0655f1df82b0378d2d2e74b6c353e46f32c49517.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-08-06"
   },
   "70010000127211": {
     "nsuid": "70010000127211",
@@ -27368,9 +27404,12 @@
   "70010000131221": {
     "nsuid": "70010000131221",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Lou's Lagoon 林波悠遊 – Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131221f0ff885b860911f1978c05f14df7b16a/1d3104737aa5ce2e46200a59636cb12e/bec0ca8efc96e185df6009013e2aa61f6bff5870ce9fa67e0a2b7b645865acfa.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-27"
   },
   "70010000118148": {
     "nsuid": "70010000118148",
@@ -27397,8 +27436,10 @@
     "nsuid": "70010000125636",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000125636b88dfa35860911f19a424de6573e10d6/89065b5644490e407b732d5e0ec0392a/b882b82e9ceac975d38233fded88cd1b0860997932396177855083b5d722b760.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000126218": {
     "nsuid": "70010000126218",
@@ -27417,23 +27458,31 @@
   "70010000126860": {
     "nsuid": "70010000126860",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "永泉傳說 FOUNTAINS",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126860c3d94d16860911f19c93eff85be7df0c/b0ea941a30d292687c348bf054ff5616/c44ff019ec7bd014c54c7a01d9eb2924da99d38a35af84bc767a9774a0b550e6.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000117409": {
     "nsuid": "70010000117409",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011740997d47e3e860911f1ba433dadf65fb0d3/bcf53ca3091485ca54c800a77a853737/44e9cb090f022b3b2e12e595f09a25986fe05f1c12b8f71db73033249f17ed51.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000130198": {
     "nsuid": "70010000130198",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000130198fd9e5691860911f1b0e205f14df7b16a/c1296a0f216f522fe2210af5722e244f/5fdb711fb31456159dcfd63703e2a5b90a7b774649ed4bd658f6005c29131b30.jpeg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000130746": {
     "nsuid": "70010000130746",
@@ -27446,36 +27495,46 @@
     "nsuid": "70010000130939",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000130939a5a5da57860911f1b0723dadf65fb0d3/8aadc89e173a32ce661f5bfbdf887288/5489f07be60e7933b8bb0ca2a850924977bcd5e322df79385678858c19bedad5.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000131124": {
     "nsuid": "70010000131124",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131124a26901e2860911f198efeff85be7df0c/e909910d95df97e0a65512479862864d/f296e402ed6cdfe20cf0045a5f9df9e1a63e9a40b40b5c91c763c8bfe78396ef.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000131171": {
     "nsuid": "70010000131171",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131171dca57cf7860911f1a535eff85be7df0c/4de353964c9fa2e2a9596772d1d1bcbc/06940648072a15a0c40b53a637ea3427b004ca29dfccc878bc2983d23784ce38.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000131364": {
     "nsuid": "70010000131364",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131364aba47bc7860911f1844fdbe3bd64d897/f629562ef9965fde2d48aee526b29b9a/0034c5c4e637963e23477d41dcbadaa52cbbc88a7ebc6db4b526a56089e79c35.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000131526": {
     "nsuid": "70010000131526",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131526ca0513a1860911f193ee3dadf65fb0d3/dee14693be9fafe0660e345402adc06f/645944344d6b5f15bc70ea37b6dea11a8d0bbf6de486be53191d3778fd9c92b1.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000131581": {
     "nsuid": "70010000131581",
@@ -27488,29 +27547,39 @@
     "nsuid": "70010000132490",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000132490d9ed6685860911f198afa74d3556bd67/44fab5795382877f444de3a0c3406577/6d72049818c0d7532e1625e5fea4c9dfd33a9e8283c64c66c9eb3211009abfcb.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000122797": {
     "nsuid": "70010000122797",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives ARMADILLO RACING",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012279780482f21860911f1864c0187d0bd4a39/b99c69e1f9b609d087c279c22c6dcc09/885ce78a60116fd26f4cc0627b01687c49377868d30308509585c37de576b191.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-23"
   },
   "70010000122803": {
     "nsuid": "70010000122803",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives 2 ARMADILLO RACING",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001228035fc30249860911f1b663eff85be7df0c/bca6168d1f81184df0b7c3a499307c97/e0648dcd1bce24bfe802b32a79024ea0e0cd776abfe3e436d119e80b20382906.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-23"
   },
   "70010000122902": {
     "nsuid": "70010000122902",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012290273c0ad97860911f193c5eff85be7df0c/4289cee69548b272682992a0b89fe697/f9e203d95fbe4be7cd941471b2abcf75c8ac82d24415279ece096b737f9ca6c5.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000123117": {
     "nsuid": "70010000123117",
@@ -27522,9 +27591,13 @@
   "70010000123427": {
     "nsuid": "70010000123427",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Titanic Survival Simulator",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012342761cadc3c860911f1a7a2df8f381d5a2b/9295770d94edf473828132d340894cf8/c06d73a00fbd363487d04971e333187f29e1d0c217e560c54db337b2c94198c2.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000123447": {
     "nsuid": "70010000123447",
@@ -27596,9 +27669,12 @@
   "70010000127905": {
     "nsuid": "70010000127905",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Mad Taxi Simulator",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001279059e76ec39860911f1b594cf0f3bead9f4/c24c09544f45f3c4be7c45ec8628e959/4d62bcd27d75f8b444c62c4f36864b2bfa7fea82fde5102f8c7c10e8ff88327e.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-23"
   },
   "70010000120802": {
     "nsuid": "70010000120802",
@@ -27610,16 +27686,22 @@
   "70010000121892": {
     "nsuid": "70010000121892",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Ocean Shark Survival - Float Home Builder Simulator",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012189283bb3f75860911f194b73dadf65fb0d3/a18641de359ef42c121e524297b10aab/be20b06881c203e742e460448b81d7bfd556e55a403829fac49d408719cf5ffe.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000121919": {
     "nsuid": "70010000121919",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000121919a73d1216860911f19f17cf0f3bead9f4/639383acdf328b9b9955735b490799f1/d126dd9136320848edcf0999dc5c2a4c454e2afebb2e7043d8f620b445e653fb.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000111918": {
     "nsuid": "70010000111918",
@@ -27638,9 +27720,12 @@
   "70010000124893": {
     "nsuid": "70010000124893",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "難道是？妖怪射擊屋 for Nintendo Switch 2",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000124893e49c431e860911f185fb05f14df7b16a/b9c4782ea2f0e3185b443e50e017a0ef/75eed3343217ef30536bb2056c932614285950df870aae112629f00b6c252840.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-06"
   },
   "70010000104439": {
     "nsuid": "70010000104439",
@@ -27681,7 +27766,9 @@
     "nsuid": "70010000132484",
     "platform": "Switch",
     "name": "Radiation Caterpillar",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000132484827c65bb860911f19b9d85839f2b85b4/5d3e8b98b5234ff1e357b658bf77155c/c72c73f4663030602a8352c3a29c349c72fc010048f978776bd82aa9ae1a0ecf.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   }
 }
