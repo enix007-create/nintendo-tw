@@ -27873,9 +27873,13 @@
   "70010000098060": {
     "nsuid": "70010000098060",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Flamecraft (龍焰魔法鎮)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000009806027b3b60a8ac011f1b08627034152a0e2/5d067a6456a1ec9dea21398f7430e238/018637f78cc66e7667ddbcd5a4c502c97b009cdcb024a7928abdde781e55d874.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-09-17"
   },
   "70010000103597": {
     "nsuid": "70010000103597",
@@ -27979,6 +27983,132 @@
     "nsuid": "70010000123769",
     "platform": "Switch",
     "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000107521": {
+    "nsuid": "70010000107521",
+    "platform": "Switch",
+    "name": "殭屍街區：塗鴉特工隊 (Ghetto Zombies: Graffiti Squad)",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127762": {
+    "nsuid": "70010000127762",
+    "platform": "Switch",
+    "name": "Aggelos 2",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000119945": {
+    "nsuid": "70010000119945",
+    "platform": "Switch",
+    "name": "韓國無人機飛行遊覽玉溪川",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000119951": {
+    "nsuid": "70010000119951",
+    "platform": "Switch",
+    "name": "韓國無人機飛行遊覽百濟軍事博物館",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000112372": {
+    "nsuid": "70010000112372",
+    "platform": "Switch",
+    "name": "HOT WHEELS™ Infinite Rush",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000112495": {
+    "nsuid": "70010000112495",
+    "platform": "Switch",
+    "name": "近畿霊務局",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000120499": {
+    "nsuid": "70010000120499",
+    "platform": "Switch",
+    "name": "Limbot",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000113441": {
+    "nsuid": "70010000113441",
+    "platform": "Switch",
+    "name": "Tyrant's Realm",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129419": {
+    "nsuid": "70010000129419",
+    "platform": "Switch",
+    "name": "班的殭屍末日(Ben's Zombie Apocalypse)",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000105773": {
+    "nsuid": "70010000105773",
+    "platform": "Switch",
+    "name": "Another Eden Begins",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125513": {
+    "nsuid": "70010000125513",
+    "platform": "Switch",
+    "name": "The Pirate Keko",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125696": {
+    "nsuid": "70010000125696",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126125": {
+    "nsuid": "70010000126125",
+    "platform": "Switch",
+    "name": "菌菌特工隊 (Gummy Invaders)",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126506": {
+    "nsuid": "70010000126506",
+    "platform": "Switch",
+    "name": "Ink Splash",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127047": {
+    "nsuid": "70010000127047",
+    "platform": "Switch",
+    "name": "Monst",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127225": {
+    "nsuid": "70010000127225",
+    "platform": "Switch",
+    "name": "Anime Codex: Shy Girls",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131775": {
+    "nsuid": "70010000131775",
+    "platform": "Switch",
+    "name": "Chameleon Dummy Hunt",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000095649": {
+    "nsuid": "70010000095649",
+    "platform": "Switch",
+    "name": "JALECOlle Famicom Ver. ROD LAND",
     "cover_url": "",
     "hk_checked": true
   }
