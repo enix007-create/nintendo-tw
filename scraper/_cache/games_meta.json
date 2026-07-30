@@ -27810,16 +27810,24 @@
   "70010000130719": {
     "nsuid": "70010000130719",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "小怪物牧場",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000130719dfd3d4a98b8911f19d8f3333a8c2f1b1/de6b99ed8119416f2dc1f919b294dc5a/8b35cab7ca070f683ce3001789d4e849109773f79da8ba0156a55dd9859c7582.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2027-01-21"
   },
   "70010000131520": {
     "nsuid": "70010000131520",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Xtreme Traffic Racing",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013152096bff4ef8b8911f18c6aed6afc6a35a1/5472362717fd1e90611057129603c4d2/12d34c7edd29a1c281e6c1f2a9e56c688175c3913e51175c4c1a6e37dd896ee2.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-08-06"
   },
   "70010000132418": {
     "nsuid": "70010000132418",
@@ -27831,16 +27839,24 @@
   "70010000123042": {
     "nsuid": "70010000123042",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Prison Escape Simulator 2026",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001230427c3cc0568b8911f1b3315546e6731c95/38f2f44d4629c81181d7c351e8fd680c/6b7c5c475dab151b6200c55fa510b2372198fc3bec36aca916086783a97b1f3d.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-08-06"
   },
   "70010000123441": {
     "nsuid": "70010000123441",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Jesus Simulator",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000123441700db8d78b8911f1b38009bf4d5cbfbe/50b6351dd7fee51e39be0ebcefc13a8f/5f8250facc8fa0da08cfbdab1410b898c3e0cc727b258f31625cc5e393350cf7.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-08-06"
   },
   "70010000110281": {
     "nsuid": "70010000110281",
@@ -27852,16 +27868,22 @@
   "70010000127913": {
     "nsuid": "70010000127913",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "STREET UNi X",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127913bfe8504d8b8911f180acebfd7659780c/591ce0092fce74b7b4cdad50004ab5f2/5a54661c2112075f0e876e4638be18020d17b50225804037308eb483e1056910.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000128639": {
     "nsuid": "70010000128639",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Another Eden Begins Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128639a8a7d7aa8b8911f181165546e6731c95/40989e21b152e7fc3fa2c6493e300a14/da4e709507be57ca9e145f109d38638f43bc4577cdb8cdb0b302803fe4754717.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-16"
   },
   "70010000129043": {
     "nsuid": "70010000129043",
@@ -27884,30 +27906,41 @@
   "70010000103597": {
     "nsuid": "70010000103597",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives TX-1",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001035973e33a9528b8911f1822725626ecc3464/076e9ca5bbf9a3043c03c2a5fbd8f0b5/f226004986e8576ec0efef1bac9aec728bff03499a4a892fb9a20b01ab2cbaee.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000103602": {
     "nsuid": "70010000103602",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives 2 TX-1",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000010360259ef5f178b8911f18b7c09bf4d5cbfbe/674d1752a9e850ce59662247c99acc22/f083ec1ffa142e42af94a390a368d133197fc8def6486aa1d6f2f6e9c0817bcb.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000115214": {
     "nsuid": "70010000115214",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000115214713865108b8911f1a968e7dbeab8d2f9/a582128e4b5c2f5679f80ce911b8893c/d042fad2c65289f70f086696a28a1a2db23ba976ef4bfa1c865d1f6f0d411c48.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000107640": {
     "nsuid": "70010000107640",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Console Archives Doraemon",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001076405882de7b8b8911f1810ae7dbeab8d2f9/f8eab871927fe67e627dab8f7aa5bb67/313ff4a48e774c7f4d6e2abef82114455b648400857d02575425fcc96029e091.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000119635": {
     "nsuid": "70010000119635",
@@ -27934,8 +27967,10 @@
     "nsuid": "70010000127494",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127494b910028e8b8911f191b33333a8c2f1b1/cbff2ef32fac406acd8df412c5a6e8ac/8699c113eed1d630c9dfbe8acad9093c918d86ea276b654905054ca1c28ac37c.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000117355": {
     "nsuid": "70010000117355",
@@ -27947,23 +27982,32 @@
   "70010000130845": {
     "nsuid": "70010000130845",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Anime Video Puzzle",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000130845d4c2247e8b8911f197c325626ecc3464/d561a88499c89595d9c527a351756c20/df24c327c5701d6364e757dd61a5f9c37c5753b964d717da52c1bc9b8a7006ac.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000131475": {
     "nsuid": "70010000131475",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Horror Cliche",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131475da3d9e3c8b8911f190bfa90e11a687af/153244c8b69b5459d27a8ea2d7786533/48269d285217fb6c105d1d4397cd9316336e2bf8a94a535fe290f98398293041.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000118319": {
     "nsuid": "70010000118319",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Fantasy Maiden Wars - DREAM OF THE STRAY DREAMER -",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011831958a52f458b8911f1b042a90e11a687af/e8135028f2e072895ac67c60608fe376/25f94f01c4a032718d3fc57a292947fdabe7e3e38c6bdae21deeb845e2143f39.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000131992": {
     "nsuid": "70010000131992",
@@ -27982,23 +28026,31 @@
   "70010000123769": {
     "nsuid": "70010000123769",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "愛、互聯網、殺人魔法 (Love, Internet, and Murder Magic)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012376997c2ad9e8b8911f196ce3333a8c2f1b1/1c3c042857ef42f94981720c15be23ee/ebbbc53a73a1564a570a1a15098e6acbc9a4c6f4e0b220d46983574aeb15b293.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-08-13"
   },
   "70010000107521": {
     "nsuid": "70010000107521",
     "platform": "Switch",
     "name": "殭屍街區：塗鴉特工隊 (Ghetto Zombies: Graffiti Squad)",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001075215e0b95878b8911f1bc36a90e11a687af/c6dd7bab6c5bf2b2f7843d1e1153b6fa/6829194829d8ab49d7bb6fbf2cc557fa165b81f35fc2ab4bd54de245696d0c0e.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127762": {
     "nsuid": "70010000127762",
     "platform": "Switch",
     "name": "Aggelos 2",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001277626dc032868b8911f1aef1c5316883f160/3ce258b634022c658b92275be19461c6/5b6edfef6836353f8a16ef7436042219a2bc31a3f65c8c83ae8c5d4c22de1040.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000119945": {
     "nsuid": "70010000119945",
@@ -28011,8 +28063,10 @@
     "nsuid": "70010000119951",
     "platform": "Switch",
     "name": "韓國無人機飛行遊覽百濟軍事博物館",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000119951664567f08b8911f1b35ca90e11a687af/2b311051af5bc456a4ef30de5280d344/7a73c9819b71673dbc0f05265b1c66d50e328a4e6126a79c74d15f69c4d4fa55.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000112372": {
     "nsuid": "70010000112372",
@@ -28032,36 +28086,47 @@
     "nsuid": "70010000120499",
     "platform": "Switch",
     "name": "Limbot",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001204996722d6cf8b8911f18e7225626ecc3464/dda46cd37b502b64335dd61fa6d645ec/8789d286118844eebeb5de0b8297e098dc9712489d5ea786a75a65c5ce1d0f14.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000113441": {
     "nsuid": "70010000113441",
     "platform": "Switch",
     "name": "Tyrant's Realm",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000113441881b64568b8911f1a94aaf66c2079a7a/0100f3fa5195f2d776b87481c85ce635/6b9fe497c221a11645f51ae7106ba26b55930089dc840d69eea09da443c028d5.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000129419": {
     "nsuid": "70010000129419",
     "platform": "Switch",
     "name": "班的殭屍末日(Ben's Zombie Apocalypse)",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129419a4bd0ed58b8911f1ab582b92ebdde023/6e0e3c509786fe3aea7d751f70d08375/8955deb667e1247ddc1adf2e5c5637884f4ceea1f9e7ad82c319e8ebb2a6306e.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-07-30"
   },
   "70010000105773": {
     "nsuid": "70010000105773",
     "platform": "Switch",
     "name": "Another Eden Begins",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000010577358646d008b8911f1962e25626ecc3464/e6ba2f830ea1ed4523daf4dc7d5751e0/2b94d5046e4991e4e0783efd93a260939713aa7be2a7192a0fe43ca58397c516.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000125513": {
     "nsuid": "70010000125513",
     "platform": "Switch",
     "name": "The Pirate Keko",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012551395631d438b8911f19e5eaf66c2079a7a/f77952d455168e4ab05cae3a08be5b33/77e16d6904dcb699bfeed8834ef0061fbb892e53991aa44d6c7de3f072b7d99a.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "release_date": "2026-08-13"
   },
   "70010000125696": {
     "nsuid": "70010000125696",
@@ -28074,22 +28139,28 @@
     "nsuid": "70010000126125",
     "platform": "Switch",
     "name": "菌菌特工隊 (Gummy Invaders)",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126125aa14f3398b8911f199a8af66c2079a7a/d17abb4bbfe276045bbc7713ec9d9e8f/dda89d121c2c664d3fbb6023fbce7070ef752928ced07295805d30cf7cb24079.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000126506": {
     "nsuid": "70010000126506",
     "platform": "Switch",
     "name": "Ink Splash",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012650681b8b5688b8911f1bb3e25626ecc3464/b15821aa9741e228c93a162faec7205e/b65f19f0a624fca3f16eefce6dae152140252762b0f86b333b443780131647eb.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127047": {
     "nsuid": "70010000127047",
     "platform": "Switch",
     "name": "Monst",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127047c6cf9f248b8911f1a102af66c2079a7a/007aec39ef87f7c68ce5f2b5bc2e98ba/b4b1200f04a79f1f90f70c5ae190646f31729d55fd60de64a9d0023b27156f05.jpeg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127225": {
     "nsuid": "70010000127225",
@@ -28109,6 +28180,22 @@
     "nsuid": "70010000095649",
     "platform": "Switch",
     "name": "JALECOlle Famicom Ver. ROD LAND",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100000956495edcb4f48b8911f1930aaf66c2079a7a/33ae10ffab4cb1022f9b02b51d82a86b/3b1cdd934e99fbe3929dc125f01b03dd9c23337accba3615ea642759ab86350a.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
+  },
+  "70010000121520": {
+    "nsuid": "70010000121520",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000104543": {
+    "nsuid": "70010000104543",
+    "platform": "Switch",
+    "name": "",
     "cover_url": "",
     "hk_checked": true
   }
