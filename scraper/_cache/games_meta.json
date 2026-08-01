@@ -28422,5 +28422,33 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000124519": {
+    "nsuid": "70010000124519",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000115583": {
+    "nsuid": "70010000115583",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000116191": {
+    "nsuid": "70010000116191",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000116197": {
+    "nsuid": "70010000116197",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
