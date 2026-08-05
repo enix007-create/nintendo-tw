@@ -28520,5 +28520,19 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000116942": {
+    "nsuid": "70010000116942",
+    "platform": "Switch",
+    "name": "沙盒塗鴉遊樂場",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000110269": {
+    "nsuid": "70010000110269",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
