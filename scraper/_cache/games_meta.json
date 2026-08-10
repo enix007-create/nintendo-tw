@@ -4058,9 +4058,12 @@
   "70010000068811": {
     "nsuid": "70010000068811",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Card-en-Ciel 天穹卡牌錄",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000068811cd78a865919111f19d3017fc017e692f/80271e1692b39fb55a6c15c498f9de37/72ef56bd1a88fa8ce5c4f1fc3e0c444a101a8bf70ebd890a893a2f8b31953129.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-02-03"
   },
   "70010000068835": {
     "nsuid": "70010000068835",
@@ -4585,9 +4588,12 @@
   "70010000098200": {
     "nsuid": "70010000098200",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Castle of Heart: Retold",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000098200b4c92cb0923811f1b463f56c40815971/3b99e7d4bfc871aa7d5e960dd063e19e/10e63e286f1dddeb5d86ce16492250c9aad4fc8bf7330dfdb1cb80ebc1a986a1.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2025-10-02"
   },
   "70010000098234": {
     "nsuid": "70010000098234",
@@ -10519,9 +10525,12 @@
   "70010000102125": {
     "nsuid": "70010000102125",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Virtua Fighter 5 R.E.V.O. World Stage",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001021259c50cd0e925311f1893a3732bb719400/ef60ed52f3c3faec6bde1e9053d26bc7/1572d370e97e96d69d7c30df9d7ed900fa2c60845f3855adfe1556a81ac69061.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-03-26"
   },
   "70010000102139": {
     "nsuid": "70010000102139",
@@ -18960,9 +18969,12 @@
   "70010000117182": {
     "nsuid": "70010000117182",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Pocket Archery Master 口袋射箭大師",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000117182d2a8abe1929711f1aea9bd6c77cd4f75/c85abea1fc3be53834a22a4d36ef2fcb/2fe6fc3964b9d7226d5b51bda643f312e00a9b3ea89e7ea622a74361997f1304.jpeg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-02-26"
   },
   "70010000117195": {
     "nsuid": "70010000117195",
@@ -28565,9 +28577,12 @@
   "70010000126388": {
     "nsuid": "70010000126388",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Disney Epic Mickey: Rebrushed",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012638862fc8b2c929a11f1acd497af4bd43e3d/6e59a73005b43121a4dd0c4b7aa58877/26db10cf470c7ed0c76282323b09b4f9b80907c92cbf5dbb24b2e63f6e57aaa2.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-06"
   },
   "70010000131077": {
     "nsuid": "70010000131077",
@@ -28818,6 +28833,13 @@
   },
   "70010000121574": {
     "nsuid": "70010000121574",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129436": {
+    "nsuid": "70010000129436",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
