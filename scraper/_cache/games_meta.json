@@ -28743,9 +28743,12 @@
   "70010000125231": {
     "nsuid": "70010000125231",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Sacred 2 Remaster - FALLEN ANGEL",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000125231242bc010958711f190109773023794bc/04f0df0a2f29dacf940c2aa6d4bfb041/bb4ad7d6ceecc57c3caedbb7e7fefcd82dc1d07aa28e9f1731db5dda8bbf2e16.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-11"
   },
   "70010000104175": {
     "nsuid": "70010000104175",
@@ -28919,6 +28922,90 @@
     "nsuid": "70010000132553",
     "platform": "Switch",
     "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000098939": {
+    "nsuid": "70010000098939",
+    "platform": "Switch",
+    "name": "Achilles: Survivor",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000121598": {
+    "nsuid": "70010000121598",
+    "platform": "Switch",
+    "name": "木木屋 (Woodo)",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000111676": {
+    "nsuid": "70010000111676",
+    "platform": "Switch",
+    "name": "Supermarket Gas Station Simulator",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132932": {
+    "nsuid": "70010000132932",
+    "platform": "Switch",
+    "name": "Card of Arcana",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133154": {
+    "nsuid": "70010000133154",
+    "platform": "Switch",
+    "name": "Clown's Lair",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133447": {
+    "nsuid": "70010000133447",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133796": {
+    "nsuid": "70010000133796",
+    "platform": "Switch",
+    "name": "Nordic Storm Solitaire",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124637": {
+    "nsuid": "70010000124637",
+    "platform": "Switch",
+    "name": "Outbreak Compound",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126664": {
+    "nsuid": "70010000126664",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126799": {
+    "nsuid": "70010000126799",
+    "platform": "Switch",
+    "name": "Aerialia: Wings of Delivery",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127488": {
+    "nsuid": "70010000127488",
+    "platform": "Switch",
+    "name": "Dino Hex Trap",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127968": {
+    "nsuid": "70010000127968",
+    "platform": "Switch",
+    "name": "血色鬱嬌遊戲",
     "cover_url": "",
     "hk_checked": true
   }
