@@ -28639,57 +28639,76 @@
     "nsuid": "70010000123223",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000123223aeda75bc966911f18f805d992baecba8/f304cc63964fd3e5a1939f32db1e42df/2601f7a69b85f85d02d730443d8da7a1901bae6851bfea86e85957f2ae005cdf.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000123510": {
     "nsuid": "70010000123510",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives V'BALL",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000123510830161a2966911f1be075d992baecba8/91cee74165066782c244692bfaad9078/ece83cbfd67b0bfdbd08391d77738a5e9576f46daff52ca2d8c7cb4aa83ae8f5.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-13"
   },
   "70010000123516": {
     "nsuid": "70010000123516",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives 2 V'BALL",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000123516aa219e9d966911f1801c41c339a1cb17/912097951eddb0c8694737b4ae65755c/0e6bbf9ec3b17b6385883d7897f98e37190257066dc6043c002a32adba775c77.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-13"
   },
   "70010000123858": {
     "nsuid": "70010000123858",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012385892b17f96966911f1aa9f41c339a1cb17/ebb4dd97f1065716ebabfdcac417621e/25e3147897acf140036f54ab83e3cc0ea6506dce739fe152a1b32f3e1dc51443.jpeg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000102739": {
     "nsuid": "70010000102739",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000010273969a035e4966911f1ab0f2f58a6af2da0/3e18049d0e2ee9aa7125350423fe8a1d/682f4151606c5106ec3e3646c230d506da4880497add7ce1d8a540d32b00c8f3.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000124112": {
     "nsuid": "70010000124112",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001241127ab7ea9f966911f1929859123e108737/8f0afa06dc009535d0e9fb5a0a38c141/3d4db5415d275fe97fb8538ee1b8ba0ce45e05291a8b034fd6f4db8011ea367c.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000124432": {
     "nsuid": "70010000124432",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001244328a3b1c69966911f193888d55963eaade/058323b9da2136cc505b288d97b642ec/7b39badeed77686992c625e732e1256f99f3e898e78397be48a778ed47117c1a.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000124547": {
     "nsuid": "70010000124547",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "生存軍團",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012454782098ae0966911f1a4c72f58a6af2da0/e90c267cb2a2ef02b76e35b86c21e18e/b63a290461dfcd8e03f94b21b9a4d73063a6b90b4bb17f8201c9b149741939fa.jpeg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-13"
   },
   "70010000115396": {
     "nsuid": "70010000115396",
@@ -28701,16 +28720,21 @@
   "70010000132997": {
     "nsuid": "70010000132997",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Mystery Box",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000132997be4c6428966911f1b0a00dc6e1257c8c/cbf901c5504aed51545ce65a148f3c2e/6068ee916191188dc0b645138e1cb5d38f1ceecaab47f28b872a0143a3fd438f.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-13"
   },
   "70010000133018": {
     "nsuid": "70010000133018",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133018ab4e8e96966911f1a564053927fbc1a7/c587b3413ecd4f21bc4030ffbf4b2416/d993dd5bd27d804b64fe7d201bb2fd9391b9ea64f77b2a6078b51cd0114bcd7c.jpeg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000133897": {
     "nsuid": "70010000133897",
@@ -28722,23 +28746,31 @@
   "70010000133977": {
     "nsuid": "70010000133977",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Cruise Adventure: Hidden Journey Collector's Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133977ba279623966911f188a959123e108737/fc3db427fca89aef77e1478fd8855b28/b102b3f5c490ec786c64af9bbbfc386c418ce6ac970e307026babb3904ffd9d5.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-13"
   },
   "70010000134145": {
     "nsuid": "70010000134145",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000134145ac346a18966911f188c02f58a6af2da0/6b225a2f332b8a2dd3e3f958042e0d1d/4a4f2d752e597b2c1a442608ebb3d894dd431cc5a1a656a80ae20ef5b4db693b.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000125200": {
     "nsuid": "70010000125200",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Cloud Golf",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012520088093731966911f1af1c2f58a6af2da0/d3a045a009d750635d6b3ef4ff60dcd0/b501d90ec5c4679afaf11cf0d16f9ad52ca21e6b768de36cd4b2e1c017450a9a.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-13"
   },
   "70010000125231": {
     "nsuid": "70010000125231",
@@ -28761,8 +28793,10 @@
     "nsuid": "70010000125716",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001257169faf22b7966911f1a570053927fbc1a7/d5ed868ff3b78b1073412ae7658e6b59/313c511e3488ec79f863921ce56fa4bb41823562b0d5b2433279294a51fd8018.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000105258": {
     "nsuid": "70010000105258",
@@ -28781,16 +28815,21 @@
   "70010000130682": {
     "nsuid": "70010000130682",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Street Food Simulator",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000130682a5ce17d7966911f19a7d8d55963eaade/f0e21b5ba67b654c96b0c265178f50cc/c18170492174ce71a7c26ea894d96e08dae771c125b22d923118b49b7556f13d.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-13"
   },
   "70010000117568": {
     "nsuid": "70010000117568",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001175687ddaabfa966911f1916041c339a1cb17/761321207e7d7e2aeba71b7bc338d7b1/611cae8a340f451bc4b6ecdeee30b7d1b9196cb5649a5fa2d1d107591b789e0f.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000118003": {
     "nsuid": "70010000118003",
@@ -28810,15 +28849,19 @@
     "nsuid": "70010000119037",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000119037a1a00730966911f1a0720dc6e1257c8c/c648f96dd8f7041ab184db5bd5b57e61/2e29ccf81018e1f04c7cce7197fd281d671ebca9db4c53d89bce91f000fab11a.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000132400": {
     "nsuid": "70010000132400",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001324009d776960966911f18ab341c339a1cb17/203bac339da8beecff914ea0abad0b3d/2e2745700a728267ee0db8b2f41b92765afca691731f798b33eb8b98b06663b6.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000120863": {
     "nsuid": "70010000120863",
@@ -28831,15 +28874,19 @@
     "nsuid": "70010000121568",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001215687cd0cc08966911f1b26d5d992baecba8/7408979680ca20376a260feb89e9ee59/247176f757ff8a9d55b4b4ac7e0f934a8f55fda688fe3dab113968bc99bbe659.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000121574": {
     "nsuid": "70010000121574",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001215747b597a35966911f198822f58a6af2da0/10be11e86fec6c698cb92f476fef1994/97f7ee9bfad04cdea76336954a3e01531eddd2c71b9fd9d254acc306cb6b34db.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000129436": {
     "nsuid": "70010000129436",
@@ -28851,30 +28898,44 @@
   "70010000116098": {
     "nsuid": "70010000116098",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "噗噗的冒險樂園",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011609877991863966911f18d760dc6e1257c8c/330efde82f38334c04613d2bb9e5e1a8/7bdeec372782eaa80210e1b09c983137ae905def13cde21e8afe82268a0ee590.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-09-24"
   },
   "70010000124217": {
     "nsuid": "70010000124217",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Chained Up Together: Co-Op Duo",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000124217a730db22966911f1af3459123e108737/96960fe42494f69049c3caf165d318a4/03b83125732ccb772ca71a36931521b77ec1881f5dc0242cae63bd4b505aac11.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-08-20"
   },
   "70010000124600": {
     "nsuid": "70010000124600",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001246009c5fd80c966911f194d32f58a6af2da0/e41f99222a14b864c4ce9fc2dc8736a1/302222efb3861a9f07932ca77f3d3014ce7a761cb69f3f4934a8214972c2c8dd.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000132977": {
     "nsuid": "70010000132977",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "道路連線拼圖：連接道路的腦力訓練",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000132977b9c7a46c966911f1b9dc053927fbc1a7/299a118dd50ad2ce20a0595e2a2bccaa/7233ce9438c256ced81798450033a72477fc7110b4cf3f1606e3a3ac06790f2e.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-08-20"
   },
   "70010000125942": {
     "nsuid": "70010000125942",
@@ -28887,43 +28948,57 @@
     "nsuid": "70010000130511",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000130511b03c838c966911f1bfc78d55963eaade/a78a4bcec2940dcb119ff03b1654aebc/9881d46a0d4563568353247e06fefdec67f30c6462c13b8ccada6d8e474c62cf.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000130530": {
     "nsuid": "70010000130530",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000130530b068f282966911f1aab60dc6e1257c8c/7e2d9a234e4a20b8b469719a0e37e4a5/ef0303469bb3cdd0e01858817b8ac916a9431c63f476e1317824ed7cce524dbb.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000132080": {
     "nsuid": "70010000132080",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001320809728bbc9966911f1aa1e59123e108737/b3613ee53d56bbae7c574fadea436a2d/9f23cda56e029bd2c27e6552fed96d4c382a90ec6ea7b597e39b7a5eec8e6a59.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000132201": {
     "nsuid": "70010000132201",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000132201d99eb8c0966911f1a5d05d992baecba8/178db9f78d78f717cc71848ce2025ef0/05c71870d6448e1848d74ac9713389d2abf0e3015b5cdfbb6791cad2da88bfb7.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000132230": {
     "nsuid": "70010000132230",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "只需放置學習 世界 國旗",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013223097f957f2966911f1a85341c339a1cb17/b384a40b3113d7ff5fe7b47780f946e7/b0e1b173cc2370a13c11077942afde05b7014efc22a6b1d750efcd2574d4b197.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-08-20"
   },
   "70010000132553": {
     "nsuid": "70010000132553",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000132553bef18542966911f1abc82f58a6af2da0/cdd24b348a4ce5e646a057b00597b94d/d2972a8953d9e0b3abc9a90990b18b2e35f0a49795a96f54af2c166972a4af1b.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000098939": {
     "nsuid": "70010000098939",
@@ -28936,15 +29011,19 @@
     "nsuid": "70010000121598",
     "platform": "Switch",
     "name": "木木屋 (Woodo)",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000121598a0575719966911f1a2135d992baecba8/28a87979f74483da2215cedd3637b0f5/fe2da17664f5f7dc3455fe0bc7d9c6caf1b5c3f79fea387e693c9f568772a7a6.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000111676": {
     "nsuid": "70010000111676",
     "platform": "Switch",
     "name": "Supermarket Gas Station Simulator",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011167674fc0f47966911f1b03159123e108737/46d4f24f611435457e631a7b68301e72/402994eb5a58f442749fa7951bcbd7c4617a4fd36c77bb40328c59695db819a8.jpg?w=320&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-08-13"
   },
   "70010000132932": {
     "nsuid": "70010000132932",
@@ -28992,20 +29071,113 @@
     "nsuid": "70010000126799",
     "platform": "Switch",
     "name": "Aerialia: Wings of Delivery",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126799810666f2966911f197ee59123e108737/347044ac79208a52da838c714a79a865/5a3232fd13a9aca6ecaa17325070e7804d15ebea9123d434cca5c19ac25c527b.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127488": {
     "nsuid": "70010000127488",
     "platform": "Switch",
     "name": "Dino Hex Trap",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127488896d95a1966911f1b3455d992baecba8/e39faaaf50cd78e93ce611afb1beeff3/d9904adb75aec34fa7cdc8bcafb4f5bcc96bf2d30d58d74e8cf160dca3c85434.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127968": {
     "nsuid": "70010000127968",
     "platform": "Switch",
     "name": "血色鬱嬌遊戲",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000110145": {
+    "nsuid": "70010000110145",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001101456b8eaefc966911f1b74f0dc6e1257c8c/4050be111894210ba624eaf609c935f8/3aad5c9bf2d876977dee4c1ca9b467213daa6bfb9bfd24513b386f5231b182e8.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Maestro 大師指揮",
+    "name_source": "tw_search",
+    "release_date": "2026-09-17"
+  },
+  "70010000120932": {
+    "nsuid": "70010000120932",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133288": {
+    "nsuid": "70010000133288",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133469": {
+    "nsuid": "70010000133469",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000072295": {
+    "nsuid": "70010000072295",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000110553": {
+    "nsuid": "70010000110553",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129783": {
+    "nsuid": "70010000129783",
+    "platform": "Switch",
+    "name": "Maestro 大師指揮",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001297838e86a3d7966911f1b0d32f58a6af2da0/79daef047490c3ea6659e3d2ab4eb7ff/3aad5c9bf2d876977dee4c1ca9b467213daa6bfb9bfd24513b386f5231b182e8.jpg?w=320&fm=webp",
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-17"
+  },
+  "70010000129945": {
+    "nsuid": "70010000129945",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130239": {
+    "nsuid": "70010000130239",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130297": {
+    "nsuid": "70010000130297",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131241": {
+    "nsuid": "70010000131241",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123350": {
+    "nsuid": "70010000123350",
+    "platform": "Switch",
+    "name": "",
     "cover_url": "",
     "hk_checked": true
   }
