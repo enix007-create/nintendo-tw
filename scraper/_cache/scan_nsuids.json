@@ -1277,13 +1277,6 @@
       "currency": "TWD",
       "raw_value": "1590"
     },
-    "discount_price": {
-      "amount": "TWD 795",
-      "currency": "TWD",
-      "raw_value": "795",
-      "start_datetime": "2026-07-23T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
-    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -2318,13 +2311,6 @@
       "amount": "TWD 319",
       "currency": "TWD",
       "raw_value": "319"
-    },
-    "discount_price": {
-      "amount": "TWD 95",
-      "currency": "TWD",
-      "raw_value": "95",
-      "start_datetime": "2026-08-03T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -4521,13 +4507,6 @@
       "currency": "TWD",
       "raw_value": "590"
     },
-    "discount_price": {
-      "amount": "TWD 472",
-      "currency": "TWD",
-      "raw_value": "472",
-      "start_datetime": "2026-08-03T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
-    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -4544,13 +4523,6 @@
       "amount": "TWD 590",
       "currency": "TWD",
       "raw_value": "590"
-    },
-    "discount_price": {
-      "amount": "TWD 472",
-      "currency": "TWD",
-      "raw_value": "472",
-      "start_datetime": "2026-08-03T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -5698,13 +5670,6 @@
       "currency": "TWD",
       "raw_value": "399"
     },
-    "discount_price": {
-      "amount": "TWD 99",
-      "currency": "TWD",
-      "raw_value": "99",
-      "start_datetime": "2026-08-03T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
-    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -5897,13 +5862,6 @@
       "amount": "TWD 229",
       "currency": "TWD",
       "raw_value": "229"
-    },
-    "discount_price": {
-      "amount": "TWD 159",
-      "currency": "TWD",
-      "raw_value": "159",
-      "start_datetime": "2026-07-21T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -6494,13 +6452,6 @@
       "amount": "TWD 1,190",
       "currency": "TWD",
       "raw_value": "1190"
-    },
-    "discount_price": {
-      "amount": "TWD 708",
-      "currency": "TWD",
-      "raw_value": "708",
-      "start_datetime": "2026-07-21T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -7532,6 +7483,13 @@
       "currency": "TWD",
       "raw_value": "300"
     },
+    "discount_price": {
+      "amount": "TWD 210",
+      "currency": "TWD",
+      "raw_value": "210",
+      "start_datetime": "2026-08-17T16:00:00Z",
+      "end_datetime": "2026-09-08T15:59:59Z"
+    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -8390,13 +8348,6 @@
       "currency": "TWD",
       "raw_value": "799"
     },
-    "discount_price": {
-      "amount": "TWD 528",
-      "currency": "TWD",
-      "raw_value": "528",
-      "start_datetime": "2026-07-22T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
-    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -8665,6 +8616,13 @@
       "amount": "TWD 199",
       "currency": "TWD",
       "raw_value": "199"
+    },
+    "discount_price": {
+      "amount": "TWD 37",
+      "currency": "TWD",
+      "raw_value": "37",
+      "start_datetime": "2026-08-17T16:00:00Z",
+      "end_datetime": "2026-09-13T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -8963,13 +8921,6 @@
       "amount": "TWD 99",
       "currency": "TWD",
       "raw_value": "99"
-    },
-    "discount_price": {
-      "amount": "TWD 69",
-      "currency": "TWD",
-      "raw_value": "69",
-      "start_datetime": "2026-08-05T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -9302,13 +9253,6 @@
       "currency": "TWD",
       "raw_value": "156"
     },
-    "discount_price": {
-      "amount": "TWD 39",
-      "currency": "TWD",
-      "raw_value": "39",
-      "start_datetime": "2026-07-21T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
-    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -9611,6 +9555,13 @@
       "amount": "TWD 399",
       "currency": "TWD",
       "raw_value": "399"
+    },
+    "discount_price": {
+      "amount": "TWD 95",
+      "currency": "TWD",
+      "raw_value": "95",
+      "start_datetime": "2026-08-17T16:00:00Z",
+      "end_datetime": "2026-08-31T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -12506,13 +12457,6 @@
       "amount": "TWD 1,490",
       "currency": "TWD",
       "raw_value": "1490"
-    },
-    "discount_price": {
-      "amount": "TWD 288",
-      "currency": "TWD",
-      "raw_value": "288",
-      "start_datetime": "2026-07-21T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -15544,6 +15488,13 @@
       "currency": "TWD",
       "raw_value": "319"
     },
+    "discount_price": {
+      "amount": "TWD 95",
+      "currency": "TWD",
+      "raw_value": "95",
+      "start_datetime": "2026-08-17T16:00:00Z",
+      "end_datetime": "2026-08-31T15:59:59Z"
+    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -18336,13 +18287,6 @@
       "amount": "TWD 1,100",
       "currency": "TWD",
       "raw_value": "1100"
-    },
-    "discount_price": {
-      "amount": "TWD 825",
-      "currency": "TWD",
-      "raw_value": "825",
-      "start_datetime": "2026-08-03T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -22557,13 +22501,6 @@
       "currency": "TWD",
       "raw_value": "560"
     },
-    "discount_price": {
-      "amount": "TWD 392",
-      "currency": "TWD",
-      "raw_value": "392",
-      "start_datetime": "2026-07-23T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
-    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -24173,6 +24110,13 @@
       "amount": "TWD 279",
       "currency": "TWD",
       "raw_value": "279"
+    },
+    "discount_price": {
+      "amount": "TWD 92",
+      "currency": "TWD",
+      "raw_value": "92",
+      "start_datetime": "2026-08-17T16:00:00Z",
+      "end_datetime": "2026-08-31T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -27104,13 +27048,6 @@
       "amount": "TWD 1,090",
       "currency": "TWD",
       "raw_value": "1090"
-    },
-    "discount_price": {
-      "amount": "TWD 545",
-      "currency": "TWD",
-      "raw_value": "545",
-      "start_datetime": "2026-07-21T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -31661,6 +31598,13 @@
       "currency": "TWD",
       "raw_value": "935"
     },
+    "discount_price": {
+      "amount": "TWD 233",
+      "currency": "TWD",
+      "raw_value": "233",
+      "start_datetime": "2026-08-17T16:00:00Z",
+      "end_datetime": "2026-09-13T15:59:59Z"
+    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -33704,13 +33648,6 @@
       "currency": "TWD",
       "raw_value": "310"
     },
-    "discount_price": {
-      "amount": "TWD 201",
-      "currency": "TWD",
-      "raw_value": "201",
-      "start_datetime": "2026-08-03T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
-    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -34446,13 +34383,6 @@
       "currency": "TWD",
       "raw_value": "990"
     },
-    "discount_price": {
-      "amount": "TWD 495",
-      "currency": "TWD",
-      "raw_value": "495",
-      "start_datetime": "2026-07-21T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
-    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -35170,13 +35100,6 @@
       "amount": "TWD 799",
       "currency": "TWD",
       "raw_value": "799"
-    },
-    "discount_price": {
-      "amount": "TWD 399",
-      "currency": "TWD",
-      "raw_value": "399",
-      "start_datetime": "2026-07-21T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -36170,13 +36093,6 @@
       "currency": "TWD",
       "raw_value": "319"
     },
-    "discount_price": {
-      "amount": "TWD 95",
-      "currency": "TWD",
-      "raw_value": "95",
-      "start_datetime": "2026-08-03T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
-    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -37154,13 +37070,6 @@
       "currency": "TWD",
       "raw_value": "129"
     },
-    "discount_price": {
-      "amount": "TWD 96",
-      "currency": "TWD",
-      "raw_value": "96",
-      "start_datetime": "2026-08-03T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
-    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -38115,13 +38024,6 @@
       "amount": "TWD 1,790",
       "currency": "TWD",
       "raw_value": "1790"
-    },
-    "discount_price": {
-      "amount": "TWD 1,074",
-      "currency": "TWD",
-      "raw_value": "1074",
-      "start_datetime": "2026-07-21T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -40469,13 +40371,6 @@
       "currency": "TWD",
       "raw_value": "175"
     },
-    "discount_price": {
-      "amount": "TWD 79",
-      "currency": "TWD",
-      "raw_value": "79",
-      "start_datetime": "2026-08-01T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
-    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -41644,6 +41539,13 @@
       "amount": "TWD 99",
       "currency": "TWD",
       "raw_value": "99"
+    },
+    "discount_price": {
+      "amount": "TWD 69",
+      "currency": "TWD",
+      "raw_value": "69",
+      "start_datetime": "2026-08-17T16:00:00Z",
+      "end_datetime": "2026-09-08T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -43118,13 +43020,6 @@
       "currency": "TWD",
       "raw_value": "259"
     },
-    "discount_price": {
-      "amount": "TWD 97",
-      "currency": "TWD",
-      "raw_value": "97",
-      "start_datetime": "2026-08-03T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
-    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -44246,13 +44141,6 @@
       "amount": "TWD 799",
       "currency": "TWD",
       "raw_value": "799"
-    },
-    "discount_price": {
-      "amount": "TWD 528",
-      "currency": "TWD",
-      "raw_value": "528",
-      "start_datetime": "2026-07-22T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -48130,13 +48018,6 @@
       "currency": "TWD",
       "raw_value": "1444"
     },
-    "discount_price": {
-      "amount": "TWD 1,042",
-      "currency": "TWD",
-      "raw_value": "1042",
-      "start_datetime": "2026-08-03T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
-    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -48561,13 +48442,6 @@
       "amount": "TWD 1,100",
       "currency": "TWD",
       "raw_value": "1100"
-    },
-    "discount_price": {
-      "amount": "TWD 825",
-      "currency": "TWD",
-      "raw_value": "825",
-      "start_datetime": "2026-08-03T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -51560,13 +51434,6 @@
       "currency": "TWD",
       "raw_value": "159"
     },
-    "discount_price": {
-      "amount": "TWD 95",
-      "currency": "TWD",
-      "raw_value": "95",
-      "start_datetime": "2026-08-03T16:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
-    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -53391,6 +53258,13 @@
       "currency": "TWD",
       "raw_value": "259"
     },
+    "discount_price": {
+      "amount": "TWD 96",
+      "currency": "TWD",
+      "raw_value": "96",
+      "start_datetime": "2026-08-17T16:00:00Z",
+      "end_datetime": "2026-08-31T15:59:59Z"
+    },
     "gold_point": {
       "basic_gift_gp": "0",
       "basic_gift_rate": "0",
@@ -54320,13 +54194,6 @@
       "amount": "TWD 399",
       "currency": "TWD",
       "raw_value": "399"
-    },
-    "discount_price": {
-      "amount": "TWD 299",
-      "currency": "TWD",
-      "raw_value": "299",
-      "start_datetime": "2026-08-04T00:00:00Z",
-      "end_datetime": "2026-08-17T15:59:59Z"
     },
     "gold_point": {
       "basic_gift_gp": "0",
@@ -60816,6 +60683,55 @@
       "amount": "TWD 181",
       "currency": "TWD",
       "raw_value": "181"
+    }
+  },
+  "70010000131311": {
+    "title_id": 70010000131311,
+    "sales_status": "unreleased"
+  },
+  "70010000128495": {
+    "title_id": 70010000128495,
+    "sales_status": "unreleased",
+    "regular_price": {
+      "amount": "TWD 1,880",
+      "currency": "TWD",
+      "raw_value": "1880"
+    }
+  },
+  "70010000132306": {
+    "title_id": 70010000132306,
+    "sales_status": "unreleased",
+    "regular_price": {
+      "amount": "TWD 599",
+      "currency": "TWD",
+      "raw_value": "599"
+    }
+  },
+  "70010000103758": {
+    "title_id": 70010000103758,
+    "sales_status": "unreleased",
+    "regular_price": {
+      "amount": "TWD 1,590",
+      "currency": "TWD",
+      "raw_value": "1590"
+    }
+  },
+  "70010000133064": {
+    "title_id": 70010000133064,
+    "sales_status": "unreleased",
+    "regular_price": {
+      "amount": "TWD 1,911",
+      "currency": "TWD",
+      "raw_value": "1911"
+    }
+  },
+  "70010000051250": {
+    "title_id": 70010000051250,
+    "sales_status": "unreleased",
+    "regular_price": {
+      "amount": "TWD 599",
+      "currency": "TWD",
+      "raw_value": "599"
     }
   }
 }

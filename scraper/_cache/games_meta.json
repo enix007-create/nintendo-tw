@@ -29348,5 +29348,47 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000131311": {
+    "nsuid": "70010000131311",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128495": {
+    "nsuid": "70010000128495",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132306": {
+    "nsuid": "70010000132306",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000103758": {
+    "nsuid": "70010000103758",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133064": {
+    "nsuid": "70010000133064",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000051250": {
+    "nsuid": "70010000051250",
+    "platform": "Switch",
+    "name": "Another Crab's Treasure",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
