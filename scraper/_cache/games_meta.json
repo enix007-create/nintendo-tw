@@ -29042,9 +29042,13 @@
   "70010000133447": {
     "nsuid": "70010000133447",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "柏拉圖深空（PLATONICA SPACE）",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133447d34ad092973211f1aef80595e9dc8fec/9a9178eb25c6c5905716380a11b42981/b8551cbe757e2b206f93dfec302591b13081fa764283a4fbbba352b69d8d76b4.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-08-27"
   },
   "70010000133796": {
     "nsuid": "70010000133796",
@@ -29063,9 +29067,12 @@
   "70010000126664": {
     "nsuid": "70010000126664",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "KINGDOM HEARTS IV",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126664625d720c986011f1a9888595b9c37697/223ecb8a07e3475236ca223ac6601713/2409e5d1b08dd48d7e838e65ccc5ff9384ce50388367da642d1753c82644b9d3.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2027-12-31"
   },
   "70010000126799": {
     "nsuid": "70010000126799",
@@ -29388,6 +29395,20 @@
     "nsuid": "70010000051250",
     "platform": "Switch",
     "name": "Another Crab's Treasure",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000080764": {
+    "nsuid": "70010000080764",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126629": {
+    "nsuid": "70010000126629",
+    "platform": "Switch",
+    "name": "",
     "cover_url": "",
     "hk_checked": true
   }
