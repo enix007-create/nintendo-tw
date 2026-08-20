@@ -29112,9 +29112,12 @@
   "70010000120932": {
     "nsuid": "70010000120932",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Dirty Little Puzzle",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001209329c5321769be911f19ba637e45d61a065/6a7eabc4e5aa064a7b45b6f6515d20ff/271c53e9551e6fdfa64f6f07e29d8a6fef84175d7248cc839497a83d3165df99.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-20"
   },
   "70010000133288": {
     "nsuid": "70010000133288",
@@ -29134,8 +29137,10 @@
     "nsuid": "70010000072295",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000072295899df08c9be911f193df172036e015c9/e712c11eac7f0139968695deed2f566d/d01040bb4698a0208d954a1098621c03c78f6bded6aec38327c43b5c160c6903.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000110553": {
     "nsuid": "70010000110553",
@@ -29164,8 +29169,10 @@
     "nsuid": "70010000130239",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000130239b5b32cc69be911f18f5a1374e8dab159/fd4d9c34a23f0650cf8d3ad894396858/36c8b9c2d3712a7c8ec84a72a65350bec23f1b119b676a6b42db24172772a816.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000130297": {
     "nsuid": "70010000130297",
@@ -29178,8 +29185,10 @@
     "nsuid": "70010000131241",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131241b1e01e429be911f1a9e46f8b5aa13bee/0973803ef650993adc47a1de844caf9a/7461981de71e7fa58e462d4bc3f1ee535b02d726e5b2cd441f5404fdd1e5820c.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000123350": {
     "nsuid": "70010000123350",
@@ -29192,8 +29201,10 @@
     "nsuid": "70010000111688",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011168899dac09a9be911f186f6552a541b4593/1386a84213f325815e3e6a7728c0e1b9/9d5f0d9200d977dafd92e3fdbc2550b36c624a8cd05001d5331a549e6f5753d1.jpeg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000133045": {
     "nsuid": "70010000133045",
@@ -29206,22 +29217,28 @@
     "nsuid": "70010000133427",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133427bc3c01d69be911f197b3552a541b4593/5e3e329f26733777554e3153d76509af/2407dba1f1372a976e61a01c18ea055fe6edac09542315a0d5c23f8f4182746c.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000133433": {
     "nsuid": "70010000133433",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133433b8527b879be911f180066f8b5aa13bee/428672613635946b7a487b7ecbbab0b7/6e29f51edb69728a7a5302d072dae0f5689f83d6f4f3308a0ece5c9dc51f035b.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000133557": {
     "nsuid": "70010000133557",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133557ad21d4c59be911f1a5230f74641e9dd7/af28436dfc5c9553dcc6ba136eea5277/d4f76d7819b0a6d44c9c0eb7b7b5a572f6607764c51f57a95b8ddf8aaf595f45.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000133626": {
     "nsuid": "70010000133626",
@@ -29233,79 +29250,108 @@
   "70010000124858": {
     "nsuid": "70010000124858",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives CYBER CYCLES",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000124858a022948a9be911f1a4af1374e8dab159/1e523f9cdcbb13b9493b51c5f6cd0f2b/4032bcc6de32dc73c997e13bbdc8d66c9cdb677d9b038d93515e8f623b52d422.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-20"
   },
   "70010000124864": {
     "nsuid": "70010000124864",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives 2 CYBER CYCLES",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000124864a1f1344f9be911f1a11f37e45d61a065/d9c4175582a5ed1acec256f641295e9a/108c367363c04255fd16400fb6405545b8c0f39b395e57fdd0ff2ea406cdb98c.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-20"
   },
   "70010000125397": {
     "nsuid": "70010000125397",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "WinterCraft: Survival in the Forest",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000125397a19806cd9be911f1b6cd6f8b5aa13bee/dcfc596b445ccbb091dc79068270c2f2/dc8b15d8126b632dfcdf5f08b83573e699be4a0deaf1219d735e51e078526e08.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-20"
   },
   "70010000117655": {
     "nsuid": "70010000117655",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001176559cc521dd9be911f1a1d6172036e015c9/5f8dcd36bc990c2eb47eb4d6b833d226/cb62974c8d105e79bc58842ee2d1179fffb538e89ce14bef777abab1d77aaa97.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000110300": {
     "nsuid": "70010000110300",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011030097a6fb169be911f1871f172036e015c9/249437dd7ecb0749544ce0756c20f2ca/7dd55d36eb3e4f7b2edb399389f19a415f4a3989e96f133394c73a9fb9637834.jpeg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000054199": {
     "nsuid": "70010000054199",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000005419984abea959be911f1bd620f74641e9dd7/a9ad435b25a1d5ccbbeb2669ccce5b38/d810470ada98a7a2e2efc7ff035c5bef4fba4ab21726424864f80d10f89eb1b6.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000119012": {
     "nsuid": "70010000119012",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000119012bb1ccada9be911f1b9e31374e8dab159/f0a3ca8d45ca5e1746509fc50e7625c5/e4a065a9d3e403887e157977166cb4254dc6a1c54e5537dccb79039c112ec9a6.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127087": {
     "nsuid": "70010000127087",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "House Cleaner Simulator",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127087aaeba21d9be911f19e4d37e45d61a065/99050be689994d3636cee667bfb84dd1/c99e8daad549257946182c073bbf8bdab266e37f0e04ff51434d8d28a94d5a23.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-20"
   },
   "70010000127255": {
     "nsuid": "70010000127255",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Sports Camp：35項挑戰大冒險",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127255c191e1999be911f18bdd7d24d7e144f8/7928c785913afa4f5af3128f8ad7e80a/11b74f7186c974daabd2978844f34be8b41cac58b735de6f82b16c84634c4e4c.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-20"
   },
   "70010000127989": {
     "nsuid": "70010000127989",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127989b5b263c79be911f18eae7d24d7e144f8/438aff5591be1e29504903348f58f39c/2dda28c1ff9e25e8652d7e35870a5e1af4320bc6fb3ca5e7cb1bfd536471119f.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000128026": {
     "nsuid": "70010000128026",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Jane Austen's 8-bit Adventure",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128026ae0e00d59be911f1acaa172036e015c9/868d82230850996d3d7c44e491ce052b/1f7b71dfef5081def817d19c424e731df1935404ec5a03d3fa22418f132bf39d.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-09-17"
   },
   "70010000128038": {
     "nsuid": "70010000128038",
@@ -29318,36 +29364,49 @@
     "nsuid": "70010000129164",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129164b00f06ac9be911f1811b7d24d7e144f8/9a9bdccce2ecef5097e50c2e55f35731/fd0cf8cd7285db4e4188ce6043152f794fedd5414c4c6f7fbd03113e6af8ba94.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000132132": {
     "nsuid": "70010000132132",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000132132b3251b489be911f1b1040f74641e9dd7/1e4d4f34dcd0e3d8df80c21867fb3f2d/433dc75f87947f90073b9a0ceeb6824bfa813a0991406afed6ada7097752ae2f.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000122884": {
     "nsuid": "70010000122884",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "罪惡之心：危險女孩戀愛模擬 (Criminal Hearts: Obsession Bad Girls Dating Sim)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000122884a7fe214d9be911f1b6c1552a541b4593/8c730d1d02c4a4aba65f84d635e2ef45/87a716e518bcfa3c39a77102884032528795219ca66d24aa63e7ab56ec6f60d0.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-09-03"
   },
   "70010000122890": {
     "nsuid": "70010000122890",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000122890c06300339be911f193060f74641e9dd7/b59f4311e75e9c0048a141467bfe8058/3060f09566c5c82cf79d0365a7b576d2be8b573cb5dc4b162080b71c00baa003.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000122966": {
     "nsuid": "70010000122966",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Console Archives Rhapsody II: Ballad of the Little Princess",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000122966aac185e59be911f185ee1374e8dab159/54a569d81dba8602a329802d9c11f05f/9c107de275db77dedf2db69e5692098a7e9704a61a05f580e88cb7ab625adf31.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-20"
   },
   "70010000132680": {
     "nsuid": "70010000132680",
@@ -29366,9 +29425,13 @@
   "70010000128495": {
     "nsuid": "70010000128495",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "空之軌跡 the 2nd",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128495a2d7eac69be911f1861e0f74641e9dd7/3ff9c10d9d543bc28b5da0acd5fa6764/5b745b2dc0e04ae56bdcdbabba471c893ba662588de0799ebeb429e9f769ebb3.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-09-17"
   },
   "70010000132306": {
     "nsuid": "70010000132306",
@@ -29387,9 +29450,12 @@
   "70010000133064": {
     "nsuid": "70010000133064",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "空之軌跡 the 2nd Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133064bfa3fa649be911f19adc172036e015c9/0ae566ef6f6f75ce314ed8212075e3dc/0a87620157d4f6f2afc77c5bcc834dd6935e075aaa87f04050adc69b26f56c1c.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-17"
   },
   "70010000051250": {
     "nsuid": "70010000051250",
@@ -29463,6 +29529,139 @@
   },
   "70010000126706": {
     "nsuid": "70010000126706",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132693": {
+    "nsuid": "70010000132693",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133085": {
+    "nsuid": "70010000133085",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134309": {
+    "nsuid": "70010000134309",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134365": {
+    "nsuid": "70010000134365",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126824": {
+    "nsuid": "70010000126824",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130152": {
+    "nsuid": "70010000130152",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130924": {
+    "nsuid": "70010000130924",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131481": {
+    "nsuid": "70010000131481",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131651": {
+    "nsuid": "70010000131651",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000105950": {
+    "nsuid": "70010000105950",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000115751": {
+    "nsuid": "70010000115751",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000099157": {
+    "nsuid": "70010000099157",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000099842": {
+    "nsuid": "70010000099842",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127041": {
+    "nsuid": "70010000127041",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128549": {
+    "nsuid": "70010000128549",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129227": {
+    "nsuid": "70010000129227",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129246": {
+    "nsuid": "70010000129246",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000111987": {
+    "nsuid": "70010000111987",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000121285": {
+    "nsuid": "70010000121285",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
