@@ -23908,7 +23908,8 @@
     "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126932e24715c5643f11f18936f98db3d233a8/3fdb984ac33c258a1fab0654957ad6ac/2fb23233700ed73c893be966d3ba1c31bd769562b98a083264c429eb7d8a61b5.jpg?w=320&fm=webp",
     "cover_source": "tw_search",
     "platform": "Switch 2",
-    "release_date": "2026-09-17"
+    "release_date": "2026-09-17",
+    "tw_page_url": "https://www.nintendo.com/tw/games/switch2/aacsa/index.html"
   },
   "70010000122705": {
     "nsuid": "70010000122705",
@@ -29436,16 +29437,22 @@
   "70010000132306": {
     "nsuid": "70010000132306",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Another Crab's Treasure - Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001323060ce4a9cc9cb311f1a9fb5b8e47a74233/8a81a10faa8723906e519990d9219aa5/8a4518ce8e1a056f41ac97f66a542f68a5faa9b3e12b7ba8307d74edee9da202.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-21"
   },
   "70010000103758": {
     "nsuid": "70010000103758",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "我的英雄學院 無盡正義",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001037580202e3689ca211f1b053613fb9ac4931/46b75d743f950fbdc56bcd1e3a30f744/3c7264ddf2f40ca4ba3657d06ca540947e337bdbd37f61ccce1ad1f91a8769f3.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-03"
   },
   "70010000133064": {
     "nsuid": "70010000133064",
@@ -29662,6 +29669,132 @@
   },
   "70010000121285": {
     "nsuid": "70010000121285",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124370": {
+    "nsuid": "70010000124370",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125168": {
+    "nsuid": "70010000125168",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126323": {
+    "nsuid": "70010000126323",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126572": {
+    "nsuid": "70010000126572",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126846": {
+    "nsuid": "70010000126846",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000104671": {
+    "nsuid": "70010000104671",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000118414": {
+    "nsuid": "70010000118414",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132144": {
+    "nsuid": "70010000132144",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000114919": {
+    "nsuid": "70010000114919",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000114925": {
+    "nsuid": "70010000114925",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127327": {
+    "nsuid": "70010000127327",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132767": {
+    "nsuid": "70010000132767",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133003": {
+    "nsuid": "70010000133003",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133362": {
+    "nsuid": "70010000133362",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133403": {
+    "nsuid": "70010000133403",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133932": {
+    "nsuid": "70010000133932",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134029": {
+    "nsuid": "70010000134029",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134097": {
+    "nsuid": "70010000134097",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
