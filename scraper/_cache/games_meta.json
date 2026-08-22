@@ -29799,5 +29799,19 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000131599": {
+    "nsuid": "70010000131599",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131696": {
+    "nsuid": "70010000131696",
+    "platform": "Switch",
+    "name": "STEINS;GATE RE:BOOT DIGITAL CONTENT",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
