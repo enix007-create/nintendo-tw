@@ -29813,5 +29813,68 @@
     "name": "STEINS;GATE RE:BOOT DIGITAL CONTENT",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000132478": {
+    "nsuid": "70010000132478",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132965": {
+    "nsuid": "70010000132965",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000109737": {
+    "nsuid": "70010000109737",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131358": {
+    "nsuid": "70010000131358",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131515": {
+    "nsuid": "70010000131515",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131686": {
+    "nsuid": "70010000131686",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131853": {
+    "nsuid": "70010000131853",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131884": {
+    "nsuid": "70010000131884",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131940": {
+    "nsuid": "70010000131940",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
