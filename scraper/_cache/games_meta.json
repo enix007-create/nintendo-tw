@@ -29925,5 +29925,33 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000134714": {
+    "nsuid": "70010000134714",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134718": {
+    "nsuid": "70010000134718",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130350": {
+    "nsuid": "70010000130350",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130354": {
+    "nsuid": "70010000130354",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
