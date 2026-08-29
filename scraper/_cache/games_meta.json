@@ -30351,5 +30351,12 @@
     "cover_source": "tw_search",
     "platform": "Switch 2",
     "release_date": "2026-09-04"
+  },
+  "70010000124304": {
+    "nsuid": "70010000124304",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
