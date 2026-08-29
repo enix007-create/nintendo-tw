@@ -29474,9 +29474,13 @@
   "70010000080764": {
     "nsuid": "70010000080764",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "亞路塔：狐狸狐途的麵包冒險",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000080764eff6fa45a18911f1908f75fff8c4d8e4/2f197d87ba995d53f14527f22bd5cda1/58996c4de28c3d9999d8f6954b7ddb63167b7573e30b65a89112024d7e4fdf0a.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-12-09"
   },
   "70010000126629": {
     "nsuid": "70010000126629",
@@ -29590,8 +29594,10 @@
     "nsuid": "70010000126824",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001268249183bdaba25311f19f0f738105874567/72a268f95b172a9f37cbd0b40b2ebe04/173a0e6d1c132a4d4e73008b6d46ef13ed74c46ba5b836d7cb9d77322075d500.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000130152": {
     "nsuid": "70010000130152",
@@ -29670,9 +29676,12 @@
   "70010000127041": {
     "nsuid": "70010000127041",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Art of Drift – Cozy Drift Simulator",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001270417ddee064a18a11f1a2129ff5dfb31901/1f8698f44d96308da57053ac13a42d34/4b90145252a479449764bf1a273a9eaa650df1a3c36ea14f4551cfd427dbab7a.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-08-27"
   },
   "70010000128549": {
     "nsuid": "70010000128549",
@@ -30137,5 +30146,210 @@
     "cover_source": "tw_search",
     "platform": "Switch 2",
     "release_date": "2026-08-26"
+  },
+  "70010000104879": {
+    "nsuid": "70010000104879",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000117018": {
+    "nsuid": "70010000117018",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132567": {
+    "nsuid": "70010000132567",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124710": {
+    "nsuid": "70010000124710",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132840": {
+    "nsuid": "70010000132840",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132846": {
+    "nsuid": "70010000132846",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132897": {
+    "nsuid": "70010000132897",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124966": {
+    "nsuid": "70010000124966",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133100": {
+    "nsuid": "70010000133100",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133139": {
+    "nsuid": "70010000133139",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125672": {
+    "nsuid": "70010000125672",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133720": {
+    "nsuid": "70010000133720",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126327": {
+    "nsuid": "70010000126327",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134381": {
+    "nsuid": "70010000134381",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126591": {
+    "nsuid": "70010000126591",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134583": {
+    "nsuid": "70010000134583",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134673": {
+    "nsuid": "70010000134673",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132126": {
+    "nsuid": "70010000132126",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000085034": {
+    "nsuid": "70010000085034",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134966": {
+    "nsuid": "70010000134966",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127189": {
+    "nsuid": "70010000127189",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127195": {
+    "nsuid": "70010000127195",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000098137": {
+    "nsuid": "70010000098137",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128230": {
+    "nsuid": "70010000128230",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128769": {
+    "nsuid": "70010000128769",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128775": {
+    "nsuid": "70010000128775",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128781": {
+    "nsuid": "70010000128781",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128788": {
+    "nsuid": "70010000128788",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000135131": {
+    "nsuid": "70010000135131",
+    "name": "Asdivine Knot - Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001351315b8b3ee4a25311f1a52b87c017bcc81f/d2fda78aae20787cd0733335a0254ba5/49fed8d35677d5369ac6e4aaf83728d91c2f948cdf276b76ab9f9b99ad390cac.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-09-04"
   }
 }
