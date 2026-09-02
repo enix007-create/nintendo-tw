@@ -30076,9 +30076,12 @@
   "70010000105791": {
     "nsuid": "70010000105791",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "真・三國無雙２ with 猛將傳 Remastered",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001057910d049a7ca57811f1ae2b4949bb194ff2/239847780526dd4890c5c4ec5a4d342b/21d6b317eee5a7f5b83bfbad252a24f1be9603acc66216764e56db0e79bcac62.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-01"
   },
   "70010000105975": {
     "nsuid": "70010000105975",
@@ -30097,9 +30100,12 @@
   "70010000106144": {
     "nsuid": "70010000106144",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "LEGO® Harry Potter™ Collection",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000010614414c64d0ba64111f19c870b4e9796db0a/efbfe0a384b6d868a746520387008570/b6572baf2c6dbe7cdb7b4ba7e28021a6bd5cad4dcd897b374cdfe58a024c246e.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-16"
   },
   "70010000128886": {
     "nsuid": "70010000128886",
@@ -30643,6 +30649,27 @@
     "nsuid": "70010000110174",
     "platform": "Switch",
     "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000100313": {
+    "nsuid": "70010000100313",
+    "platform": "Switch",
+    "name": "Roman Sands RE:Build",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123104": {
+    "nsuid": "70010000123104",
+    "platform": "Switch",
+    "name": "Pirate Havoc",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124187": {
+    "nsuid": "70010000124187",
+    "platform": "Switch",
+    "name": "璃夢泡影之世外浮城 -trail-",
     "cover_url": "",
     "hk_checked": true
   }
