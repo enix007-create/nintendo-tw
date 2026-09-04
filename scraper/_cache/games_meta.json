@@ -24356,7 +24356,7 @@
   "70010000124782": {
     "nsuid": "70010000124782",
     "platform": "Switch",
-    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000124782a5e13c32643f11f188ef213556de1cbb/4e06c15deac350d7ffaa18d05c6dcba1/9b479b78b5fbac6b1df6718ac83241135e8107284db87589b31477eecc82d66c.jpg",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000124782a5e13c32643f11f188ef213556de1cbb/bbe1a4ade4527599a4eb03693f8d1d97/9b479b78b5fbac6b1df6718ac83241135e8107284db87589b31477eecc82d66c.jpg",
     "cover_source": "catalog",
     "from_catalog": true,
     "name": "東方紅魔鄉：新典　～ the Embodiment of Scarlet Devil.",
@@ -30923,5 +30923,201 @@
     "cover_source": "tw_search",
     "platform": "Switch 2",
     "release_date": "2026-09-16"
+  },
+  "70010000134854": {
+    "nsuid": "70010000134854",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134969": {
+    "nsuid": "70010000134969",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127817": {
+    "nsuid": "70010000127817",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127821": {
+    "nsuid": "70010000127821",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000090895": {
+    "nsuid": "70010000090895",
+    "platform": "Switch",
+    "name": "Beef Cat Ultra",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128502": {
+    "nsuid": "70010000128502",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000054581": {
+    "nsuid": "70010000054581",
+    "platform": "Switch",
+    "name": "王牌釣手 歡釣水族館",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000079545": {
+    "nsuid": "70010000079545",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000079629": {
+    "nsuid": "70010000079629",
+    "platform": "Switch",
+    "name": "Dungeon Arsenal",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000079634": {
+    "nsuid": "70010000079634",
+    "platform": "Switch",
+    "name": "Ginger - The Tooth Fairy",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124953": {
+    "nsuid": "70010000124953",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133181": {
+    "nsuid": "70010000133181",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133389": {
+    "nsuid": "70010000133389",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000072951": {
+    "nsuid": "70010000072951",
+    "platform": "Switch",
+    "name": "美德傳奇f Remastered",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000080906": {
+    "nsuid": "70010000080906",
+    "platform": "Switch",
+    "name": "Matsutake Game",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134254": {
+    "nsuid": "70010000134254",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134661": {
+    "nsuid": "70010000134661",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000064543": {
+    "nsuid": "70010000064543",
+    "platform": "Switch",
+    "name": "SPY×FAMILY 間諜家家酒 日記大作戰",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000102399": {
+    "nsuid": "70010000102399",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130029": {
+    "nsuid": "70010000130029",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000085866": {
+    "nsuid": "70010000085866",
+    "platform": "Switch",
+    "name": "Aidan In Danger",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000094754": {
+    "nsuid": "70010000094754",
+    "platform": "Switch",
+    "name": "Undivine",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131946": {
+    "nsuid": "70010000131946",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000078679": {
+    "nsuid": "70010000078679",
+    "platform": "Switch",
+    "name": "哆啦A夢的銅鑼燒店物語 (Doraemon Dorayaki Shop Story)",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000069746": {
+    "nsuid": "70010000069746",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000069751": {
+    "nsuid": "70010000069751",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000062526": {
+    "nsuid": "70010000062526",
+    "platform": "Switch",
+    "name": "咒術迴戰 雙華亂舞",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000108083": {
+    "nsuid": "70010000108083",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
