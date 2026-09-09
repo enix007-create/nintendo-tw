@@ -28571,9 +28571,12 @@
   "70010000130795": {
     "nsuid": "70010000130795",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "薩爾達傳說 時之笛",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001307956ddd67898fb511f1832fdb42e339b7fb/6819da98d844cc69d3f34a5cabcf1bb4/650108130ba904b8d6407541d2ff3a996808b88745e808477ba03fa408aabb1e.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-05"
   },
   "70010000126388": {
     "nsuid": "70010000126388",
@@ -31297,6 +31300,160 @@
   },
   "70010000130006": {
     "nsuid": "70010000130006",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000119220": {
+    "nsuid": "70010000119220",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000120173": {
+    "nsuid": "70010000120173",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000120384": {
+    "nsuid": "70010000120384",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000120390": {
+    "nsuid": "70010000120390",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000099562": {
+    "nsuid": "70010000099562",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000112754": {
+    "nsuid": "70010000112754",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000113326": {
+    "nsuid": "70010000113326",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000068952": {
+    "nsuid": "70010000068952",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000117579": {
+    "nsuid": "70010000117579",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000117585": {
+    "nsuid": "70010000117585",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000104546": {
+    "nsuid": "70010000104546",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131657": {
+    "nsuid": "70010000131657",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122487": {
+    "nsuid": "70010000122487",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122499": {
+    "nsuid": "70010000122499",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000102605": {
+    "nsuid": "70010000102605",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134887": {
+    "nsuid": "70010000134887",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000114444": {
+    "nsuid": "70010000114444",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000115400": {
+    "nsuid": "70010000115400",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000115408": {
+    "nsuid": "70010000115408",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000106987": {
+    "nsuid": "70010000106987",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000107236": {
+    "nsuid": "70010000107236",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000107714": {
+    "nsuid": "70010000107714",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
