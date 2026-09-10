@@ -30444,9 +30444,12 @@
   "70010000133231": {
     "nsuid": "70010000133231",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "ZELDA無雙 災厄啟示錄豪華版",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013323143e1afaeac8b11f18660ebc15686256c/ff9b9a2c673b031deefe23e14af7e66c/b34d2cdc3942da8386bfba51c7f46fcf027f5a09901680b1c5a02d46cf585c51.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2027-02-25"
   },
   "70010000133232": {
     "nsuid": "70010000133232",
@@ -30538,9 +30541,12 @@
   "70010000125003": {
     "nsuid": "70010000125003",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "雙點醫院：健康滿載合集 (Two Point Hospital: Full Health Collection)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000125003bcc440c2a7d311f1a7cc039b46a7cf7d/399618dfd33e13c3745a804b405212a1/6c97fb385e2466cdd4702f04213470adba58f3746a39f7a6677fbbdc07465e1e.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-16"
   },
   "70010000133091": {
     "nsuid": "70010000133091",
@@ -30831,92 +30837,121 @@
     "nsuid": "70010000130827",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001308278919281aac8b11f191ae49d7dbbe812a/a5e6c53a53ae025fee2faece5077e1c6/a8ec2cf0879bdac1ffc9cdcaefd95e0524850f109c474fb5256b2c565669c61f.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000132018": {
     "nsuid": "70010000132018",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001320181519a69bac8b11f1a0b1930db59dadee/f7e8bc0aaeab3ca9c33c8dc1c4934310/f2d6aeb286cb9f6f4fa6afd69f0de140af83e7cc11ba1911e18531f56dab2a4a.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000122363": {
     "nsuid": "70010000122363",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001223637d48be4eac8b11f1a561f92df09e18f3/d4a2251f12810a2db3415410ead30222/ff3b3bdb8c7132f57ac199cea99cfbc3ad749a516ad97f135d6e289afeda5d9c.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000122959": {
     "nsuid": "70010000122959",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000122959103cc83bac8b11f18e937db75a683687/839f30a19caf09f1c5d554d8314551fb/7ed53437218d3cd77df1657064bc715e1a3b6b1e0692a2cca45e85001026a142.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000062357": {
     "nsuid": "70010000062357",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "關於我轉生變成史萊姆這檔事 坦派斯特開拓譚",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100000623575110dcf5a7d311f1a738495d069f5f5a/3eaa331bed6a1bc471bb7825d6950d06/0a891a31ecef49d733d0ba4231475cbf6deb0e4e477aee7171c1cb8de438ab7f.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000129321": {
     "nsuid": "70010000129321",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129321df00909bac8b11f1a807930db59dadee/23c6e5c2ccf1b51c5dae4e47c09d057d/0548eb95f62793c407d1a5444d2b0a97de0b84df6cc980c6d57e5e484a483b22.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000129327": {
     "nsuid": "70010000129327",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129327ecc7fd6aac8b11f1af1c930db59dadee/7376acf102fef6d69959bde37e12535c/58ec4c1514518b2d214fa1cbde47173a68eb22566ef81ff5f99070f6aff8718f.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000111437": {
     "nsuid": "70010000111437",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001114378e9f58d2ac8a11f1876049d7dbbe812a/0fc8022ec156aea25a0d0077c7ee8406/9e6b6aa428be9951c434b411832a553c77b5a19e3f146495e77858a4af6d8588.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000132852": {
     "nsuid": "70010000132852",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000132852c5584c45ac8b11f19068930db59dadee/3eccdca7b308b527b13ed9df5019c710/ef149992511e47efc0836e067d3691e88601e28d9979897929b14453a00f3160.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000134450": {
     "nsuid": "70010000134450",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013445046a58439ac8b11f1bd1033eed31961de/6f416064a6348e70eef43a82b23287b5/21b12fb7e614a90d311bbf1ab596e3a262d70a820755bd78cf1495202ca5908b.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000134632": {
     "nsuid": "70010000134632",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "16變化 校園生存戰！",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000134632bd0c688dac8b11f186bef92df09e18f3/d8bc17fbc2295913b1f6dc98d57061c9/3789ed92c1315010409bc47b1d0a1ec00a2ef53b629850946df64078ac0bbe97.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-09-17"
   },
   "70010000125979": {
     "nsuid": "70010000125979",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000125979566549c3ac8b11f1a0b72f450bb72669/479729f760e8df37e7c9a27b6bda9601/f22d7fafe91abd962b72d0ac3c93cde0d390a39ab91a0733b2ebcfd3df61397b.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000126333": {
     "nsuid": "70010000126333",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001263334c12a975ac8b11f1b76555a742e2bc04/ff97a75c7373ec85bc6f36e3e0d54572/f5522e93a18820675dcf40244bd89a331443a73970179a3e6478d42bd0815065.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000136354": {
     "nsuid": "70010000136354",
@@ -30930,30 +30965,43 @@
   "70010000134854": {
     "nsuid": "70010000134854",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Big Adventure: Trip to Europe 13 Collector's Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001348544f7acaddac8b11f18711930db59dadee/b63a7880c239726d9dee9376d7677908/3af30667b0d3e74591963f7e9cf39f9eae4723bdd744e4e6352f5b79a0b6353a.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000134969": {
     "nsuid": "70010000134969",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "KAMEN RIDER 英雄尋憶",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000134969272395d1ac8b11f1ae0a2f450bb72669/dbe9bc7589eab07079ec5e3732bd63d6/6c9d15580e92d59eda6e2257add3ca64f5333a37081473e64666fe2d465f8e1a.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000127817": {
     "nsuid": "70010000127817",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "全民丟丟樂！普利尼雙六大冒險",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001278172532212dac8b11f183320b9b06f5e0c4/c0a489817a7263263ba14a36030334b7/5746054b913f7572fdb5386fc6a6e265c7fc9d65d8b14b6c85ced3557b6a7deb.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-11-12"
   },
   "70010000127821": {
     "nsuid": "70010000127821",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "全民丟丟樂！普利尼雙六大冒險",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012782148285ed6ac8b11f19be62f450bb72669/6c788f5b91b0495d52ef958ea8a39079/5746054b913f7572fdb5386fc6a6e265c7fc9d65d8b14b6c85ced3557b6a7deb.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-12"
   },
   "70010000090895": {
     "nsuid": "70010000090895",
@@ -30973,8 +31021,10 @@
     "nsuid": "70010000054581",
     "platform": "Switch",
     "name": "王牌釣手 歡釣水族館",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000054581464844a2a80f11f1a278d1089779fa73/ba6442cf29e1e30c110691b7b8fa3258/514610bb1e920e0aa4a7a23064089be19d4cf1af025289ef0433aea7e421cda7.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000079545": {
     "nsuid": "70010000079545",
@@ -31022,8 +31072,10 @@
     "nsuid": "70010000072951",
     "platform": "Switch",
     "name": "美德傳奇f Remastered",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000072951e1b6ac85a80611f1845d4919c63f2b27/6fd4638c34d9aa65fead6efea9ca8e9a/6037f435bd60fb82a97e8dd13a794095a285fce778e95efafd35dce5fb8d4213.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000080906": {
     "nsuid": "70010000080906",
@@ -31050,22 +31102,30 @@
     "nsuid": "70010000064543",
     "platform": "Switch",
     "name": "SPY×FAMILY 間諜家家酒 日記大作戰",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000064543df63098ca80611f1a4a2959818d101c3/5be163bdc2f0e8bec3c409c2ec12702d/ef0a529f7144b964fc358952e215c58d49ad2f4a0622e904f25ecf6ee037419b.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000102399": {
     "nsuid": "70010000102399",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "我的英雄學院 唯我正義2",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001023995d37f06aac8a11f19a12f92df09e18f3/deb63793c87fbc83d8d511062bd3cbd1/8819843a6bc2ad9be9ed355aba8d68851f8cd95e919c02e0f5eb4bd2574633d9.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000130029": {
     "nsuid": "70010000130029",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Supermarket Simulator - Grocery Store",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001300290b403f20ac8b11f1839a49d7dbbe812a/4930da7c3dfe56a1217f137eb2a6600e/391e02ed66a2967e1b8863b73a3a23b00042095d7ce3b86c5f211dd084d80167.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000085866": {
     "nsuid": "70010000085866",
@@ -31092,8 +31152,10 @@
     "nsuid": "70010000078679",
     "platform": "Switch",
     "name": "哆啦A夢的銅鑼燒店物語 (Doraemon Dorayaki Shop Story)",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000078679e27c0e27a80611f1bf85af8247307e69/30a6b5bd6d9d0a8f4e431e4ba64a1b89/4cd93c1e604a39651a86d022a7b599745b4980a0f8c9dda449d84b8562e1d7f0.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000069746": {
     "nsuid": "70010000069746",
@@ -31113,8 +31175,10 @@
     "nsuid": "70010000062526",
     "platform": "Switch",
     "name": "咒術迴戰 雙華亂舞",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000062526db492fbaa80611f1b7c8959818d101c3/e4e14890bc8f97adaa192d1465726fcd/d797298e8dea245692a12ba54085f1ead808c3bac44deaeca80aece0e1351120.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000108083": {
     "nsuid": "70010000108083",
@@ -31126,16 +31190,22 @@
   "70010000127519": {
     "nsuid": "70010000127519",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives KARNOV",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127519cd222e0eac8a11f19373930db59dadee/21fcf6c2f1a42c6f380b137e4d2e3ec9/103ddfad53c0497fdedccb46dcd502b2f3b93c6afd9abcfa20722e42f04fc22b.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000127525": {
     "nsuid": "70010000127525",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives 2 KARNOV",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001275250cd5f620ac8b11f1bf0bd743edbd34c5/ef99ee1343ba4aaa49a0874c726893bb/91604cbc8cdcd9bdf1a59ecf079ec4321ce09265bb1f8f07848db29c1791902b.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000127717": {
     "nsuid": "70010000127717",
@@ -31147,9 +31217,13 @@
   "70010000128279": {
     "nsuid": "70010000128279",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Taxi Crew Simulator",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128279ebe6fb86ac8a11f1b7922f450bb72669/7b7c83636d3061e8d33eeb3c7269863c/d0412cc31541826f2faab8fa83e26620268e5bcf4b75bdb4806b2fc49de9a601.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-09-24"
   },
   "70010000128590": {
     "nsuid": "70010000128590",
@@ -31162,8 +31236,10 @@
     "nsuid": "70010000118933",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000118933d6048befac8a11f198a255a742e2bc04/1f6b552e00b5414651fe68819a7729f9/6928ccfbe6ad7668d7c55a806db82cc0fa4b2d47af47935585d712c39f40ad59.jpeg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000125838": {
     "nsuid": "70010000125838",
@@ -31183,8 +31259,10 @@
     "nsuid": "70010000134429",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000134429d9dd2160ac8b11f1b7c755a742e2bc04/7b5db1727debc32523f09b5b500a33df/fa04f8413ca82eaf065d403274250cdf71a44715203e6ffaa857cc709a7d0d83.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000126485": {
     "nsuid": "70010000126485",
@@ -31196,30 +31274,44 @@
   "70010000126752": {
     "nsuid": "70010000126752",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Motel Renovator Simulator",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126752d9a115cbac8a11f1a8b20b9b06f5e0c4/ab3250a92a3d332212945266e39f5586/d225cec19ceb0dcd5170c6c246df0493a547d2d836d6dfde309d9d9dd212a154.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-09-24"
   },
   "70010000101452": {
     "nsuid": "70010000101452",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Console Archives NOBUNAGA’S AMBITION II",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000101452a3103f50ac8a11f1ab6bb1432feeee7d/b81c32b1f57dff7736dcb550e49ef962/f3093da90e7e85c015729d76ba1ef14a5a8fc2f3ad57400b24a1108bef38f153.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000131130": {
     "nsuid": "70010000131130",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Drift Club: Street Legends",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131130178b9aafac8b11f197467db75a683687/408fccb1298dafaca35477ace555bb5b/63888dda2060ff92744ac006221aea163e27efa6f142f6512d7813ec3bcd5d10.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000113894": {
     "nsuid": "70010000113894",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "霓虹三國 -Echoes of the Lost-",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000113894df44e617ac8a11f185c033eed31961de/ffb4fc096220f2cbcc0091ec6e40eada/e7b0993278d673e13e1754e4d857bf14c5a8acb2740db6f9207778e712a02521.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-09-17"
   },
   "70010000132710": {
     "nsuid": "70010000132710",
@@ -31239,29 +31331,37 @@
     "nsuid": "70010000132909",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001329099396df20ac8b11f184f6930db59dadee/4ce4216cc3ee461ceffecc21be74b91a/0efb10fcba12b3e02cfea22413db54da0dbea7b432579e48ed7846af516c49c0.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000133591": {
     "nsuid": "70010000133591",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001335917dd4eba8ac8b11f194f2c35952f0183f/b57f266b8c139d02ee5f628e52c77a14/3956b5e3d40c732e7d950494d4257ea9a259b28a82f3b62308dedb6eb7aee7b2.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000134529": {
     "nsuid": "70010000134529",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001345292a99def0ac8b11f1a0cfc35952f0183f/227ecb9d74ade16c2d85ee44a0e7d71f/07dc2482cc130185497b2a34d0039b44fbb4531044b0e08a08485e73298d2fbe.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000129063": {
     "nsuid": "70010000129063",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129063434ee9a5ac8b11f184787db75a683687/a8cbe2cdd498286364dc992c68ced51b/ecacc1bdff0b3e221543a3a565ec47bea94bc13c5bec1cdf9e144e7c2d1cace3.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000119030": {
     "nsuid": "70010000119030",
@@ -31273,23 +31373,32 @@
   "70010000120827": {
     "nsuid": "70010000120827",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Tap Monster Duel",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000120827dddbf882ac8a11f1b0d17db75a683687/82c9aa941cef9f475beea5b12503db59/41a05dd329a7bed4916ad835187568dc413cf1eeea39e3032a684d00dc8f4793.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-09-17"
   },
   "70010000125162": {
     "nsuid": "70010000125162",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Monster Slingshot Smash",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012516276ecef6aac8b11f1a50755a742e2bc04/ca3cf6244db3a2e57497af7c6d0d8ac5/62b203d9a81ea208ca84f992e6b3fff24a02c87cf4b02d1e554e18e1f9201ca7.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-10"
   },
   "70010000125591": {
     "nsuid": "70010000125591",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001255912cb73110ac8b11f1a1dfd743edbd34c5/a86a2c9d035f8d4dde0c15221cffdf24/acd683581ba14ac30db1180b50dd9b89f5a884c8c8573e7369c279192d9d2c14.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000129593": {
     "nsuid": "70010000129593",
@@ -31308,37 +31417,54 @@
   "70010000119220": {
     "nsuid": "70010000119220",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Marvel's Guardians of the Galaxy: Encore Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000119220e0c35617ac8a11f1b277d743edbd34c5/1d333f72079ca230d9c4034c83a77425/4c94acb2fdb9a04de2b84bc145bea4d3cbcc70ca5975fee15fb1e0c8d4083c6c.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-05"
   },
   "70010000120173": {
     "nsuid": "70010000120173",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "《古墓奇兵：亞特蘭提斯遺跡》",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000120173dfc023cdac8a11f19655f92df09e18f3/baf5be267f76ba496c27b7e36ba944fe/fd8d9e00b367c252a2344098005e0be6f7bbd1c510abeceed9f161703a65ea94.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2027-02-13"
   },
   "70010000120384": {
     "nsuid": "70010000120384",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Yu-Gi-Oh! TAG FORCE GX",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001203848ff7fe9fac8a11f19ddf7db75a683687/2c76887bef3f4b2c3cc331ef41091cca/35fc0e9e5683511765f66e0489100f4a41575cb5660f23d55d7f6ab1a98cedff.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2027-02-16"
   },
   "70010000120390": {
     "nsuid": "70010000120390",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Yu-Gi-Oh! TAG FORCE GX",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000120390cfcffd83ac8a11f190507d575a621e64/e0dc50cdad0b9b72a651f4457b9fec7a/35fc0e9e5683511765f66e0489100f4a41575cb5660f23d55d7f6ab1a98cedff.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2027-02-16"
   },
   "70010000099562": {
     "nsuid": "70010000099562",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "超級槍彈辯駁２×２",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100000995628c173e89ac8a11f19ee2930db59dadee/9e7b1b3d82ae74d992bf8eba164084e4/b2e10a851b8b0d604431147a35117977b94223520051286ec692edd849ee7c54.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2027-01-14"
   },
   "70010000112754": {
     "nsuid": "70010000112754",
@@ -31350,9 +31476,12 @@
   "70010000113326": {
     "nsuid": "70010000113326",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "ETERNAL ANIMA 永恆的靈漪",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001133269441cfceac8a11f1a769930db59dadee/2846b23bcbaac3d7b0d3a0aec596772d/b15d32726a74d33116d9864f335ad3b5310ccb3217334cfaa6c4959d1637fb86.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2027-03-04"
   },
   "70010000068952": {
     "nsuid": "70010000068952",
@@ -31364,51 +31493,72 @@
   "70010000117579": {
     "nsuid": "70010000117579",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Dragon Quest Heroes: Torneko‘s Mystery Dungeon -Classic HD-",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000117579b71466aeac8a11f1869233eed31961de/d7923fbb2799e029ea88e741eedbd23c/6662f61dccad0a738224303791c53a31cd01dfbfffc8de2b164856a151dd53ea.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-09"
   },
   "70010000117585": {
     "nsuid": "70010000117585",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Dragon Quest Heroes: Torneko‘s Mystery Dungeon -Classic HD-",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011758507d58b85ac8b11f18d8b7db75a683687/9baf2745cbb3fa5e8953b39421565e3f/6662f61dccad0a738224303791c53a31cd01dfbfffc8de2b164856a151dd53ea.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-09"
   },
   "70010000104546": {
     "nsuid": "70010000104546",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "超級槍彈辯駁２×２",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000104546972bd4e7ac8a11f1a96c55a742e2bc04/2e02b6b3c31ddb25b8e70a0b72b94203/b2e10a851b8b0d604431147a35117977b94223520051286ec692edd849ee7c54.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2027-01-14"
   },
   "70010000131657": {
     "nsuid": "70010000131657",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "女神異聞錄４ Revival (Persona 4 Revival)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001316573824ddbeac8b11f19eac49d7dbbe812a/05ec4567c7063fbff8aceb5443ebeea4/97fe623322cfe13c47dc27efd9071cdc2ea1c7081e99ae40fd2ac8fb15ec0a6f.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2027-05-20"
   },
   "70010000122487": {
     "nsuid": "70010000122487",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Resident Evil 3",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001224873de4d650ac8b11f1b318ebc15686256c/9c8b0e647045e2f3a579df1b9c6017ae/59dde5b554f0cf65f6f99c36fbcc8cc1aae40a8a6b2ee6141dda9b10e2d6e36b.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-16"
   },
   "70010000122499": {
     "nsuid": "70010000122499",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Resident Evil 4 Gold Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001224996113f5ccac8b11f192aad743edbd34c5/78c15a63931f1d0bc4aa522570c56176/beee3d58ac46f78bc26f7584bcaed50a645af2262d6581791a0381aaf56392c7.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-16"
   },
   "70010000102605": {
     "nsuid": "70010000102605",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Monster Hunter Wilds",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001026059cf593d4ac8a11f1be58930db59dadee/e1aa131515c2db982dd337a9a44f7d7b/5cc769a61c646305041e9a10c884ae3c7900e01d6daacb603c50f0667f0bb49a.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-12-04"
   },
   "70010000134887": {
     "nsuid": "70010000134887",
@@ -31420,43 +31570,190 @@
   "70010000114444": {
     "nsuid": "70010000114444",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Resident Evil 2 Deluxe Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011444490f2d914ac8a11f188d055a742e2bc04/db03e16eaca7defb392725fe004952f2/e7ac2cfb384f6f7af91e8ef7c76fa8dc849350bf02cb6c28b50a32be69ef3957.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-16"
   },
   "70010000115400": {
     "nsuid": "70010000115400",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "復活邪神3 錯綜宿命",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001154008b245157ac8a11f19d210b9b06f5e0c4/bf8de35858471296be28c3877b9cd304/50f54145685a00a147c0a8898024480acd5242c3cb6d5eff5765f9a5408c9735.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2027-02-16"
   },
   "70010000115408": {
     "nsuid": "70010000115408",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "復活邪神3 錯綜宿命",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000115408bf3ed394ac8a11f1a6e449d7dbbe812a/c06fd0bd70065ecb0239611a4c0bc94f/50f54145685a00a147c0a8898024480acd5242c3cb6d5eff5765f9a5408c9735.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2027-02-16"
   },
   "70010000106987": {
     "nsuid": "70010000106987",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000010698791a69f32ac8a11f1897e0b9b06f5e0c4/845d739cb10d9e31daf59fdc6646b07b/e6d0ed2d93e9cf649b0aa1771a859ff5ac2755486c4fb6934c8775ce95faafb5.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-09"
   },
   "70010000107236": {
     "nsuid": "70010000107236",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "餓狼傳説 (FATAL FURY) City of the Wolves STANDARD EDITION",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000107236d7cd7790ac8a11f1b408b1432feeee7d/24784ec9fa1969f76829206f92308fb5/b52597d519f95e03612fd18255a6d58377e875afb5e3f3de5edb4fd4c4293771.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-22"
   },
   "70010000107714": {
     "nsuid": "70010000107714",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000107714a681c72fac8a11f18281f92df09e18f3/56aebab37562317fc6b94dd44f070145/57412c2ecfaaee6dcb4641e0dc5a8fbe31360a4479a056b84a335f45e402ab21.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
+  },
+  "70010000136499": {
+    "nsuid": "70010000136499",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013649994d37be6ac8b11f184bcd743edbd34c5/d26fe80de430f8f622b0bc5672f1182c/29d03efcbcb4a26fff55425adec50198c17807e0d09d06b8f5efcb154e6502d3.jpeg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "抖S上司與 心跳辦公室拼圖",
+    "name_source": "tw_search",
+    "release_date": "2026-09-17"
+  },
+  "70010000136297": {
+    "nsuid": "70010000136297",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013629771e35fc0ac8b11f1a9daf92df09e18f3/47606e8f82a5e05f27d7110ad7f23af0/52256ccf26d79ab1d6395bb76cb4d82fee691531463d2eb0cf59bcb4f71648c1.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Yummy Yummy Cook Book",
     "hk_checked": true
+  },
+  "70010000136359": {
+    "nsuid": "70010000136359",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136359b467eb42ac8b11f188ebf92df09e18f3/7ace0c86649c9d506bed1533163c9c61/4b2aba3b65db82b76d15ebed9c4b4a501c228682dbcd2558c59e603f123272ad.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "和心儀的她 心動海灘約會拼圖",
+    "name_source": "tw_search",
+    "release_date": "2026-09-17"
+  },
+  "70010000135991": {
+    "nsuid": "70010000135991",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001359912aa6a82dac8b11f1970549d7dbbe812a/8a67d5541c103446fd68c276301a1123/c35e093866c182186a81606eaf529377f5f372da823c75d1f0b5272e06a01807.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "美麗世界的美女 寫真拼圖",
+    "name_source": "tw_search",
+    "release_date": "2026-09-17"
+  },
+  "70010000135700": {
+    "nsuid": "70010000135700",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000135700af14a998ac8b11f189dc33eed31961de/02aa751231da18c1458dc25930f39506/f409786f64cc2c223d97deb0268c6102529390b5552a34ab7f5cdccfd643570d.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "The Pit Is Hungry",
+    "hk_checked": true
+  },
+  "70010000032293": {
+    "nsuid": "70010000032293",
+    "name": "太鼓之達人 咚咔！二合一大冒險",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000003229380006ee1ab2b11f1b0ffebebcfd433dd/ead5edb2646a7733f4be9f41dda41dc3/23acbaa9a62bc23ca93c8f2952949f9d0f9900a24e6cc5b8fc6b56153f2386ad.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-09-10"
+  },
+  "70010000046610": {
+    "nsuid": "70010000046610",
+    "name": "右腦達人 找錯糾察隊 for Nintendo Switch",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000004661042147f82a80f11f1b1de39a38a31ab15/8680fe9704feeea2edc9ac1266b2e028/03842039061544805d8ff3cb90855099389eae7dcdb584fe22e364acc7d11675.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-09-10"
+  },
+  "70010000029130": {
+    "nsuid": "70010000029130",
+    "name": "KAMEN RIDER 英雄尋憶 數位音樂典藏版",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100000291309141e103a81711f1819c61a458a13278/cdd00ca0c7a43db916460c9c9a2d96da/f5d48fa163a85e1b507a32dd73431b086c0bc58bd1a049193946fd4e932c41d6.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-09-10"
+  },
+  "70010000137298": {
+    "nsuid": "70010000137298",
+    "name": "噬神者3",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001372986ca5fad8ac8b11f1b7f3930db59dadee/06ec229a626d6825a64a4a6015abb85c/48c3f06e16c9f28283c6601dc1bc6fb881f7458484eb5ab17473b133eee75eb8.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-09-10"
+  },
+  "70010000135517": {
+    "nsuid": "70010000135517",
+    "name": "Roll Golf",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001355178f2138e2ac8b11f19052f92df09e18f3/765b4f3e436d4fdd9eda723139addd13/3de41e09a1d94bfbe0d8d10fbe8cf753e409a225b786f3ce79d1a64f927e6171.jpeg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-09-10"
+  },
+  "70010000135068": {
+    "nsuid": "70010000135068",
+    "name": "星之卡比 躍然世界",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000135068ba1a696eac8b11f1ba9e49d7dbbe812a/ea9f2a865529363780471478d614a6f3/8d604fc77d5baed81aecc94f8a1726028d17efacbf28ce4e0c135ec35544e728.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2027-12-31"
+  },
+  "70010000135074": {
+    "nsuid": "70010000135074",
+    "name": "密特羅德 絕境嗜生",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001350744a1a98fbac8b11f1acaeebc15686256c/280c19bb99c73d654a87984234109d1d/eaa3086f0d9e18a3c0e3fcc5cf7b42cca8acb2a2439bde2dc9269a5c115c7279.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2027-01-28"
+  },
+  "70010000025957": {
+    "nsuid": "70010000025957",
+    "name": "千變的迷宮 風來的希煉 命運之塔與命運之骰",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000025957d1e4838ca80611f18e60959818d101c3/02fe70705a0070de694ffdf847744dfe/c7835c2bb0b60c6b8474f68fa0e7f07e533edd667176f8f2a07b481b10fa793f.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-09-10"
+  },
+  "70010000135062": {
+    "nsuid": "70010000135062",
+    "name": "皮克敏4 Nintendo Switch 2 Edition + 大家來挑戰! 當多慮檢定",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000135062535ac6d2ac8b11f188c27db75a683687/4af05205d2dd5d3818d659a6b57298bb/88d58b329a06ef32a403ff4a1e98a34790fbd0ecee384f968dbeb7d6e8407e13.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-11-12"
   }
 }
