@@ -31755,5 +31755,33 @@
     "cover_source": "tw_search",
     "platform": "Switch 2",
     "release_date": "2026-11-12"
+  },
+  "70010000113132": {
+    "nsuid": "70010000113132",
+    "platform": "Switch",
+    "name": "CRISIS CORE -FINAL FANTASY VII- REUNION Digital Contents",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000104367": {
+    "nsuid": "70010000104367",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134286": {
+    "nsuid": "70010000134286",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000093557": {
+    "nsuid": "70010000093557",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
