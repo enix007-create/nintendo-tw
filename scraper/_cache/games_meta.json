@@ -31245,8 +31245,10 @@
     "nsuid": "70010000125838",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012583803d79ff5afaf11f19384638237b8bece/9543c56625f40422790f1b3d4f2b9ca3/725cd9e87dd8c4e2f5c21e86275ef5b90fd309e406dcf117c33450ece2196660.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000133919": {
     "nsuid": "70010000133919",
@@ -31766,9 +31768,12 @@
   "70010000104367": {
     "nsuid": "70010000104367",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "《暗黑破壞神® IV：憎恨時代合輯》",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000104367c9ca285faee511f19b0f5d25e6990cde/5ad00109c359cf8fe0e324336a2bd22b/d664aad68f56d52e35e404f93b22ab307a26abf2ba9eede5b890f00ffb335476.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-16"
   },
   "70010000134286": {
     "nsuid": "70010000134286",
@@ -31947,6 +31952,69 @@
   },
   "70010000107173": {
     "nsuid": "70010000107173",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129453": {
+    "nsuid": "70010000129453",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000061580": {
+    "nsuid": "70010000061580",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131731": {
+    "nsuid": "70010000131731",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000109825": {
+    "nsuid": "70010000109825",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000121710": {
+    "nsuid": "70010000121710",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123314": {
+    "nsuid": "70010000123314",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134571": {
+    "nsuid": "70010000134571",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134655": {
+    "nsuid": "70010000134655",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127396": {
+    "nsuid": "70010000127396",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
