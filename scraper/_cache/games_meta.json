@@ -32341,5 +32341,33 @@
     "cover_source": "tw_search",
     "platform": "Switch",
     "release_date": "2026-09-17"
+  },
+  "70010000133054": {
+    "nsuid": "70010000133054",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134372": {
+    "nsuid": "70010000134372",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130204": {
+    "nsuid": "70010000130204",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130821": {
+    "nsuid": "70010000130821",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
