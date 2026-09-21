@@ -32369,5 +32369,14 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000136774": {
+    "nsuid": "70010000136774",
+    "name": "Party Party Time 3 Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136774ef1ace60b2d411f18db1717018874351/2589077a2d0768d4a6adfd2f4ffdc069/18c84c0101da326d0c419b3986cbeadf15d70990e5f746c44d619bd0ffd3b6b2.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-09-18"
   }
 }
