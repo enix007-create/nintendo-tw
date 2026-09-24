@@ -32352,23 +32352,30 @@
   "70010000134372": {
     "nsuid": "70010000134372",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Viractal(維拉克塔爾) Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000134372f6d6cb82b78a11f1bb8c8bec36b59f03/a6338837f6e7ea15b9d2acc45d9f1cb4/1705665a4afa9ca3f83eac18367f4e220ca5cead09675a79d69e9ac405fab042.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-01"
   },
   "70010000130204": {
     "nsuid": "70010000130204",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000130204e1cd5b65b78a11f1bc16dfa62141f3f6/ab25ea74034a99049883d50044ea350f/37e6ef7dbdcfab93f891bb3458bce2efc0e0ce40e6e248262bfe2e52db004950.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000130821": {
     "nsuid": "70010000130821",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001308213e75117bb78b11f1b1ebe7a57b8a3530/80cf24a7b0f812555deaeeb1c464e619/a7162d4c788f18b9bdca7a4f62f67abaf21e3e89f96dce31e439489b5f97a3f6.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000136774": {
     "nsuid": "70010000136774",
@@ -32382,9 +32389,13 @@
   "70010000134735": {
     "nsuid": "70010000134735",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "旅行女友的轉轉照片拼圖",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013473548267505b78b11f1b32e8bec36b59f03/1ee24a2b3ce01d51767da1bfe07d2a6a/ca5f387b99565334f031ad2cf948919a79f34393f718232d1bbea68e5a73217c.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-10-01"
   },
   "70010000134872": {
     "nsuid": "70010000134872",
@@ -32396,9 +32407,13 @@
   "70010000134939": {
     "nsuid": "70010000134939",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "只需放置學習 韓文 進階單字",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000134939f193c98bb78a11f190077bb8a6739a2d/2a5075612963b5c7b6d8e7b963f253b1/fd013681fe98aadf91442a9f27bb3af92aee82c3856f53fb89d75163c1e3a61b.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-10-01"
   },
   "70010000134955": {
     "nsuid": "70010000134955",
@@ -32439,8 +32454,10 @@
     "nsuid": "70010000133603",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001336033b5ea4adb78b11f1823e416dc6713f4e/19978bea273f7b57c24f5cde95bd5ed2/d1d77a599c2eb8ec0eb4087753e6ab2a602d40ea159c435fb127d5837728e210.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000120432": {
     "nsuid": "70010000120432",
@@ -32452,30 +32469,40 @@
   "70010000099403": {
     "nsuid": "70010000099403",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "漩光奇旅：爭分奪秒",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000099403d8ae1015b78a11f1ba6cd32afe2d28a7/9330bf3b1f63bd48b1b3da779c4b5176/b3c82869b267dc0bcdf0895c69707cf7f335072a6a2f895c0179c5e2d92e65cb.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-11-12"
   },
   "70010000134073": {
     "nsuid": "70010000134073",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001340732de68f1ab78b11f18e2d8bec36b59f03/01c92672aea40645011a5a6aca337557/ff7fe498725bf377a5ddee6b1ecd0c1ad9a240bdf8b1138e34b69e1f4e6e1e49.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000134342": {
     "nsuid": "70010000134342",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000134342ddde6d12b78a11f1894bd1e1fcd72bb7/4a43ba6e97c1603bf1111e4224373102/c5fca5e9da51a8efe83f7ad861a013f3397c24e356373bb4da3d7853837bff3e.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000089701": {
     "nsuid": "70010000089701",
     "platform": "Switch",
     "name": "Shotgun Cop Man",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100000897014b307cceb63411f1bcbbab3d06d0ec96/35162212ff311497458ac1c52866a4ef/1ef2c9d8955be2085118ba9bdccc29c8bb64176f91a804cf5f9fec85c5c5f972.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-09-24"
   },
   "70010000124193": {
     "nsuid": "70010000124193",
@@ -32495,8 +32522,10 @@
     "nsuid": "70010000111943",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000111943f9a3600fb78a11f1b446bb556632fc25/0e27ce6d1e5041d9396f08d2df852806/6f6716d257ffd84f4b27a4e8c8165505125b7f0aef573538483589cced33e75d.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000125477": {
     "nsuid": "70010000125477",
@@ -32522,16 +32551,21 @@
   "70010000129993": {
     "nsuid": "70010000129993",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives 2 XEVIOUS 3D/G",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001299933190c9dab78b11f1abb1095d903da2a1/dabc7d567850a6c696d69977cc0515f7/aa93d1df35f3de690adc1d87fae18a747cbfbba550913fa205c2456acc0131d4.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-09-24"
   },
   "70010000121514": {
     "nsuid": "70010000121514",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000121514e162d20ab78a11f1aacf095d903da2a1/eca3b5868998ad2feeccd469b146b0ee/f9369773c33a4112ddc9f4666cc4daeed586349a66a04c02b2a3112cb9169147.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000122158": {
     "nsuid": "70010000122158",
@@ -32621,8 +32655,10 @@
     "nsuid": "70010000104450",
     "platform": "Switch",
     "name": "Folly of The Wizards",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000104450040104aeb78b11f1b78b416dc6713f4e/fb8431ec94d79eff0d75e05b0b835a7f/a136623639aefb1ff6760ca0dd6016f069131d22323eeef0913cf42ee7e16be0.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000094727": {
     "nsuid": "70010000094727",
@@ -32644,5 +32680,151 @@
     "name": "ROAD59 -新時代任俠特區- 摩天樓黑白抗爭",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000136475": {
+    "nsuid": "70010000136475",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013647537ba2d67b78b11f19f5fdfa62141f3f6/f8db43e9f72b5bea2393a4b6287ec8d2/ac8788a8faf708f2df35eadf87c50c64bf79d822dd700dd85549fe1f025e30cc.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "異常空間巡邏：不可直視的找異變",
+    "hk_checked": true
+  },
+  "70010000136137": {
+    "nsuid": "70010000136137",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136137dfaff825b78a11f1af67d71c2cfb3b72/fb45a7402856bc42abbd9b750502a6b0/0366b98baa6bc55a63e6422a1305794aa316240e52ba581b8c53685f83ff04aa.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "對齊心動！亞洲美女拼圖",
+    "name_source": "tw_search",
+    "release_date": "2026-10-01"
+  },
+  "70010000136429": {
+    "nsuid": "70010000136429",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001364295f2f8b4eb78b11f1be63dfa62141f3f6/060d283da4ee40fef5567377949104c9/ec178b89f602830707f82b19bead2756379abc2d36ddb093c9973d850cd2440f.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "動動！獸耳娘找不同",
+    "hk_checked": true
+  },
+  "70010000136397": {
+    "nsuid": "70010000136397",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136397f353a434b78a11f1b4ab095d903da2a1/86cfc59792b7a328fb9f04478259e8cb/30e1d75caa195f1df04fc98fe04f328016483bba0317abbeae45bb98adc33d63.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Sorcerer's Servant SweetWitch",
+    "hk_checked": true
+  },
+  "70010000136893": {
+    "nsuid": "70010000136893",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136893f28161dcb78a11f19512e7a57b8a3530/419a2651c279a593536777343c0d3e82/7277e4355e1c1f1f964bf315f8b8cd5dfef711bc276029831204b65d3693256a.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Cat Magnifier",
+    "hk_checked": true
+  },
+  "70010000135319": {
+    "nsuid": "70010000135319",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013531928a1f7b1b78b11f190f3416dc6713f4e/3bcd8fdd21cc0dccafc9f6e10441ce04/7e3be1a5a41ee28032c37172fb34cbd98eabcb3f06bcaa25b72004e21405e941.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Canvas Puzzle",
+    "name_source": "tw_search",
+    "release_date": "2026-10-01"
+  },
+  "70010000134992": {
+    "nsuid": "70010000134992",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132540": {
+    "nsuid": "70010000132540",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133585": {
+    "nsuid": "70010000133585",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125826": {
+    "nsuid": "70010000125826",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133984": {
+    "nsuid": "70010000133984",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000072653": {
+    "nsuid": "70010000072653",
+    "platform": "Switch",
+    "name": "Criss Cross 十字縱錯的未來",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129885": {
+    "nsuid": "70010000129885",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122572": {
+    "nsuid": "70010000122572",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122710": {
+    "nsuid": "70010000122710",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000136589": {
+    "nsuid": "70010000136589",
+    "name": "Quantum Defense",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136589de570442b78a11f18584d32afe2d28a7/1ebb839a20583133141d19785628e4b2/ddf0a47a5100b7edcd37b37c31f3e3a0fce381d0ca34bd7bd61b23c20c3005d7.jpeg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-09-24"
+  },
+  "70010000135901": {
+    "nsuid": "70010000135901",
+    "name": "Rusty Prison: Horror",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000135901f2f657d8b78a11f1925e9d75e948d9a2/252d099ae0feacf84572ea232f652eaf/b7c1623bac738c05e32e07900c73345182830fa8436085d777e8b254e460e78b.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-09-24"
+  },
+  "70010000136702": {
+    "nsuid": "70010000136702",
+    "name": "Mel The Space Cat",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013670265c5609ab78b11f1b50f8bec36b59f03/697f3bf5a4250849d9d4c9eec7a97bee/36311a410eb821f6b30442bedfe6be203ff54902ca556fa257e7605688ac8197.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-09-24"
   }
 }
