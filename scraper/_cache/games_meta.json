@@ -32647,9 +32647,12 @@
   "70010000112022": {
     "nsuid": "70010000112022",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Armatus",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011202262e4fbbbb91d11f1b06f211a347cdca2/81ce919f06af7e591c2d87e906916f3a/8bc4d303d6ba85222a0d395158f1e7b3d2ef706817dba529752814b79d4bdce4.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2027-01-08"
   },
   "70010000104450": {
     "nsuid": "70010000104450",
