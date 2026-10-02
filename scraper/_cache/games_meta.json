@@ -33186,5 +33186,33 @@
     "cover_source": "tw_search",
     "platform": "Switch",
     "release_date": "2026-10-01"
+  },
+  "70010000131859": {
+    "nsuid": "70010000131859",
+    "platform": "Switch",
+    "name": "《永恆空間 2：銀河版》（EVERSPACE 2 - Galactic Edition)",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132431": {
+    "nsuid": "70010000132431",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133006": {
+    "nsuid": "70010000133006",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126094": {
+    "nsuid": "70010000126094",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
