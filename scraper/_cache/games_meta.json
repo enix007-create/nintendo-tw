@@ -28591,9 +28591,13 @@
   "70010000131077": {
     "nsuid": "70010000131077",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "《海綿寶寶：海洋巨頭之亂》",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131077389c1669bdff11f19c948ff46eca8ada/f2f16eb55a819d5965dd82652a8f3d8b/a005b5489421fa7d1481eb5b4e6ab561f069cbe8f2d4e0be07b49d7138db078f.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-10-13"
   },
   "70010000132370": {
     "nsuid": "70010000132370",
@@ -33217,6 +33221,69 @@
   },
   "70010000100036": {
     "nsuid": "70010000100036",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126599": {
+    "nsuid": "70010000126599",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000092878": {
+    "nsuid": "70010000092878",
+    "platform": "Switch",
+    "name": "MainFrames",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128169": {
+    "nsuid": "70010000128169",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000115335": {
+    "nsuid": "70010000115335",
+    "platform": "Switch",
+    "name": "Object Factory",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132138": {
+    "nsuid": "70010000132138",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133134": {
+    "nsuid": "70010000133134",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133838": {
+    "nsuid": "70010000133838",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134767": {
+    "nsuid": "70010000134767",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134843": {
+    "nsuid": "70010000134843",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
