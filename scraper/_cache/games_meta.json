@@ -33386,5 +33386,26 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000134435": {
+    "nsuid": "70010000134435",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000121546": {
+    "nsuid": "70010000121546",
+    "platform": "Switch",
+    "name": "從前從前有個塊魂",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124496": {
+    "nsuid": "70010000124496",
+    "platform": "Switch",
+    "name": "SKEL獵殺勇者地城！骷髏小子大反擊！(Skel the Heroes Hunter: Trap Dungeon!)",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
