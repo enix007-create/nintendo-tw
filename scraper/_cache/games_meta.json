@@ -28557,9 +28557,12 @@
   "70010000119403": {
     "nsuid": "70010000119403",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Minecraft",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011940311e736adc28b11f1bb1371906681e056/55af4d465b4885c23f57096a8d219ff3/a28a81253e919298beab2295e39a56b7a5140ef15abdb56135655e5c221b2a3a.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-28"
   },
   "70010000130292": {
     "nsuid": "70010000130292",
@@ -33119,23 +33122,32 @@
   "70010000128330": {
     "nsuid": "70010000128330",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Car Drift Simulator 2027",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128330bddf389cc28a11f18f97fd6f338e5b7e/61e308fb04b23414b40240925882ea88/e5dbb01dcbdbfc95763954526314e1f9443d48e2343298ba84704abb72b07905.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-08"
   },
   "70010000129285": {
     "nsuid": "70010000129285",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "PARCEL INSPECTION SIMULATOR",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129285f8515229c28a11f1936ccd2835081a4b/fc576b500409525e9b67d28b4e89179a/87865baec13f30ca25de9dae316737594889cae83b3cc17f456b48ddba5d2d10.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-08"
   },
   "70010000122590": {
     "nsuid": "70010000122590",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Dirty Little Puzzle 2",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001225900914fb73c28b11f18fd7db367e61b2e0/c3e823ba7ce9f3219c7bb72bfd4cbe8b/63203f7efff47a54002811b5d4b4b872289c374afc1cfad8eca2ab9a91704517.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-08"
   },
   "70010000137287": {
     "nsuid": "70010000137287",
@@ -33201,9 +33213,12 @@
   "70010000132431": {
     "nsuid": "70010000132431",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives FIGHTING GOLF",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000132431347b8be1c28b11f187dd17838f2066d2/46346331a6128a1283e705d9c54c936e/ef8d32029eec8ff3a0def04e48b40db5c9e802bec636be8240213c5284d6cef9.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-08"
   },
   "70010000133006": {
     "nsuid": "70010000133006",
@@ -33265,8 +33280,10 @@
     "nsuid": "70010000133134",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013313447835c29c28b11f1b4c317838f2066d2/c96c7fea7e634566cbda69767a1d5632/4f0cee0fc66fac22b4362148dba74f6779e4445343cc5cad4f21060a3e560517.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000133838": {
     "nsuid": "70010000133838",
@@ -33278,16 +33295,22 @@
   "70010000134767": {
     "nsuid": "70010000134767",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "《特務蜘蛛：8號情報員》",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001347674ecca0b9c28b11f19d4957acce85c7c5/3518634fb4747a268a2e6a52ac3e99cb/26e66b8d95c7604b8540e00baa466fefd3edeb1309ea74eed9f69abd2cf16fa7.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2027-02-11"
   },
   "70010000134843": {
     "nsuid": "70010000134843",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001348433f1c80dfc28b11f1aed457acce85c7c5/79004a7b35f7bb8fa07d154dd4dcf0ba/67f1bf1ab9b4c61d061aae8cf348ff382d9f356496ead73ee58ac5d60a07cc49.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000129117": {
     "nsuid": "70010000129117",
@@ -33306,51 +33329,69 @@
   "70010000129303": {
     "nsuid": "70010000129303",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "邪教誘惑：少女恐怖戀愛 (Cult Seduction: Girls Horror Romance)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012930312d29183c28b11f18edbfd6f338e5b7e/3345d23c90fb98e7c1b6da6571faf35c/a84d1d6784fb626bfd081884540253083036c7f6561ca6f820cf11c062ac3523.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-10-22"
   },
   "70010000129315": {
     "nsuid": "70010000129315",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "邪教誘惑：男子恐怖戀愛 (Cult Seduction: Boys Horror Romance)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129315169a7ea7c28b11f1936a3d2e13192f4f/579458045fa3ac7c5e85ef85da7c94d5/d8e437c7cd4a1c8fcd42e009facd75f02e23f0d1628facb45b4e68c515845488.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-10-22"
   },
   "70010000129344": {
     "nsuid": "70010000129344",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001293440e2b4bccc28b11f19f573d2e13192f4f/887ab7825b3517ca1ec0ff530ee14a99/d4a4e0a50009cbcf11638b42a343e7bc05347c1ddeba0508aa6d61d29ed89dcd.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000129531": {
     "nsuid": "70010000129531",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012953141b53732c28b11f1abfa17838f2066d2/e9a865fe9952591344c836940f525909/9bbf38d337b1533e75b455c89f559e43c63ac8299b73e13afdd477c9dc9a0d2d.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000129854": {
     "nsuid": "70010000129854",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129854035b74c2c28b11f18478db367e61b2e0/9a935e1744c843188fda7fa4fef4dca8/c16019937bc15fffbb90c8bae3bebc0cb31e48df57a6ecc5d82315c0872cbdc3.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000130145": {
     "nsuid": "70010000130145",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000130145379ff5cec28b11f18f0857acce85c7c5/23993bf17455000616dbfdc113abfdb8/e92249e0a059c96921fe9ded1183105ddb52eb4e5d8ccb48c694512cfb01bb11.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000134565": {
     "nsuid": "70010000134565",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000134565fc243165c28a11f1932f9975ea9ca256/e7b580371d823492265065444899639a/335e3493e6423aa14febcd503b45fc95e3ec7963aa3b89913d22d8bc435391f3.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000134800": {
     "nsuid": "70010000134800",
@@ -33370,15 +33411,19 @@
     "nsuid": "70010000125182",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012518208d87444c28b11f1afec17838f2066d2/6db369a85d8726e8b5ed7eebfe73d1e1/6c7465b5e45a43c9044ff093f3ccdd49176a7cdc127bc7ed82feab9783c3c18f.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000116482": {
     "nsuid": "70010000116482",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000116482faa81f31c28a11f18c73bd3c7f236701/54b8a01cc3a455920c921153dea01e18/d0665f15c0ab3923a401819fd201246cae80d7d01e3f2e78282bf38e92c6d03d.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000116559": {
     "nsuid": "70010000116559",
@@ -33398,14 +33443,211 @@
     "nsuid": "70010000121546",
     "platform": "Switch",
     "name": "從前從前有個塊魂",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000121546da395b20c28a11f1a65671906681e056/5776674247b6457ecdb44a7f8c18e26e/8de408810776ace1346c785f5e475c2c1af491206a6681f3b738b963e5f54b8b.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-10-08"
   },
   "70010000124496": {
     "nsuid": "70010000124496",
     "platform": "Switch",
     "name": "SKEL獵殺勇者地城！骷髏小子大反擊！(Skel the Heroes Hunter: Trap Dungeon!)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001244966f073bb5c28b11f187e917838f2066d2/fae861cf26c86f639deceb0632114ce8/31571897aaf3be3a49c46486bef61a47a0405ed7faf7f3e9054c339427186cec.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-10-08"
+  },
+  "70010000135787": {
+    "nsuid": "70010000135787",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000135787823ba506c28b11f1ab6617838f2066d2/5127bb803c6ddc9d2e8a1fdbd19476c3/feee02bb4f21bff95a1242a09a9dc9c8811a9962dbe3f85a85eba7cf9e2f5f58.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "hk_checked": true
+  },
+  "70010000138009": {
+    "nsuid": "70010000138009",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013800939d1074cc28b11f1825017838f2066d2/54180f2e3c4feb17d5dc116d94b83f4a/bf6a1a6f70d75df8519ef34a53a80c3ea5fbf65b3e55203cdccea8c5b9064a2b.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "hk_checked": true
+  },
+  "70010000137540": {
+    "nsuid": "70010000137540",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013754042583522c28b11f1b4e2fd6f338e5b7e/d777d0c9af3a80370c20e829d154ce7b/79235c37951d0c5f15d22d282babed0849e0f141d24fa15b7019121ed1d3975b.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "hk_checked": true
+  },
+  "70010000137368": {
+    "nsuid": "70010000137368",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000137368794f5b70c28b11f18407fd6f338e5b7e/847b9205b2c6c4573a9905dd3d23815b/954347fc1cdc4eacb8a34cee70758a12da439cb596731a222f4f44999b280229.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "hk_checked": true
+  },
+  "70010000137339": {
+    "nsuid": "70010000137339",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013733944c9a219c28b11f1910359807d794417/2c7df4865b0d66970cf4a57499ea0993/951a16a4a667bc51f9a85cfc6969e4bc9ef0e9726d9b6bc0687061317dd64183.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "hk_checked": true
+  },
+  "70010000137548": {
+    "nsuid": "70010000137548",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013754821a1b19fc28b11f182ac3b288012e85f/6d6e0ec629583a616a2ab06448520a68/860139beb1ded8a306084a8f35beafab1d4919f2d54388adbb8ec37e14f84cee.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "hk_checked": true
+  },
+  "70010000136168": {
+    "nsuid": "70010000136168",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001361682f11fdcbc28b11f1b5a53b288012e85f/3516149989952e0b8e0c629247583c8c/e6f483f09768405d5a0e23d8cedc4f4a7d95f479018f0d3aecf4fb784d550fcf.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "hk_checked": true
+  },
+  "70010000138276": {
+    "nsuid": "70010000138276",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001382763286919cc28b11f1be61cd2835081a4b/3201ae797b63e7987a361dbcabc9f955/0f826101818faed51dbcc3de94ffd4f73afcd76c878886d10224f5a900d28b08.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Crab Evolution Roguelite",
+    "name_source": "tw_search",
+    "release_date": "2026-10-15"
+  },
+  "70010000136246": {
+    "nsuid": "70010000136246",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001362461a319925c28b11f182509975ea9ca256/c10bbf003173018fb0da561f748e0f12/66fd7b0ebf695c58da3a82fca74a3dfab09ac4c01a449f78b9e1935f908613fc.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "hk_checked": true
+  },
+  "70010000137473": {
+    "nsuid": "70010000137473",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001374737bdf447ec28b11f19d9171906681e056/4328cedd5f9a39c9a7ae750e59de4825/26d0008c2c846a4de792c0810632cfdc0d3d0ecdf0029967af627c8214519d94.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "心跳加速！ 制服蒙太奇拼圖 ～從放學後到辦公室～",
+    "name_source": "tw_search",
+    "release_date": "2026-10-15"
+  },
+  "70010000138074": {
+    "nsuid": "70010000138074",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001380746fd68e97c28b11f18b1f71906681e056/01e847e3021b27ae1801b7f4daa4ca59/d84bb3fa287854a5a46eae08e9ef2704c4a7eb1d87b1fd59d96b67dd57ba133e.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "柴犬散步: 漫步街頭的益智解謎",
+    "name_source": "tw_search",
+    "release_date": "2026-10-15"
+  },
+  "70010000138415": {
+    "nsuid": "70010000138415",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001384155c4f0c46c28b11f19c01db367e61b2e0/b078c8a10acd2f64d9e42d80ae7721a4/51e6b6b34d3f4651d0df53e56435df5b6b4b95b132e2c1d524104669d30a3ea1.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "湊齊青春！社團美少女蒙太奇拼圖",
+    "name_source": "tw_search",
+    "release_date": "2026-10-15"
+  },
+  "70010000138601": {
+    "nsuid": "70010000138601",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001386013fc96103c28b11f1a01b59807d794417/0532af9fc0eb7aa6a748a27556615e97/335e10e8404ed9eb5f21f54923fb8e36231a6a4e9c04c82b0d33f1242a099d17.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Cargo Rail Tycoon",
+    "name_source": "tw_search",
+    "release_date": "2026-10-15"
+  },
+  "70010000138003": {
+    "nsuid": "70010000138003",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001380034f016786c28b11f1aba371906681e056/072dfc83e8e6c1289fb89b2f653552c6/695b46fa0acf383f2ad95fa268dedea7ae8e981c9a765847ef44f4b4005851f5.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "角色扮演美女的 最佳鏡頭拼圖",
+    "name_source": "tw_search",
+    "release_date": "2026-10-15"
+  },
+  "70010000135298": {
+    "nsuid": "70010000135298",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001352980e237343c28b11f196ff17838f2066d2/91369305b967ab0e51785e85ab99893b/58dee298de89609c4b6a4894aa07f8026f7833fea6c1ad27e79e4e743a0a840f.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "女武神傳奇 (VALKYRIE SAGA)",
+    "name_source": "tw_search",
+    "release_date": "2026-10-15"
+  },
+  "70010000138310": {
+    "nsuid": "70010000138310",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000138310ed946b0cc28a11f18f1d3b288012e85f/52a9a5bfae25515f78a46337fb4e0b8a/593a8ab27b90d54315d8155485ad3aed7030be7b45b8959f0a0571d0f37dca23.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "hk_checked": true
+  },
+  "70010000136002": {
+    "nsuid": "70010000136002",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013600208ae5601c28b11f18e383d2e13192f4f/02a75607145ad58f1537963830310a88/1d55236fdea84d622e72df92c68d6224badaf3db93aebf0c12da123feaf03097.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "hk_checked": true
+  },
+  "70010000133814": {
+    "nsuid": "70010000133814",
+    "platform": "Switch",
+    "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000135564": {
+    "nsuid": "70010000135564",
+    "name": "Puzzle X: Fashion Girls",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013556421ea8a94c28b11f1943cfd6f338e5b7e/f51c81c4d57970ebec8a8c76b322ca1d/a8fed92e2ce96228c5d481d2c5ee9a81174e65bb5bea75c3ea7ec5b198b7c49f.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-10-08"
+  },
+  "70010000135628": {
+    "nsuid": "70010000135628",
+    "name": "Cat Simulator",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001356283cbdba30c28b11f1b854cd2835081a4b/f7e685aaf0e5369b31f551495d5a1595/2368a7b850196a2aa6fb75352ccdd09ae9b472d6048727e5d63042ae3f9ccc3e.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-10-08"
+  },
+  "70010000138111": {
+    "nsuid": "70010000138111",
+    "name": "Mother Simulator",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001381116386168bc28b11f1ae6971906681e056/2cc64361480fa75a25b8a9efed741fab/07ae210ea5b95b2b3cf4e5190f7a63caf683b65583f9733dfb909bb8c6b17aec.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-10-08"
+  },
+  "70010000139111": {
+    "nsuid": "70010000139111",
+    "name": "創意漢堡物語 (Burger Bistro Story) – Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000139111625c4a55c28b11f1bc23fd6f338e5b7e/7d357f41096f20171c10d0d28077d426/ca21146debdf27cc870c4ab1b05006a290559d53d31d84d24850fe297f94cd97.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-10-08"
   }
 }
