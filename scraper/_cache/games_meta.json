@@ -33237,9 +33237,12 @@
   "70010000100036": {
     "nsuid": "70010000100036",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "《飆酷車神：動力慶典》",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000100036e4c08d35c35311f1814ab91551b2dae2/1b1ec2adb542dfd93aecc35d92f029f8/99c361243c5b5821fe9f5351e3814006281ac46e0e4725cbb658c325835a98b0.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-08"
   },
   "70010000126599": {
     "nsuid": "70010000126599",
@@ -33428,9 +33431,12 @@
   "70010000116559": {
     "nsuid": "70010000116559",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "未完的冒險 (Forever Ago)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011655950e42eecc35411f19be6452eb615a2db/0e749196c721790a46968da897ce321f/23c470f5668bb843f92a43c21e83d4a3e6884841f360cefe75910bb12f4fdcb5.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-08"
   },
   "70010000134435": {
     "nsuid": "70010000134435",
@@ -33810,5 +33816,84 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000130018": {
+    "nsuid": "70010000130018",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131013": {
+    "nsuid": "70010000131013",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131089": {
+    "nsuid": "70010000131089",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000078622": {
+    "nsuid": "70010000078622",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000121109": {
+    "nsuid": "70010000121109",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134757": {
+    "nsuid": "70010000134757",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128606": {
+    "nsuid": "70010000128606",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000115446": {
+    "nsuid": "70010000115446",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000105867": {
+    "nsuid": "70010000105867",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132573": {
+    "nsuid": "70010000132573",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000139338": {
+    "nsuid": "70010000139338",
+    "name": "星界戰士 (Astral Ascent) - Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001393383e2743e3c35411f1a6522f04f2343306/8ceb210e16c7893016262b18d7d5cded/c10fe20164a0595f40c60cbc1f1647ba8ddacdbfb4758b3ee3239f1f280d194e.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-10-09"
   }
 }
