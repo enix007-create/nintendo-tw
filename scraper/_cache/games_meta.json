@@ -33660,8 +33660,10 @@
     "nsuid": "70010000055131",
     "platform": "Switch",
     "name": "刀劍神域 碎夢邊境",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000055131620a9e40c3b111f184baebcf481855f3/267bedf5d8bcb0d946752fce2c1117f4/07f191f90e3987578de27eb9a370f5902f297a06d74e82c5b014316338f1ca25.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-10-15"
   },
   "70010000075663": {
     "nsuid": "70010000075663",
@@ -33681,8 +33683,10 @@
     "nsuid": "70010000111043",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000111043e71e0587c80a11f1b57479d79200306a/4da5dd5d8b53bcbf6c9dabd8a8ca7801/8ae744c4783471e36d1d8fbda57b0cd4c9129d41435680e361ca805820e40f47.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000111080": {
     "nsuid": "70010000111080",
@@ -33694,37 +33698,53 @@
   "70010000132024": {
     "nsuid": "70010000132024",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Zombie Outbreak: Last Stand Survival",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013202439c445acc80b11f1b4b3dbf2d3e3f11c/2903447d0c3e85bde41b5cc89bbce6d0/07853ae456f8a4e1ec85c811ca5b669b57ea598e272a432ba0512ec44df74893.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-10-29"
   },
   "70010000133416": {
     "nsuid": "70010000133416",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "死亡密室男孩版:心理恐怖殺人遊戲 (Death Room Boys: A Psychological Horror Killing Game)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001334164925426cc80b11f18cb3e3c37e519272/d9ff9090cdffe637d164e20373d6c0d3/57e742cc778256408e29bb859832786e40f17226ec56832e9ab905ff44c250c8.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-10-29"
   },
   "70010000133802": {
     "nsuid": "70010000133802",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives THUNDERCADE",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001338023e5b5451c80b11f18bebe321474831f8/2d39c9b8505d233e797cb9ed515b26eb/fb143df89857e39418c602d8cc9c50435414a4d45bb55928b5e4155b613e4498.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-15"
   },
   "70010000133808": {
     "nsuid": "70010000133808",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives 2 THUNDERCADE",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133808b062e9f8c80b11f1bf9179d79200306a/8b23e12bed31147849415f923f4bd097/54b3ac311392ea81547d78e1e6e40529563209daa08bba5fea58eea08620e9f0.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-15"
   },
   "70010000116518": {
     "nsuid": "70010000116518",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000011651818fdc7cfc80b11f18bf17fb6d3cbaa6d/85ffd178ed4e68a42e73b113f55b9ac1/7a9a1469f2d154ec62236a6268ca2269edb6158c0f569f6686441be6933260a2.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000124821": {
     "nsuid": "70010000124821",
@@ -33779,15 +33799,20 @@
     "nsuid": "70010000126793",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012679344f22407c80b11f1a27de321474831f8/56e182b8127d75f30427a3b1ca019ccc/e5e3db9fd40f50e5d35c122252c96701dd493f64f8ef4822f2b7a5d85e0b6d10.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000126959": {
     "nsuid": "70010000126959",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "月下夢景 Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126959f0732df5c80a11f1b8aae3c37e519272/ac9ced7137b737fa729946506ae6489a/57727590c309a7baff313d813532f9b213949cad2b42a8fbf28ec1e33d5c4f47.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-19"
   },
   "70010000126995": {
     "nsuid": "70010000126995",
@@ -33800,15 +33825,21 @@
     "nsuid": "70010000119552",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000119552ffc918e1c80a11f1b40f5127b5a72b42/809b1e10889e02c132d0917728914fb6/c74ea5c1ba0ef0e15859a52365f8f3382a817603d7722b0416552c0a7d26807f.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000128071": {
     "nsuid": "70010000128071",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "死亡密室:心理恐怖殺人遊戲 (Death Room: A Psychological Horror Killing Game)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128071366583e8c80b11f1b686e321474831f8/05c7d2fd1f374fd9facf79a8c5042e58/c0cde990a43afb15bf280a6d4a07ffaaa88f788d54d1d46ef921d678b093b0a9.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-10-29"
   },
   "70010000128654": {
     "nsuid": "70010000128654",
@@ -33820,9 +33851,13 @@
   "70010000130018": {
     "nsuid": "70010000130018",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Fitness Club Simulator 2027",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000130018448bc82ac80b11f19ace8f595632c84e/3ccd1f294507808c1f03f68d401ed1ab/1cc76f74928cdae90f1347d56e6a21b53eb9c15b5161c2f0f25178bc5c741a01.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-10-22"
   },
   "70010000131013": {
     "nsuid": "70010000131013",
@@ -33863,8 +33898,10 @@
     "nsuid": "70010000128606",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128606b0e873efc80b11f19e8669cd70c32622/f4d2ac6200b9980e7a6c34ba3b1f83cb/557532e5ef7efbe73b2ca03930311280854b424a9fc48e2c6e54945c5245accc.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000115446": {
     "nsuid": "70010000115446",
@@ -33877,15 +33914,20 @@
     "nsuid": "70010000105867",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000105867eeb63826c80a11f191af834ddef0f812/70290b83e8ad1541fdc78f6efd5b4d86/9aef2930bb88d1267b17b2394474ab6199be662c6da14173870326967d591075.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000132573": {
     "nsuid": "70010000132573",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "SNØ: Ultimate Freeriding",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013257357b1521cc80b11f18d6d69cd70c32622/f9e728b43304897b6afabb8c73b7c365/d1ac4aee777194856dff6da3846531f2eb3f3bfa14da6aee1dcc18a18d5b9671.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-28"
   },
   "70010000139338": {
     "nsuid": "70010000139338",
@@ -33899,9 +33941,12 @@
   "70010000133866": {
     "nsuid": "70010000133866",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "LEGO® Party! - Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001338664324f737c80b11f18b84e3c37e519272/e749dbfabdc02010739a44a18bb57ef8/8ab11769d05460d11c8df93a2b5da3328426d73d91ce3b4add6963615f11a163.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-15"
   },
   "70010000133941": {
     "nsuid": "70010000133941",
@@ -33921,15 +33966,20 @@
     "nsuid": "70010000134961",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001349612a2a55b1c80b11f1aa78bdfac15eca1d/bad38b344b499c58f37b66a7e6b136ed/8237860ccaff04cc8b386172b39ca32c37ba6dec177ffa00f38116e3c3e81b36.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000096458": {
     "nsuid": "70010000096458",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "LEGO® Party!",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000096458079c1ff6c80b11f18e468f595632c84e/21fa6ca8ed9cc30cbc06600ae9f385c2/b31e347f8f09d4df5679bffd13c79d760cb279c3c2365e92fed77d10e07d8593.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-15"
   },
   "70010000131970": {
     "nsuid": "70010000131970",
@@ -33951,5 +34001,248 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000138062": {
+    "nsuid": "70010000138062",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000138062a930ad46c80b11f19c8cdbf2d3e3f11c/e1fda60f2c2bdca4df21721818b99d50/bde37a706785ad7f7f5f3db60f87e9a12d0acf059afaf4f4579776ae4b109365.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "只需放置學習 追星應援 韓文",
+    "name_source": "tw_search",
+    "release_date": "2026-10-22"
+  },
+  "70010000138421": {
+    "nsuid": "70010000138421",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000138421b68c3f2bc80b11f1a3b83d4e4f60713d/81ec52c59b69ea9aa8591faae119be1d/29a721d4e8e4aef4cde22ae395c60a75ff24e1e9df07ce5859e8c40a12abc2c2.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "眼鏡娘的悠閒找不同",
+    "hk_checked": true
+  },
+  "70010000137485": {
+    "nsuid": "70010000137485",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001374855a1e8fd9c80b11f1b6cc8f595632c84e/12fb87edbf3e24d8b55fd2bf04458d47/915be409cf98afed523723385a5e402e6a030aecc6ed13b8632e9d511d865ca4.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "只需放置學習 簡單英單字",
+    "name_source": "tw_search",
+    "release_date": "2026-10-22"
+  },
+  "70010000138972": {
+    "nsuid": "70010000138972",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001389722294e473c80b11f1b6d4e321474831f8/135511e4ff4dbfbea03b3f9209fa1d02/75a48afa626b500ada7cc90e6ddc292c91721bcc952cc95ef404e6ddbe2a1f37.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Bottle Logic Puzzle",
+    "name_source": "tw_search",
+    "release_date": "2026-10-22"
+  },
+  "70010000137479": {
+    "nsuid": "70010000137479",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000137479a87b2ef9c80b11f18535e3c37e519272/7341f3fd27a6bdc6bef2508c8c3a43eb/fe591287e3543b456e76a8bfe45394cc41e51ce436a65fc0f3965ed189c37bce.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Cozy Packing",
+    "hk_checked": true
+  },
+  "70010000135887": {
+    "nsuid": "70010000135887",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000135887c248a84ac80b11f1aea78f595632c84e/b0c2e95e063243eee9f3f233994ebf4e/897546a9fd99f15d426afcd733eedbd2bc168ce675abab19b86a259d5879ec0a.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Cotton Reboot! High Tension!",
+    "hk_checked": true
+  },
+  "70010000138520": {
+    "nsuid": "70010000138520",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000138520b3c2c9f7c80b11f19d3d7fb6d3cbaa6d/1a2a7aac132cc6ae6bab88f531bc5f9e/d569cc8e91b4b92829bc528e061d0b05c71acbaea3f551d05ff0e726c5cd4851.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "有毒沒毒!? 毒博士的危險圈叉問答",
+    "hk_checked": true
+  },
+  "70010000137384": {
+    "nsuid": "70010000137384",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001373840b743960c80b11f1ad5b8f595632c84e/9fc2ab811f55d7563ce1c0454046bc20/00cb8466d1ed14d70c0ac0c5b1530d8de975ec5c6fb47ed7a0d607313747efcf.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "只擁有發光功能的裝置",
+    "hk_checked": true
+  },
+  "70010000045847": {
+    "nsuid": "70010000045847",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000045847d200c3f0c80a11f192c65127b5a72b42/de2c8edb394b19c435f6969468d333de/512441eec258aa5d395361a8a3f5baa9dca229690a712dbaa03e4174a81ca620.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Fallen City Brawl",
+    "hk_checked": true
+  },
+  "70010000137182": {
+    "nsuid": "70010000137182",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000137182cba30fc0c80b11f1b93d834ddef0f812/783b82e09a92b23ce224a5e5b7a12415/cfc23ad606a1fcf2907a79d8a29cf0610a34826a18e7c2ea7abc35f00240ea93.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Bella Umbrella and the mysterious garden",
+    "hk_checked": true
+  },
+  "70010000136066": {
+    "nsuid": "70010000136066",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136066507fc2d2c74211f1b7c5f7ce2011a624/fd5f83589dcbb40566ea50071c447879/c4d465c90ea505edae048867586ff4dd9b29ad3b35178d765c5ca9d4a364498a.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Hokko Spaces",
+    "name_source": "tw_search",
+    "release_date": "2026-10-30"
+  },
+  "70010000138978": {
+    "nsuid": "70010000138978",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000138978a97c1b23c80b11f18fa28f595632c84e/068abdb5d4d6157200f5dac3314d9240/ee978d84d1671e326040e8fc988a56d8b3cf0a38d0b7b4066e4d3cb0eb2acf83.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "BREACHCAM",
+    "hk_checked": true
+  },
+  "70010000137833": {
+    "nsuid": "70010000137833",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000137833a864ba40c80b11f182bfbdfac15eca1d/126cc94d8de784055c0612b354e3c299/c8cdc5c7a4ba22ce626f8d20dcc80c9a07601d8b5f7e26139d7e00d49a86e980.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Make it! Karaage",
+    "hk_checked": true
+  },
+  "70010000139042": {
+    "nsuid": "70010000139042",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000139042d2237339c80b11f1be425127b5a72b42/5ca76a4627e0f52c11235b61ada4f26a/c5acb07fbb1e16306ff38494173aef89f72c056a0f2c9c47ebffe6c4404f1b01.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Hide & Hue",
+    "hk_checked": true
+  },
+  "70010000127995": {
+    "nsuid": "70010000127995",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000128001": {
+    "nsuid": "70010000128001",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000099313": {
+    "nsuid": "70010000099313",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000119354": {
+    "nsuid": "70010000119354",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133637": {
+    "nsuid": "70010000133637",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133868": {
+    "nsuid": "70010000133868",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134744": {
+    "nsuid": "70010000134744",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000119197": {
+    "nsuid": "70010000119197",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125710": {
+    "nsuid": "70010000125710",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131140": {
+    "nsuid": "70010000131140",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000124204": {
+    "nsuid": "70010000124204",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000135984": {
+    "nsuid": "70010000135984",
+    "name": "蒼藍雷霆 GUNVOLT 三稜合極版 Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013598444246925c80b11f1901c3d4e4f60713d/3db6b5612c4ad926717857c7def2903c/83e76e35c444005503f7693e8da9119343d9800376eb95686133f339b67451a1.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-10-22"
+  },
+  "70010000135570": {
+    "nsuid": "70010000135570",
+    "name": "Puzzle X: Elegant Girls",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001355705796c627c80b11f189535127b5a72b42/53fbd1e74ef0f2cbc054a1a89e26057c/14c11fff016845458e5b86786ac3096213ef8f7d5547f396e52b5a8d9a3e26bf.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-10-15"
+  },
+  "70010000138360": {
+    "nsuid": "70010000138360",
+    "name": "Snail Puzzle Quest",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001383609a5806aac80b11f185efe3c37e519272/6aadc0aa4749a2a91dff44f03c58827b/343a07bf6782fac9e4fb3528b845a3fbadf6930f097e3bb4f55d7fa455be5f29.jpeg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-10-15"
+  },
+  "70010000138476": {
+    "nsuid": "70010000138476",
+    "name": "Pixel Path Quest",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001384763284bad8c80b11f19685dbf2d3e3f11c/c2b1ef3217011d352b48c8c01844779d/5ed53b2d640c0e26af1d968266f852f697be3bcece3e7ada50137a54ed226521.jpeg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-10-15"
   }
 }
