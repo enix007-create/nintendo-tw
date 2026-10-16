@@ -33770,9 +33770,12 @@
   "70010000099817": {
     "nsuid": "70010000099817",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "007 初露鋒芒 - 豪華版",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100000998171c60b113c86011f1a65b87a8b19652e6/ec857c57b99f0bb1cc1d487875669f60/ff5a02783d591829c551bc7a4d39f481cfa09d33de1e8d0cda0f422ac1a1aff9.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2027-03-18"
   },
   "70010000129962": {
     "nsuid": "70010000129962",
@@ -34244,5 +34247,47 @@
     "cover_source": "tw_search",
     "platform": "Switch",
     "release_date": "2026-10-15"
+  },
+  "70010000122379": {
+    "nsuid": "70010000122379",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122851": {
+    "nsuid": "70010000122851",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000102760": {
+    "nsuid": "70010000102760",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129483": {
+    "nsuid": "70010000129483",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132880": {
+    "nsuid": "70010000132880",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131927": {
+    "nsuid": "70010000131927",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
