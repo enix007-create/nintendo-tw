@@ -34160,9 +34160,13 @@
   "70010000099313": {
     "nsuid": "70010000099313",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Faraway",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000099313438bfe90ce5411f1b1eee92a40a0edc1/1a862c203c224db224457d20fd317e05/d703f69bf8c7362c245dcd9c9885084123b270fee0eca1bc9184dcc88bcf2ba3.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-11-05"
   },
   "70010000119354": {
     "nsuid": "70010000119354",
@@ -34347,9 +34351,12 @@
   "70010000131184": {
     "nsuid": "70010000131184",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Faraway",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131184edb26a6bce5411f19ebc67389ee1d11a/14bb9e94619054d6aaab6bec9b26fc35/d703f69bf8c7362c245dcd9c9885084123b270fee0eca1bc9184dcc88bcf2ba3.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-05"
   },
   "70010000131541": {
     "nsuid": "70010000131541",
@@ -34624,5 +34631,61 @@
     "cover_source": "tw_search",
     "platform": "Switch",
     "release_date": "2026-10-22"
+  },
+  "70010000120017": {
+    "nsuid": "70010000120017",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129291": {
+    "nsuid": "70010000129291",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129297": {
+    "nsuid": "70010000129297",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000112334": {
+    "nsuid": "70010000112334",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133441": {
+    "nsuid": "70010000133441",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133847": {
+    "nsuid": "70010000133847",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133853": {
+    "nsuid": "70010000133853",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000118483": {
+    "nsuid": "70010000118483",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
