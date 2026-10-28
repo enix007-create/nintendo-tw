@@ -34757,5 +34757,75 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000127879": {
+    "nsuid": "70010000127879",
+    "platform": "Switch",
+    "name": "One Turn Kill",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129704": {
+    "nsuid": "70010000129704",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126643": {
+    "nsuid": "70010000126643",
+    "platform": "Switch",
+    "name": "孤山獨影 (Cairn)",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000109731": {
+    "nsuid": "70010000109731",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122512": {
+    "nsuid": "70010000122512",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000107199": {
+    "nsuid": "70010000107199",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123916": {
+    "nsuid": "70010000123916",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000116105": {
+    "nsuid": "70010000116105",
+    "platform": "Switch",
+    "name": "《寶寶的悠閒打掃時光》",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000116417": {
+    "nsuid": "70010000116417",
+    "platform": "Switch",
+    "name": "浣熊推幣機: 混沌全開版",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000099379": {
+    "nsuid": "70010000099379",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
