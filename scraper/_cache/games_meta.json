@@ -33441,9 +33441,12 @@
   "70010000134435": {
     "nsuid": "70010000134435",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "鬼滅之刃 火之神血風譚2 Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000134435ed251791d30b11f192a0a197cb9da1af/3bb25916681eeab2b4f9b27249e1dfb3/50aac2623401037dad6b8bddc0ed9fe2b4a34d1723f22428f9f35e6159800a2c.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-29"
   },
   "70010000121546": {
     "nsuid": "70010000121546",
@@ -34410,9 +34413,12 @@
   "70010000128734": {
     "nsuid": "70010000128734",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Sword of the Sea",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012873497dfc704d30b11f19901db7f88c50ee3/a6e6f4af84cfc0e6e0bd40d2845b17c9/b53578325c55c682427849041d9fed1f4fca7c22553e1d2993e91da452851d14.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-30"
   },
   "70010000137189": {
     "nsuid": "70010000137189",
@@ -34539,9 +34545,12 @@
   "70010000131932": {
     "nsuid": "70010000131932",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Retro Video Store Simulator",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131932625354e4d30b11f1a022932e58aeb6b7/652e9c4757e8d0082eb6fde30e700663/0626e5df742085b61020b014d92050d8c01b2ace885f7a046b0f40f5b6a6758c.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-29"
   },
   "70010000132472": {
     "nsuid": "70010000132472",
@@ -34560,9 +34569,12 @@
   "70010000127602": {
     "nsuid": "70010000127602",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives PREHISTORIC ISLE",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000127602a1d875ecd30b11f1a0bb3539255001b9/80cdcef863eee3d0af1e37f494e7fc03/c445b4b8ca8b1f5450898b7ce0e3acadfc5398c5c73dc7e982fcee76dec6c74b.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-29"
   },
   "70010000128163": {
     "nsuid": "70010000128163",
@@ -34574,9 +34586,12 @@
   "70010000128995": {
     "nsuid": "70010000128995",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "戰地戰士(Warfighter)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000128995aa059064d30b11f18b5c932e58aeb6b7/78e9a84d08023ea27950e2fb5532e786/61489cfec4c5eb52e3a2d4a6d73eea612e1934def573cebdd3660a2235204aae.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-29"
   },
   "70010000136195": {
     "nsuid": "70010000136195",
@@ -34636,29 +34651,41 @@
     "nsuid": "70010000120017",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012001774372120d30b11f1ae8547b5bfab7354/125e53c3cd790cb0389d7041cde86b08/e8b16dc5831babcb833a0cffe9c065541ca831d62f8467bc41c2e2c7c183032e.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000129291": {
     "nsuid": "70010000129291",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "怪獸少女：捕捉巨獸談戀愛 (Kaiju Girls: Trap Giant Monster u0026 Fall in Love)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129291a09753c4d30b11f19702ffc36d673ded/34c0c6c9df87c8cb7e0329b4c0f70ef5/e4a3f3edadd09cbd595ce4793b00eb93877a3c08e498469f2743a5cb64a7b022.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-11-12"
   },
   "70010000129297": {
     "nsuid": "70010000129297",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129297740374d8d30b11f1a23a133a6649aa3a/c6a85227082b789f4aa572ac5c85ba22/95c8ca1fd69acf16c9820fc3e6384e4516fd0938e11c4e87f5a32ee53c31ce22.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000112334": {
     "nsuid": "70010000112334",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "龍騎士之墓 重製版",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000112334686380b4d30b11f1b1afdb7f88c50ee3/48f4cb91f66a9f36b5250ddde6ba1fc0/8786caa3a5ac785d34f1efbc9c6b72a25062e5b90aca13ed2b8b564c99bfeaf4.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-11-05"
   },
   "70010000133441": {
     "nsuid": "70010000133441",
@@ -34670,37 +34697,50 @@
   "70010000133847": {
     "nsuid": "70010000133847",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Look Outside",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133847b95a67fed0af11f18901fb7dd7535472/1abe74e8fef284c0df40f3e98d6e54a4/eb3877a2d3840c7fe2d31a14ae0c910b61067f8ddbeea2fda2bbe6716968ad73.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-10-31"
   },
   "70010000133853": {
     "nsuid": "70010000133853",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Look Outside",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133853d3ea1a6dd0af11f1883d592b57784003/c015a74895f3c4f900030a4ef371e2b3/eb3877a2d3840c7fe2d31a14ae0c910b61067f8ddbeea2fda2bbe6716968ad73.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-31"
   },
   "70010000118483": {
     "nsuid": "70010000118483",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000118483862b872ed30b11f180937b0b2de30087/96e3c07bd68717930ab257a602f6c5e5/223fb89a9b0d3ea872d2811187dfd9a1f65218a2414633f497003bfdb52f12b3.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000125206": {
     "nsuid": "70010000125206",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001252067f79c1efd30b11f1bdba47b5bfab7354/47afcc7ed05d2e2283d6e86bd1024116/e5848e0585c4ffc0152ed29caed3e015472d55805d161727e809fa2ad62c83d4.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000126372": {
     "nsuid": "70010000126372",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126372a28b56a7d30b11f194c1932e58aeb6b7/9bdb288e3a4a3ad3db17fd6008a99efe/711636bc2bd7944c5a3e95db0296d096bc4c2a6099715768f8bb5323efabeb0e.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000130919": {
     "nsuid": "70010000130919",
@@ -34719,9 +34759,12 @@
   "70010000113937": {
     "nsuid": "70010000113937",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "VALHEIM CITY BUILDER",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000113937b4cdc933d30b11f1ab127b0b2de30087/de8ac05b648f7028ecb65461bde8162d/761595207d0618274bd93a4cd734215d81841173938c17d248ade919951e0854.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-10-29"
   },
   "70010000130983": {
     "nsuid": "70010000130983",
@@ -34740,9 +34783,13 @@
   "70010000123030": {
     "nsuid": "70010000123030",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Mirth Island",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000123030071df0e0d30c11f1b6bf0b149d6e1ba4/cb905ac2d0166629e08d73d44e0d23e0/b1c289201579357d01d7a0e8e0b3cd5396ef6f044c4cdb674ca135906b909fc9.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2027-01-28"
   },
   "70010000128018": {
     "nsuid": "70010000128018",
@@ -34776,8 +34823,10 @@
     "nsuid": "70010000126643",
     "platform": "Switch",
     "name": "孤山獨影 (Cairn)",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000126643f3011b6dd30b11f1a4cbdb7f88c50ee3/1b51fb781954ca0c2750aa08e6ee9603/49dd012b49e73ef1a255e4cd8ccd25b3ef2a3a0ec4c619f59ac5d0fdfb02ed80.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2027-12-31"
   },
   "70010000109731": {
     "nsuid": "70010000109731",
@@ -34827,5 +34876,251 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000139863": {
+    "nsuid": "70010000139863",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000139863287b5839d30c11f1981b0b149d6e1ba4/8ced628f85190656bf2e6d90bad28d8a/d812ba0bf531595d6547c1c2c690d4da0295a0d27e89dc7d78fcaa7c4cc2d2e6.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "FlipFlip Jigsaw DOUBLE-SIDE PUZZLE",
+    "name_source": "tw_search",
+    "release_date": "2026-11-05"
+  },
+  "70010000138086": {
+    "nsuid": "70010000138086",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001380863609500ad30c11f1a7aca32ded974c5c/cbc06ab2537e14c1ee4f5472fc2f3dbb/374a63c95d297c826c22036c5fcd3575c7eb4c895bebc2b3800b3f87c8480dca.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "這個時代 有哪裡不對勁～找出歷史中的違和感～",
+    "hk_checked": true
+  },
+  "70010000139875": {
+    "nsuid": "70010000139875",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000139875204ad974d30c11f19be1db7f88c50ee3/107ec91c1f662138f14929adbd3ef38f/25cf1d02519a0a2bc51dcdf1a372aa502f0a4523ae78b9f50860d6e413ba7601.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Devil & Angel Sky Battle",
+    "hk_checked": true
+  },
+  "70010000134014": {
+    "nsuid": "70010000134014",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000134014f8aa7cf7d30b11f1bb2d47b5bfab7354/ebf55bd9eb0c69c05826e3a3a9dbf069/165baad9f2d71f4f08ddd923fd5fda7fe81476f24227a2ffe3a984a130190e2f.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "TANUKI: Pon's Summer",
+    "hk_checked": true
+  },
+  "70010000137273": {
+    "nsuid": "70010000137273",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001372736531f244d30c11f1901fa197cb9da1af/67a97fc2a8953304fd2aaa5008cfdf41/f4162243b983873c58cd97050dec823101c1d0d14070c0ab21bc76acb4457a87.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Cupiclaw",
+    "hk_checked": true
+  },
+  "70010000136309": {
+    "nsuid": "70010000136309",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001363092899e92cd30c11f18bbf133a6649aa3a/14774a8d642d58d8517ec110951d45e8/efcc815dfef0f2127608a70e8bd10acad61527256faafae686b1d041eb5d2ac9.jpeg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "UKKARIANS",
+    "hk_checked": true
+  },
+  "70010000139995": {
+    "nsuid": "70010000139995",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013999521053ecfd30c11f1a009cddb835706ea/2d31d2cdd669a0d545089e357b4ed37b/56a681a29742b5917f4e3e0655061725ae1e73cf3b8fdf770f686f7d613b7993.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Beat Tokyo with Jimotoism",
+    "hk_checked": true
+  },
+  "70010000140060": {
+    "nsuid": "70010000140060",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000140060865a82a6d30c11f184687b0b2de30087/5bc4d9bbb4b07a6a1729632d64d9680d/121449d545bb9559943db1e6ad9c7dbb7c9fc3add686bce2b544baf08f9c6d30.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Spirit Crossing - 靈渡之境",
+    "hk_checked": true
+  },
+  "70010000138334": {
+    "nsuid": "70010000138334",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000138334fc033d70d30b11f18e0fdb7f88c50ee3/398d8bf2f701d36438a1a4e65cf8c75d/0e2ac4f5da23ea96415dd8bf31963223e4825cb36bd5d826f88b911f36203260.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Suicide Guy Deluxe Plus",
+    "hk_checked": true
+  },
+  "70010000138331": {
+    "nsuid": "70010000138331",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001383318b9b7158d30c11f1b8a3a197cb9da1af/4571df37f76c8cb1a9e9583fdaab91e7/250ea4b8af622dca62dc9a6979da0e29ec2c26b1a6e89886636e3fc44af46049.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "連鎖秘術",
+    "hk_checked": true
+  },
+  "70010000136270": {
+    "nsuid": "70010000136270",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136270dfb7bd96d30b11f1b758a32ded974c5c/957717f8edd800cc7c5aead8cbe5ea82/fe824024eccdee521074464865f7da48ac4d223854f5c7b0d9b2aebac4392433.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "巫奇魔法學院 Witchbrook",
+    "name_source": "tw_search",
+    "release_date": "2027-01-28"
+  },
+  "70010000134111": {
+    "nsuid": "70010000134111",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001341112ce8ea7fd30c11f18ec0db7f88c50ee3/0c3687e8b5afa0511beece63f3520fc0/10032b714a84f94760f0f442e669dc9bd19452d25c4be0265136b7a5a7a0d137.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "鬧鬼爪子 (Haunted Paws)",
+    "name_source": "tw_search",
+    "release_date": "2027-05-31"
+  },
+  "70010000133760": {
+    "nsuid": "70010000133760",
+    "platform": "Switch",
+    "name": "鬧鬼爪子 (Haunted Paws)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133760fcdb428ad30b11f18704a197cb9da1af/94671afd166aab8ab09ae5171eb7a080/10032b714a84f94760f0f442e669dc9bd19452d25c4be0265136b7a5a7a0d137.jpg?w=400&fm=webp",
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2027-05-31"
+  },
+  "70010000134020": {
+    "nsuid": "70010000134020",
+    "platform": "Switch",
+    "name": "TANUKI: Pon's Summer",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000072204": {
+    "nsuid": "70010000072204",
+    "platform": "Switch",
+    "name": "stitch.",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125364": {
+    "nsuid": "70010000125364",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125543": {
+    "nsuid": "70010000125543",
+    "platform": "Switch",
+    "name": "One Turn Kill",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125624": {
+    "nsuid": "70010000125624",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000126738": {
+    "nsuid": "70010000126738",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127219": {
+    "nsuid": "70010000127219",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130378": {
+    "nsuid": "70010000130378",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000094524": {
+    "nsuid": "70010000094524",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000136074": {
+    "nsuid": "70010000136074",
+    "name": "異世界公主: 怪獸圍攻行動(Isekai Princess: Monster Siege)",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136074dc9f44bcd30b11f18fff932e58aeb6b7/11a9d101a7775fa7887a04e59589b5ef/821fe00f8442fc18b92b9ad4d11ed5257b71b8e4cba72cf599110fba71dd9f09.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-10-29"
+  },
+  "70010000138723": {
+    "nsuid": "70010000138723",
+    "name": "Love Love Mystery Club",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000138723e31896c9d30b11f190e9932e58aeb6b7/867b76579967d6ca507cf52b36de10ef/0bf08608d2ecc71691dd4e88acb42738e4cf0952a808db0b161420e66184a0d5.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-10-29"
+  },
+  "70010000139728": {
+    "nsuid": "70010000139728",
+    "name": "翡芮迪亞之風",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000139728216b8e9fd30c11f1871affc36d673ded/e95d127fd2a702ba21ef6bbb15bf1a69/22e35ca6fc838e885d288e0d8ece73e72ce2c5a2cd110c1359e06f72f2bd43cb.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2027-12-31"
+  },
+  "70010000136266": {
+    "nsuid": "70010000136266",
+    "name": "巫奇魔法學院 Witchbrook",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136266de2178e8d30b11f1912e47b5bfab7354/1982bf00247d01e4750428da595f7821/fe824024eccdee521074464865f7da48ac4d223854f5c7b0d9b2aebac4392433.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2027-01-28"
+  },
+  "70010000135582": {
+    "nsuid": "70010000135582",
+    "name": "Puzzle X: Premium Girls",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000135582add31e7cd30b11f18b4447b5bfab7354/475fb381b28ded099776db2b4666dff3/beb36eff5875c08351cb4c80f7d260b35737c3e3f63f54ba7d3ac6c7985578e3.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-10-29"
+  },
+  "70010000139612": {
+    "nsuid": "70010000139612",
+    "name": "Parking Quest",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000139612f585e571d30b11f1adee7b0b2de30087/06e7e4a4c9a0332cc5137503909a2afe/4dfdd83255a2852427dac9d9ec7818ada2fd21242079ac59852e350d059b8145.jpeg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-10-29"
+  },
+  "70010000140028": {
+    "nsuid": "70010000140028",
+    "name": "Space Rock Breaker",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000014002890de6359d30c11f1a2f87b0b2de30087/1274380f385c872fa987b0ffeb39e2c1/dd6fa0f61a026a67fb03207d8e7d38cd817b5fdaec55368d48b2371b07057609.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-10-29"
   }
 }
