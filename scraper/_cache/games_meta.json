@@ -34746,8 +34746,10 @@
     "nsuid": "70010000130919",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013091903f3ec21d3d511f1b76dfb7048b46967/69b31f9339370615d7768515dd86105d/d16b544f7ec2cdd99428f6d8638ae3333b8b46a4101bf5d6a3519d256a3cbe9a.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000127734": {
     "nsuid": "70010000127734",
@@ -35122,5 +35124,67 @@
     "cover_source": "tw_search",
     "platform": "Switch",
     "release_date": "2026-10-29"
+  },
+  "70010000133192": {
+    "nsuid": "70010000133192",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133206": {
+    "nsuid": "70010000133206",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133649": {
+    "nsuid": "70010000133649",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000116346": {
+    "nsuid": "70010000116346",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129617": {
+    "nsuid": "70010000129617",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000140837": {
+    "nsuid": "70010000140837",
+    "name": "進擊羔羊傳說《Cult of the Lamb》 – Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001408376f36f7cace5411f1a65349d7633e4105/fc443e42469657411878f0607b1330ee/b0ba9b904d00d804ececf20a094607d24fba6fdaedd8d9854b2a7c664818df77.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-10-23"
+  },
+  "70010000136975": {
+    "nsuid": "70010000136975",
+    "name": "進擊的巨人３",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136975b2bc9919d3d411f19527d7c00b82934c/53ed36737581f8210f165add869d7997/6655d884738f6453e6691b5f1b986526d45f11b46e5fe7cef585547af4a47d49.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-12-10"
+  },
+  "70010000140855": {
+    "nsuid": "70010000140855",
+    "name": "Shelterra the Skyworld - Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000140855f98204b6d3d411f1b4b0d7c00b82934c/ada5502a4b373704a5fccd6b60da7ab9/da2e729ba17b4c72e5a104db69d23326b7100a28e09413314aff21403a9f9653.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-11-06"
   }
 }
