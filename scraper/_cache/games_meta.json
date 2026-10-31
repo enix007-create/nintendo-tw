@@ -35186,5 +35186,26 @@
     "cover_source": "tw_search",
     "platform": "Switch 2",
     "release_date": "2026-11-06"
+  },
+  "70010000125820": {
+    "nsuid": "70010000125820",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130061": {
+    "nsuid": "70010000130061",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000123036": {
+    "nsuid": "70010000123036",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
