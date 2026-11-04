@@ -35143,9 +35143,13 @@
   "70010000133649": {
     "nsuid": "70010000133649",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "SONIC PICO PARK",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133649be356d96d7c211f1ae435f2d1ffe0b03/fcff79f748ed722b75ffa3c1952db494/50bd881c2e9106107feba45702fc746b1e16a36de0b2b9ae84f00446ff9454fa.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-11-12"
   },
   "70010000116346": {
     "nsuid": "70010000116346",
@@ -35267,6 +35271,62 @@
   },
   "70010000115536": {
     "nsuid": "70010000115536",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000119413": {
+    "nsuid": "70010000119413",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000134884": {
+    "nsuid": "70010000134884",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000091057": {
+    "nsuid": "70010000091057",
+    "platform": "Switch",
+    "name": "少女魔役",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000117888": {
+    "nsuid": "70010000117888",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130001": {
+    "nsuid": "70010000130001",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131413": {
+    "nsuid": "70010000131413",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132283": {
+    "nsuid": "70010000132283",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000068313": {
+    "nsuid": "70010000068313",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
