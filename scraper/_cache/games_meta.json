@@ -34834,9 +34834,12 @@
   "70010000109731": {
     "nsuid": "70010000109731",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Word Quest Horror",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001097319729c60dd88b11f18103593f7bff11d8/3fba5ccea51d243e4e3cbdcd98edad6f/23578b3fd06fcfc6e5ac181eb2615135364168de37e87a0faa670f2d5bd28984.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-05"
   },
   "70010000122512": {
     "nsuid": "70010000122512",
@@ -34947,7 +34950,7 @@
   "70010000140060": {
     "nsuid": "70010000140060",
     "platform": "Switch",
-    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000140060865a82a6d30c11f184687b0b2de30087/5bc4d9bbb4b07a6a1729632d64d9680d/121449d545bb9559943db1e6ad9c7dbb7c9fc3add686bce2b544baf08f9c6d30.jpg",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000140060865a82a6d30c11f184687b0b2de30087/2a806bede0112519a5927ae0a691de9c/c69ec27a73de106eb8a1cd1063ca60a2dee7b1fa7bbc5a548b4ad8bc3c63de65.jpg",
     "cover_source": "catalog",
     "from_catalog": true,
     "name": "Spirit Crossing - 靈渡之境",
@@ -35046,22 +35049,30 @@
     "nsuid": "70010000127219",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012721999cfcba0d88b11f1b2f58341c5d11a2c/af0d4fcff980830b78c3ed81b55660a4/005296fb8b599af4c3e8fdd8ca3d1b373f04b230b7cfc04a66f10c2f3b0cd5c2.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000130378": {
     "nsuid": "70010000130378",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000130378dca7e3ecd88b11f1871f8341c5d11a2c/5cfb69c2c862009bf8a72bdaa81cbbef/ecdeb9132d9728ee63e7e3ed76d0597ba13ed1b8fc7c3642c350fb284c20ea92.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000094524": {
     "nsuid": "70010000094524",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Tile Tales: Pirate",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000009452474cbf913d88b11f18f518341c5d11a2c/655f75571ef0aed02929963df3f32e14/0a4e9e10450abbcaa06602235b2acfa47cf0c15cc6d8af8fcd476aff027a0474.jpeg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-11-19"
   },
   "70010000136074": {
     "nsuid": "70010000136074",
@@ -35130,15 +35141,20 @@
     "nsuid": "70010000133192",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013319238f0836bd88c11f198b7ef7b24064ef3/45ca7b4c1df4787a6b3d38537020befc/9073e65ad0e690c046c4fc705d8408c130da6af2d9b13e01414d82c92036f027.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000133206": {
     "nsuid": "70010000133206",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "城堡躍進 (Castlebound)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133206ba5c0c79d88b11f1ad11d395d6c5bc35/0f2c28330337b807290d391ed1a94bd8/2673fe71f89609ac1f00e3d7d951d6683709fccdb164ca7bd862d8dad4cf9899.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-12"
   },
   "70010000133649": {
     "nsuid": "70010000133649",
@@ -35161,9 +35177,12 @@
   "70010000129617": {
     "nsuid": "70010000129617",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Jetpack Hero Rush",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000129617b4b9d0ccd88b11f192ae87d557137676/3437ad2454ce0c01266c7906055df60b/a239299d414b447d43fdf39ab3913893a5da9ed87c9238b59926cfbc231e9474.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-05"
   },
   "70010000140837": {
     "nsuid": "70010000140837",
@@ -35216,16 +35235,22 @@
   "70010000131555": {
     "nsuid": "70010000131555",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives EXZISUS",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131555ec8d058dd88b11f1a60c21e976b01a68/70687fbd04e982bf47d7cab4128da175/7afa7384c734843e621b1aae46e78bacb700510b95ffe49d94e30a21a76f01df.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-05"
   },
   "70010000131561": {
     "nsuid": "70010000131561",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives 2 EXZISUS",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131561eff5a19fd88b11f18565cf036e6a224c/459c5c58cd8ea7664a90e1c4ab8acbe6/68d3bf20aa9724b983ed521b797f1ab05048e76137ff9e8138f6d230f7105d76.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-05"
   },
   "70010000089718": {
     "nsuid": "70010000089718",
@@ -35237,37 +35262,52 @@
   "70010000123142": {
     "nsuid": "70010000123142",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "我被寵物撩了：從怪物手中守護動物娘 (My Pet Seduced Me: Save Animal Girls from the Monster)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000123142e71b430dd88b11f19a4b593f7bff11d8/9c80aff45fa12903583cb15142aff04a/b81a65a37d66266f4f59b41af314f2dbf6dffe7cc7501f85f614275910e71af9.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-11-19"
   },
   "70010000123148": {
     "nsuid": "70010000123148",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "我的寵物在撩我：拯救獸耳男孩 (My Pet Seduced Me: Save Animal Boys from the Monster)",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000123148df1e24f1d88b11f1b3b787d557137676/14e05b512cfbb79ea2aa7b06689dadf1/1b658580e899c87a774e8254e0246304e01e1b01f1e1defdf3d249d5d56d6d15.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-11-19"
   },
   "70010000121725": {
     "nsuid": "70010000121725",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000121725cc34dadfd88b11f1b59b21e976b01a68/915d814bb9990d0a21495b84f7313cfa/9a7dd6714fc856cd9cf83f7e25bc66ada14104be8309cc03597c11d94402d037.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000120044": {
     "nsuid": "70010000120044",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000120044cc535b4ad88b11f18074277d9a6d7eac/abb2f6f5ac2015cf77ba34b1e919afcc/133a64428967bd696bcaf9e5ef7d82be6f3c979e6e54862199167729fd4654da.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000128186": {
     "nsuid": "70010000128186",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Console Archives ELEVATOR ACTION",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001281869b4e5479d88b11f1b30521e976b01a68/75d7c5185612936e50534ff4d2600d10/85eed2c6676bf5140d0edb85a15fe10792a572cfa21520fcdcc77d5343f9bbaa.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-05"
   },
   "70010000115536": {
     "nsuid": "70010000115536",
@@ -35331,5 +35371,290 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000141331": {
+    "nsuid": "70010000141331",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000141331c6e2e4e7d88b11f1ae68d395d6c5bc35/703d3c8fbd9e4ea374686fe7dae0ec36/b1e85f0bc695211b0e299cbef01356b1966250eb32f8905a0fdea946aa31aca3.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "邊玩邊學 第一次學 韓語",
+    "hk_checked": true
+  },
+  "70010000137503": {
+    "nsuid": "70010000137503",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000137503cffe96e6d88b11f19fb7cd4a2f3369bd/8d9dbdbe984e372a2c1bc5c7f0f0a258/6f743a559d14d84c556febda8e24945f12fed03b529e7f701301c0d910c25049.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "細思極恐漫畫～令人發毛的解謎都市傳說怪談遊戲～",
+    "name_source": "tw_search",
+    "release_date": "2026-11-12"
+  },
+  "70010000140798": {
+    "nsuid": "70010000140798",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000140798406d269bd88c11f1b91aef7b24064ef3/5ee6c4a40845ce26a35d12d1aad83c24/7efd53e6b414e0ea2b92a27353f9eda9f7644b5f22045c0ccaef79370fc11055.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Bumperhead",
+    "hk_checked": true
+  },
+  "70010000138984": {
+    "nsuid": "70010000138984",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001389840ddc7713d88c11f1baf687d557137676/df44bfb47e85ff8d5e04d5de7adc140c/a1602afe769c229a3cd486d321d65d7bfa808c2d4742d4a1ca67859b54c3e2af.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "猛鬼大廈",
+    "hk_checked": true
+  },
+  "70010000140263": {
+    "nsuid": "70010000140263",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000140263f75d72bcd88b11f1a1338341c5d11a2c/fe89084dc4d99deddc0887258a00a25f/4f8538fa25ddfddd7675cdd19ce3595371b4cdb95aaedbbc7d220340d4174419.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "電路謎題 ― 連接電線的腦力訓練 ―",
+    "hk_checked": true
+  },
+  "70010000137023": {
+    "nsuid": "70010000137023",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000137023d9abce88d88b11f1980521e976b01a68/fabe0936aba7e9f9a4db65e3fa11b3d8/2673fe71f89609ac1f00e3d7d951d6683709fccdb164ca7bd862d8dad4cf9899.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "城堡躍進 (Castlebound)",
+    "name_source": "tw_search",
+    "release_date": "2026-11-12"
+  },
+  "70010000140975": {
+    "nsuid": "70010000140975",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001409752b94676dd88c11f1b27c8341c5d11a2c/51a779637b836eecc9072772c0119bbf/29594aec3bb8dc1d0e257204c8df2dea26002fa200829b0f7882da6a40ce85ed.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Neon GT Racing",
+    "name_source": "tw_search",
+    "release_date": "2026-11-12"
+  },
+  "70010000138644": {
+    "nsuid": "70010000138644",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001386444a9a0427d88c11f1b2e2593f7bff11d8/eafb204cdd76995122b775f9e346de94/bfdf606028edfdde2dbdcbb011c1ec6f88fa2f5765c5438cba21a30214520240.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Ex-Master, Zombie",
+    "hk_checked": true
+  },
+  "70010000137607": {
+    "nsuid": "70010000137607",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000137607e2aaf89ed88b11f1ad0e65cf221d137f/44f77b49ff2dd30242364df938db9589/80f8565dbb8d179284eef41944e410f03a5219d341ee6a3b2c4269d211c229ce.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "彩虹戀曲：男大生BL之戀 (Rainbow Romance: College Boys in Love)",
+    "hk_checked": true
+  },
+  "70010000139350": {
+    "nsuid": "70010000139350",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001393502cd1aed6d88c11f1969aef7b24064ef3/bd203a81f16a7fe0432358fdce54fbee/74948cbbcb29dd640a68ace4473fe1efbd603b85c5b0307d6f1ce3449206f5d1.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Beyond the Mist",
+    "hk_checked": true
+  },
+  "70010000137601": {
+    "nsuid": "70010000137601",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001376013baf44bed88c11f1a52d8341c5d11a2c/8f880799803f3e13225b6e04b919864a/25193113202dc3ca5241def2a2d294d24afc3557d0d104eac7728d3efd1fc3ff.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "彩虹戀曲：女大生百合之戀 (Rainbow Romance: College Girls in Love)",
+    "hk_checked": true
+  },
+  "70010000139618": {
+    "nsuid": "70010000139618",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001396184320420fd88c11f1a30acd4a2f3369bd/6741d4deacfe0e667d650a072ef5d300/fa3e75f9b536b5027b76aaae7d6c97203ee059dc9ce7694249882fbc81ee3385.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "傑登工業: 療癒系自動化解謎遊戲 (JADEN INDUSTRIES: Cozy Automation Puzzler)",
+    "name_source": "tw_search",
+    "release_date": "2026-11-23"
+  },
+  "70010000140411": {
+    "nsuid": "70010000140411",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000140411060e49b1d88c11f18c7e277d9a6d7eac/46d0c4dc81419427bd4e326afb3cb7d0/ef29fcb5fc902bfd4e2587496d6943fe9908f48c8cf58ea050ed973b5da2c5ef.jpeg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Smartopus: IQ Quest",
+    "name_source": "tw_search",
+    "release_date": "2026-11-26"
+  },
+  "70010000141167": {
+    "nsuid": "70010000141167",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001411674c0c5c9bd88c11f18e2021e976b01a68/3853bcb91f440dfbfefbc131d062e941/3d9bef2437aafde59ef13fd59b0403a1c71432ae1f611cc17f8ac0a6bb95fbb5.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "LarsGadiel",
+    "hk_checked": true
+  },
+  "70010000136609": {
+    "nsuid": "70010000136609",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136609406fbd81d88c11f19f1b5f88700e56a3/61753611f1070975661b7b1a7f75f208/35d2279722d502251087bbb06623291361c6f46317231398711090f53f3a93a0.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "hk_checked": true
+  },
+  "70010000139660": {
+    "nsuid": "70010000139660",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000139660489c0f9bd88c11f18743cd4a2f3369bd/718f765e5d8ae562755e20849be75d05/eb2d181e2ddb8cc52bb6e6fddeb5371dea85b0a20a7f4c5cb23cd14ed2173939.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Backrooms Splatter",
+    "hk_checked": true
+  },
+  "70010000137826": {
+    "nsuid": "70010000137826",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000137826542fd75bd88c11f18eef21e976b01a68/005bc860414abd506960143d9186fb6e/8d4f0c487f2a11fc76a17c2f29d8f2482a616a64b13cecf06aa81eadaa300913.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "推彈小子",
+    "name_source": "tw_search",
+    "release_date": "2027-02-11"
+  },
+  "70010000053109": {
+    "nsuid": "70010000053109",
+    "platform": "Switch",
+    "name": "Tormented Souls",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122290": {
+    "nsuid": "70010000122290",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122578": {
+    "nsuid": "70010000122578",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122926": {
+    "nsuid": "70010000122926",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000115597": {
+    "nsuid": "70010000115597",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125088": {
+    "nsuid": "70010000125088",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133643": {
+    "nsuid": "70010000133643",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000104272": {
+    "nsuid": "70010000104272",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000104362": {
+    "nsuid": "70010000104362",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000118728": {
+    "nsuid": "70010000118728",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000118818": {
+    "nsuid": "70010000118818",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130577": {
+    "nsuid": "70010000130577",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131021": {
+    "nsuid": "70010000131021",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000138935": {
+    "nsuid": "70010000138935",
+    "name": "Adventure of Kanjiro Chapter 3",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000138935341cab90d88c11f1bd7365cf221d137f/605266b018bcdf077f686e03890725dd/71d1120be30c536d1cd51d648bc62db778ec3200514b5d76dd00db07c2903668.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-11-05"
+  },
+  "70010000141189": {
+    "nsuid": "70010000141189",
+    "name": "Horror Love",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000141189ea1ff969d88b11f1b285277d9a6d7eac/9ea33daac526bb2ffb33af27047c8b37/f43f3375e07d9ecd57e8c06f500ca72d4551012e668c9d5944b4f064c7131963.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-11-05"
+  },
+  "70010000139857": {
+    "nsuid": "70010000139857",
+    "name": "BACKROOMS TOGETHER: SURVIVAL ESCAPE",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013985725e5e275d88c11f1afcfcf036e6a224c/108fdcc5bd63ed649974ee01a16c3c38/071569c24c102cab61b96ecb30513f53c6d8cfe92b27935d323e285e57b28f08.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-11-05"
+  },
+  "70010000136993": {
+    "nsuid": "70010000136993",
+    "name": "傑登工業: 療癒系自動化解謎遊戲 (JADEN INDUSTRIES: Cozy Automation Puzzler)",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136993cf9ce74fd88b11f184ef87d557137676/a3933bd97823b74853a2ab4893b3ba62/fa3e75f9b536b5027b76aaae7d6c97203ee059dc9ce7694249882fbc81ee3385.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-11-23"
   }
 }
