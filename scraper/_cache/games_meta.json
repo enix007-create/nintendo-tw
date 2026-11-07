@@ -6248,14 +6248,14 @@
   "70010000063387": {
     "nsuid": "70010000063387",
     "platform": "Switch",
-    "name": "",
+    "name": "KLAP!! ～愛與懲罰～for Nintendo Switch",
     "cover_url": "",
     "hk_checked": true
   },
   "70010000063410": {
     "nsuid": "70010000063410",
     "platform": "Switch",
-    "name": "",
+    "name": "even if TEMPEST 黃昏中魔女如是說",
     "cover_url": "",
     "hk_checked": true
   },
@@ -35656,5 +35656,12 @@
     "cover_source": "tw_search",
     "platform": "Switch 2",
     "release_date": "2026-11-23"
+  },
+  "70010000094031": {
+    "nsuid": "70010000094031",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
