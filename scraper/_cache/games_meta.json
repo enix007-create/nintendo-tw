@@ -34804,9 +34804,12 @@
   "70010000133579": {
     "nsuid": "70010000133579",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "《Just Dance 舞力全開》Nintendo Switch™ 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133579b2c3c173dd4211f1921b9fb97680aae3/6abb4e074a51b22400da5e5674b7c125/a850b045cc089c1aa93d76f5f1aba0d9a2726a361be486ca6636edc158e1eb97.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-10"
   },
   "70010000127879": {
     "nsuid": "70010000127879",
@@ -35320,8 +35323,10 @@
     "nsuid": "70010000119413",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000119413e351893cde0b11f1b895a934d83157a4/c1bf6df102a71bd355da24887d3c5934/61468e7baa053f9c54455c7ed7f7cd043e97531d86289611709ce23586cc7611.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000134884": {
     "nsuid": "70010000134884",
@@ -35334,15 +35339,21 @@
     "nsuid": "70010000091057",
     "platform": "Switch",
     "name": "少女魔役",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000009105775eb512ed88b11f1a46ecf036e6a224c/8f35b84df02d3d1b9f9b5965915f0757/dfad21a4f471c745c05354c3dc120523372f2236f6f3f92acc665ff77eb8758c.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "cover_source": "tw_search",
+    "release_date": "2026-11-12"
   },
   "70010000117888": {
     "nsuid": "70010000117888",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "We are Eva",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000117888a114b6a6de0b11f188136d4e1075f2d4/0a39a702573a191ba7655a170648cae0/e64ed19b5c5e1953d25b171bf5fa014022ffe7451fda4e526bffe7af091068ba.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-12-10"
   },
   "70010000130001": {
     "nsuid": "70010000130001",
@@ -35355,22 +35366,30 @@
     "nsuid": "70010000131413",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131413da9fea3cde0b11f1b1d585f5e41289c4/6bd2495dd64d5052c333495bcba1abb1/9913522c84802e2c2d43631012c6740950a574399635fa91fb2be5a48a738fc4.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000132283": {
     "nsuid": "70010000132283",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "GRIME II",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013228316048721de0c11f1a4a1317cd4868583/0beb794c36c7612144c852076c4cef1f/23c7593019b44b1bf0864a1a0debef8e620db59218289664ad57bd2ff6f236c0.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-11-26"
   },
   "70010000068313": {
     "nsuid": "70010000068313",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000068313817d5efdde0b11f184a5210eea77d994/0cb481011573127af8eecc7a8955d009/95f41ed5d755eb06bd5d494cc153833417c695ed74a7a54e0c0f249e2255407e.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000141331": {
     "nsuid": "70010000141331",
@@ -35562,8 +35581,10 @@
     "nsuid": "70010000115597",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000115597abe6a9a7de0b11f1a2ecb5931d5a461a/fdf888d44ae73a7a47b93d38e1ebaec2/26f4c4d1bf17444c1ab27fddc39cb3d313d6e5fa3dc6c2a7d1a20834efb22fdd.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000125088": {
     "nsuid": "70010000125088",
@@ -35575,9 +35596,12 @@
   "70010000133643": {
     "nsuid": "70010000133643",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "SONIC PICO PARK",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013364369ef2a83de7111f1bd35ff93a63fb946/cdb23264905ee83500fb46ee9a842ab3/50bd881c2e9106107feba45702fc746b1e16a36de0b2b9ae84f00446ff9454fa.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-12"
   },
   "70010000104272": {
     "nsuid": "70010000104272",
@@ -35589,23 +35613,33 @@
   "70010000104362": {
     "nsuid": "70010000104362",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "CODE Bunny",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000010436286b3ad74de0b11f1af13e18d59bbe297/455c6cfcc7f803a1c7ea413763656330/f7ec394002e0c9964a246c3eb893078cebc5e0cc5004d4ce2c8928c555a41c3c.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2027-02-04"
   },
   "70010000118728": {
     "nsuid": "70010000118728",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives 2 SHOT RIDER",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000118728bdfc9efdde0b11f1bded1f71f2913656/d95fe554cecff9487c0d59a7b684b4ea/8d1bf1f7cdfd0d42f4c7ccde69375a3ebb30727d7df84286b2b22f357dd8c6c5.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-12"
   },
   "70010000118818": {
     "nsuid": "70010000118818",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives SHOT RIDER",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000118818ae6cabc6de0b11f1a6fc1f71f2913656/511ea0643b1f2c758c91f5edc91784c5/2234314e14c4af65cc33b7053f8923e5b5b359af5fa3294bc99de9286406e49e.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-12"
   },
   "70010000130577": {
     "nsuid": "70010000130577",
@@ -35660,16 +35694,22 @@
   "70010000094031": {
     "nsuid": "70010000094031",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "BEYBLADE X EVOBATTLE",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100000940319bc1d7f0de0b11f19990ada7776b6815/336775c9bd4e214e2cd7b3060c594252/278ffc0126443232b0787a5505c2ba030a4f1d9c0c9329b95f284af3f775ca6e.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-11"
   },
   "70010000132277": {
     "nsuid": "70010000132277",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "GRIME II",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000132277b3af77edde0b11f1826807f406a39dd3/2c61be0d6c2c0ac2602c790504f0b2d9/23c7593019b44b1bf0864a1a0debef8e620db59218289664ad57bd2ff6f236c0.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-26"
   },
   "70010000122296": {
     "nsuid": "70010000122296",
@@ -35682,14 +35722,386 @@
     "nsuid": "70010000125739",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000125739cae24aa4de0b11f1950b07f406a39dd3/a052496510905510ebf354e35c2d1169/82d84198d48ebbf0bc8f8105273b2fea0f881a51a1fff22185dc8b36415522c1.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000125797": {
     "nsuid": "70010000125797",
     "platform": "Switch",
     "name": "",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012579735cdd9b8de0c11f1bdf0317cd4868583/3b1ba32007017e1e3f5f1721ca5dd71a/c2063d3cdb928ae69c6e9f0d1e5e47e5c5926ad53ad91b6948f0ce47b3dc0a46.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
+  },
+  "70010000140098": {
+    "nsuid": "70010000140098",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000140098c27710f2de0b11f1b3e7ada7776b6815/d7dda3ce383fc94ab9e8974d56e8a31e/6a31ee008e2fbc59f002a922abb6892808761a025fd7a6b24f8554fe8880ca8e.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "小貓躲貓貓：二次元老婆",
+    "hk_checked": true
+  },
+  "70010000140640": {
+    "nsuid": "70010000140640",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000140640b8e431f7de0b11f1bc9b317cd4868583/36bf6271413d23c6bfac79d9175e314a/f7e435e077634d1bb22ff5ee5255ce0e9ae74ebd11ca0f8c8c4742f571ba1abb.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "細思極恐漫畫：隱藏的真相",
+    "hk_checked": true
+  },
+  "70010000138015": {
+    "nsuid": "70010000138015",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000138015b805c7bbde0b11f1a4051f71f2913656/f436b5791131efbc53171dc1707471ea/646083d156c8241457ef2d13d63a3edd3b959d09835478f9f22ca0137ebc4c69.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "辣妹南國假期 常夏回憶",
+    "hk_checked": true
+  },
+  "70010000141905": {
+    "nsuid": "70010000141905",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001419054a56f56cde0c11f1a411317cd4868583/982dc2f8ef47bd6c578b78245960e543/50c7ea1fb73df2c29b8dd8c66e554d75761491f8159c89f250b7a73326c31871.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Relic Looter",
+    "hk_checked": true
+  },
+  "70010000140239": {
+    "nsuid": "70010000140239",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001402395669f2aade0c11f1991de18d59bbe297/5fa40ccb35f254e7931cb2b26146b2ef/3ed85cfb0c367db7b450e637507b34930eab208a7dd328068816ce5daafea905.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "轉轉女友！ ～水上樂園的秘密約會～",
+    "hk_checked": true
+  },
+  "70010000136382": {
+    "nsuid": "70010000136382",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001363822cb1bc67de0c11f1a49c3d3f2a483dca/cd06c555d9cdd77ef36449461beeb045/b90c47eace120da4cf5da311f236f3726b3ced6be29e6e0fd11ec2ba6fbb9e79.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "動動腦！長知識！小學基礎知識問答對戰",
+    "hk_checked": true
+  },
+  "70010000139490": {
+    "nsuid": "70010000139490",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000139490b67d8f85de0b11f19d436d4e1075f2d4/8887fc66a17ba7ce6b1e96db02e86c45/d7ad1fa60891e0751cede53dc0a6c990d5c104c3d0ea5824f1e2af30850ec617.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "城市道路拼圖：連接街道的腦力訓練",
+    "name_source": "tw_search",
+    "release_date": "2026-11-19"
+  },
+  "70010000138636": {
+    "nsuid": "70010000138636",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001386365efa7ea9de0c11f1a47db5931d5a461a/23d212c8ccdaf54f818ec1bcbab78db0/8d5d94ded2992b7ed394c2d618c3397c08b07ff1ca794f59f316a35bbad4b0b0.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Ritebound",
+    "hk_checked": true
+  },
+  "70010000138022": {
+    "nsuid": "70010000138022",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000138022f9542e86de0b11f1a7e307f406a39dd3/aeafcc1e18147625c6eac6a1533a3bc0/77f46dc318b5abd2e8f2b179aa8ce595a8aa0370c02e562bbad0872da6f8f7fa.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "黑髮美女的夏日假期 找不同",
+    "hk_checked": true
+  },
+  "70010000140755": {
+    "nsuid": "70010000140755",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000140755c7860eccde0b11f1b1e9b5931d5a461a/d21b0e09357cf15cc850926bc780b4e5/113fef2271ce5e293512fbae6acc394a9c29d7ff4a43664a68d0ccc714f86a24.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "hk_checked": true
+  },
+  "70010000139048": {
+    "nsuid": "70010000139048",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000139048c74e2c5dde0b11f193ac1f71f2913656/4d66d52902fd18c8ad201376825b043a/453e0a469cfe6c119ba2fa264055425fb71b4b3c1dff1b00543ca0437f943d49.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "尋找香蕉！：美少女腦力訓練",
+    "hk_checked": true
+  },
+  "70010000141297": {
+    "nsuid": "70010000141297",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000141297cdf3c4c3de0b11f1999fb5931d5a461a/803eb4a42a8cd0033d9ab84575a11850/2e51fb87ed7edc79d09ca91289cd09aaac9653432c7b04466b1bedf1601c6dc6.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "輕鬆解謎：1分鐘偵探 推理",
+    "name_source": "tw_search",
+    "release_date": "2026-11-19"
+  },
+  "70010000140405": {
+    "nsuid": "70010000140405",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000014040531367936de0c11f18a711f71f2913656/a4f48afc429ca1ae7396af4ebd378bcb/db574629fd897bcf3a6a68453e6478142566108382a6db00c776d37ef2380cb8.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Kids Minesweeper",
+    "hk_checked": true
+  },
+  "70010000138028": {
+    "nsuid": "70010000138028",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013802870a1301ede0c11f1a89885f5e41289c4/565077e336cd8cb5e97912876c36048a/cb2908abeb50e7284c865c20b4543ba9ab47d6f37297c5c2e04703080d038891.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "美女穿搭檢查！ 今天這身穿對了嗎？",
+    "hk_checked": true
+  },
+  "70010000140317": {
+    "nsuid": "70010000140317",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000140317da3bb40ede0b11f1aae1ada7776b6815/283c4e4c8f0f216cfba9da1041665356/69bc50cf710274aa299470d8661e4256640d0dc75ffd7aa8cf7184928c919d8b.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Pack The Cats",
+    "hk_checked": true
+  },
+  "70010000140269": {
+    "nsuid": "70010000140269",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000140269fb26597bde0b11f19fb33d3f2a483dca/5341810ecb5203c269146c8c778b88d0/54cfe40d57bd6c0dccbf6a8bc7f128ef73d09198d9e10fe18e04069823633d7a.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "試管倒水排序測驗〜最少幾步能把顏色排好？〜",
+    "hk_checked": true
+  },
+  "70010000138068": {
+    "nsuid": "70010000138068",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013806809fdb14ede0c11f193db3d3f2a483dca/af0addcb433425d1e4c7050b840306b1/a177f42fb6a3b1a92f8420dbd95fcc64cd0c5540c27fb3eb7f629f1d87c09336.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "邊玩邊學 第一次學 英語",
+    "hk_checked": true
+  },
+  "70010000140233": {
+    "nsuid": "70010000140233",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001402332750c67ade0c11f1a6c0a934d83157a4/c9cf2c18e575ad6146c5221624c470de/5ea734a54395ab9ee1d797d7b7db49241bc53cc60431e7f2c6fdcb921edd8432.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "神魂顛倒！奇幻世界蒙太奇拼圖 ～從聖女到魔物娘～",
+    "name_source": "tw_search",
+    "release_date": "2026-11-19"
+  },
+  "70010000142134": {
+    "nsuid": "70010000142134",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000014213440595788de0c11f1a4b7e18d59bbe297/bb793bcfa1a587b797ef21bc0cb73645/c801fbea0ea0ec9f283933136ce6d0a18700b6630c7f1c26ec0509baf05c8f94.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Gravity Switch",
+    "hk_checked": true
+  },
+  "70010000137926": {
+    "nsuid": "70010000137926",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013792651428350de0c11f181e1b5931d5a461a/beeb15b431c5bd8519f879e5cd0f02bf/685cff964ebb548265921a4a429400e44eafa8a90432fe5466b927e8f3220b49.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "淘氣青春：啦啦隊少年 (Cheerleaders Boys: Naughty School Spirit)",
+    "hk_checked": true
+  },
+  "70010000137920": {
+    "nsuid": "70010000137920",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001379202f5367edde0c11f1a69a317cd4868583/b0c3747423701795c7e2b7c69699b2bc/0df9c9662a740cf00283d3dbf075eb7aab3a2e4140a17ccdda0d9c6e4d368b3e.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "淘氣青春：啦啦隊少女 (Cheerleaders Girls: Naughty School Spirit)",
+    "hk_checked": true
+  },
+  "70010000140924": {
+    "nsuid": "70010000140924",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000014092431d1823dde0c11f1b9603d3f2a483dca/21f1bc846f87cfe3aec85df1b2776338/4408751bea7c1fbc1727d8d4b9b1ab62babedea8557167f9aaf5e427c69b54a8.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Astralis: Dawnblades",
+    "hk_checked": true
+  },
+  "70010000139391": {
+    "nsuid": "70010000139391",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000139391e64d3bb3de0b11f1bf133d3f2a483dca/2702d822cb7a8cddef0c42ce1f12d38e/72455f25a83379c047807b79a1729cdc01091251c2ea7f38b145e05392c1e2da.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "ONE-ROOM ZOMBIE",
+    "hk_checked": true
+  },
+  "70010000138348": {
+    "nsuid": "70010000138348",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000138348e39a5d59de0b11f1b191317cd4868583/dfe9d3f4c5f0d7d8886855eb91ffafbe/c270bd95d5d5679808d6ccf8e0862605665a329079bf29a3edccd176d9730107.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Hazard Pay",
+    "hk_checked": true
+  },
+  "70010000142805": {
+    "nsuid": "70010000142805",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000142805f6d9e881de0b11f1877c6d4e1075f2d4/d9eabfc9d787db08ef487e976ed3904b/cee0713df0f75fbf7847ee7e95039a548045d5711484c2f003566aebe8b8e5db.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Astro Chef: Cosmic Kitchen",
+    "hk_checked": true
+  },
+  "70010000135965": {
+    "nsuid": "70010000135965",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000135965d00d6c00de0b11f1b819ada7776b6815/109b5a728a6435811f6c50b567a83e41/7a42ba98f7c9ad0580f426910cc899b0c58f95896813e4bcfd1c182ec5bfd397.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "食魂徒：Blue Pieta(Shikhondo: Blue Pieta)",
+    "hk_checked": true
+  },
+  "70010000138194": {
+    "nsuid": "70010000138194",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000138194f7e252a9de0b11f1b38c1f71f2913656/2abd83c910964646d98ba65fe4c2e040/ddfe99bad6eec47046d788a78a41dd0173b38c50f5bca967a6b6b1a74b0798fe.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "火星點擊器",
+    "hk_checked": true
+  },
+  "70010000138848": {
+    "nsuid": "70010000138848",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013884805a09c73de0c11f1ba52a934d83157a4/526c9c267b9d5f87bfeb47688b530a3e/d22f2c0f6de5e6d07e192a57b891aadcfe7e519a7e73f3cf8896320aa85069c4.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Voivod: The Nuclear Warrior",
+    "hk_checked": true
+  },
+  "70010000095550": {
+    "nsuid": "70010000095550",
+    "platform": "Switch",
+    "name": "《電馭叛客 2077：終極典藏版》",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000122596": {
+    "nsuid": "70010000122596",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000122716": {
+    "nsuid": "70010000122716",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127597": {
+    "nsuid": "70010000127597",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000127701": {
+    "nsuid": "70010000127701",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000119327": {
+    "nsuid": "70010000119327",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000142281": {
+    "nsuid": "70010000142281",
+    "name": "Hentai Fantasy Girls",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001422812f75b55cde0c11f19bf8b5931d5a461a/a7e2c6fbca1d5234b01232672a0304de/9221c74b9062f89897943000e5de401973086555cbe49ab3b8ff20f8344a3ab3.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-11-12"
+  },
+  "70010000137344": {
+    "nsuid": "70010000137344",
+    "name": "少女魔役",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000137344ebfcc1eade0b11f1815f1f71f2913656/bcbce8c1c028396618e9476cce7effa9/9df1e0384a221fbd38787d7b4989b3a14bf9aec6f06b0b6f67ac2d08b7277a3d.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2027-01-28"
+  },
+  "70010000138262": {
+    "nsuid": "70010000138262",
+    "name": "PreGalHunter",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000138262099a4550de0c11f194b9b5931d5a461a/3203518710ecd1725ad94b87cee51038/2cd25e99e706f948a6025e44b4b8a7c9e3e0140548f75e339e2640709ebeb54f.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-11-12"
+  },
+  "70010000141650": {
+    "nsuid": "70010000141650",
+    "name": "The Slormancer Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000014165002e1276ede0c11f1801f6d4e1075f2d4/e251eabe6d761de65369645b30c8dcf6/d4d16898b6aebb016f7453283fce59ec302fee3eca977e4a8e507f9752db81f6.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-11-12"
+  },
+  "70010000139326": {
+    "nsuid": "70010000139326",
+    "name": "Herdling《牧群之旅》- Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000139326e742eb10de0b11f1956a85f5e41289c4/2d0e55f1f6f470b5366d276b825f2c9c/63c929c5f69b0af352fe7de91a3350fead5681a54ae87de52d82899ccd7af9c2.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-11-12"
+  },
+  "70010000142433": {
+    "nsuid": "70010000142433",
+    "name": "箱庭鐵道物語(Station Manager) – Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000014243345ff7bf9de0c11f19ed2e18d59bbe297/ee218912cac6ceb6ad6ae8c30423f8c2/2628158ac3a069936fc9f99083865ceb45b83331c6d4038c6b6c6a621de31db7.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-11-12"
+  },
+  "70010000140321": {
+    "nsuid": "70010000140321",
+    "name": "BEYBLADE X EVOBATTLE Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001403213962631dde0c11f1ac451f71f2913656/ef035a829ec8fe773a41803d8e81e356/1fd90528d8036a3f04dfcac3469c9fed76024ca979bd4ad959ad1a29c0df9383.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-11-11"
+  },
+  "70010000036941": {
+    "nsuid": "70010000036941",
+    "name": "箱庭鐵道物語(Station Manager)",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000036941ad8284d2d8cf11f18c1b391c33c58975/c799f366016cc162edfb6c35c30ad2b1/f470676e04a57876aa02336580895de775fb91a8120347f2f1f8af6da59f1d8c.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-11-12"
   }
 }
