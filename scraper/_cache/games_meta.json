@@ -36103,5 +36103,47 @@
     "cover_source": "tw_search",
     "platform": "Switch",
     "release_date": "2026-11-12"
+  },
+  "70010000130139": {
+    "nsuid": "70010000130139",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130160": {
+    "nsuid": "70010000130160",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000101282": {
+    "nsuid": "70010000101282",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000130758": {
+    "nsuid": "70010000130758",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131490": {
+    "nsuid": "70010000131490",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000125844": {
+    "nsuid": "70010000125844",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
   }
 }
