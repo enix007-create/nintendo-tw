@@ -23421,7 +23421,8 @@
     "name_source": "tw_search",
     "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000037726733d0c4489f911f0b3e06d4bf1771bb9/4986b2a122ab0ca66d809fb2c578c199/0b56b7e8c514f0900dcf1d67640ec3a1269839e459ad37df051dbf428cdf6490.jpg",
     "cover_source": "tw_search",
-    "platform": "Switch"
+    "platform": "Switch",
+    "release_date": "2025-09-09"
   },
   "70010000037710": {
     "nsuid": "70010000037710",
@@ -35988,7 +35989,8 @@
     "cover_source": "catalog",
     "from_catalog": true,
     "name": "Voivod: The Nuclear Warrior",
-    "hk_checked": true
+    "hk_checked": true,
+    "release_date": "2027-01-28"
   },
   "70010000095550": {
     "nsuid": "70010000095550",
@@ -36271,5 +36273,28 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000092934": {
+    "nsuid": "70010000092934",
+    "platform": "Switch",
+    "name": "CRUELTY",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000063787": {
+    "nsuid": "70010000063787",
+    "platform": "Switch",
+    "name": "DRAGON BALL GEKISHIN SQUADRA",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000037729": {
+    "nsuid": "70010000037729",
+    "name": "菲莉絲的鍊金工房 ～不可思議旅的鍊金術士～ DX",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000003772975670d1e89f911f097ac03bdf8fa993b/9feffd11f63d6b8e14df311ade9c2753/ed1c941ee54e0ca8b0d9bc80286bac1661a06f53accb62362debdaa888d0793b.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2025-09-09"
   }
 }
