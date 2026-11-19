@@ -36002,23 +36002,32 @@
   "70010000122596": {
     "nsuid": "70010000122596",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Dirty Little Puzzle 3",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000122596e5da1342e38b11f1bf171d91f1b14090/eee972e4a69bb554cc570d51b1996689/8dfb477a8a622df7e8d734c8b5a717a6f21b09cfb2d471689adfdc2ef97f08bb.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-19"
   },
   "70010000122716": {
     "nsuid": "70010000122716",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Alphadia III - Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000122716cccb0ac1e38b11f188b41d91f1b14090/2605de0df549b69fabb51a642fcf57b0/434515daa45643875e28f3d5b6ad783edbf8817854d8d7165ff5815da8cb5da1.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-19"
   },
   "70010000127597": {
     "nsuid": "70010000127597",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Warhammer 40,000: Boltgun 2",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012759716451ebce38c11f1b007cd768555e40b/5cd621823a6bc017ed30d3af9b0a174b/354f993cd80441238da5c43cefee5005017594a3ea39ae64c39bd2db53ff57c7.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-20"
   },
   "70010000127701": {
     "nsuid": "70010000127701",
@@ -36031,8 +36040,10 @@
     "nsuid": "70010000119327",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001193270c284bd5e38c11f18cf4b17d38932943/315560cc0e01906c0118f6a1010e0bb5/6657bcbbf696ce61331991a2d9b5b4cba8476afa58c9890671f2a4a759d8f750.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000142281": {
     "nsuid": "70010000142281",
@@ -36109,16 +36120,22 @@
   "70010000130139": {
     "nsuid": "70010000130139",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Star Battle: Space Warship Commander",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013013935fdd1eae38c11f18367552773e4dbd3/993823955f0d1389549ca22c99e2ce2a/74747abd199591d9640a2096c1a4907bc0337239a8e7014388d31287638734f7.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-11-26"
   },
   "70010000130160": {
     "nsuid": "70010000130160",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000130160a474c49be38c11f19246f548882e708b/aa111ba6d52cbea00b0f8a9b92e12735/b864057bdb437a4b2cd9bf9c171a3cf9891b814e6b7cbde963b696fa39e2e3e9.jpeg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000101282": {
     "nsuid": "70010000101282",
@@ -36144,16 +36161,22 @@
   "70010000125844": {
     "nsuid": "70010000125844",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "GT Racing Pro",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000125844d1f3175de38b11f1b5f3cd768555e40b/0884e763e24a7559adf8b90d8421e2e6/06eed53b35c1e8017a41f2a447fe38fb97a7fd81fd4c8950ea2e96873caccb74.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-11-26"
   },
   "70010000131818": {
     "nsuid": "70010000131818",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000131818301abdebe38c11f1bac55f5e70fabfdd/0a5fa45b5da1ccb15fa9e5a267b8a8c8/1d4eb61f5ac8a141954b000e0168870f622e94b50cb55af0a975932e2678ca89.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000116503": {
     "nsuid": "70010000116503",
@@ -36166,8 +36189,10 @@
     "nsuid": "70010000131605",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001316052d81dbe4e38c11f19b4985698c0ee574/2713e669c8f100f194b97f1dce2f515e/c1a2a332fe9a8a74b39982c50fe19a6b1b1781dd9f0d603ae2d123879a448c69.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000113739": {
     "nsuid": "70010000113739",
@@ -36187,29 +36212,37 @@
     "nsuid": "70010000098318",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000009831801c3d5ade38c11f194846f96639c66aa/7e1dc93ebe193a1488f6b193a639fb5f/54c5a28df6b803e1c6a2399321b00eab120ddc51065f95a0199d7853c65df4d9.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000134541": {
     "nsuid": "70010000134541",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013454136a429f9e38c11f1af7e93b68f548788/d15322a976b8c04f1018aac8f51730c0/42563f64a61960cbff28377332905fe46cd9056967af0563268744f350c3f07c.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000119700": {
     "nsuid": "70010000119700",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000119700f72dbdc6e38b11f1ae7bf548882e708b/2c147060f686d113a2c64fe547abcf73/f7a548ade94623f0231d0a761c94bcc36311e0e7e565d61c157b31de4ccbcb2a.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000128086": {
     "nsuid": "70010000128086",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001280862f4f58c6e38c11f18ebe93b68f548788/5edc5f37f44b10da07d8192b6be46ea8/76621dd0820bb52bf7cab317365bd0cfe94172264afb04d59946d186590adccf.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000105719": {
     "nsuid": "70010000105719",
@@ -36229,22 +36262,30 @@
     "nsuid": "70010000133572",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000133572e80d19dfe38b11f1b2dcb17d38932943/d660d8566445335aa2b79efe4d610568/3864ef356a1b6597681df6028266b1f594b79d7567fe46da6c1c187dd3f3c688.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000069771": {
     "nsuid": "70010000069771",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000069771c30e1ffde38b11f1aedeb17d38932943/c5173a90235cc084a3517a6511a9b5c2/04464acbd70c7c7d65f3c8a7863dc60a7809ca88b62fda9e6c814d407bf60742.jpeg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000116299": {
     "nsuid": "70010000116299",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "DYNAMIC CHORD 動態和弦 feat.Liar-S Remaster edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001162994f66e04de38c11f1906b93b68f548788/dc4b5a08f69c17c4b0fb5bca56bffe6d/3bfe7b97d9475950bb58344424e4204c763f782d6ce01e88931914f87fd06c75.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-12-10"
   },
   "70010000117459": {
     "nsuid": "70010000117459",
@@ -36270,16 +36311,21 @@
   "70010000122307": {
     "nsuid": "70010000122307",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Human: Fall Flat (人類：跌落夢境) - Nintendo Switch 2 Edition",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001223072363a7fce38c11f1b45c93b68f548788/d9cf70b679ae5bd22298fc8de87b6622/69a1f6d0e6eb867a4e21f05440077a987703e1dbf9b657546ac6e5672a106354.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-19"
   },
   "70010000092934": {
     "nsuid": "70010000092934",
     "platform": "Switch",
     "name": "CRUELTY",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000092934c4802019e38b11f1958ecd768555e40b/e339fdaffd6659a977835c5ccc7fe9f9/e045963e09baaf0373acf046e537ce533d826776d23a39ef5e3c9a1dea0af60b.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000063787": {
     "nsuid": "70010000063787",
@@ -36296,5 +36342,269 @@
     "cover_source": "tw_search",
     "platform": "Switch",
     "release_date": "2025-09-09"
+  },
+  "70010000138383": {
+    "nsuid": "70010000138383",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000138383ebc63b3ae38b11f19be51d91f1b14090/69fbc3922e654f478a41b3b8b7680c06/cd62b7f70b271f9e7ace8cd209d63fa3e1fe3c6cfb1eef40979ba64b5d0176df.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "51區安檢站",
+    "hk_checked": true
+  },
+  "70010000140293": {
+    "nsuid": "70010000140293",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001402935a555566e38c11f1bb4f85698c0ee574/30280219576ad3c8726db4ab4fbd47bb/9b579abb86b2b79de68e22cce24ca1c108b418c74c0eb3d142f0ef1e5a383661.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "TANK Z",
+    "hk_checked": true
+  },
+  "70010000140359": {
+    "nsuid": "70010000140359",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001403595f7841ebe38c11f1a83b93b68f548788/2165aebcb58c93ea2d3fd3b2461a9ebd/c263a1cf06935033aef9dd11fc27db81f2223966d344848f622a733fcf900a0c.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Reshine",
+    "hk_checked": true
+  },
+  "70010000138992": {
+    "nsuid": "70010000138992",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013899251059553e38c11f18283ddccf8c5e71c/f1b9f1f3f3445268c6273a29e190926a/498bab153873fe742a8d92399b717fe3295b15f88d55c6426bd82be29a94c139.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Pup Champs: 汪汪冠軍盃",
+    "hk_checked": true
+  },
+  "70010000141156": {
+    "nsuid": "70010000141156",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001411566f4cb2cae38c11f18cfbb17d38932943/951e048507f90363958fc21432ce78f9/d972deeef0d57083f65881734ffd4a56fb6648ff454d2cf77b0cb2efda941ba2.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Tiny Pizza",
+    "hk_checked": true
+  },
+  "70010000144148": {
+    "nsuid": "70010000144148",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001441489a7d236ae38c11f1b7f36f96639c66aa/1e5cea66752017e1ad2c49e01be24da3/22943d57591961d4cd2f13f3477759ee890b144e8da9a3b47cc720e7c2688bf2.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Relaywardens",
+    "hk_checked": true
+  },
+  "70010000135402": {
+    "nsuid": "70010000135402",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013540270875a07e38c11f185f4f548882e708b/8de0479a11d03026a965dac389ef7233/7aca50bee038012a9c02d844686ce6cb90d5d397087241dec778db69c737703e.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "hk_checked": true
+  },
+  "70010000138652": {
+    "nsuid": "70010000138652",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013865255c77559e38c11f1810e93b68f548788/bcdbc78fcdf3215b2d5f62af4302ef5d/81612d77224b32a5baefd4634d4470f599b7202d481f81b549320e744f7f9d8c.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Calculus of Rot",
+    "hk_checked": true
+  },
+  "70010000139607": {
+    "nsuid": "70010000139607",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000139607ad610e04e38c11f1a4086f96639c66aa/85102469438164fef8b90774e0ea8254/de82dbc27050d65a625ca6336ecd2915c22cc6cb8174fd643aa09cd9c0cc0275.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Hadean Tactics",
+    "hk_checked": true
+  },
+  "70010000143110": {
+    "nsuid": "70010000143110",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000143110594484f4e38c11f19f945f5e70fabfdd/07efeb435cff0845622c34eabf9a121c/21abf1115add67078fe710b5ef4537070f38c054d70a457482dde574481a8e72.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Find the Needle",
+    "hk_checked": true
+  },
+  "70010000142446": {
+    "nsuid": "70010000142446",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001424468c72e217e38c11f1944385698c0ee574/4b3b6c888a67014f7310cad48ea3e50a/a6ce7d10163b61cbf87c4bfe7ec7a762f676ccd6e88a25f1b2ca6f8bc70f2d33.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Little Lagoon",
+    "hk_checked": true
+  },
+  "70010000142604": {
+    "nsuid": "70010000142604",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000142604275df3c1e38c11f18ff85f5e70fabfdd/c6ea5cbe1cd4e06dd51e51bc839a0280/fc1d613a4f8daf0d6a67a89520e25b9967795f8321677c97ec3fb028fc88a2f7.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Cross + Cross",
+    "hk_checked": true
+  },
+  "70010000136965": {
+    "nsuid": "70010000136965",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136965035ac018e38c11f1b81885698c0ee574/9a0918ee26d17c8fbd99800319e48512/805e75688398dd7c4d4383fd60eed0642b948685d0a74617b04d6e777f7b6eca.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Winx Club - Moonlight Quest",
+    "name_source": "tw_search",
+    "release_date": "2026-12-03"
+  },
+  "70010000137595": {
+    "nsuid": "70010000137595",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000137595d9317323e38b11f1a9011d91f1b14090/964a8265449ab6d1eac8821296e41d2b/08b05d89a7d529f211acc9a75d1957c13dc69b6d770f66350dd24817cd53d332.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "奧林帕斯眾神：捕捉＆約會神話戀人 (Gods of Olympus: Capture u0026 Date Mythical Lovers)",
+    "name_source": "tw_search",
+    "release_date": "2026-12-03"
+  },
+  "70010000137589": {
+    "nsuid": "70010000137589",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000137589161a15dfe38c11f19ba95f5e70fabfdd/2741102312f5e058bae41319c2037e15/62565795496a807df8f06c1c7daad60621d576d63411fdcd6292c42a25490bd2.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "奧林帕斯女神：捕獲＆約會神話戀人 (Goddesses of Olympus: Capture u0026 Date Mythical Lovers)",
+    "name_source": "tw_search",
+    "release_date": "2026-12-03"
+  },
+  "70010000137028": {
+    "nsuid": "70010000137028",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001370283bac0511e38c11f1966293b68f548788/fd8da66d22944e0992574a4e19046c04/87143768244f40fbc3b399aa003694f8dcdee4882b6236f9ee78027eb7b64434.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Santa's Christmas Story 3 North Pole Rescue",
+    "hk_checked": true
+  },
+  "70010000139574": {
+    "nsuid": "70010000139574",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013957406dff362e38c11f1bea797a84354e9c7/818421c177edaf62daaa96ba8b9345a1/d1e20ee87abd5996a4870cea29589f5e36d4d3cb0e9e5be4824ac70957e6a4fd.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "hk_checked": true
+  },
+  "70010000139320": {
+    "nsuid": "70010000139320",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013932095001ffae38c11f18831f548882e708b/e98e9b64eba40f60c6bb58d62e03c178/5c8013dc6adeab485044385b913384667be27b60133dc7584570538282d318fc.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Pack it! Part-Time Master",
+    "hk_checked": true
+  },
+  "70010000137631": {
+    "nsuid": "70010000137631",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013763103520935e38c11f1aa7cb17d38932943/ef1cca8a88227b8cb78fbb390a10a367/c7d0ad4ec6b73073d43a00eb16b0867fe8617105a264cc98a2d002f1605ea856.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "殺人小丑少年：他的最終演出 (Killer Clown Boy: His Final Show)",
+    "name_source": "tw_search",
+    "release_date": "2026-12-03"
+  },
+  "70010000137625": {
+    "nsuid": "70010000137625",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000137625db27d704e38b11f1ba0885698c0ee574/0a1b773bbab55ab06c0eaa1ad6db7df8/303aeb8e3946fb32834888cd637e1f4d2e0e6db343b3694e1c2f745084e321d4.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "殺人小丑少女：最後的演出 (Killer Clown Girl: Her Final Show)",
+    "name_source": "tw_search",
+    "release_date": "2026-12-03"
+  },
+  "70010000136811": {
+    "nsuid": "70010000136811",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136811fd12dfaae3b611f1abf07f5a7f665c7f/8ff3362264adffc0fb86c7353f8ae74a/256cf081a724adb362e76d0b9ff2d78eb7f26bc8ef5ce24fd8e1e0a207a447a2.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "雷頓教授與蒸氣新世界",
+    "hk_checked": true
+  },
+  "70010000139531": {
+    "nsuid": "70010000139531",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001395310f6cc0ebe38c11f1a7e7f548882e708b/7f6fdbf4e04a757a11cdb8815a4d4d4d/c84458484f436485ca287d7fcc57cca208328546f73b63f6f41df24ff8152803.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Rever4 OCHIRO",
+    "hk_checked": true
+  },
+  "70010000136185": {
+    "nsuid": "70010000136185",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001361854b49a901e38c11f1b9baddccf8c5e71c/e94772e8a8d3c7eee3287e3eede4c5bf/9a419484480bf6efe4c739f2a240d108c5b0d2446bf178b22a82aea4185522f3.jpeg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Elements Destiny",
+    "hk_checked": true
+  },
+  "70010000143383": {
+    "nsuid": "70010000143383",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001433838a9321d0e38c11f1b4866f96639c66aa/2b93cab7b2ab060598c8be900081fd2e/1a569e9d4642ce57164709312e12cd6b439fe9004f4ff63b9df7e87efa56f2e8.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "打牌地牢",
+    "hk_checked": true
+  },
+  "70010000142260": {
+    "nsuid": "70010000142260",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001422605e9c5c09e38c11f19b77ddccf8c5e71c/d32f51c999bb9df76f121815496b6db1/b368b513cdf9004bdd7e2422e07ba2012427e063756d91d80f78215d1872abba.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "萬聖節倖存者",
+    "hk_checked": true
+  },
+  "70010000135215": {
+    "nsuid": "70010000135215",
+    "name": "Arcade Archives 2 TX-1 V.8",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000135215c7d8e82ae38c11f19e71f548882e708b/60989fede1672452ab566e4ac6d42fb5/8c0c27bc918e94d87206612c7ae0caddcf74d3e28d527dfd17d9555329d8fbc3.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-11-19"
+  },
+  "70010000135209": {
+    "nsuid": "70010000135209",
+    "name": "Arcade Archives TX-1 V.8",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001352093738b810e38c11f19e955f5e70fabfdd/c534ac0c9b93375f2435e9baf89d5b6e/c2678ebaf59a110c8caf22ab4de117a413a2197682202a97ca2b902a062113dc.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-11-19"
+  },
+  "70010000136637": {
+    "nsuid": "70010000136637",
+    "name": "高爾夫英雄3D (Golf Hero 3D)",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000136637d627af8be38b11f1879fddccf8c5e71c/45674c81f1a8f52aaa8f803a4ae29ad0/4eb2cd05d6324e272c0fecfa37832812fcd913712922a472e6e5bfa31acd85bc.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-11-19"
+  },
+  "70010000140829": {
+    "nsuid": "70010000140829",
+    "name": "Sort Them Cars: Sorting Simulator",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000014082969da66f5e38c11f1939af548882e708b/c105e3b128cf3c73c54c0bea449e3ed4/fb7a71c45ca9483138aef699b865913e6ba4c9287c15f86fa8594a3b8e6b086c.jpeg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch",
+    "release_date": "2026-11-19"
   }
 }
