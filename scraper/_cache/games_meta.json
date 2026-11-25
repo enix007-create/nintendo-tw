@@ -28581,7 +28581,8 @@
     "hk_checked": true,
     "name_source": "tw_search",
     "cover_source": "tw_search",
-    "release_date": "2026-11-05"
+    "release_date": "2026-11-05",
+    "tw_page_url": "https://www.nintendo.com/tw/games/switch2/aa9ja/index.html"
   },
   "70010000126388": {
     "nsuid": "70010000126388",
@@ -30458,7 +30459,8 @@
     "hk_checked": true,
     "name_source": "tw_search",
     "cover_source": "tw_search",
-    "release_date": "2027-02-25"
+    "release_date": "2027-02-25",
+    "tw_page_url": "https://www.nintendo.com/tw/switch/zelda-yakusai/dx/"
   },
   "70010000133232": {
     "nsuid": "70010000133232",
@@ -31765,7 +31767,8 @@
     "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000135062535ac6d2ac8b11f188c27db75a683687/4af05205d2dd5d3818d659a6b57298bb/88d58b329a06ef32a403ff4a1e98a34790fbd0ecee384f968dbeb7d6e8407e13.jpg?w=400&fm=webp",
     "cover_source": "tw_search",
     "platform": "Switch 2",
-    "release_date": "2026-11-12"
+    "release_date": "2026-11-12",
+    "tw_page_url": "https://www.nintendo.com/tw/games/switch2/ampyc/index.html"
   },
   "70010000113132": {
     "nsuid": "70010000113132",
@@ -36707,6 +36710,27 @@
   },
   "70010000133614": {
     "nsuid": "70010000133614",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000118379": {
+    "nsuid": "70010000118379",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000129763": {
+    "nsuid": "70010000129763",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000131328": {
+    "nsuid": "70010000131328",
     "platform": "Switch",
     "name": "",
     "cover_url": "",
