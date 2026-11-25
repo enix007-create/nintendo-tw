@@ -36143,9 +36143,12 @@
   "70010000101282": {
     "nsuid": "70010000101282",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Alphadia III",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001012824998c8cbdf3211f1bcb2bd2c6b1eb4f3/579bbbc58698f0474a1d3fec5353360d/8dd79013c03e0195a2219c3c8e5c282305eb592dc5611f5fe4c39b3a6e4a9473.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-19"
   },
   "70010000130758": {
     "nsuid": "70010000130758",
@@ -36208,8 +36211,10 @@
     "nsuid": "70010000122271",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001222717f29fb72e77911f1b4ceb160f2240b76/47cd0fec415132a70c4a532267db45c6/6ce2a1729fa4edbf1af097e0c28b134d9feda093e18fda29ed06010f15ccc27e.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000098318": {
     "nsuid": "70010000098318",
@@ -36308,8 +36313,10 @@
     "nsuid": "70010000122181",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001221812dbe581ce45511f1832e4d9e326bd3da/8fafbc3871d339d325cc54edaa070c4a/5649e54026707534c3ce4c82c2858cf31d348cb3f7e5fd4aa1680b7e7cf06e85.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000122307": {
     "nsuid": "70010000122307",
@@ -36735,5 +36742,49 @@
     "name": "",
     "cover_url": "",
     "hk_checked": true
+  },
+  "70010000059285": {
+    "nsuid": "70010000059285",
+    "platform": "Switch",
+    "name": "Unusual Findings",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000132903": {
+    "nsuid": "70010000132903",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000133489": {
+    "nsuid": "70010000133489",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000100841": {
+    "nsuid": "70010000100841",
+    "platform": "Switch",
+    "name": "女武神小隊：突破重圍（Valkyrie Squad: Siege Breakers）",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000121441": {
+    "nsuid": "70010000121441",
+    "platform": "Switch",
+    "name": "",
+    "cover_url": "",
+    "hk_checked": true
+  },
+  "70010000140417": {
+    "nsuid": "70010000140417",
+    "name": "Terranigma Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000140417cd07ad01e77911f1aa59ed8edbfb0191/3dc8e58b6b761b70ed2503618d8b9bc3/98c0bb77620fba29451f132e75e638f7d461a1dcfdfb350cf0429907b1bf8baf.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2027-01-14"
   }
 }
