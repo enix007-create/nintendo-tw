@@ -36628,15 +36628,21 @@
     "nsuid": "70010000131039",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001310394978bf7de90c11f1a77ce72a8912137e/f58dc75f8ebb00d5694c10d27e26cfb5/3c01f1a723cf972cae0b165e5ec35a88298eb84b7a08bddb7f8e1647a74a4d56.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000131055": {
     "nsuid": "70010000131055",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Roombattle 房間對戰",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001310557bbbd860e90c11f196a9933466fe5462/99ab682d0a1d01979de130d03d27dd68/e74e090cf906ec232444dab0ce782fca3fb79ef43284b37c036c3a314518b830.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name_source": "tw_search",
+    "release_date": "2026-12-03"
   },
   "70010000121334": {
     "nsuid": "70010000121334",
@@ -36670,43 +36676,57 @@
     "nsuid": "70010000122679",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001226791dfa87c1e90c11f1ba8ee9c5d3ad2d97/8b3f79e4665968ca09634186368aa1a4/316d0193d676fe1730c1dbeb780175790455676aa93454e58a3ce56a2ab4cf3d.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000123197": {
     "nsuid": "70010000123197",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000123197fe2a340de90b11f18fa44d62cb49099e/2282e264f53f10f3d911ca01da36b87e/c8acd015ef3dbe6c1cdf335cfc874522d0ac7da7d472888346a430b0d1daa977.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000115734": {
     "nsuid": "70010000115734",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001157345506977ce90c11f1ab3095fcdb2b5b8c/fe4c871d197fabd0afe2c403098e529e/5fa6c6fe157ec1f271a36998f575b6584a08430cc31c5656460bcb7de81297b7.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000134589": {
     "nsuid": "70010000134589",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives DIRT DASH",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013458919917992e90c11f1a2c6e3f8fc0eb400/b7dd8afeeaca31ba8e6acbad9ce878e0/b9be5805d23eb5b5c9b83fef66a1828ff527ab0404df4630e30384593c221667.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-26"
   },
   "70010000134595": {
     "nsuid": "70010000134595",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Arcade Archives 2 DIRT DASH",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013459575145225e90c11f1b13819ef6695a6fb/d585b5acd735276ace361ed1118f31e6/d386ff14dbff338dbf6ac7372ffda1747c9a138e85a3103d43734f361e2c3eee.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-26"
   },
   "70010000134794": {
     "nsuid": "70010000134794",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001347942fd2b82be90c11f18099e3f8fc0eb400/cd9cea1772e2d29f01010820d8d378ff/2f94dcc62c3f8f32e081a12e1704d95a88096863e10288503f8465a5f53eb762.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000132366": {
     "nsuid": "70010000132366",
@@ -36718,9 +36738,12 @@
   "70010000133614": {
     "nsuid": "70010000133614",
     "platform": "Switch",
-    "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "name": "Origament - A Paper Adventure",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013361426b75f02e90c11f19d242bde61eb0632/3dbf9f34cd28fbd1b3b9d24e34cf9694/7d83e9c4156dff109b43e9642145a403cfd157a21bd981eb2bde2ff6d859436e.jpg?w=400&fm=webp",
+    "hk_checked": true,
+    "name_source": "tw_search",
+    "cover_source": "tw_search",
+    "release_date": "2026-11-26"
   },
   "70010000118379": {
     "nsuid": "70010000118379",
@@ -36733,8 +36756,10 @@
     "nsuid": "70010000129763",
     "platform": "Switch",
     "name": "",
-    "cover_url": "",
-    "hk_checked": true
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000012976311bd8ef2e90c11f1a7414d62cb49099e/68efc4c7e3dbbca585369e328d87cf13/588a9827126881810bd34dfc469a2e8d1a1e85d32234d078669d41d881f75446.jpg",
+    "hk_checked": true,
+    "cover_source": "catalog",
+    "from_catalog": true
   },
   "70010000131328": {
     "nsuid": "70010000131328",
@@ -36786,5 +36811,178 @@
     "cover_source": "tw_search",
     "platform": "Switch 2",
     "release_date": "2027-01-14"
+  },
+  "70010000140930": {
+    "nsuid": "70010000140930",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001409305fbafc38e90c11f1bcf595fcdb2b5b8c/d65e0eb669872a0c5ef6a3ce4e44c24d/f0e83d385ac10dd59078d318a5a1a80217e48b197e781cca482dbd509ca52f9a.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "A Night Duty",
+    "hk_checked": true
+  },
+  "70010000140212": {
+    "nsuid": "70010000140212",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001402126f7ad310e90c11f1865e933466fe5462/c60966a805920e6f600f223438a04563/61684fc8fa6bd85d10b5457c716ad8a3aeb2592bc02e14d4170590856e765783.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "箸的使用方法",
+    "hk_checked": true
+  },
+  "70010000137264": {
+    "nsuid": "70010000137264",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001372641310f82be90c11f1b53e95fcdb2b5b8c/69ab027b2e049ca86c5da4efe2f3167f/711a75ed016031b32317e0ace32d4e87c94c5a52b4801ab3b488cd9c9fb1bfa4.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "時尚購物中心物語",
+    "name_source": "tw_search",
+    "release_date": "2026-12-03"
+  },
+  "70010000138188": {
+    "nsuid": "70010000138188",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013818878fbc78de90c11f1b2fbed9711d341ea/b5c51febb9631dc5a42b9b10c23b442a/db958d28fe193507a5b551b8d0a07b1d0ee3fa1bac539761af12766115aa1691.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Little Genius: Spot the Difference",
+    "hk_checked": true
+  },
+  "70010000137577": {
+    "nsuid": "70010000137577",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001375771898bb27e90c11f1af4e95fcdb2b5b8c/f953dcfc283a737d87c9e3e83bf990bd/e97863189cc4388ddf9103b9f8a979bcc656c7d9b53b1921811e62408b60f22b.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "性感聖誕：聖誕女郎 (Sexy Christmas: Santa Girls)",
+    "hk_checked": true
+  },
+  "70010000137619": {
+    "nsuid": "70010000137619",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013761950e2e420e90c11f19c4de9c5d3ad2d97/ef3127a58369ee386d67c12e15bb8234/833bf1cd30868d2112139b1d09d80689b369dca71adcb406b7060f34802c62e2.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "皇室祕戀：少年之間的王冠 (Royal Secret Love: A Crown Between Us Boys)",
+    "hk_checked": true
+  },
+  "70010000135907": {
+    "nsuid": "70010000135907",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001359070b94412ae90c11f1a90095fcdb2b5b8c/637189774d83591a7b564e1a13aed38a/5fa2675b665a3273e164066ad6907420ea2877cae8fb773579ffbaa9f466ed00.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "奪寶小俠與紅寶石寶箱 (RAIDER KID AND THE RUBY CHEST)",
+    "hk_checked": true
+  },
+  "70010000137313": {
+    "nsuid": "70010000137313",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013731308a61595e90c11f1b288c9e750a4e977/cfe97560316a136b9169a33746b3c12d/312084e995be552f0f6ad71b5d4565546ba5e3b9c0c4708141c06b7554db24ad.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Orpheus: To Hell and Back",
+    "hk_checked": true
+  },
+  "70010000137613": {
+    "nsuid": "70010000137613",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013761315d7ea0ce90c11f1a31a19ef6695a6fb/8b9d8521021f4b833613170476a2935d/5292fdf1f06fd37a1cb55f4355f5d70d7b1846ce10e9e15ed73cc07bf0240fa8.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "皇室祕戀：少女之間的王冠 (Royal Secret Love: A Crown Between Us Girls)",
+    "hk_checked": true
+  },
+  "70010000137583": {
+    "nsuid": "70010000137583",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001375832d7bfcbfe90c11f19f5ac9e750a4e977/647c24a11c2ea05b3a517d514d318f9c/59b8ad135372a512398d9f4535a75d16989b6e820bca06d0850f3ae56b5a5052.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "性感聖誕：聖誕型男 (Sexy Christmas: Santa Boys)",
+    "hk_checked": true
+  },
+  "70010000137673": {
+    "nsuid": "70010000137673",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000137673876f13bce90c11f1b754133729c6d92e/f739c828059b836e1b67bcb71ef3e3aa/252f5c06dfdab8e6beed623f7913c1bce4098bebf45cc9b4cca13f9bc1b4ba9a.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Seven Nights Ghost 2",
+    "hk_checked": true
+  },
+  "70010000140220": {
+    "nsuid": "70010000140220",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001402205ed6911be90c11f1bf68933466fe5462/ca7821df08cfcbad29584653f86f4e4e/cf3be79aaa9b92ffcbf88c2b4b2ff1085a1ef1429b70470496831796c94aa139.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Croc’s World Construction Kit 3",
+    "hk_checked": true
+  },
+  "70010000136347": {
+    "nsuid": "70010000136347",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000013634737e28a04e90c11f1a3b64d62cb49099e/3cbb005126632e9e780da2f88fac0d3e/9ed0dc7dad7569d10f928631a619bbea274a624b8801d1f438cbab19c2194b87.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "DASH n CRY: Bursting",
+    "hk_checked": true
+  },
+  "70010000142982": {
+    "nsuid": "70010000142982",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000142982892d833ee90c11f18b4e19ef6695a6fb/80b7bf85f4de8265943b7c4c37b6a16b/e1e6699d44656add7f78f35e58d2c6417157c91955a207730692be16a95d263f.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Kite Fight",
+    "hk_checked": true
+  },
+  "70010000136323": {
+    "nsuid": "70010000136323",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001363231f609d36e90c11f1a140933466fe5462/ab0b272912e124a7c7a6e5709c6e6412/a66b4f37b388bcc7077661cf4f962e3229509407683222b2389ba4ea0cb68e96.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Spellwire",
+    "hk_checked": true
+  },
+  "70010000142616": {
+    "nsuid": "70010000142616",
+    "platform": "Switch",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/7001000014261621bcb97ee90c11f1843bed9711d341ea/cc10689d67f27aa9f06c54ca94746685/414d4873da81afd76138521df1df536bccff5f049414c3b14e33ea56c4b595ee.jpg",
+    "cover_source": "catalog",
+    "from_catalog": true,
+    "name": "Dragon Dragon Fire Fire Deluxe 龍龍烈焰豪華版",
+    "name_source": "tw_search",
+    "release_date": "2027-03-11"
+  },
+  "70010000143471": {
+    "nsuid": "70010000143471",
+    "name": "Dragon Spira - Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/70010000143471a8f17699e90c11f1813fed9711d341ea/3a6772636d7932cffd49ade1e52fde4b/f07c540bc76b84478c48bfa1b529484d98df92d9a4426c951831a38fdf7a2008.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-11-26"
+  },
+  "70010000144160": {
+    "nsuid": "70010000144160",
+    "name": "時尚購物中心物語 – Nintendo Switch 2 Edition",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001441604bd97e33e90c11f1b5c2933466fe5462/1f3569efdd199792610a7c9273b927ee/bd653251c7a6b276e92f6e0bd8ca145f0604d188d6c5b7331f91dfd97b4c9d09.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-12-03"
+  },
+  "70010000137962": {
+    "nsuid": "70010000137962",
+    "name": "STARDUST: Wish of Witch (星塵軌跡：魔女之願)",
+    "name_source": "tw_search",
+    "cover_url": "https://images.ctfassets.net/o5v89n4kg6h4/700100001379628e12b267e90c11f1ae36133729c6d92e/22287ab69f8982b595b1a69caec01109/60a9ab62861bf0671b91fb3f9621b0f713a59a3d6929787448140208811ceacb.jpg?w=400&fm=webp",
+    "cover_source": "tw_search",
+    "platform": "Switch 2",
+    "release_date": "2026-12-14"
   }
 }
